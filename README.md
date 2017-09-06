@@ -1,4 +1,4 @@
-# Spanish-translations
+# Spanish-SailfishOS
 ## English
 Spanish translation files for SailfishOS native apps. All of the translations are made by me and they are for Spanish from Spain.
 ### How to use
