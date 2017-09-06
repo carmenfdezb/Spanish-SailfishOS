@@ -1,6 +1,6 @@
 # Spanish-translations
 ## English
-Spanish tranlation files for SailfishOS native apps. All of the translations are made by me and they are for Spanish from Spain.
+Spanish translation files for SailfishOS native apps. All of the translations are made by me and they are for Spanish from Spain.
 ### How to use
 * Via Terminal
   1. Download .qm file from your device.
