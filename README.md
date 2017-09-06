@@ -15,7 +15,7 @@ Spanish translation files for SailfishOS native apps. All of the translations ar
   2. Install [FBRoot](https://openrepos.net/content/schturman/startasroot-file-browser) from Openrepos/Warehouse/Storeman
   3. Open FBRoot and go to Downloads folder. Copy .qm file and paste to /usr/share/<app_name>/translations <br><br>
 ## Español
-Archivos de traducción al español para aplicaciones nativas de SailfishOS. Soy la autora de todas las traducciones y son para español de España.
+Archivos de traducción al español de aplicaciones nativas de SailfishOS. Soy la autora de todas las traducciones y son para el español de España.
 ### Cómo usar
 * Vía Terminal
   1. Descarga el archivo .qm desde tu dispositivo.
