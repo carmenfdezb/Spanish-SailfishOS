@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Name=Recorder
+Icon=harbour-recorder
+Exec=harbour-recorder
+
+
+
+# Translations
+Icon[es]=harbour-recorder
+Name[es]=Grabadora
