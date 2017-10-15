@@ -128,7 +128,7 @@
     <name>MyList</name>
     <message>
         <source>Load more</source>
-        <translation>Cargár más</translation>
+        <translation>Cargar más</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -226,7 +226,7 @@
     </message>
     <message>
         <source>Disable this option if you want to preserve your data connection</source>
-        <translation>Deshabilita esta opción si quieres conservar tus datos de conexión</translation>
+        <translation>Deshabilita esta opción si quieres ahorrar en tu conexión de datos</translation>
     </message>
     <message>
         <source>UI/UX design and development</source>
