@@ -119,7 +119,7 @@
     </message>
     <message>
         <source>Add Custom</source>
-        <translation>Añadir estación persanalizada</translation>
+        <translation>Añadir estación personalizada</translation>
     </message>
 </context>
 <context>
