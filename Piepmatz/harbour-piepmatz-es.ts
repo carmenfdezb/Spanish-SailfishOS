@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="es" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="es">
 <context>
     <name>AboutPage</name>
     <message>
@@ -61,6 +63,22 @@
         <source>Privacy Policy</source>
         <translation>Política de privacidad</translation>
     </message>
+    <message>
+        <source>Open ipinfo.io</source>
+        <translation>Abrir ipinfo.io</translation>
+    </message>
+    <message>
+        <source>Piepmatz uses ipinfo.io and (if available) the GPS receiver of your device to determine your location. Your location is used to retrieve trends and - only if you explicitly agree - as attachment to your tweets. If you want to use your location in tweets, please ensure to have it enabled in your &lt;a href=&quot;https://twitter.com/settings/safety&quot;&gt;Twitter settings&lt;/a&gt;.</source>
+        <translation>Piepmatz usa ipinfo.io y (si está activado) la antena GPS de tu dispositivo para determinar tu ubicación. La ubicación se usa para encontrar tendencias y - sólo cuando estés explícitamente de acuerdo -  se añadirá a tus tuits. Si quieres usar la ubicación en los tuits asegúrate de activarlo en los &lt;a href=&quot;https://twitter.com/settings/safety&quot;&gt;ajustes de Twitter&lt;/a&gt;.</translation>
+    </message>
+    <message>
+        <source>Wagnis ID: </source>
+        <translation>Wagnis ID: </translation>
+    </message>
+    <message>
+        <source>Show Wagnis ID</source>
+        <translation>Mostrar Wagnis ID</translation>
+    </message>
 </context>
 <context>
     <name>AttachImagesPage</name>
@@ -100,10 +118,25 @@
     </message>
 </context>
 <context>
+    <name>FavoritesPage</name>
+    <message>
+        <source>%1: Favorites</source>
+        <translation>%1: Favoritos</translation>
+    </message>
+    <message>
+        <source>Refresh</source>
+        <translation>Actualizar</translation>
+    </message>
+</context>
+<context>
     <name>FollowersPage</name>
     <message>
         <source>%1: Followers</source>
         <translation>%1: Seguidores</translation>
+    </message>
+    <message>
+        <source>Refresh</source>
+        <translation>Actualizar</translation>
     </message>
 </context>
 <context>
@@ -111,6 +144,29 @@
     <message>
         <source>%1: Following</source>
         <translation>%1: Siguiendo</translation>
+    </message>
+    <message>
+        <source>Refresh</source>
+        <translation>Actualizar</translation>
+    </message>
+</context>
+<context>
+    <name>ImagePage</name>
+    <message>
+        <source>Download</source>
+        <translation>Descargar</translation>
+    </message>
+    <message>
+        <source>Downloading...</source>
+        <translation>Descargando...</translation>
+    </message>
+    <message>
+        <source>Download of %1 successful.</source>
+        <translation>Descarga correcta de %1.</translation>
+    </message>
+    <message>
+        <source>Downloading, %1% completed...</source>
+        <translation>Descargando, %1% completado...</translation>
     </message>
 </context>
 <context>
@@ -164,6 +220,14 @@
     <message>
         <source>Send Retweet</source>
         <translation>Enviar retuit</translation>
+    </message>
+    <message>
+        <source>@%1</source>
+        <translation>@%1</translation>
+    </message>
+    <message>
+        <source>Attach current location to this tweet</source>
+        <translation>Añadir ubicación actual a este tuit</translation>
     </message>
 </context>
 <context>
@@ -292,6 +356,10 @@
         <source>No tweets found. Follow more people to get their tweets in your timeline!</source>
         <translation>No hay tuits. ¡Sigue a más gente para ver sus tuits en la página de inicio!</translation>
     </message>
+    <message>
+        <source>Trends for %1</source>
+        <translation>Tendencias para %1</translation>
+    </message>
 </context>
 <context>
     <name>Profile</name>
@@ -310,6 +378,10 @@
     <message>
         <source>Joined in %1</source>
         <translation>Se unió en %1</translation>
+    </message>
+    <message>
+        <source>%1 Favorites</source>
+        <translation>%1 Favoritos</translation>
     </message>
 </context>
 <context>
@@ -341,6 +413,149 @@
         <source>Send Direct Message</source>
         <translation>Enviar mensaje directo</translation>
     </message>
+    <message>
+        <source>Refresh</source>
+        <translation>Actualizar</translation>
+    </message>
+    <message>
+        <source>Copy URL to Clipboard</source>
+        <translation>Copiar URL al portapapeles</translation>
+    </message>
+</context>
+<context>
+    <name>RegistrationPage</name>
+    <message>
+        <source>Welcome to Piepmatz!</source>
+        <translation>¡Bienvenido a Piepmatz!</translation>
+    </message>
+    <message>
+        <source>Have fun with Piepmatz! Sebastian J. Wolf</source>
+        <translation>¡Diviértete con Piepmatz! Sebastian J. Wolf</translation>
+    </message>
+    <message>
+        <source>Accept</source>
+        <translation>Aceptar</translation>
+    </message>
+    <message>
+        <source>Welcome to Piepmatz - a Twitter client for SailfishOS! Piepmatz is &lt;a href=&quot;https://www.gnu.org/philosophy/free-sw&quot;&gt;free software&lt;/a&gt; and licensed under the conditions of the &lt;a href=&quot;https://www.gnu.org/licenses/gpl.html&quot;&gt;General Public License in version 3 (GPLv3)&lt;/a&gt;. By using this software, you accept the terms and conditions of this license.</source>
+        <translation>¡Bienvenido a Piepmatz - un cliente de Twitter para SailfishOS! Piepmatz es un &lt;a href=&quot;https://www.gnu.org/philosophy/free-sw&quot;&gt;programa libre&lt;/a&gt; y está bajo las condiciones de la &lt;a href=&quot;https://www.gnu.org/licenses/gpl.html&quot;&gt;Licencia General Pública versión 3 (GPLv3)&lt;/a&gt;. Al usar este programa, estás aceptando los términos y condiciones de esta licencia.</translation>
+    </message>
+    <message>
+        <source>Moreover, Piepmatz will register this installation automatically on my server if you press &apos;Accept&apos;. I respect your privacy, therefore only anonymous and a very limited set of information will be transmitted: a unique identifer for this installation and your country. I simply would like to know how many users Piepmatz has and where they come from. If this is not OK for you, simply close the application. No information has been transmitted so far.</source>
+        <translation>Además, si presionas &apos;Aceptar&apos; Piepmatz registrará esta instalación en mi servidor automáticamente. Respeto tu privacidad, por lo tanto sólo se transferirá un conjunto de información anónima y muy limitada: un identificador único para esta instalación y tu país. Simplemente me gustaría saber cuántos usuarios de Piepmatz hay y de dónde son. Si no estás de acuerdo con esto, simplemente cierra la aplicación. Hasta ahora no se ha tranferido ninguna información.</translation>
+    </message>
+    <message>
+        <source>Committed to Free Software</source>
+        <translation>Comprometidos con el software libre</translation>
+    </message>
+    <message>
+        <source>Anonymous Registration</source>
+        <translation>Registro anónimo</translation>
+    </message>
+    <message>
+        <source>Registration Error</source>
+        <translation>Error de registro</translation>
+    </message>
+    <message>
+        <source>Registration failed. Please ensure that your device is connected to the Internet and press &apos;Restart Registration&apos;. In case a restart doesn&apos;t work, please contact me via &lt;a href=&quot;mailto:sebastian@ygriega.de&quot;&gt;E-Mail&lt;/a&gt;</source>
+        <translation>Hubo un fallo en el registro. Asegúrate de que tu dispositivo está conectado a Internet y presiona &apos;Reiniciar registro&apos;. Si esto no funciona contacta conmigo por &lt;a href=&quot;mailto:sebastian@ygriega.de&quot;&gt;correo electrónico&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <source>Restart Registration</source>
+        <translation>Reiniciar registro</translation>
+    </message>
+    <message>
+        <source>Registration Invalid</source>
+        <translation>Registro no válido</translation>
+    </message>
+    <message>
+        <source>The registration file on your device is corrupt. The registration process needs to be restarted. Please ensure that your device is connected to the Internet and press &apos;Restart Registration&apos;. In case the new registration isn&apos;t successful, please contact me via &lt;a href=&quot;mailto:sebastian@ygriega.de&quot;&gt;E-Mail&lt;/a&gt;</source>
+        <translation>El fichero de registro de tu dispositivo está corrupto. Es necesario reiniciar el proceso de registro. Asegúrate de que tu dispositivo está conectado a Internet y presiona &apos;Reiniciar registro&apos;. Si el registro da error, contacta conmigo por &lt;a href=&quot;mailto:sebastian@ygriega.de&quot;&gt;correo electrónico&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <source>Survey about Piepmatz</source>
+        <translation>Encuesta sobre Piepmatz</translation>
+    </message>
+    <message>
+        <source>Before you can get started with Piepmatz, it would be great if you could answer the following survey. Like the registration, your data is processed anonymously.</source>
+        <translation>Antes de que puedas iniciar Piepmatz, estaría genial que respondieras la siguiente encuesta. Al igual que el registro, tus datos se procesarán de forma anónima.</translation>
+    </message>
+    <message>
+        <source>Would you pay for Piepmatz?</source>
+        <translation>¿Pagarías por Piepmatz?</translation>
+    </message>
+    <message>
+        <source>Please select an option...</source>
+        <translation>Por favor, elige una opción...</translation>
+    </message>
+    <message>
+        <source>Yes, more than 10 Euro</source>
+        <translation>Sí, más de 10 euros</translation>
+    </message>
+    <message>
+        <source>No, I wouldn&apos;t pay for Piepmatz.</source>
+        <translation>No, no pagaría por Piepmatz.</translation>
+    </message>
+    <message>
+        <source>No, but for my other device.</source>
+        <translation>No, pero para mi otro dispositivo.</translation>
+    </message>
+    <message>
+        <source>Piepmatz will remain open source software. However, I&apos;m considering to ask you for a contribution before you can run Piepmatz in a future version. So, would you pay for Piepmatz and if yes, how much?</source>
+        <translation>Piepmatz seguirá siendo un programa de código abierto. Sin embargo, estoy considerando pedirte una contribución antes de que puedas ejecutar  Piepmatz en una futura versión . Por tanto, ¿pagarías por Piepmatz? En caso afirmativo, ¿cuánto?</translation>
+    </message>
+    <message>
+        <source>Options: </source>
+        <translation>Opciones: </translation>
+    </message>
+    <message>
+        <source>Enter the Wagnis ID of Piepmatz on the other device</source>
+        <translation>Introduce el ID Wagnis de Piepmatz en el otro dispositivo</translation>
+    </message>
+    <message>
+        <source>Simply open Piepmatz on the other device and access the &apos;About Piepmatz&apos; page. The Wagnis ID is listed there.</source>
+        <translation>Simplemente abre Piepmatz en el otro dispositivo y accede a la página &apos;Acerca de Piepmatz&apos;. El ID Wagnis aparece allí.</translation>
+    </message>
+    <message>
+        <source>Yes, between 8 and 10 Euro</source>
+        <translation>Sí, entre 8 y 10 euros</translation>
+    </message>
+    <message>
+        <source>Yes, between 6 and 8 Euro</source>
+        <translation>Sí, entre 6 y 8 euros</translation>
+    </message>
+    <message>
+        <source>Yes, between 4 and 6 Euro</source>
+        <translation>Sí, entre 4 y 6 euros</translation>
+    </message>
+    <message>
+        <source>Yes, between 2 and 4 Euro</source>
+        <translation>Sí, entre 2 y 4 euros</translation>
+    </message>
+    <message>
+        <source>Yes, maximum 2 Euro</source>
+        <translation>Sí, como mucho 2 euros</translation>
+    </message>
+    <message>
+        <source>Send</source>
+        <translation>Enviar</translation>
+    </message>
+    <message>
+        <source>Skip Survey</source>
+        <translation>Omitir encuesta</translation>
+    </message>
+    <message>
+        <source>You can skip the survey for %1 if you want to test Piepmatz before answering the question.</source>
+        <translation>Puedes omitir la encuesta para %1 si quieres probar Piepmatz antes de responder la pregunta.</translation>
+    </message>
+    <message>
+        <source>Show Registration Data</source>
+        <translation>Mostrar datos de registro</translation>
+    </message>
+    <message>
+        <source>The data isn&apos;t shared with anyone else. Please see the &lt;a href=&quot;http://legal.ygriega.de/&quot;&gt;legal notice&lt;/a&gt; for additional information how the data is processed. For additional details about the motivation for this, the unique ID and how it is generated please see my page &lt;a href=&quot;http://wagnis.ygriega.de/&quot;&gt;about Wagnis&lt;/a&gt;.</source>
+        <translation>Los datos no se comparten con nadie más. Consulta el &lt;a href=&quot;http://legal.ygriega.de/&quot;&gt;aviso legal&lt;/a&gt; para más información sobre cómo se procesan los datos. Para más detalles sobre la motivación de esto, el ID único y cómo se genera, consulta mi página &lt;a href=&quot;http://wagnis.ygriega.de/&quot;&gt;acerca de Wagnis&lt;/a&gt;.</translation>
+    </message>
 </context>
 <context>
     <name>TextPage</name>
@@ -356,14 +571,6 @@
 <context>
     <name>Tweet</name>
     <message>
-        <source>Retweeted by %1</source>
-        <translation>Retuiteado por %1</translation>
-    </message>
-    <message>
-        <source>In reply to %1</source>
-        <translation>En respuesta a %1</translation>
-    </message>
-    <message>
         <source>Open in Browser</source>
         <translation>Abrir en el navegador</translation>
     </message>
@@ -375,12 +582,87 @@
         <source>Retweet with Comment</source>
         <translation>Retuitear con comentario</translation>
     </message>
+    <message>
+        <source>Copy URL to Clipboard</source>
+        <translation>Copiar URL al portapapeles</translation>
+    </message>
+</context>
+<context>
+    <name>TweetElement</name>
+    <message>
+        <source>Retweeted by %1</source>
+        <translation>Retuiteado por %1</translation>
+    </message>
+    <message>
+        <source>In reply to %1</source>
+        <translation>En respuesta a %1</translation>
+    </message>
+    <message>
+        <source>Tweeted with %1</source>
+        <translation>Tuiteado con %1</translation>
+    </message>
+</context>
+<context>
+    <name>TweetPage</name>
+    <message>
+        <source>Tweet</source>
+        <translation>Tuit</translation>
+    </message>
+    <message>
+        <source>Reply to Tweet</source>
+        <translation>Responder tuit</translation>
+    </message>
+    <message>
+        <source>Retweet with Comment</source>
+        <translation>Retuitear con comentario</translation>
+    </message>
+    <message>
+        <source>Open in Browser</source>
+        <translation>Abrir en navegador</translation>
+    </message>
+    <message>
+        <source>Copy URL to Clipboard</source>
+        <translation>Copiar URL al portapapeles</translation>
+    </message>
 </context>
 <context>
     <name>TweetUser</name>
     <message>
         <source>@%1</source>
         <translation>@%1</translation>
+    </message>
+</context>
+<context>
+    <name>User</name>
+    <message>
+        <source>Copy URL to Clipboard</source>
+        <translation>Copiar URL al portapapeles</translation>
+    </message>
+</context>
+<context>
+    <name>UserTimelinePage</name>
+    <message>
+        <source>Refresh</source>
+        <translation>Actualizar</translation>
+    </message>
+</context>
+<context>
+    <name>VideoPage</name>
+    <message>
+        <source>Download</source>
+        <translation>Descargar</translation>
+    </message>
+    <message>
+        <source>Download of %1 successful.</source>
+        <translation>Descarga correcta de %1.</translation>
+    </message>
+    <message>
+        <source>Downloading...</source>
+        <translation>Descargando...</translation>
+    </message>
+    <message>
+        <source>Downloading, %1% completed...</source>
+        <translation>Descargando, %1% completado...</translation>
     </message>
 </context>
 <context>
@@ -435,6 +717,38 @@
     <message>
         <source>@%1</source>
         <translation>@%1</translation>
+    </message>
+    <message>
+        <source>%1M</source>
+        <translation>%1M</translation>
+    </message>
+    <message>
+        <source>%1K</source>
+        <translation>%1K</translation>
+    </message>
+    <message>
+        <source>the next %1 days</source>
+        <translation>los próximos %1 días</translation>
+    </message>
+    <message>
+        <source>the next day</source>
+        <translation>el próximo día</translation>
+    </message>
+    <message>
+        <source>the next %1 hours</source>
+        <translation>las próximas %1 horas</translation>
+    </message>
+    <message>
+        <source>the next hour</source>
+        <translation>la próxima hora</translation>
+    </message>
+    <message>
+        <source>the next %1 minutes</source>
+        <translation>los próximos %1 minutos</translation>
+    </message>
+    <message>
+        <source>the next minute</source>
+        <translation>el próximo minuto</translation>
     </message>
 </context>
 </TS>
