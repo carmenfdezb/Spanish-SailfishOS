@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="es" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="es">
 <context>
     <name>AboutPage</name>
     <message>
@@ -76,7 +78,7 @@
     <message>
         <location filename="../qml/content/AboutPage.qml" line="266"/>
         <source>I hope you have as much fun using ownKeepass as I have creating it!</source>
-        <translation>¡Espero que te diviertas usando ownKeepass, tanto como yo en crearla! </translation>
+        <translation>¡Espero que te diviertas usando ownKeepass, tanto como yo en crearla!</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="147"/>
@@ -132,7 +134,7 @@
     <message>
         <location filename="../qml/content/ChangeLogPage.qml" line="37"/>
         <source>New version %1 now installed on your phone. Have a look in the change log for details.</source>
-        <translation>La nueva versión %1 ya está instalada en tu móvil. Echa un vistazo al registro de cambios para más detalles. </translation>
+        <translation>La nueva versión %1 ya está instalada en tu móvil. Echa un vistazo al registro de cambios para más detalles.</translation>
     </message>
     <message>
         <location filename="../qml/content/ChangeLogPage.qml" line="57"/>
@@ -261,7 +263,7 @@
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="86"/>
         <source>Database Settings</source>
-        <translation>Ajustes de base de datos</translation>
+        <translation>Ajustes de la base de datos</translation>
     </message>
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="84"/>
