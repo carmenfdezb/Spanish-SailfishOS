@@ -426,11 +426,11 @@ msgstr "Mapas de referencia y capas"
 
 #: qml/MenuPage.qml:116
 msgid "Auto-center on position"
-msgstr "Centrado automático en la posición"
+msgstr "Auto-centrado en la posición"
 
 #: qml/MenuPage.qml:133
 msgid "Auto-rotate on direction"
-msgstr "Giro automático según la dirección"
+msgstr "Auto-giro según dirección"
 
 #: qml/MenuPage.qml:148
 msgid "About"
@@ -594,7 +594,7 @@ msgid ""
 "Preferred gender for voice navigation. Only supported by some engines and "
 "languages."
 msgstr ""
-"Género preferido en la navegación por voz. Sólo es compatible en algunos "
+"Género preferido en la navegación por voz. Sólo es compatible con algunos "
 "motores e idiomas."
 
 #: qml/PreferencesPage.qml:77
