@@ -14,12 +14,12 @@
     <message>
         <location filename="../qml/pages/BookmarkViewPage.qml" line="103"/>
         <source>Mark as unfavorite</source>
-        <translation>No favorito</translation>
+        <translation>Desmarcar como favorito</translation>
     </message>
     <message>
         <location filename="../qml/pages/BookmarkViewPage.qml" line="104"/>
         <source>Mark as favorite</source>
-        <translation>Favorito</translation>
+        <translation>Marcar como favorito</translation>
     </message>
     <message>
         <location filename="../qml/pages/BookmarkViewPage.qml" line="112"/>
@@ -87,7 +87,7 @@
     <message>
         <location filename="../qml/pages/BookmarksPage.qml" line="169"/>
         <source>View: %1</source>
-        <translation>Mostrar : %1</translation>
+        <translation>Mostrar: %1</translation>
     </message>
     <message>
         <location filename="../qml/pages/BookmarksPage.qml" line="178"/>
