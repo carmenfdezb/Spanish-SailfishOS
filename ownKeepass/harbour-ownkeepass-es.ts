@@ -88,7 +88,7 @@
     <message>
         <location filename="../qml/content/AboutPage.qml" line="155"/>
         <source>If you like my work feel free to show me your gratitude. Work on a translation, issue a bug report or improvement idea, send me a café or just like my app and talk about it in the Jolla store :)</source>
-        <translation>Si te gusta mi trabajo siéntete libre para mostrarme tu agradecimiento. Colabora en la traducción, informa de errores o envía ideas sobre mejoras de la aplicación, envíame un café o sólo dale a &apos;me gusta&apos; y habla de mi aplicación en la tienda de Jolla :)</translation>
+        <translation>Si te gusta mi trabajo siéntete libre para mostrarme tu agradecimiento. Colabora en la traducción, informa de errores o mejoras de la aplicación, invítame a un café o sólo dale a &apos;me gusta&apos; y habla de mi aplicación en la tienda de Jolla :)</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="193"/>
@@ -172,7 +172,7 @@
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="187"/>
         <source>No username</source>
-        <translation>No hay nombre de usuario</translation>
+        <translation>Sin nombre de usuario</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="213"/>
@@ -182,7 +182,7 @@
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="213"/>
         <source>No password</source>
-        <translation>No hay contraseña</translation>
+        <translation>Sin contraseña</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="302"/>
@@ -278,7 +278,7 @@
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="90"/>
         <source>Change settings of your currently opened Keepass database here</source>
-        <translation>Cambia aquí los ajustes de la base de datos de Keepass que tienes abierta</translation>
+        <translation>Cambia aquí los ajustes de la base de datos de Keepass que está abierta</translation>
     </message>
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="98"/>
@@ -352,7 +352,7 @@
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="130"/>
         <source>Set title (mandatory)</source>
-        <translation>Asignar título (obligatorio)</translation>
+        <translation>Indica el título (obligatorio)</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="147"/>
@@ -362,7 +362,7 @@
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="149"/>
         <source>Set URL</source>
-        <translation>Asignar URL</translation>
+        <translation>Indica URL</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="163"/>
@@ -372,7 +372,7 @@
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="165"/>
         <source>Set username</source>
-        <translation>Asignar nombre de usuario</translation>
+        <translation>Indica nombre de usuario</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="202"/>
@@ -383,12 +383,12 @@
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="203"/>
         <source>Set password</source>
-        <translation>Asignar contraseña</translation>
+        <translation>Indica contraseña</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="234"/>
         <source>Verify password</source>
-        <translation>Verificar contraseña</translation>
+        <translation>Verifica contraseña</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="178"/>
@@ -403,13 +403,13 @@
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="260"/>
         <source>Set comment</source>
-        <translation>Asignar comentario</translation>
+        <translation>Introduce comentario</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="341"/>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="428"/>
         <source>Set</source>
-        <translation>Establecer</translation>
+        <translation>Configurar</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="344"/>
@@ -475,7 +475,7 @@
     <message>
         <location filename="../qml/content/EditGroupDetailsDialog.qml" line="150"/>
         <source>Set name of group</source>
-        <translation>Asignar nombre del grupo</translation>
+        <translation>Indica nombre del grupo</translation>
     </message>
     <message>
         <location filename="../qml/content/EditGroupDetailsDialog.qml" line="173"/>
@@ -485,7 +485,7 @@
     <message>
         <location filename="../qml/content/EditGroupDetailsDialog.qml" line="175"/>
         <source>Set notes for the group</source>
-        <translation>Asignar notas para el grupo</translation>
+        <translation>Introduce notas del grupo</translation>
     </message>
 </context>
 <context>
@@ -759,7 +759,7 @@
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="540"/>
         <source>Enable this to copy username and password into clipboard from cover</source>
-        <translation>Al activar esta opción se copiará el nombre de usuario y la contraseña en el portapapeles desde la cubierta</translation>
+        <translation>Activa esta opción para copiar en el portapapeles el nombre de usuario y la contraseña desde la cubierta</translation>
     </message>
 </context>
 <context>
@@ -772,7 +772,7 @@
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="75"/>
         <source>SD cards with multiple partitions are not supported.</source>
-        <translation>Las tarjetas SD con varias particiones no están soportadas.</translation>
+        <translation>Las tarjetas SD con varias particiones no son compatibles.</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="118"/>
@@ -857,7 +857,7 @@
         <location filename="../qml/scripts/Global.js" line="126"/>
         <source>Nothing selected yet</source>
         <extracomment>This is used in the file browser when the user has not yet selected any file.</extracomment>
-        <translation>No hay nada seleccionado aún</translation>
+        <translation>Aún sin seleccionar</translation>
     </message>
     <message>
         <location filename="../qml/scripts/Global.js" line="129"/>
@@ -945,7 +945,7 @@
         <location filename="../qml/help/HelpCreateNewDatabase.qml" line="28"/>
         <source>On this page you can create a new database where ownKeepass will store your sensitive data.&lt;br&gt;&lt;br&gt;Open the file browser and choose a file name and a directory. You can choose to locate your database in device memory, on the SD card or in the Android Storage. If the SD card entry is grey then no SD card is inserted or the card is not correctly detected by the System. There should be only one formatted partition on the SD card. Currently multi-partition SD cards are not supported by ownKeepass. &quot;Android storage&quot; is there to share the database with Android Apps. However sharing files with the Android world can be annoying due to different file ownership and permissions. Please be aware of that.&lt;br&gt;&lt;br&gt;Advice: If you upload your Keepass database into the cloud please make sure you use a locally stored key file in addition to the master password. This key file should not be uploaded to the cloud service.&lt;br&gt;&lt;br&gt;&lt;b&gt;Use key file&lt;/b&gt;&lt;br&gt;&lt;br&gt;A key file can be used additionally to a master password to protect the Keepass database. Both are used together to generate a pass key which will open the database. So by using a file with lots of data inside the generated pass key becomes in principle stronger against attacks. You can use for example a random picture as key file.&lt;br&gt;&lt;br&gt;&lt;b&gt;Master password&lt;/b&gt;&lt;br&gt;&lt;br&gt;Here goes the password for your new Keepass database. Please make sure you choose a long password of around 10 - 15 characters and use a mixture of small and big letters, numbers and special characters. Repeat the password in the &quot;Confirm Password&quot; field.&lt;br&gt;&lt;br&gt;</source>
         <extracomment>Changed &quot;home drive on the phone&quot; to &quot;Device Memory&quot;, removed section for &quot;Open automatically&quot;</extracomment>
-        <translation>En esta página puedes crear una nueva base de datos donde ownKeepass almacenará tus datos sensibles.&lt;br&gt;&lt;br&gt;Abre el explorador de archivos y elige un nombre de archivo y directorio. Puedes eligir entre ubicar tu base de datos en la memoria del teléfono, en la tarjeta SD o en el almacenamiento de Android. Si la opción de la tarjeta SD está en gris se debe a que no se ha insertado ninguna tarjeta SD o el Sistema no la ha detectado correctamente. La tarjeta SD debería tener una sola partición. Actualmente ownKeepass no soporta tarjetas SD con varias particiones. La opción &quot;Almacenamento Android&quot; es para compartir la base de datos con aplicaciones Android. Sin embargo, compartir archivos en el entorno Android puede ocasionarte problemas debido a los diferentes permisos y propietarios de los archivos. Por favor, ten en cuenta esto.&lt;br&gt;&lt;br&gt;Consejo: si subes tu base de datos de Keepass a la nube, asegúrate de usar un archivo de clave almacenado localmente además de la contraseña maestra. Este archivo de clave no debería subirse a ningún servicio en la nube.&lt;br&gt;&lt;br&gt;&lt;b&gt;Usar archivo de clave&lt;/b&gt;&lt;br&gt;&lt;br&gt;Además de la contraseña maestra puedes utilizar un archivo de clave para proteger la base de datos de Keepass. Ambos se usarán conjuntamente para generar una clave de paso que permitirá abrir la base de datos. Cuanto mayor sea el archivo de clave, la clave de paso que se genere será más fuerte frente a ataques. Por ejemplo, puedes usar una imagen al azar como archivo de clave.&lt;br&gt;&lt;br&gt;&lt;b&gt;Contraseña maestra&lt;/b&gt;&lt;br&gt;&lt;br&gt;Aquí va la contraseña para tu nueva base de datos de Keepass. Asegúrate de elegir una contraseña larga, de alrededor de 10 a 15 caracteres y que sea una combinación de letras minúsculas y mayúsculas, números y caracteres especiales. Repite la contraseña en el campo &quot;Confirmar contraseña&quot;.&lt;br&gt;&lt;br&gt;</translation>
+        <translation>En esta página puedes crear una nueva base de datos donde ownKeepass almacenará tus datos sensibles.&lt;br&gt;&lt;br&gt;Abre el explorador de archivos y elige un nombre de archivo y directorio. Puedes eligir entre ubicar tu base de datos en la memoria del teléfono, en la tarjeta SD o en el almacenamiento de Android. Si la opción de la tarjeta SD está en gris se debe a que no se ha insertado ninguna tarjeta SD o el Sistema no la ha detectado correctamente. La tarjeta SD debería tener una sola partición. Actualmente ownKeepass no es compatible con tarjetas SD con varias particiones. La opción &quot;Almacenamento Android&quot; es para compartir la base de datos con aplicaciones Android. Sin embargo, compartir archivos en el entorno Android puede ocasionarte problemas debido a los diferentes permisos y propietarios de los archivos. Por favor, ten en cuenta esto.&lt;br&gt;&lt;br&gt;Consejo: si subes tu base de datos de Keepass a la nube, asegúrate de usar un archivo de clave almacenado localmente además de la contraseña maestra. Este archivo de clave no debería subirse a ningún servicio en la nube.&lt;br&gt;&lt;br&gt;&lt;b&gt;Usar archivo de clave&lt;/b&gt;&lt;br&gt;&lt;br&gt;Además de la contraseña maestra puedes utilizar un archivo de clave para proteger la base de datos de Keepass. Ambos se usarán conjuntamente para generar una clave de paso que permitirá abrir la base de datos. Cuanto mayor sea el archivo de clave, la clave de paso que se genere será más fuerte frente a ataques. Por ejemplo, puedes usar una imagen al azar como archivo de clave.&lt;br&gt;&lt;br&gt;&lt;b&gt;Contraseña maestra&lt;/b&gt;&lt;br&gt;&lt;br&gt;Aquí va la contraseña para tu nueva base de datos de Keepass. Asegúrate de elegir una contraseña larga, de alrededor de 10 a 15 caracteres y que sea una combinación de letras minúsculas y mayúsculas, números y caracteres especiales. Repite la contraseña en el campo &quot;Confirmar contraseña&quot;.&lt;br&gt;&lt;br&gt;</translation>
     </message>
 </context>
 <context>
@@ -953,7 +953,7 @@
     <message>
         <location filename="../qml/help/HelpDatabaseSettings.qml" line="27"/>
         <source>On this dialog you can change database internal settings of your currently opened Keepass database file.&lt;br&gt;&lt;br&gt;&lt;b&gt;Master password&lt;/b&gt;&lt;br&gt;&lt;br&gt;Here you can type in a new master password for the Keepass database. Please note that if you forgot your master password there is no way to recover the password. It is not saved in the Keepass database and there is also no backdoor to open the database without your password. Furhtermore make sure you choose a long password of around 10 - 15 characters and use a mixture of small and big letters, numbers and special characters. Repeat the password in the &quot;Confirm Master Password&quot; field.&lt;br&gt;&lt;br&gt;&lt;b&gt;Encryption currently in use&lt;/b&gt;&lt;br&gt;&lt;br&gt;This is the encryption algorithm which is used to cipher the Keepass database content.&lt;br&gt;&lt;br&gt;&lt;b&gt;Key transformation rounds&lt;/b&gt;&lt;br&gt;&lt;br&gt;Set the default value for key transformation rounds for your Keepass database. This value controls the amount of encryption rounds computed on the master password. Adjusting this value has direct effect on the time needed to decrypt the database on loading. But setting this value higher makes the database more robust against brute force attacks. As a good compromise between security and usability you should adjust the value so that opening the database takes one second on your phone.&lt;br&gt;&lt;br&gt;</source>
-        <translation>En este diálogo puedes cambiar la configuración interna del archivo de la base de datos de Keepass que tienes actualmente abierta.&lt;br&gt;&lt;br&gt;&lt;b&gt;Contraseña maestra&lt;/b&gt;&lt;br&gt;&lt;br&gt;Aquí puedes escribir una nueva contraseña maestra para la base de datos de Keepass. Por favor, ten muy en cuenta que si olvidas tu contraseña maestra no habrá forma de recuperarla. No se guarda en la base de datos de Keepass ni tampoco existe otra alternativa para abrir la base de datos sin tu contraseña. Asegúrate también de que eliges una contraseña larga, de alrededor de 10 - 15 caracteres y que sea una combinación de minúsculas y mayúsculas, números y caracteres especiales. Repite la contraseña en el campo &quot;Confirmar contraseña maestra&quot;. &lt;br&gt;&lt;br&gt;&lt;b&gt;Cifrado actualmente en uso&lt;/b&gt;&lt;br&gt;&lt;br&gt;Este es el algoritmo de encriptación usado para cifrar el contenido de la base de datos de Keepass.&lt;br&gt;&lt;br&gt;&lt;b&gt;Rondas de cifrado de la clave&lt;/b&gt;&lt;br&gt;&lt;br&gt;Establece el valor por defecto del número de rondas de cifrado de la clave para tu base de datos de Keepass. Este valor controla la cantidad de rondas de cifrado que se computan sobre la contraseña maestra. Su ajuste tiene un efecto directo sobre el tiempo necesario para descifrar la base de datos en la carga, pero incrementado este valor hará que la base de datos sea más robusta frente a ataques de fuerza bruta. Para que haya un buen equilibrio entre seguridad y usabilidad, debes ajustar este valor para que la apertura de la base de datos no tarde demasiado.&lt;br&gt;&lt;br&gt;</translation>
+        <translation>En este diálogo puedes cambiar la configuración interna del archivo de la base de datos de Keepass actualmente en uso.&lt;br&gt;&lt;br&gt;&lt;b&gt;Contraseña maestra&lt;/b&gt;&lt;br&gt;&lt;br&gt;Aquí puedes escribir una nueva contraseña maestra para la base de datos de Keepass. Por favor, ten muy en cuenta que si olvidas tu contraseña maestra no habrá forma de recuperarla. No se guarda en la base de datos de Keepass ni tampoco existe otra alternativa para abrir la base de datos sin tu contraseña. Asegúrate también de que eliges una contraseña larga, de alrededor de 10 - 15 caracteres y que sea una combinación de minúsculas y mayúsculas, números y caracteres especiales. Repite la contraseña en el campo &quot;Confirmar contraseña maestra&quot;. &lt;br&gt;&lt;br&gt;&lt;b&gt;Cifrado actualmente en uso&lt;/b&gt;&lt;br&gt;&lt;br&gt;Este es el algoritmo de encriptación usado para cifrar el contenido de la base de datos de Keepass.&lt;br&gt;&lt;br&gt;&lt;b&gt;Rondas de cifrado de la clave&lt;/b&gt;&lt;br&gt;&lt;br&gt;Establece el valor por defecto del número de rondas de cifrado de la clave para tu base de datos de Keepass. Este valor controla la cantidad de rondas de cifrado que se computan sobre la contraseña maestra. Su ajuste tiene un efecto directo sobre el tiempo necesario para descifrar la base de datos en la carga, pero incrementado este valor hará que la base de datos sea más robusta frente a ataques de fuerza bruta. Para que haya un buen equilibrio entre seguridad y usabilidad, debes ajustar este valor para que la apertura de la base de datos no tarde demasiado.&lt;br&gt;&lt;br&gt;</translation>
     </message>
 </context>
 <context>
@@ -978,7 +978,7 @@ Ten en cuenta lo siguiente. Aunque ownKeepass puede leer y escribir en bases de 
     <message>
         <location filename="../qml/help/HelpMainPage.qml" line="65"/>
         <source>&lt;b&gt;Sharing Keepass database between your Jolla Smartphone / Tablet and your desktop PC&lt;/b&gt;&lt;br&gt;&lt;br&gt;The Keepass database file format is perfect to share your password safe between different systems like smartphones, tablets, desktop PC and so on. That is because there are a lot of Keepass implementations available for those platforms. Have a look at the Keepass download page [4] to get the classic Keepass 1 or Keepass 2 version for the desktop PC. There is also a list of alternative Keepass implementations on that page. I would also like to point you to KeepassX version 0.4.3 [2] which is also compatible with Keepass version 1. You can also find an Alpha version of KeepassX 2 on the same page which can handle Keepass 2 databases.&lt;br&gt;You can share your Keepass database file via SD card or via a cloud service like ownCloud or Dropbox. When using a cloud server I would recommend to use a key file in addition to the master password. The additional key file will be used by ownKeepass to decrypt the database. Store this key file only locally on your smartphone and on your desktop PC. Do not upload it to the cloud service. If an attacker hacks your cloud service he will be left without the key file. By doing so you make it even harder for an attacker to crack your Keepass database because the key file content is usually impossible to guess.</source>
-        <translation>&lt;b&gt;Compartir la base de datos de Keepass entre tu teléfono / tableta Jolla y tu PC&lt;/b&gt;&lt;br&gt;&lt;br&gt;El fomato de archivo de la base de datos de Keepass es perfecto para compartir tu gestor de contraseñas entre diferentes dispositivos como teléfonos inteligentes, tabletas, PC y así sucesivamente. Esto es debido al hecho de que hay una gran cantidad de implementaciones de Keepass para esas plataformas. Echa un vistazo a la página de descarga de Keepass [4] para obtener la versión 1 ó 2 clásica de Keepass para PC. En esa página también hay una lista de implementaciones alternativas de Keepass. Me gustaría resaltar la versión 0.4.3 de KeepassX [2], que también es compatible con la versión 1 de KeePass. Además, en la misma página puedes encontrar una versión alfa de KeepassX 2, que puede manejar bases de datos de Keepass 2.&lt;br&gt;Puedes compartir tu archivo de base de datos de Keepass a través de tu tarjeta SD o de un servicio en la nube como ownCloud o Dropbox. Cuando uses un servicio en la nube te recomiendo que uses un archivo de clave como complemento a la contraseña maestra. El archivo de clave adicional será utilizado por ownKeepass para desencriptar la base de datos. Guarda este archivo de clave sólo localmente, en tu teléfono o en tu PC. No lo subas al servicio en la nube. Si un hacker ataca tu servicio en la nube te quedarás sin el archivo de clave. Al hacer esto se lo pondrás más difícil al hacker que quiera acceder a tu base de datos de Keepass, porque el contenido del archivo de clave normalmente es imposible de adivinar.</translation>
+        <translation>&lt;b&gt;Compartir la base de datos de Keepass entre tu teléfono / tableta Jolla y tu PC&lt;/b&gt;&lt;br&gt;&lt;br&gt;El fomato de archivo de la base de datos de Keepass es perfecto para compartir tu gestor de contraseñas entre diferentes dispositivos como teléfonos inteligentes, tabletas, PC y así sucesivamente. Esto es debido al hecho de que hay una gran cantidad de implementaciones de Keepass para esas plataformas. Echa un vistazo a la página de descarga de Keepass [4] para obtener la versión 1 ó 2 clásica de Keepass para PC. En esa página también hay una lista de implementaciones alternativas de Keepass. Me gustaría resaltar la versión 0.4.3 de KeepassX [2], que también es compatible con la versión 1 de KeePass. Además, en la misma página puedes encontrar una versión alfa de KeepassX 2, que puede manejar bases de datos de Keepass 2.&lt;br&gt;Puedes compartir tu archivo de base de datos de Keepass a través de tu tarjeta SD o de un servicio en la nube como ownCloud o Dropbox. Cuando uses un servicio en la nube te recomiendo usar un archivo de clave como complemento a la contraseña maestra. El archivo de clave adicional será utilizado por ownKeepass para desencriptar la base de datos. Guarda este archivo de clave sólo localmente, en tu teléfono o en tu PC. No lo subas al servicio en la nube. Si un hacker ataca tu servicio en la nube te quedarás sin el archivo de clave. Si haces esto será aún más difícil que un hacker acceda a tu base de datos de Keepass, porque el contenido del archivo de clave normalmente es imposible de adivinar.</translation>
     </message>
 </context>
 <context>
@@ -986,7 +986,7 @@ Ten en cuenta lo siguiente. Aunque ownKeepass puede leer y escribir en bases de 
     <message>
         <location filename="../qml/help/HelpMasterGroupsPage.qml" line="27"/>
         <source>This page is showing main password groups of your Keepass database. A password group is a container for password entries. Thus in order to store a password entry you need to create at least one group first.&lt;br&gt;&lt;br&gt;You can use main password groups to organize your password entries. For example create groups for &quot;Online shops&quot;, &quot;Email Accounts&quot;, &quot;Social media pages&quot;, etc.&lt;br&gt;&lt;br&gt;A search bar can be enabled from pulley menu which is shown on top of the password group list. With it you can search for password entries throughout the whole Keepass database. If you want that the search bar automatically gets focus when you open the Keepass database please open the setting page and check the corresponding switch.&lt;br&gt;&lt;br&gt;</source>
-        <translation>Esta página muestra los grupos principales de contraseñas de la base de datos de Keepass. Un grupo de contraseñas es un contenedor de varias entradas de contraseñas. Para almacenar una entrada de contraseña necesitarás crear primero un grupo.&lt;br&gt;&lt;br&gt;Puedes usar grupos principales de contraseñas para organizar tus entradas de contraseñas. Por ejemplo, puedes crear grupos para &quot;Tiendas online&quot;, &quot;Cuentas de correo electrónico&quot;, &quot;Redes sociales&quot;, etc.&lt;br&gt;&lt;br&gt;Puedes activar una barra de búsqueda desde el menú deslizable disponible en la parte superior de la lista de grupos de contraseñas. Con ella se puede buscar cualquier entrada de contraseña en la base de datos de Keepass. Si quieres que el cursor se sitúe automáticamente en la barra de búsqueda al abrir la base de datos de Keepass, ve a la página de ajustes y comprueba que la opción correspondiente está habilitada.&lt;br&gt;&lt;br&gt;</translation>
+        <translation>Esta página muestra los grupos principales de contraseñas de la base de datos de Keepass. Un grupo de contraseñas es un contenedor de varias entradas de contraseñas. Para almacenar una entrada de contraseña necesitarás crear primero un grupo.&lt;br&gt;&lt;br&gt;Puedes usar grupos principales de contraseñas para organizar tus entradas de contraseñas. Por ejemplo, puedes crear grupos para &quot;Tiendas online&quot;, &quot;Cuentas de correo electrónico&quot;, &quot;Redes sociales&quot;, etc.&lt;br&gt;&lt;br&gt;Puedes activar una barra de búsqueda desde el menú deslizante disponible en la parte superior de la lista de grupos de contraseñas. Con ella se puede buscar cualquier entrada de contraseña en la base de datos de Keepass. Si quieres que el cursor se sitúe automáticamente en la barra de búsqueda al abrir la base de datos de Keepass, ve a la página de ajustes y comprueba que la opción correspondiente está habilitada.&lt;br&gt;&lt;br&gt;</translation>
     </message>
 </context>
 <context>
@@ -995,7 +995,7 @@ Ten en cuenta lo siguiente. Aunque ownKeepass puede leer y escribir en bases de 
         <location filename="../qml/help/HelpOpenNewDatabase.qml" line="28"/>
         <source>Here you can open an existing Keepass database file.&lt;br&gt;&lt;br&gt;Use the file browser to search for your Keepass database file. You will be able to look into the following locations: Device Memory, SD card and Android storage. If you have trouble with ownKeepass not finding the file please make sure to place it in below mentioned paths. &quot;Device Memory&quot; is located at &quot;%1&quot;. If a SD card is inserted in your phone it is located at &quot;/media/sdcard/&amp;lt;UUID&amp;gt;&quot;. (Please note that SD cards with more than one partition are not supported.) &quot;Android storage&quot; is located at &quot;%2&quot;.&lt;br&gt;&lt;br&gt;Advice: If you upload your Keepass database into the cloud please make sure you use a locally stored key file in addition to the master password. This key file should not be uploaded to the cloud service.&lt;br&gt;&lt;br&gt;&lt;b&gt;Use key file&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you need a key file for opening your Keepass database please check this option.&lt;br&gt;&lt;br&gt;&lt;b&gt;Master password&lt;/b&gt;&lt;br&gt;&lt;br&gt;Type in here the password for your Keepass database.&lt;br&gt;&lt;br&gt;</source>
         <extracomment>Removed one sentence in section &quot;Use key file&quot;, Changed &quot;Home&quot; to &quot;Device Memory&quot;, Removed section for &quot;Open automatically&quot;, changed &lt;UUID&gt; to &amp;lt;UUID&amp;gt; so that it will be actually shown ;)</extracomment>
-        <translation>Desde aquí puedes abrir una base de datos de Keepass que ya tengas.&lt;br&gt;&lt;br&gt;Usa el explorador de archivos para buscar el archivo de tu base de datos de Keepass. Podrás buscar dentro de las siguientes ubicaciones: memoria del teléfono , tarjeta SD y almacenamiento Android. Si tienes problemas para que ownKeepass encuentre el archivo, asegúrate de que éste se encuentra en alguna de las siguientes rutas. &quot;Memoria del teléfono&quot; está ubicado en &quot;%1&quot;. Si has insertado una tarjeta SD en tu móvil, ésta se ubica en &quot;/media/sdcard/&amp;lt;UUID&amp;gt;&quot;. (Ten en cuenta que las tarjetas SD con más de una partición no están soportadas). &quot;Almacenamiento Android&quot; está ubicada en &quot;%2&quot;.&lt;br&gt;&lt;br&gt;Consejo: si subes tu base de datos de Keepass a la nube, asegúrate de usar un archivo de clave almacenado localmente además de la contraseña maestra. Este archivo de clave no debería subirse al servicio en la nube.&lt;br&gt;&lt;br&gt;&lt;b&gt;Usar archivo de clave&lt;/b&gt;&lt;br&gt;&lt;br&gt;Marca esta opción si necesitas de un archivo de clave para abrir tu base de datos de Keepass.&lt;br&gt;&lt;br&gt;&lt;b&gt;Contraseña maestra&lt;/b&gt;&lt;br&gt;&lt;br&gt;Escribe aquí la contraseña para tu base de datos de Keepass.&lt;br&gt;&lt;br&gt;</translation>
+        <translation>Desde aquí puedes abrir una base de datos de Keepass que ya tengas.&lt;br&gt;&lt;br&gt;Usa el explorador de archivos para buscar el archivo de tu base de datos de Keepass. Podrás buscar dentro de las siguientes ubicaciones: memoria del teléfono , tarjeta SD y almacenamiento Android. Si tienes problemas para que ownKeepass encuentre el archivo, asegúrate de que éste se encuentra en alguna de las siguientes rutas. &quot;Memoria del teléfono&quot; está ubicado en &quot;%1&quot;. Si has insertado una tarjeta SD en tu móvil, ésta se ubica en &quot;/media/sdcard/&amp;lt;UUID&amp;gt;&quot;. (Ten en cuenta que la aplicación no es compatible con tarjetas SD con más de una partición). &quot;Almacenamiento Android&quot; está ubicada en &quot;%2&quot;.&lt;br&gt;&lt;br&gt;Consejo: si subes tu base de datos de Keepass a la nube, asegúrate de usar un archivo de clave almacenado localmente además de la contraseña maestra. Este archivo de clave no debería subirse al servicio en la nube.&lt;br&gt;&lt;br&gt;&lt;b&gt;Usar archivo de clave&lt;/b&gt;&lt;br&gt;&lt;br&gt;Marca esta opción si necesitas de un archivo de clave para abrir tu base de datos de Keepass.&lt;br&gt;&lt;br&gt;&lt;b&gt;Contraseña maestra&lt;/b&gt;&lt;br&gt;&lt;br&gt;Escribe aquí la contraseña para tu base de datos de Keepass.&lt;br&gt;&lt;br&gt;</translation>
     </message>
 </context>
 <context>
@@ -1024,7 +1024,7 @@ Ten en cuenta lo siguiente. Aunque ownKeepass puede leer y escribir en bases de 
     <message>
         <location filename="../qml/help/HelpSubGroupsPage.qml" line="27"/>
         <source>This page is showing password entries and sub-groups of your Keepass database. A password entry finally stores the bits of information secretly in the database.&lt;br&gt;&lt;br&gt;It is possible to show username and password for each password entry already in the list view. To enable that feature open the ownKeepass settings and check the &quot;Extended list view&quot; switch.&lt;br&gt;&lt;br&gt;A search bar can be enabled from pulley menu which is shown on top of the password group list. With it you can search only in the specific password group and all its sub-groups.&lt;br&gt;&lt;br&gt;</source>
-        <translation>Esta página muestra las entradas de contraseñas y los subgrupos de tu base de datos de Keepass. Una entrada de contraseña guarda información de forma secreta en la base de datos.&lt;br&gt;&lt;br&gt;En la vista de la lista de contraseñas es posible mostrar el nombre de usuario y la contraseña de cada entrada. Para activar esta funcionalidad debes marcar la opción &quot;Vista lista extendida&quot; en los ajustes de ownKeepass.&lt;br&gt;&lt;br&gt;Puedes habilitar una barra de búsqueda desde el menú desplegable que hay en la parte superior de la página de grupos de contraseñas. Con esta barra se puede buscar en un determinado grupo  de contraseñas y en todos sus subgrupos.&lt;br&gt;&lt;br&gt;</translation>
+        <translation>Esta página muestra las entradas de contraseñas y los subgrupos de tu base de datos de Keepass. Una entrada de contraseña guarda información de forma secreta en la base de datos.&lt;br&gt;&lt;br&gt;En la vista de la lista de contraseñas es posible mostrar el nombre de usuario y la contraseña de cada entrada. Para activar esta funcionalidad debes marcar la opción &quot;Vista lista extendida&quot; en los ajustes de ownKeepass.&lt;br&gt;&lt;br&gt;Puedes habilitar una barra de búsqueda desde el menú deslizante que hay en la parte superior de la página de grupos de contraseñas. Con esta barra se puede buscar en un determinado grupo de contraseñas y en todos sus subgrupos.&lt;br&gt;&lt;br&gt;</translation>
     </message>
 </context>
 <context>
@@ -1114,7 +1114,7 @@ Ten en cuenta lo siguiente. Aunque ownKeepass puede leer y escribir en bases de 
     <message>
         <location filename="../qml/content/MainPage.qml" line="277"/>
         <source>SD cards with multiple partitions are not supported.</source>
-        <translation>Las tarjetas SD con varias particiones no están soportadas.</translation>
+        <translation>Las tarjetas SD con varias particiones no son compatibles.</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="317"/>
@@ -1183,7 +1183,7 @@ Ten en cuenta lo siguiente. Aunque ownKeepass puede leer y escribir en bases de 
     <message>
         <location filename="../qml/content/MainPage.qml" line="685"/>
         <source>Database file error</source>
-        <translation>Error en el archivo de la base de datos</translation>
+        <translation>Error en archivo de la base de datos</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="685"/>
@@ -1209,7 +1209,7 @@ Ten en cuenta lo siguiente. Aunque ownKeepass puede leer y escribir en bases de 
     <message>
         <location filename="../qml/content/MainPage.qml" line="175"/>
         <source>The specified file has an unsupported Keepass database version.</source>
-        <translation>El archivo especificado es una versión de base de datos de Keepass no soportada.</translation>
+        <translation>El archivo especificado es una versión de base de datos de Keepass no compatible.</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="135"/>
@@ -1264,7 +1264,7 @@ Ten en cuenta lo siguiente. Aunque ownKeepass puede leer y escribir en bases de 
     <message>
         <location filename="../qml/content/MainPage.qml" line="182"/>
         <source>Database headers are missing.</source>
-        <translation>Faltan los encabezados de la base de datos.</translation>
+        <translation>Faltan encabezados de la base de datos.</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="188"/>
@@ -1367,7 +1367,7 @@ Ten en cuenta lo siguiente. Aunque ownKeepass puede leer y escribir en bases de 
     <message>
         <location filename="../qml/content/MainPage.qml" line="154"/>
         <source>Creation of backup group failed with following error:</source>
-        <translation>Se ha producido un fallo al crear la copia de seguridad del grupo con el siguiente error:</translation>
+        <translation>Ha ocurrido el siguiente error al crear copia de seguridad del grupo:</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="107"/>
@@ -1542,7 +1542,7 @@ Ten en cuenta lo siguiente. Aunque ownKeepass puede leer y escribir en bases de 
         <location filename="../qml/content/PasswordGeneratorDialog.qml" line="84"/>
         <location filename="../qml/content/PasswordGeneratorDialog.qml" line="89"/>
         <source>No char group selected</source>
-        <translation>No ha seleccionado grupo de caracteres</translation>
+        <translation>Ningún grupo de caracteres seleccionado</translation>
     </message>
     <message>
         <location filename="../qml/content/PasswordGeneratorDialog.qml" line="113"/>
@@ -1605,7 +1605,7 @@ Ten en cuenta lo siguiente. Aunque ownKeepass puede leer y escribir en bases de 
     <message>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="171"/>
         <source>New Password Safe</source>
-        <translation>Nueva Protección de Contraseñas</translation>
+        <translation>Nuevo gestor de contraseñas</translation>
     </message>
     <message>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="177"/>
@@ -1646,7 +1646,7 @@ Ten en cuenta lo siguiente. Aunque ownKeepass puede leer y escribir en bases de 
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="59"/>
         <source>Pull down to add URL, username, password, comment and additional attributes</source>
-        <translation>Deslizar hacia abajo para añadir URL, nombre de usuario, contraseña, comentario y atributos adicionales</translation>
+        <translation>Desliza hacia abajo para añadir URL, nombre de usuario, contraseña, comentario y atributos adicionales</translation>
     </message>
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="76"/>
@@ -1680,7 +1680,7 @@ Ten en cuenta lo siguiente. Aunque ownKeepass puede leer y escribir en bases de 
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="141"/>
         <source>Password</source>
-        <translation>Contaseña</translation>
+        <translation>Contraseña</translation>
     </message>
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="150"/>
