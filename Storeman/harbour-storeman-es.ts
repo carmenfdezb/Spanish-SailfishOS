@@ -537,7 +537,7 @@
     </message>
     <message id="orn-add-repo-hint">
         <source>You can add a repository from an application page</source>
-        <translation>Puedes añadir repositorios desde la página de las aplicaciones</translation>
+        <translation>Puedes añadir repositorios desde la página de una aplicación</translation>
     </message>
     <message id="orn-refresh-cache">
         <source>Refresh cache</source>
@@ -585,7 +585,7 @@
     </message>
     <message id="orn-backup-description">
         <source>Backup and restore repos and installed apps</source>
-        <translation>Copia de seguridad y restauración de repositorios y aplicaciones instaladas</translation>
+        <translation>Haz copia/restaura repositorios y aplicaciones</translation>
     </message>
     <message id="orn-create-backup">
         <source>Create a backup</source>
@@ -799,6 +799,24 @@
     <message id="orn-cat-public-transport">
         <source>Public Transport</source>
         <translation>Transporte público</translation>
+    </message>
+    <message id="orn-pmstate-refreshingcache">
+        <source>Refreshing cache&lt;br /&gt;(checking for updates)</source>
+        <translation>Actualizando caché&lt;br /&gt;(comprobando actualizaciones)</translation>
+    </message>
+    <message id="orn-comments-wait">
+        <source>Wait for users&apos; feedback</source>
+        <extracomment>This will be shown to an application author</extracomment>
+        <translation>Esperando comentarios de usuarios</translation>
+    </message>
+    <message id="orn-comments-bethefirst">
+        <source>Be the first to comment</source>
+        <extracomment>This will be shown to a normal user</extracomment>
+        <translation>Sé el primero en comentar</translation>
+    </message>
+    <message id="orn-comments-nocomments">
+        <source>There is nothing here yet</source>
+        <translation>No hay nada aquí aún</translation>
     </message>
 </context>
 </TS>
