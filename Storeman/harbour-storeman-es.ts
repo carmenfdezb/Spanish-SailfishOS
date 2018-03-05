@@ -1,10 +1,8 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="es" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="es">
 <context>
-    <name/>
-    <message id="orn-storeman">
-        <source>Storeman</source>
-        <translation>Storeman</translation>
-    </message>
+    <name></name>
     <message id="orn-notrated">
         <source>Not rated yet</source>
         <translation>No valorado aún</translation>
@@ -121,7 +119,7 @@
     <message id="orn-dt-format">
         <source>yyyy-dd-MM hh:mm</source>
         <extracomment>Output format for the date labels. For details visit http://doc.qt.io/qt-5/qdate.html#toString</extracomment>
-        <translation>dd-MM-yyyy hh:mm</translation>
+        <translation>hh:mm dd-MM-yyyy</translation>
     </message>
     <message id="orn-version-noavailable">
         <source>No versions available</source>
@@ -370,12 +368,18 @@
         <translation>Justo ahora</translation>
     </message>
     <message id="orn-mins-ago" numerus="yes">
-        <source>%0 minute(s) ago</source>
-        <translation><numerusform>Hace %0 minuto</numerusform><numerusform>Hace %0 minutos</numerusform></translation>
+        <source>%n minute(s) ago</source>
+        <translation>
+            <numerusform>hace %n minuto</numerusform>
+            <numerusform>hace %n minutos</numerusform>
+        </translation>
     </message>
     <message id="orn-hours-ago" numerus="yes">
-        <source>%0 hour(s) ago</source>
-        <translation><numerusform>Hace %0 hora</numerusform><numerusform>Hace %0 horas</numerusform></translation>
+        <source>%n hour(s) ago</source>
+        <translation>
+            <numerusform>hace %n hora</numerusform>
+            <numerusform>hace %n horas</numerusform>
+        </translation>
     </message>
     <message id="orn-reply-to">
         <source>Reply to %0</source>
@@ -568,11 +572,11 @@
     </message>
     <message id="orn-updates-available-body">
         <source>Applications updates are available. Click to view details.</source>
-        <translation>Hay actualizaciones disponibles. Haz clic para ver detalles.</translation>
+        <translation>Hay actualizaciones disponibles. Haz clic para ver los detalles.</translation>
     </message>
     <message id="orn-view-details">
         <source>Click to view details</source>
-        <translation>Haz clic para ver detalles</translation>
+        <translation>Haz clic para ver los detalles</translation>
     </message>
     <message id="orn-error-depresolution">
         <source>Nothing provides %1 needed by %2</source>
@@ -673,7 +677,7 @@
     </message>
     <message id="orn-backup-hint">
         <source>Backup allows you to save your current OpenRepos repositories, installed applications and bookmarks and restore them later (for example after factory reset). A backup is a local file that is saved to the&lt;br /&gt;&lt;i&gt;~/Documents/Storeman&lt;/i&gt; directory.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Attention!&lt;/b&gt; You should copy your backups manually to some safe place before performing a factory reset. It could be your SD card, external device, cloud storage or something else.</source>
-        <translation>La copia de seguridad te permite guardar tus repositorios actuales de OpenRepos, las aplicaciones instaladas y las favoritas y restaurarlas después (por ejemplo, tras un reseteo de fábrica). Una copia de seguridad es un archivo local que se guarda en el directorio&lt;br /&gt;&lt;i&gt;~/Documents/Storeman&lt;/i&gt;.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;¡Atención!&lt;/b&gt; Debes copiar tus copias de seguridad en algún lugar seguro antes de hacer un reseteo de fábrica. Podría ser tu tarjeta SD, dispositivo externo, almacenamiento en la nube o cualquier otro.</translation>
+        <translation>La copia de seguridad te permite guardar tus repositorios actuales de OpenRepos, las aplicaciones instaladas y las favoritas y restaurarlas después (por ejemplo, tras un reseteo de fábrica). Una copia de seguridad es un archivo local que se guarda en el directorio&lt;br /&gt;&lt;i&gt;~/Documents/Storeman&lt;/i&gt;.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;¡Atención!&lt;/b&gt; Debes copiar tus copias de seguridad manualmente en algún lugar seguro antes de hacer un reseteo de fábrica. Podría ser tu tarjeta SD, dispositivo externo, almacenamiento en la nube o cualquier otro.</translation>
     </message>
     <message id="orn-pmstate-initialising">
         <source>Initialising</source>
@@ -762,7 +766,10 @@
     <message id="orn-pmstate-multiple" numerus="yes">
         <source>%n operations are in progress</source>
         <extracomment>There are always more than 1 operations</extracomment>
-        <translation><numerusform>%n operación en curso</numerusform><numerusform>%n operaciones en curso</numerusform></translation>
+        <translation>
+            <numerusform>%n operación en curso</numerusform>
+            <numerusform>%n operaciones en curso</numerusform>
+        </translation>
     </message>
     <message id="orn-version-available">
         <source>Available version</source>
@@ -790,7 +797,10 @@
     </message>
     <message id="orn-size-bytes" numerus="yes">
         <source>%n byte(s)</source>
-        <translation><numerusform>%n byte</numerusform><numerusform>%n bytes</numerusform></translation>
+        <translation>
+            <numerusform>%n byte</numerusform>
+            <numerusform>%n bytes</numerusform>
+        </translation>
     </message>
     <message id="orn-size-download-install">
         <source>Download / install size</source>
@@ -817,6 +827,84 @@
     <message id="orn-comments-nocomments">
         <source>There is nothing here yet</source>
         <translation>No hay nada aquí aún</translation>
+    </message>
+    <message id="orn-settings">
+        <source>Settings</source>
+        <translation>Ajustes</translation>
+    </message>
+    <message id="orn-updates">
+        <source>Updates</source>
+        <translation>Actualizaciones</translation>
+    </message>
+    <message id="orn-updates-notification-switch">
+        <source>Show updates notification</source>
+        <translation>Mostrar notificaciones</translation>
+    </message>
+    <message id="orn-updates-check-interval">
+        <source>Updates check interval</source>
+        <translation>Intervalo de actualización</translation>
+    </message>
+    <message id="orn-interval-m" numerus="yes">
+        <source>%n minute(s)</source>
+        <translation>
+            <numerusform>%n minuto</numerusform>
+            <numerusform>%n minutos</numerusform>
+        </translation>
+    </message>
+    <message id="orn-interval-h" numerus="yes">
+        <source>%n hour(s)</source>
+        <translation>
+            <numerusform>%n hora</numerusform>
+            <numerusform>%n horas</numerusform>
+        </translation>
+    </message>
+    <message id="orn-updates-check-interval-invalid">
+        <source>The interval must be at least 10 minutes</source>
+        <translation>El intervalo debe ser al menos 10  minutos</translation>
+    </message>
+    <message id="orn-tag-strikeout">
+        <source>S</source>
+        <extracomment>Tag strikeout</extracomment>
+        <translation>S</translation>
+    </message>
+    <message id="orn-hint-commentfield">
+        <source>Swipe to see all the tag buttons</source>
+        <translation>Desliza para ver todas las etiquetas</translation>
+    </message>
+    <message id="orn-dcm-user2">
+        <source>Deep Thought</source>
+        <extracomment>https://simple.wikipedia.org/wiki/42_(answer)</extracomment>
+        <translation>Pensamiento Profundo</translation>
+    </message>
+    <message id="orn-dcm-user1">
+        <source>A little white mice</source>
+        <extracomment>https://simple.wikipedia.org/wiki/42_(answer)</extracomment>
+        <translation>Un pequeño ratón blanco</translation>
+    </message>
+    <message id="orn-dcm-question">
+        <source>What is the Answer to the Ultimate Question of Life, the Universe, and Everything?</source>
+        <extracomment>https://simple.wikipedia.org/wiki/42_(answer)</extracomment>
+        <translation>¿Cuál es la respuesta al sentido de la vida, el universo y todo lo demás?</translation>
+    </message>
+    <message id="orn-hint-commentdelegate-created">
+        <source>7.5 million years ago</source>
+        <translation>Hace 7.5 millones de años</translation>
+    </message>
+    <message id="orn-hint-commentdelegate">
+        <source>Tap to navigate to the replied comment</source>
+        <translation>Da un toque para ir a la respuesta</translation>
+    </message>
+    <message id="orn-tags">
+        <source>Tags</source>
+        <translation>Etiquetas</translation>
+    </message>
+    <message id="orn-tag-apps">
+        <source>Tagged Applications</source>
+        <translation>Aplicaciones etiquetadas</translation>
+    </message>
+    <message id="orn-updates-check-interval-descr">
+        <source>Updates are checked only when the Storeman is running</source>
+        <translation>Las actualizaciones sólo se comprueban cuando Storeman está ejecutándose</translation>
     </message>
 </context>
 </TS>
