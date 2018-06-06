@@ -10,19 +10,19 @@
     <name>AddBookmark</name>
     <message>
         <source>Edit Bookmark</source>
-        <translation>Editar favorito</translation>
+        <translation>Editar marcador</translation>
     </message>
     <message>
         <source>Add Bookmark</source>
-        <translation>Añadir a favoritos</translation>
+        <translation>Añadir a marcadores</translation>
     </message>
     <message>
         <source>Title of the bookmark</source>
-        <translation>Titulo del favorito</translation>
+        <translation>Titulo del marcador</translation>
     </message>
     <message>
         <source>URL of bookmark</source>
-        <translation>URL del favorito</translation>
+        <translation>URL del marcador</translation>
     </message>
     <message>
         <source>User Agent:</source>
@@ -72,11 +72,11 @@
     </message>
     <message>
         <source>Backup saved successfully!</source>
-        <translation>¡La copia de seguridad se ha guardado correctamente!</translation>
+        <translation>¡Copia de seguridad guardada con éxito!</translation>
     </message>
     <message>
         <source>The Backup includes all cookies, bookmarks, history and settings for Webcat.</source>
-        <translation>La copia de seguridad incluye las cookies, favoritos, historial y ajustes de Webcat.</translation>
+        <translation>La copia de seguridad incluye las cookies, marcadores, historial y ajustes de Webcat.</translation>
     </message>
     <message>
         <source>Restore Backup</source>
@@ -93,8 +93,8 @@
     <message>
         <source>Restoring overwrites all cookies, bookmarks, history and settings for Webcat from the backup file.
 Please restart for changes to take effect.</source>
-        <translation>Al restaurar la copia de seguridad se reemplazarán las cookies, favoritos, historial y ajustes de Webcat.
-Por favor, reinicia para que los cambios tengan efecto.</translation>
+        <translation>Al restaurar se sobrescriben las cookies, marcadores, historial y ajustes de Webcat con los de la copia de seguridad.
+Por favor, reinicia para que los cambios surtan efecto.</translation>
     </message>
     <message>
         <source>Restoring Backup</source>
@@ -102,7 +102,46 @@ Por favor, reinicia para que los cambios tengan efecto.</translation>
     </message>
     <message>
         <source>Backups are saved to Documents directory</source>
-        <translation>Las copias de seguridad se guardan en la carpeta Documents</translation>
+        <translation>Las copias de seguridad se guardan en Documentos</translation>
+    </message>
+</context>
+<context>
+    <name>BookmarkList</name>
+    <message>
+        <source>Bookmarks</source>
+        <translation>Marcadores</translation>
+    </message>
+    <message>
+        <source>Open in new Tab</source>
+        <translation>Abrir en nueva pestaña</translation>
+    </message>
+    <message>
+        <source>Open in new Window</source>
+        <translation>Abrir en nueva ventana</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Editar</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Borrar</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Ajustes</translation>
+    </message>
+    <message>
+        <source>Split WebView</source>
+        <translation>Visor Web dividido</translation>
+    </message>
+    <message>
+        <source>Add Bookmark</source>
+        <translation>Añadir a marcadores</translation>
+    </message>
+    <message>
+        <source>History</source>
+        <translation>Historial</translation>
     </message>
 </context>
 <context>
@@ -115,9 +154,9 @@ Por favor, reinicia para que los cambios tengan efecto.</translation>
         <source>Certificates are used to identify and make sure that the website you see is provided by the author you expect.
 Unknown certificates are either ones that are missing in the global configuration of your browser. Outdated ones or compromised ones.
 If you are unsure reject the certificate. That might lead to a non loading website though.</source>
-        <translation>Los certificados se usan para identificar y tener la seguridad de que la página Web es proporcionada por el autor esperado.
+        <translation>Los certificados se usan para identificar y asegurar que la página Web que se muestra es del autor esperado.
 Los certificados desconocidos son los que faltan en la configuración global de tu navegador. Los obsoletos o comprometidos.
-Si no estás seguro, rechaza el certificado. Esto podría hacer que no se cargara el sitio Web.</translation>
+Si no estás seguro, rechaza el certificado. Esto podría hacer que la página no se cargue.</translation>
     </message>
 </context>
 <context>
@@ -137,6 +176,29 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que no se cargar
     <message>
         <source>Search..</source>
         <translation>Buscar..</translation>
+    </message>
+</context>
+<context>
+    <name>CreateDirDialog</name>
+    <message>
+        <source>Error creating new directory</source>
+        <translation>Error al crear nuevo directorio</translation>
+    </message>
+    <message>
+        <source>Create Folder</source>
+        <translation>Crear carpeta</translation>
+    </message>
+    <message>
+        <source>Create</source>
+        <translation>Crear</translation>
+    </message>
+    <message>
+        <source>Create a new folder under</source>
+        <translation>Crear nueva carpeta bajo</translation>
+    </message>
+    <message>
+        <source>Folder name</source>
+        <translation>Nombre de carpeta</translation>
     </message>
 </context>
 <context>
@@ -227,15 +289,7 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que no se cargar
     </message>
 </context>
 <context>
-    <name>FirstPage</name>
-    <message>
-        <source>Opening...</source>
-        <translation>Abriendo...</translation>
-    </message>
-    <message>
-        <source>Enter an url</source>
-        <translation>Introducir una url</translation>
-    </message>
+    <name>ExtraToolbar</name>
     <message>
         <source>Minimize</source>
         <translation>Minimizar</translation>
@@ -245,8 +299,8 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que no se cargar
         <translation>Nueva pestaña</translation>
     </message>
     <message>
-        <source>New Window</source>
-        <translation>Nueva ventana</translation>
+        <source>Close Tab</source>
+        <translation>Cerrar pestaña</translation>
     </message>
     <message>
         <source>Lock Orientation</source>
@@ -269,8 +323,70 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que no se cargar
         <translation>Cerrar menú</translation>
     </message>
     <message>
+        <source>Night Mode</source>
+        <translation>Modo noche</translation>
+    </message>
+    <message>
+        <source>Day Mode</source>
+        <translation>Modo día</translation>
+    </message>
+</context>
+<context>
+    <name>FileProperties</name>
+    <message>
+        <source>Location</source>
+        <translation>Ubicación</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Tipo</translation>
+    </message>
+    <message>
+        <source>Link to %1</source>
+        <translation>Enlace a %1</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Tamaño</translation>
+    </message>
+    <message>
+        <source>Permissions</source>
+        <translation>Permisos</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Propietario</translation>
+    </message>
+    <message>
+        <source>Group</source>
+        <translation>Grupo</translation>
+    </message>
+    <message>
+        <source>Last modified</source>
+        <translation>Última actualización</translation>
+    </message>
+    <message>
+        <source>Properties</source>
+        <translation>Propiedades</translation>
+    </message>
+    <message>
+        <source>Rename</source>
+        <translation>Renombrar</translation>
+    </message>
+    <message>
+        <source>Change Permissions</source>
+        <translation>Cambiar permisos</translation>
+    </message>
+</context>
+<context>
+    <name>FirstPage</name>
+    <message>
+        <source>Opening...</source>
+        <translation>Abriendo...</translation>
+    </message>
+    <message>
         <source>Enter searchterm</source>
-        <translation>Introducir término de la búsqueda</translation>
+        <translation>Introduce término de búsqueda</translation>
     </message>
     <message>
         <source>Open in New Window</source>
@@ -310,15 +426,11 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que no se cargar
     </message>
     <message>
         <source>Webkit engine crashed! Restarting...</source>
-        <translation>¡Se colgó el motor webkit! Reiniciando...</translation>
+        <translation>¡El motor webkit se ha quedado colgado! Reiniciando...</translation>
     </message>
     <message>
         <source>Webkit engine crashed too often!</source>
         <translation>¡El motor webkit se cuelga con demasiada frecuencia!</translation>
-    </message>
-    <message>
-        <source>Close Tab</source>
-        <translation>Cerrar pestaña</translation>
     </message>
 </context>
 <context>
@@ -341,10 +453,17 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que no se cargar
     </message>
 </context>
 <context>
+    <name>MediaDownloadRec</name>
+    <message>
+        <source>Opening...</source>
+        <translation>Abriendo...</translation>
+    </message>
+</context>
+<context>
     <name>MenuPopup</name>
     <message>
         <source>File Manager</source>
-        <translation>Gestor de ficheros</translation>
+        <translation>Gestor de archivos</translation>
     </message>
     <message>
         <source>Backup Manager</source>
@@ -367,7 +486,7 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que no se cargar
     </message>
     <message>
         <source>File not found.</source>
-        <translation>Fichero no encontrado.</translation>
+        <translation>Archivo no encontrado.</translation>
     </message>
     <message>
         <source>No valid Backup file. Did not find harbour-webcat Folder.</source>
@@ -376,7 +495,7 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que no se cargar
     <message>
         <source>Could not verify Backup file.
 </source>
-        <translation>No se ha podido verificar la copia de seguridad.
+        <translation>No se pudo verificar la copia de seguridad.
 </translation>
     </message>
 </context>
@@ -387,20 +506,16 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que no se cargar
         <translation>Abriendo...</translation>
     </message>
     <message>
-        <source>Delete</source>
-        <translation>Borrar</translation>
+        <source>Paste</source>
+        <translation>Pegar</translation>
     </message>
     <message>
         <source>Deleting </source>
         <translation>Borrando</translation>
     </message>
     <message>
-        <source>Paste</source>
-        <translation>Pegar</translation>
-    </message>
-    <message>
-        <source>Error pasting file </source>
-        <translation>Error al pegar fichero</translation>
+        <source>directory</source>
+        <translation>directorio</translation>
     </message>
     <message>
         <source>Cut</source>
@@ -411,24 +526,24 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que no se cargar
         <translation>Copiar</translation>
     </message>
     <message>
-        <source>Show Filesystem Root</source>
-        <translation>Mostrar sistema de archivos raíz</translation>
+        <source>Delete</source>
+        <translation>Borrar</translation>
     </message>
     <message>
-        <source>Show Home</source>
-        <translation>Mostrar Home</translation>
+        <source>Error pasting file </source>
+        <translation>Error al pegar archivo</translation>
     </message>
     <message>
-        <source>Show Android SDCard</source>
-        <translation>Mostrar Tarjeta SD Android</translation>
+        <source>File operation succeeded</source>
+        <translation>Operación de archivo completada</translation>
     </message>
     <message>
-        <source>Show SDCard</source>
-        <translation>Mostrar Tarjeta SD</translation>
+        <source>Properties</source>
+        <translation>Propiedades</translation>
     </message>
     <message>
-        <source>directory</source>
-        <translation>directorio</translation>
+        <source>Create Folder</source>
+        <translation>Crear carpeta</translation>
     </message>
 </context>
 <context>
@@ -443,7 +558,97 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que no se cargar
     </message>
     <message>
         <source>URL to media file/stream</source>
-        <translation>URL de fichero multimedia/transmisión</translation>
+        <translation>URL de archivo multimedia/transmisión</translation>
+    </message>
+</context>
+<context>
+    <name>PermissionDialog</name>
+    <message>
+        <source>Could not change permission</source>
+        <translation>No se pudo cambiar permiso</translation>
+    </message>
+    <message>
+        <source>Change Permissions</source>
+        <translation>Cambiar permisos</translation>
+    </message>
+    <message>
+        <source>Change</source>
+        <translation>Cambiar</translation>
+    </message>
+    <message>
+        <source>Change permissions for</source>
+        <translation>Cambiar permisos de</translation>
+    </message>
+    <message>
+        <source>Read</source>
+        <translation>Lectura</translation>
+    </message>
+    <message>
+        <source>Write</source>
+        <translation>Escritura</translation>
+    </message>
+    <message>
+        <source>Execute</source>
+        <translation>Ejecución</translation>
+    </message>
+    <message>
+        <source>Owner</source>
+        <translation>Propietario</translation>
+    </message>
+    <message>
+        <source>Group</source>
+        <translation>Grupo</translation>
+    </message>
+    <message>
+        <source>Others</source>
+        <translation>Otros</translation>
+    </message>
+</context>
+<context>
+    <name>PlacesPage</name>
+    <message>
+        <source>SD Card</source>
+        <translation>Tarjeta SD</translation>
+    </message>
+    <message>
+        <source>Home</source>
+        <translation>Carpeta personal</translation>
+    </message>
+    <message>
+        <source>Documents</source>
+        <translation>Documentos</translation>
+    </message>
+    <message>
+        <source>Downloads</source>
+        <translation>Descargas</translation>
+    </message>
+    <message>
+        <source>Music</source>
+        <translation>Música</translation>
+    </message>
+    <message>
+        <source>Pictures</source>
+        <translation>Imágenes</translation>
+    </message>
+    <message>
+        <source>Videos</source>
+        <translation>Vídeos</translation>
+    </message>
+    <message>
+        <source>Places</source>
+        <translation>Lugares</translation>
+    </message>
+    <message>
+        <source>Devices</source>
+        <translation>Dispositivos</translation>
+    </message>
+    <message>
+        <source>Common</source>
+        <translation>Común</translation>
+    </message>
+    <message>
+        <source>Device memory</source>
+        <translation>Memoria del dispositivo</translation>
     </message>
 </context>
 <context>
@@ -490,7 +695,26 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que no se cargar
     </message>
     <message>
         <source>Tor is free software for enabling anonymous communication. This will setup the proxy automatically to use tor. Tor service must be running on the system for this to work.</source>
-        <translation>Tor es un programa libre que permite la comunicación anónima. Esto establecerá el proxy automáticamente para  usar tor. El servicio Tor debe estar ejecutándose en el sistema para que esto funcione.</translation>
+        <translation>Tor es un programa libre que permite la comunicación anónima. Esto establecerá el proxy automáticamente para usar tor. El servicio Tor debe estar ejecutándose en el sistema para que esto funcione.</translation>
+    </message>
+</context>
+<context>
+    <name>RenameDialog</name>
+    <message>
+        <source>Error renaming</source>
+        <translation>Error al renombrar</translation>
+    </message>
+    <message>
+        <source>Rename</source>
+        <translation>Renombrar</translation>
+    </message>
+    <message>
+        <source>Give a new name for</source>
+        <translation>Dar un nuevo nombre a</translation>
+    </message>
+    <message>
+        <source>New name</source>
+        <translation>Nuevo nombre</translation>
     </message>
 </context>
 <context>
@@ -505,65 +729,6 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que no se cargar
     <message>
         <source>Custom</source>
         <translation>Personalizado</translation>
-    </message>
-</context>
-<context>
-    <name>SelectUrl</name>
-    <message>
-        <source>Bookmarks</source>
-        <translation>Favoritos</translation>
-    </message>
-    <message>
-        <source>Open in new Tab</source>
-        <translation>Abrir en nueva pestaña</translation>
-    </message>
-    <message>
-        <source>Open in new Window</source>
-        <translation>Abrir en nueva ventana</translation>
-    </message>
-    <message>
-        <source>Edit</source>
-        <translation>Editar</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <translation>Borrar</translation>
-    </message>
-    <message>
-        <source>Settings</source>
-        <translation>Ajustes</translation>
-    </message>
-    <message>
-        <source>Add Bookmark</source>
-        <translation>Añadir a favoritos</translation>
-    </message>
-    <message>
-        <source>History</source>
-        <translation>Historial</translation>
-    </message>
-    <message>
-        <source>Swipe up to open new window</source>
-        <translation>Deslizar hacia arriba para abrir nueva ventana</translation>
-    </message>
-    <message>
-        <source>Swipe up to open private window</source>
-        <translation>Deslizar hacia arriba para abrir ventana privada</translation>
-    </message>
-    <message>
-        <source>Swipe up to close tab</source>
-        <translation>Deslizar hacia arriba para cerrar pestaña</translation>
-    </message>
-    <message>
-        <source>Loading..</source>
-        <translation>Cargando..</translation>
-    </message>
-    <message>
-        <source>Split WebView</source>
-        <translation>Visor Web dividido</translation>
-    </message>
-    <message>
-        <source>Tabs</source>
-        <translation>Pestañas</translation>
     </message>
 </context>
 <context>
@@ -649,7 +814,7 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que no se cargar
     </message>
     <message>
         <source>Add Default Bookmarks</source>
-        <translation>Añadir favoritos predeterminados</translation>
+        <translation>Añadir marcadores por defecto</translation>
     </message>
     <message>
         <source>User Agent:</source>
@@ -689,7 +854,7 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que no se cargar
     </message>
     <message>
         <source>Clear Bookmarks</source>
-        <translation>Limpiar favoritos</translation>
+        <translation>Limpiar marcadores</translation>
     </message>
     <message>
         <source>Use external video player</source>
@@ -740,6 +905,29 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que no se cargar
     </message>
 </context>
 <context>
+    <name>TabBar</name>
+    <message>
+        <source>Loading..</source>
+        <translation>Cargando..</translation>
+    </message>
+    <message>
+        <source>Tabs</source>
+        <translation>Pestañas</translation>
+    </message>
+    <message>
+        <source>Swipe up to open new window</source>
+        <translation>Deslizar hacia arriba para abrir nueva ventana</translation>
+    </message>
+    <message>
+        <source>Swipe up to open private window</source>
+        <translation>Deslizar hacia arriba para abrir ventana privada</translation>
+    </message>
+    <message>
+        <source>Swipe up to close tab</source>
+        <translation>Deslizar hacia arriba para cerrar pestaña</translation>
+    </message>
+</context>
+<context>
     <name>TabList</name>
     <message>
         <source>Loading..</source>
@@ -748,6 +936,13 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que no se cargar
     <message>
         <source>Tabs</source>
         <translation>Pestañas</translation>
+    </message>
+</context>
+<context>
+    <name>Toolbar</name>
+    <message>
+        <source>Enter an url</source>
+        <translation>Introduce una url</translation>
     </message>
 </context>
 <context>
@@ -768,7 +963,7 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que no se cargar
     <name>VideoPlayer</name>
     <message>
         <source>Open File</source>
-        <translation>Abrir fichero</translation>
+        <translation>Abrir archivo</translation>
     </message>
     <message>
         <source>Open Stream</source>
@@ -797,7 +992,7 @@ El vídeo no pudo reproducirse por problemas en la red.</translation>
         <source>
 The video cannot be played because the media service could not be instantiated.</source>
         <translation>
-El vídeo no pudo reproducirse porque el servicio de comunicación no pudo instanciarse.</translation>
+No es posible reproducir vídeo porque el servicio de comunicación no se pudo instanciar.</translation>
     </message>
     <message>
         <source>
@@ -815,7 +1010,7 @@ Por favor, asegúrate de haber iniciado sesión en YouTube. El acceso a algunos 
     </message>
     <message>
         <source>Pull down to load file or stream</source>
-        <translation>Desliza hacia abajo para cargar fichero o transmisión</translation>
+        <translation>Desliza hacia abajo para cargar archivo o transmisión</translation>
     </message>
 </context>
 <context>
