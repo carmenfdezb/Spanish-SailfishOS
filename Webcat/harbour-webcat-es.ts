@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="es" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="es">
 <context>
     <name>AboutPage</name>
     <message>
@@ -132,10 +134,6 @@ Por favor, reinicia para que los cambios surtan efecto.</translation>
         <translation>Ajustes</translation>
     </message>
     <message>
-        <source>Split WebView</source>
-        <translation>Visor Web dividido</translation>
-    </message>
-    <message>
         <source>Add Bookmark</source>
         <translation>Añadir a marcadores</translation>
     </message>
@@ -225,7 +223,7 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que la página n
     </message>
     <message>
         <source>Active Downloads: </source>
-        <translation>Descargas activas:</translation>
+        <translation>Descargas activas: </translation>
     </message>
     <message>
         <source>Status</source>
@@ -257,7 +255,7 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que la página n
     </message>
     <message>
         <source>Deleting </source>
-        <translation>Borrando</translation>
+        <translation>Borrando </translation>
     </message>
     <message>
         <source>Delete</source>
@@ -293,14 +291,6 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que la página n
     <message>
         <source>Minimize</source>
         <translation>Minimizar</translation>
-    </message>
-    <message>
-        <source>New Tab</source>
-        <translation>Nueva pestaña</translation>
-    </message>
-    <message>
-        <source>Close Tab</source>
-        <translation>Cerrar pestaña</translation>
     </message>
     <message>
         <source>Lock Orientation</source>
@@ -377,6 +367,10 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que la página n
         <source>Change Permissions</source>
         <translation>Cambiar permisos</translation>
     </message>
+    <message>
+        <source>Error renaming</source>
+        <translation>Error al renombrar</translation>
+    </message>
 </context>
 <context>
     <name>FirstPage</name>
@@ -422,7 +416,7 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que la página n
     </message>
     <message>
         <source>Accept certificate from </source>
-        <translation>Aceptar certificado de</translation>
+        <translation>Aceptar certificado de </translation>
     </message>
     <message>
         <source>Webkit engine crashed! Restarting...</source>
@@ -477,6 +471,10 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que la página n
         <source>Download Manager</source>
         <translation>Gestor de descargas</translation>
     </message>
+    <message>
+        <source>Created Desktop Launcher for Webcat Fileman</source>
+        <translation>Creado lanzador para Webcat Fileman</translation>
+    </message>
 </context>
 <context>
     <name>MyClass</name>
@@ -511,7 +509,7 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que la página n
     </message>
     <message>
         <source>Deleting </source>
-        <translation>Borrando</translation>
+        <translation>Borrando </translation>
     </message>
     <message>
         <source>directory</source>
@@ -531,7 +529,7 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que la página n
     </message>
     <message>
         <source>Error pasting file </source>
-        <translation>Error al pegar archivo</translation>
+        <translation>Error al pegar archivo </translation>
     </message>
     <message>
         <source>File operation succeeded</source>
@@ -544,6 +542,10 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que la página n
     <message>
         <source>Create Folder</source>
         <translation>Crear carpeta</translation>
+    </message>
+    <message>
+        <source>Add to places</source>
+        <translation>Añadir a lugares</translation>
     </message>
 </context>
 <context>
@@ -607,6 +609,10 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que la página n
 <context>
     <name>PlacesPage</name>
     <message>
+        <source>Device memory</source>
+        <translation>Memoria del dispositivo</translation>
+    </message>
+    <message>
         <source>SD Card</source>
         <translation>Tarjeta SD</translation>
     </message>
@@ -647,8 +653,16 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que la página n
         <translation>Común</translation>
     </message>
     <message>
-        <source>Device memory</source>
-        <translation>Memoria del dispositivo</translation>
+        <source>Custom</source>
+        <translation>Personalizado</translation>
+    </message>
+    <message>
+        <source>Deleting </source>
+        <translation>Borrando </translation>
+    </message>
+    <message>
+        <source>Rename</source>
+        <translation>Renombrar</translation>
     </message>
 </context>
 <context>
@@ -700,10 +714,6 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que la página n
 </context>
 <context>
     <name>RenameDialog</name>
-    <message>
-        <source>Error renaming</source>
-        <translation>Error al renombrar</translation>
-    </message>
     <message>
         <source>Rename</source>
         <translation>Renombrar</translation>
