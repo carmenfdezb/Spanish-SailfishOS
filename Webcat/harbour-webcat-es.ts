@@ -788,15 +788,15 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que la página n
     </message>
     <message>
         <source>Default Font Size</source>
-        <translation>Tamaño de la fuente por defecto</translation>
+        <translation>Tamaño de letra por defecto</translation>
     </message>
     <message>
         <source>Default Fixed Font Size</source>
-        <translation>Tamaño fijo de la fuente por defecto</translation>
+        <translation>Tamaño fijo de letra por defecto</translation>
     </message>
     <message>
         <source>Minimum Font Size</source>
-        <translation>Tamaño mínimo de la fuente</translation>
+        <translation>Tamaño mínimo de letra</translation>
     </message>
     <message>
         <source>Default Orientation</source>
