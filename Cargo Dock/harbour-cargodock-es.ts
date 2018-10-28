@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="es_ES">
+<TS version="2.1" language="es_ES">
 <context>
     <name>AboutPage</name>
     <message>
@@ -43,7 +43,7 @@
     <name>ClassicUi</name>
     <message>
         <source>Pull down for help</source>
-        <translation>Desliza hacia abajo para ayuda</translation>
+        <translation>Tira hacia abajo para ver ayuda</translation>
     </message>
     <message>
         <source>copying</source>
@@ -152,6 +152,10 @@ Debes añadir diferentes servicios de Dropbox para diferentes cuentas de Dropbox
     <message>
         <source>Open</source>
         <translation>Abrir</translation>
+    </message>
+    <message>
+        <source>Tools</source>
+        <translation>Herramientas</translation>
     </message>
 </context>
 <context>
@@ -535,12 +539,6 @@ Si no lo habilitas, las contraseñas se encriptan con una frase de contraseña p
         <translation>Eliminar</translation>
     </message>
     <message>
-        <source>No services yet.
-Drag down to add a service.</source>
-        <translation>No hay servicios aún.
-Arrastra hacia abajo para añadir servicio.</translation>
-    </message>
-    <message>
         <source>Interface</source>
         <translation>Interfaz</translation>
     </message>
@@ -553,6 +551,46 @@ Arrastra hacia abajo para añadir servicio.</translation>
 Restart application after changing.</source>
         <translation>Esta es una iu sin finalizar de la rama de desarrollo new-iu.
 Reinicia la aplicación después del cambio.</translation>
+    </message>
+    <message>
+        <source>Tools</source>
+        <translation>Herramientas</translation>
+    </message>
+    <message>
+        <source>New Tool</source>
+        <translation>Nueva herramienta</translation>
+    </message>
+    <message>
+        <source>No tools yet.
+Pull down to add a new tool.</source>
+        <translation>No hay herramientas aún.
+Tira hacia abajo para añadir una.</translation>
+    </message>
+    <message>
+        <source>No services yet.
+Pull down to add a service.</source>
+        <translation>No hay servicios aún.
+Tira hacia abajo para añadir uno.</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nombre</translation>
+    </message>
+    <message>
+        <source>Enter name</source>
+        <translation>Introduce nombre</translation>
+    </message>
+    <message>
+        <source>Command line</source>
+        <translation>Línea de comandos</translation>
+    </message>
+    <message>
+        <source>Enter command to use with files</source>
+        <translation>Introduce comando para archivos</translation>
+    </message>
+    <message>
+        <source>Command should contain %1 sequence for location placement.</source>
+        <translation>El comando debe contener la secuencia %1 para el lugar de colocación.</translation>
     </message>
 </context>
 <context>

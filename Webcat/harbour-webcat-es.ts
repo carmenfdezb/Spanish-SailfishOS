@@ -78,7 +78,7 @@
     </message>
     <message>
         <source>The Backup includes all cookies, bookmarks, history and settings for Webcat.</source>
-        <translation>La copia de seguridad incluye las cookies, marcadores, historial y ajustes de Webcat.</translation>
+        <translation>La copia de seguridad incluye cookies, marcadores, historial y ajustes de Webcat.</translation>
     </message>
     <message>
         <source>Restore Backup</source>
@@ -95,8 +95,8 @@
     <message>
         <source>Restoring overwrites all cookies, bookmarks, history and settings for Webcat from the backup file.
 Please restart for changes to take effect.</source>
-        <translation>Al restaurar se sobrescriben las cookies, marcadores, historial y ajustes de Webcat con los de la copia de seguridad.
-Por favor, reinicia para que los cambios surtan efecto.</translation>
+        <translation>Al restaurar se sobrescriben cookies, marcadores, historial y ajustes de Webcat con los de la copia de seguridad.
+Reinicia para que los cambios surtan efecto.</translation>
     </message>
     <message>
         <source>Restoring Backup</source>
@@ -444,6 +444,147 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que la página n
     <message>
         <source>Load Last Session</source>
         <translation>Cargar última sesión</translation>
+    </message>
+</context>
+<context>
+    <name>KeyboardCommands</name>
+    <message>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Page History: Go back</source>
+        <translation>Historial de página: atrás</translation>
+    </message>
+    <message>
+        <source>Page History: Go forward</source>
+        <translation>Historial de página: siguiente</translation>
+    </message>
+    <message>
+        <source>Open new tab</source>
+        <translation>Abrir nueva pestaña</translation>
+    </message>
+    <message>
+        <source>Open new window</source>
+        <translation>Abrir nueva ventana</translation>
+    </message>
+    <message>
+        <source>Close current tab</source>
+        <translation>Cerrar pestaña actual</translation>
+    </message>
+    <message>
+        <source>Switch to next tab</source>
+        <translation>Cambiar a siguiente pestaña</translation>
+    </message>
+    <message>
+        <source>Switch to previous tab</source>
+        <translation>Cambiar a pestaña anterior</translation>
+    </message>
+    <message>
+        <source>Toggle reader mode</source>
+        <translation>Cambiar a modo lectura</translation>
+    </message>
+    <message>
+        <source>Focus URL bar</source>
+        <translation>Situar cursor en barra de direcciones</translation>
+    </message>
+    <message>
+        <source>Esc</source>
+        <comment>Key</comment>
+        <translation>Esc</translation>
+    </message>
+    <message>
+        <source>Ctrl</source>
+        <comment>Key</comment>
+        <translation>Ctrl</translation>
+    </message>
+    <message>
+        <source>Shift</source>
+        <comment>Key</comment>
+        <translation>Shift</translation>
+    </message>
+    <message>
+        <source>Tab</source>
+        <comment>Key</comment>
+        <translation>Tab</translation>
+    </message>
+    <message>
+        <source>End</source>
+        <comment>Key</comment>
+        <translation>Fin</translation>
+    </message>
+    <message>
+        <source>Home</source>
+        <comment>Key</comment>
+        <translation>Inicio</translation>
+    </message>
+    <message>
+        <source>Alt</source>
+        <comment>Key</comment>
+        <translation>Alt</translation>
+    </message>
+    <message>
+        <source>Scroll current website to bottom</source>
+        <translation>Ir al final de la página actual</translation>
+    </message>
+    <message>
+        <source>Scroll current website to top</source>
+        <translation>Ir al principio de la página actual</translation>
+    </message>
+    <message>
+        <source>Stop loading the current website</source>
+        <translation>Detener la carga de la página actual</translation>
+    </message>
+    <message>
+        <source>Add current website as a bookmark</source>
+        <translation>Añadir página actual a marcadores</translation>
+    </message>
+    <message>
+        <source>Show list of bookmarks</source>
+        <translation>Mostrar lista de marcadores</translation>
+    </message>
+    <message>
+        <source>Open new private window</source>
+        <translation>Abrir nueva ventana privada</translation>
+    </message>
+    <message>
+        <source>Hide in-page search</source>
+        <translation>Ocultar búsqueda en página</translation>
+    </message>
+    <message>
+        <source>Start in-page search</source>
+        <translation>Iniciar búsqueda en página</translation>
+    </message>
+    <message>
+        <source>Close current WebCat window</source>
+        <translation>Cerrar ventana actual de WebCat</translation>
+    </message>
+    <message>
+        <source>Show in-page search</source>
+        <translation>Mostrar búsqueda en página</translation>
+    </message>
+    <message>
+        <source>Reload current website</source>
+        <translation>Volver a cargar página actual</translation>
+    </message>
+    <message>
+        <source>Hide list of bookmarks</source>
+        <translation>Ocultar lista de marcadores</translation>
+    </message>
+</context>
+<context>
+    <name>KeyboardOverviewPage</name>
+    <message>
+        <source>Current Keyboard Shortcuts</source>
+        <translation>Atajos de teclado actual</translation>
+    </message>
+    <message>
+        <source>You have selected keyboard shortcuts which mimic some current popular browsers. Take a look at the list below to see what they are or try them out.</source>
+        <translation>Has seleccionado atajos de teclado como tienen algunos de los navegadores populares de hoy. Echa un vistazo a la lista de abajo para ver cuáles son o probarlos.</translation>
+    </message>
+    <message>
+        <source>You have selected BB10 (Blackberry 10) compatible keyboard shortcuts. Take a look at the list below to see what they are or try them out.</source>
+        <translation>Has seleccionado atajos de teclado compatible con BB10 (Blackberry 10). Echa un vistazo a la lista de abajo para ver cuáles son o probarlos.</translation>
     </message>
 </context>
 <context>
@@ -906,6 +1047,14 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que la página n
         <source>Engine URL use %s for searchterm</source>
         <translation>El motor URL usa %s como término de búsqueda</translation>
     </message>
+    <message>
+        <source>When unchecked, common multi-key shortcuts from other browsers are used</source>
+        <translation>Al desmarcar se usan los atajos de teclado comunes de otros navegadores</translation>
+    </message>
+    <message>
+        <source>BB10 Hardware Keyboard shortcuts</source>
+        <translation>Atajos de teclado BB10</translation>
+    </message>
 </context>
 <context>
     <name>ShareContextMenu</name>
@@ -953,6 +1102,10 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que la página n
     <message>
         <source>Enter an url</source>
         <translation>Introduce una url</translation>
+    </message>
+    <message>
+        <source> added to Bookmarks</source>
+        <translation> añadido a marcadores</translation>
     </message>
 </context>
 <context>

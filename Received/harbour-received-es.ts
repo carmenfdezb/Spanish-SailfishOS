@@ -2,6 +2,29 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="es_ES">
 <context>
+    <name>AboutPageForm.ui</name>
+    <message>
+        <source>About Received</source>
+        <translation>Acerca de Received</translation>
+    </message>
+    <message>
+        <source>Report an Issue</source>
+        <translation>Enviar un error</translation>
+    </message>
+    <message>
+        <source>Source code</source>
+        <translation>Código fuente</translation>
+    </message>
+    <message>
+        <source>Version: </source>
+        <translation>Versión: </translation>
+    </message>
+    <message>
+        <source>Translations</source>
+        <translation>Traducciones</translation>
+    </message>
+</context>
+<context>
     <name>ApiLanguageListModel</name>
     <message>
         <source>English</source>
@@ -185,6 +208,17 @@
     </message>
 </context>
 <context>
+    <name>PlayerLayoutListModel</name>
+    <message>
+        <source>Original player</source>
+        <translation>Original</translation>
+    </message>
+    <message>
+        <source>Small player</source>
+        <translation>Pequeño</translation>
+    </message>
+</context>
+<context>
     <name>SettingsPage</name>
     <message>
         <source>Droping DB</source>
@@ -210,24 +244,32 @@
         <translation>Restaurar BD</translation>
     </message>
     <message>
-        <source>&lt;h2&gt;Settings info:&lt;/h2&gt;</source>
-        <translation>&lt;h2&gt;Información sobre los ajustes:&lt;/h2&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;p&gt;All settings are saved when you make a change&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Todos los ajustes se guardan cuando haces un cambio&lt;/p&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;p&gt;&lt;b&gt;Reset DB:&lt;/b&gt; Removes everything in the database and gives you a clean start&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;b&gt;Restaurar BD:&lt;/b&gt; Borra el contenido de la base de datos y te proporciona un inicio limpio&lt;/p&gt;</translation>
-    </message>
-    <message>
         <source>API Language:</source>
-        <translation>Idioma API:</translation>
+        <translation>Idioma de la API:</translation>
     </message>
     <message>
-        <source>&lt;p&gt;&lt;b&gt;API Language:&lt;/b&gt; Sets the endpoint to be used for API calls e.g. rad.io for English and radio.de for German&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;b&gt;Idioma API:&lt;/b&gt; Especifica el endpoint usado en las llamadas API, p.e. rad.io para inglés y radio.de para alemán&lt;/p&gt;</translation>
+        <source>Player layout</source>
+        <translation>Diseño del reproductor</translation>
+    </message>
+    <message>
+        <source>API Options</source>
+        <translation>Opciones de la API</translation>
+    </message>
+    <message>
+        <source>Basic Options</source>
+        <translation>Opciones básicas</translation>
+    </message>
+    <message>
+        <source>Sets what style to use for player controls</source>
+        <translation>Establece el estilo del reproductor</translation>
+    </message>
+    <message>
+        <source>Sets the endpoint to be used for API calls e.g. rad.io for English and radio.de for German</source>
+        <translation>Establece el endpoint que se usará en las llamadas API, p.e. rad.io para el inglés y radio.es para el español</translation>
+    </message>
+    <message>
+        <source>Removes everything in the database and gives you a clean start. &lt;i&gt;&lt;b&gt;Used with caution&lt;/b&gt;&lt;/i&gt;</source>
+        <translation>Borra todo el contenido de la base de datos para un inicio limpio. &lt;i&gt;&lt;b&gt;Usar con precaución&lt;/b&gt;&lt;/i&gt;</translation>
     </message>
 </context>
 <context>
@@ -250,6 +292,32 @@
     <message>
         <source>From</source>
         <translation>De</translation>
+    </message>
+</context>
+<context>
+    <name>TranslationCreditsListModel</name>
+    <message>
+        <source>French</source>
+        <translation>Francés</translation>
+    </message>
+    <message>
+        <source>Russian</source>
+        <translation>Ruso</translation>
+    </message>
+    <message>
+        <source>Spanish</source>
+        <translation>Español</translation>
+    </message>
+    <message>
+        <source>Swedish</source>
+        <translation>Sueco</translation>
+    </message>
+</context>
+<context>
+    <name>TranslationCreditsPageForm.ui</name>
+    <message>
+        <source>Translations</source>
+        <translation>Traducciones</translation>
     </message>
 </context>
 <context>
