@@ -135,7 +135,7 @@
     <message>
         <location filename="../qml/pages/DiscoverImport.qml" line="45"/>
         <source>Discover by Importing</source>
-        <translation>Encontrar importando</translation>
+        <translation>Encontrar con importación</translation>
     </message>
     <message>
         <location filename="../qml/pages/DiscoverImport.qml" line="67"/>
@@ -168,7 +168,7 @@
     <message>
         <location filename="../qml/pages/DiscoverSearch.qml" line="33"/>
         <source>Discover by Search</source>
-        <translation>Encontrar buscando</translation>
+        <translation>Encontrar con búsqueda</translation>
     </message>
     <message>
         <location filename="../qml/pages/DiscoverSearch.qml" line="62"/>
@@ -226,12 +226,12 @@
         <translation>Historial</translation>
     </message>
     <message>
-        <location filename="../qml/pages/History.qml" line="73"/>
+        <location filename="../qml/pages/History.qml" line="79"/>
         <source>Rendering</source>
         <translation>Generando</translation>
     </message>
     <message>
-        <location filename="../qml/pages/History.qml" line="74"/>
+        <location filename="../qml/pages/History.qml" line="80"/>
         <source>Collecting Posts</source>
         <translation>Recopilando publicaciones</translation>
     </message>
@@ -421,17 +421,17 @@
 <context>
     <name>Queue</name>
     <message>
-        <location filename="../qml/pages/Queue.qml" line="65"/>
+        <location filename="../qml/pages/Queue.qml" line="68"/>
         <source>Playlist</source>
         <translation>Lista de reproducción</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Queue.qml" line="80"/>
+        <location filename="../qml/pages/Queue.qml" line="83"/>
         <source>No posts</source>
         <translation>No hay publicaciones</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Queue.qml" line="81"/>
+        <location filename="../qml/pages/Queue.qml" line="84"/>
         <source>Pull down to Discover new podcasts or get posts from Inbox or Library</source>
         <translation>Desliza hacia abajo para encontrar nuevos podcasts o ver publicaciones de entradas o biblioteca</translation>
     </message>
@@ -592,39 +592,39 @@
 <context>
     <name>harbour-podqast</name>
     <message>
-        <location filename="../qml/harbour-podqast.qml" line="248"/>
+        <location filename="../qml/harbour-podqast.qml" line="261"/>
         <source>New posts available</source>
         <translation>Nuevas publicaciones disponibles</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-podqast.qml" line="249"/>
+        <location filename="../qml/harbour-podqast.qml" line="262"/>
         <source>Click to view updates</source>
         <translation>Haz clic para ver actualizaciones</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-podqast.qml" line="250"/>
+        <location filename="../qml/harbour-podqast.qml" line="263"/>
         <source>New Posts are available. Click to view.</source>
         <translation>Hay nuevas publicaciones. Haz clic para verlas.</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-podqast.qml" line="267"/>
-        <location filename="../qml/harbour-podqast.qml" line="268"/>
+        <location filename="../qml/harbour-podqast.qml" line="280"/>
+        <location filename="../qml/harbour-podqast.qml" line="281"/>
         <source>PodQast message</source>
         <translation>Mensaje de PodQast</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-podqast.qml" line="269"/>
+        <location filename="../qml/harbour-podqast.qml" line="282"/>
         <source>New PodQast message</source>
         <translation>Nuevo mensaje de PodQast</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-podqast.qml" line="295"/>
+        <location filename="../qml/harbour-podqast.qml" line="308"/>
         <source> Podcasts imported</source>
         <translation> podcasts importados</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-podqast.qml" line="296"/>
-        <location filename="../qml/harbour-podqast.qml" line="297"/>
+        <location filename="../qml/harbour-podqast.qml" line="309"/>
+        <location filename="../qml/harbour-podqast.qml" line="310"/>
         <source> Podcasts imported from OPML</source>
         <translation> podcasts importados desde OPML</translation>
     </message>
