@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="es_ES">
+<TS version="2.1" language="es_ES">
 <context>
     <name>About</name>
     <message>
         <location filename="../qml/pages/About.qml" line="19"/>
         <source>About</source>
         <translation>Acerca de</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/About.qml" line="45"/>
-        <source>Opening github</source>
-        <translation>Abriendo GitHub</translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="63"/>
@@ -27,14 +22,24 @@
         <translation>Licencia de AllRadio</translation>
     </message>
     <message>
+        <location filename="../qml/pages/About.qml" line="45"/>
+        <source>Opening GitHub</source>
+        <translation>Abriendo Github</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/About.qml" line="67"/>
+        <source>Copyright</source>
+        <translation>Derechos de autor</translation>
+    </message>
+    <message>
         <location filename="../qml/pages/About.qml" line="113"/>
-        <source>AllRadio is GPL v.3 with the exception for JSONListModel and ValuePicker wich is licensed under MIT.</source>
-        <translation>AllRadio tiene licencia GPL v.3 con la excepción de JSONListModel y ValuePicker, que tienen licencia MIT.</translation>
+        <source>AllRadio is GPLv3 with the exception for JSONListModel and ValuePicker, which is MIT licensed.</source>
+        <translation>AllRadio tiene licencia GPLv3 a excepción de JSONListModel y ValuePicker, que tienen licencia MIT.</translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="125"/>
-        <source>Opening GPL3</source>
-        <translation>Abriendo GPL3</translation>
+        <source>Opening GPLv3</source>
+        <translation>Abriendo GPLv3</translation>
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="130"/>
@@ -68,8 +73,13 @@
     </message>
     <message>
         <location filename="../qml/pages/About.qml" line="240"/>
-        <source>Opening Paypal</source>
+        <source>Opening PayPal</source>
         <translation>Abriendo PayPal</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/About.qml" line="261"/>
+        <source>Changelog</source>
+        <translation>Registro de cambios</translation>
     </message>
 </context>
 <context>
@@ -1297,14 +1307,6 @@
         <location filename="../qml/pages/RadioPlayer.qml" line="210"/>
         <source>Loading radio stations...</source>
         <translation>Cargando estaciones de radio...</translation>
-    </message>
-</context>
-<context>
-    <name>RadioWeb</name>
-    <message>
-        <location filename="../qml/pages/RadioWeb.qml" line="14"/>
-        <source>Open in external browser</source>
-        <translation>Abrir en navegador externo</translation>
     </message>
 </context>
 <context>
