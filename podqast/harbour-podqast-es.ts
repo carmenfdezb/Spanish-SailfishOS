@@ -99,66 +99,110 @@
         <translation>Encontrar</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Discover.qml" line="41"/>
+        <location filename="../qml/pages/Discover.qml" line="52"/>
         <source>Search...</source>
         <translation>Buscar...</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Discover.qml" line="45"/>
+        <location filename="../qml/pages/Discover.qml" line="56"/>
         <source>Tags...</source>
         <translation>Etiquetas...</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Discover.qml" line="49"/>
+        <location filename="../qml/pages/Discover.qml" line="60"/>
         <source>Url...</source>
         <translation>Enlace...</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Discover.qml" line="53"/>
+        <location filename="../qml/pages/Discover.qml" line="64"/>
         <source>Import...</source>
         <translation>Importar...</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Discover.qml" line="43"/>
+        <source>Export...</source>
+        <translation>Exportar...</translation>
+    </message>
+</context>
+<context>
+    <name>DiscoverExport</name>
+    <message>
+        <location filename="../qml/pages/DiscoverExport.qml" line="24"/>
+        <source>Backup done</source>
+        <translation>Copia realizada</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/DiscoverExport.qml" line="25"/>
+        <location filename="../qml/pages/DiscoverExport.qml" line="26"/>
+        <source>Backup done to </source>
+        <translation>Copia realizada en </translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/DiscoverExport.qml" line="44"/>
+        <source>Export</source>
+        <translation>Exportar</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/DiscoverExport.qml" line="54"/>
+        <source>Backup</source>
+        <translation>Copia de seguridad</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/DiscoverExport.qml" line="57"/>
+        <source>Start Backup</source>
+        <translation>Iniciar copia</translation>
     </message>
 </context>
 <context>
     <name>DiscoverImport</name>
     <message>
-        <location filename="../qml/pages/DiscoverImport.qml" line="24"/>
+        <location filename="../qml/pages/DiscoverImport.qml" line="25"/>
         <source> Podcasts imported</source>
         <translation> podcasts importados</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DiscoverImport.qml" line="25"/>
         <location filename="../qml/pages/DiscoverImport.qml" line="26"/>
+        <location filename="../qml/pages/DiscoverImport.qml" line="27"/>
         <source> Podcasts imported from OPML</source>
         <translation> podcasts importados desde OPML</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DiscoverImport.qml" line="45"/>
+        <location filename="../qml/pages/DiscoverImport.qml" line="46"/>
         <source>Discover by Importing</source>
         <translation>Encontrar con importación</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DiscoverImport.qml" line="67"/>
+        <location filename="../qml/pages/DiscoverImport.qml" line="59"/>
+        <source>Pick an OPML file</source>
+        <translation>Elige un archivo OPML</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/DiscoverImport.qml" line="60"/>
+        <source>OPML file</source>
+        <translation>Archivo OPML</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/DiscoverImport.qml" line="80"/>
         <source>Import OPML</source>
         <translation>Importar OPML</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DiscoverImport.qml" line="69"/>
+        <location filename="../qml/pages/DiscoverImport.qml" line="82"/>
         <source>Import OPML File</source>
         <translation>Importar archivo OPML</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DiscoverImport.qml" line="87"/>
+        <location filename="../qml/pages/DiscoverImport.qml" line="100"/>
         <source>Import from Gpodder</source>
         <translation>Importar desde Gpodder</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DiscoverImport.qml" line="89"/>
+        <location filename="../qml/pages/DiscoverImport.qml" line="102"/>
         <source>Import Gpodder Database</source>
         <translation>Importar base de datos Gpodder</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DiscoverImport.qml" line="112"/>
+        <location filename="../qml/pages/DiscoverImport.qml" line="125"/>
         <source>Please note: Importing does take some time!</source>
         <translation>Ten en cuenta: ¡la importación tarda un rato!</translation>
     </message>
@@ -213,7 +257,7 @@
 <context>
     <name>FeedParserPython</name>
     <message>
-        <location filename="../qml/components/FeedParserPython.qml" line="155"/>
+        <location filename="../qml/components/FeedParserPython.qml" line="162"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
@@ -226,12 +270,12 @@
         <translation>Historial</translation>
     </message>
     <message>
-        <location filename="../qml/pages/History.qml" line="79"/>
+        <location filename="../qml/pages/History.qml" line="80"/>
         <source>Rendering</source>
         <translation>Generando</translation>
     </message>
     <message>
-        <location filename="../qml/pages/History.qml" line="80"/>
+        <location filename="../qml/pages/History.qml" line="81"/>
         <source>Collecting Posts</source>
         <translation>Recopilando publicaciones</translation>
     </message>
@@ -239,22 +283,22 @@
 <context>
     <name>Inbox</name>
     <message>
-        <location filename="../qml/pages/Inbox.qml" line="44"/>
+        <location filename="../qml/pages/Inbox.qml" line="48"/>
         <source>Inbox</source>
         <translation>Entradas</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Inbox.qml" line="53"/>
+        <location filename="../qml/pages/Inbox.qml" line="57"/>
         <source>Moving all posts to archive</source>
         <translation>Mover todas las publicaciones al almacén</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Inbox.qml" line="73"/>
+        <location filename="../qml/pages/Inbox.qml" line="96"/>
         <source>No new posts</source>
         <translation>No hay nuevas publicaciones</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Inbox.qml" line="74"/>
+        <location filename="../qml/pages/Inbox.qml" line="97"/>
         <source>Pull down to Discover new podcasts, get posts from Library, or play the Playlist</source>
         <translation>Desliza hacia abajo para encontrar nuevos podcasts, ver publicaciones de la biblioteca, o reproducir la lista de reproducción</translation>
     </message>
@@ -492,6 +536,16 @@
         <translation>Descarga/Transmisión</translation>
     </message>
     <message>
+        <location filename="../qml/pages/Settings.qml" line="165"/>
+        <source>Development</source>
+        <translation>Desarrollo</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Settings.qml" line="176"/>
+        <source>Experimental features</source>
+        <translation>Funciones experimentales</translation>
+    </message>
+    <message>
         <location filename="../qml/pages/Settings.qml" line="48"/>
         <source>Top of Playlist</source>
         <translation>Al principio de la lista</translation>
@@ -538,53 +592,63 @@
 <context>
     <name>Wizzard2</name>
     <message>
-        <location filename="../qml/pages/Wizzard2.qml" line="28"/>
+        <location filename="../qml/pages/Wizzard2.qml" line="29"/>
         <source>Let&apos;s start...</source>
         <translation>Empezamos...</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Wizzard2.qml" line="29"/>
+        <location filename="../qml/pages/Wizzard2.qml" line="30"/>
         <source>Back to info</source>
         <translation>Volver a info</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Wizzard2.qml" line="46"/>
+        <location filename="../qml/pages/Wizzard2.qml" line="47"/>
         <source> Podcasts imported</source>
         <translation> podcasts importados</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Wizzard2.qml" line="47"/>
         <location filename="../qml/pages/Wizzard2.qml" line="48"/>
+        <location filename="../qml/pages/Wizzard2.qml" line="49"/>
         <source> Podcasts imported from OPML</source>
         <translation> podcasts importados desde OPML</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Wizzard2.qml" line="65"/>
+        <location filename="../qml/pages/Wizzard2.qml" line="66"/>
         <source>You are now able to import old stuff. You can import from Discover lateron. Please note: Importing does take some time!</source>
         <translation>Ahora puedes importar cosas antiguas. Puedes importar más tarde desde &apos;Encontrar&apos;. Ten en cuenta: ¡la importación tarda un rato!</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Wizzard2.qml" line="109"/>
+        <location filename="../qml/pages/Wizzard2.qml" line="95"/>
+        <source>Pick an OPML file</source>
+        <translation>Elige un archivo OPML</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Wizzard2.qml" line="96"/>
+        <source>OPML file</source>
+        <translation>Archivo OPML</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Wizzard2.qml" line="118"/>
         <source>Import OPML</source>
         <translation>Importar OPML</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Wizzard2.qml" line="111"/>
+        <location filename="../qml/pages/Wizzard2.qml" line="120"/>
         <source>Import OPML File</source>
         <translation>Importar archivo OPML</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Wizzard2.qml" line="130"/>
+        <location filename="../qml/pages/Wizzard2.qml" line="139"/>
         <source>Import from Gpodder</source>
         <translation>Importar desde Gpodder</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Wizzard2.qml" line="133"/>
+        <location filename="../qml/pages/Wizzard2.qml" line="142"/>
         <source>Import Gpodder Database</source>
         <translation>Importar base de datos Gpodder</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Wizzard2.qml" line="159"/>
+        <location filename="../qml/pages/Wizzard2.qml" line="168"/>
         <source>When you now start you can discover new podcasts. After that you can for example select new posts to play from the Library.</source>
         <translation>Cuando comiences ahora puedes encontrar nuevos podcasts. Después puedes seleccionar nuevas publicaciones para reproducir desde la biblioteca.</translation>
     </message>
@@ -592,39 +656,39 @@
 <context>
     <name>harbour-podqast</name>
     <message>
-        <location filename="../qml/harbour-podqast.qml" line="261"/>
+        <location filename="../qml/harbour-podqast.qml" line="269"/>
         <source>New posts available</source>
         <translation>Nuevas publicaciones disponibles</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-podqast.qml" line="262"/>
+        <location filename="../qml/harbour-podqast.qml" line="270"/>
         <source>Click to view updates</source>
         <translation>Haz clic para ver actualizaciones</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-podqast.qml" line="263"/>
+        <location filename="../qml/harbour-podqast.qml" line="271"/>
         <source>New Posts are available. Click to view.</source>
         <translation>Hay nuevas publicaciones. Haz clic para verlas.</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-podqast.qml" line="280"/>
-        <location filename="../qml/harbour-podqast.qml" line="281"/>
+        <location filename="../qml/harbour-podqast.qml" line="288"/>
+        <location filename="../qml/harbour-podqast.qml" line="289"/>
         <source>PodQast message</source>
         <translation>Mensaje de PodQast</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-podqast.qml" line="282"/>
+        <location filename="../qml/harbour-podqast.qml" line="290"/>
         <source>New PodQast message</source>
         <translation>Nuevo mensaje de PodQast</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-podqast.qml" line="308"/>
+        <location filename="../qml/harbour-podqast.qml" line="316"/>
         <source> Podcasts imported</source>
         <translation> podcasts importados</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-podqast.qml" line="309"/>
-        <location filename="../qml/harbour-podqast.qml" line="310"/>
+        <location filename="../qml/harbour-podqast.qml" line="317"/>
+        <location filename="../qml/harbour-podqast.qml" line="318"/>
         <source> Podcasts imported from OPML</source>
         <translation> podcasts importados desde OPML</translation>
     </message>
