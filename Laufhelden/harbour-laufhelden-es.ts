@@ -51,6 +51,10 @@
 <context>
     <name>BTConnectPage</name>
     <message>
+        <source>Heart rate device</source>
+        <translation>Sensor de frecuencia cardiaca</translation>
+    </message>
+    <message>
         <source>Scan for Bluetooth devices</source>
         <translation>Buscar dispositivos Bluetooth</translation>
     </message>
@@ -83,12 +87,20 @@
         <translation>Nivel de batería: </translation>
     </message>
     <message>
-        <source>Found BT devices (press to connect):</source>
-        <translation>Dispositivos BT encontrados: (presiona para conectar):</translation>
+        <source>Connection Type</source>
+        <translation>Tipo de conexión</translation>
     </message>
     <message>
-        <source>Heart rate device</source>
-        <translation>Sensor de frecuencia cardiaca</translation>
+        <source>BLE Public Address</source>
+        <translation>Dirección pública BLE</translation>
+    </message>
+    <message>
+        <source>BLE Random Address</source>
+        <translation>Dirección aleatoria BLE</translation>
+    </message>
+    <message>
+        <source>Classic Bluetooth</source>
+        <translation>Bluetooth clásico</translation>
     </message>
     <message>
         <source>Connect</source>
@@ -97,6 +109,14 @@
     <message>
         <source>Disconnect</source>
         <translation>Desconectar</translation>
+    </message>
+    <message>
+        <source>Found BT devices (press to connect):</source>
+        <translation>Dispositivos BT (presiona para conectar):</translation>
+    </message>
+    <message>
+        <source>Cancel Connect</source>
+        <translation>Cancelar Conectar</translation>
     </message>
 </context>
 <context>
@@ -200,12 +220,16 @@
         <translation>Entrenamiento:</translation>
     </message>
     <message>
-        <source>Elevation up/down:</source>
-        <translation>Altitud ganada/perdida:</translation>
-    </message>
-    <message>
         <source>Send to Strava</source>
         <translation>Enviar a Strava</translation>
+    </message>
+    <message>
+        <source>loading...</source>
+        <translation>cargando...</translation>
+    </message>
+    <message>
+        <source>Overview</source>
+        <translation>Vista general</translation>
     </message>
 </context>
 <context>
@@ -213,6 +237,61 @@
     <message>
         <source>Diagrams</source>
         <translation>Diagramas</translation>
+    </message>
+    <message>
+        <source>Heartrate</source>
+        <translation>Frecuencia cardiaca</translation>
+    </message>
+    <message>
+        <source>Elevation</source>
+        <translation>Altitud</translation>
+    </message>
+    <message>
+        <source>Speed</source>
+        <translation>Velocidad</translation>
+    </message>
+    <message>
+        <source>Time: </source>
+        <translation>Hora: </translation>
+    </message>
+    <message>
+        <source>Duration: </source>
+        <translation>Duración: </translation>
+    </message>
+    <message>
+        <source>Elevation: </source>
+        <translation>Altitud: </translation>
+    </message>
+    <message>
+        <source>Pace: </source>
+        <translation>Ritmo: </translation>
+    </message>
+    <message>
+        <source>Speed: </source>
+        <translation>Velocidad: </translation>
+    </message>
+    <message>
+        <source>Heartrate: </source>
+        <translation>Frec. card: </translation>
+    </message>
+    <message>
+        <source>km</source>
+        <translation>km</translation>
+    </message>
+    <message>
+        <source>mi</source>
+        <translation>mi</translation>
+    </message>
+    <message>
+        <source>Pace</source>
+        <translation>Ritmo</translation>
+    </message>
+</context>
+<context>
+    <name>GraphData</name>
+    <message>
+        <source>No data</source>
+        <translation>No hay datos</translation>
     </message>
 </context>
 <context>
@@ -432,6 +511,45 @@
     </message>
 </context>
 <context>
+    <name>MapViewPage</name>
+    <message>
+        <source>Time: </source>
+        <translation>Hora: </translation>
+    </message>
+    <message>
+        <source>Duration: </source>
+        <translation>Duración: </translation>
+    </message>
+    <message>
+        <source>Elevation: </source>
+        <translation>Altitud: </translation>
+    </message>
+    <message>
+        <source>Pace: </source>
+        <translation>Ritmo: </translation>
+    </message>
+    <message>
+        <source>Speed: </source>
+        <translation>Velocidad: </translation>
+    </message>
+    <message>
+        <source>Heartrate: </source>
+        <translation>Frec. card.: </translation>
+    </message>
+    <message>
+        <source>km</source>
+        <translation>km</translation>
+    </message>
+    <message>
+        <source>mi</source>
+        <translation>mi</translation>
+    </message>
+    <message>
+        <source>Map</source>
+        <translation>Mapa</translation>
+    </message>
+</context>
+<context>
     <name>MyStravaActivities</name>
     <message>
         <source>My Strava Activities</source>
@@ -522,6 +640,10 @@
     <message>
         <source>Rockpool must be installed&lt;br&gt;at least in version 1.4-1.&lt;br&gt;Installed version is: </source>
         <translation>Debe instalarse al menos&lt;br&gt;la versión 1.4-1 de Rockpool.&lt;br&gt;La versión instalada es: </translation>
+    </message>
+    <message>
+        <source>Choose the Pebble you want to use</source>
+        <translation>Elige el Pebble que quieres usar</translation>
     </message>
 </context>
 <context>
@@ -1564,6 +1686,17 @@
     <message>
         <source>Voice Coach Settings</source>
         <translation>Ajustes del entrenador por voz</translation>
+    </message>
+</context>
+<context>
+    <name>harbour-laufhelden</name>
+    <message>
+        <source>Connecting to HR device...</source>
+        <translation>Conectando a dispositivo FC...</translation>
+    </message>
+    <message>
+        <source>HR error: </source>
+        <translation>Error FC: </translation>
     </message>
 </context>
 </TS>

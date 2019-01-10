@@ -2,27 +2,27 @@
 <context>
     <name>About</name>
     <message>
-        <location filename="../qml/pages/About.qml" line="20"/>
+        <location filename="../qml/pages/About.qml" line="22"/>
         <source>About</source>
         <translation>Acerca de</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="23"/>
+        <location filename="../qml/pages/About.qml" line="25"/>
         <source>Info</source>
         <translation>Información</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="53"/>
+        <location filename="../qml/pages/About.qml" line="57"/>
         <source>Version</source>
         <translation>Versión</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="58"/>
+        <location filename="../qml/pages/About.qml" line="62"/>
         <source>&quot;Timers for cooking&quot;</source>
         <translation>&quot;Temporizadores para la cocina&quot;</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="64"/>
+        <location filename="../qml/pages/About.qml" line="68"/>
         <source>Author</source>
         <translation>Autor</translation>
     </message>
@@ -81,7 +81,7 @@
 <context>
     <name>DishPage</name>
     <message>
-        <location filename="../qml/pages/DishPage.qml" line="99"/>
+        <location filename="../qml/pages/DishPage.qml" line="106"/>
         <source>No dishes defined. Choose &quot;Edit Dishes&quot; from the pulley menu.</source>
         <translation>No se ha definido ningún plato. Elige &quot;Editar platos&quot; en el menú desplegable.</translation>
     </message>
@@ -89,47 +89,47 @@
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="381"/>
-        <location filename="../qml/pages/MainPage.qml" line="385"/>
+        <location filename="../qml/pages/MainPage.qml" line="389"/>
+        <location filename="../qml/pages/MainPage.qml" line="393"/>
         <source>ready</source>
         <translation>listo</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="497"/>
+        <location filename="../qml/pages/MainPage.qml" line="508"/>
         <source>About</source>
         <translation>Acerca de</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="501"/>
+        <location filename="../qml/pages/MainPage.qml" line="512"/>
         <source>Settings</source>
         <translation>Ajustes</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="505"/>
+        <location filename="../qml/pages/MainPage.qml" line="516"/>
         <source>Edit dishes</source>
         <translation>Editar platos</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="543"/>
-        <location filename="../qml/pages/MainPage.qml" line="746"/>
-        <location filename="../qml/pages/MainPage.qml" line="945"/>
+        <location filename="../qml/pages/MainPage.qml" line="554"/>
+        <location filename="../qml/pages/MainPage.qml" line="821"/>
+        <location filename="../qml/pages/MainPage.qml" line="1085"/>
         <source>Dish</source>
         <translation>Plato</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="593"/>
-        <location filename="../qml/pages/MainPage.qml" line="595"/>
-        <location filename="../qml/pages/MainPage.qml" line="795"/>
-        <location filename="../qml/pages/MainPage.qml" line="797"/>
-        <location filename="../qml/pages/MainPage.qml" line="994"/>
-        <location filename="../qml/pages/MainPage.qml" line="996"/>
+        <location filename="../qml/pages/MainPage.qml" line="603"/>
+        <location filename="../qml/pages/MainPage.qml" line="605"/>
+        <location filename="../qml/pages/MainPage.qml" line="870"/>
+        <location filename="../qml/pages/MainPage.qml" line="872"/>
+        <location filename="../qml/pages/MainPage.qml" line="1134"/>
+        <location filename="../qml/pages/MainPage.qml" line="1136"/>
         <source>Stop</source>
         <translation>Parar</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="594"/>
-        <location filename="../qml/pages/MainPage.qml" line="796"/>
-        <location filename="../qml/pages/MainPage.qml" line="995"/>
+        <location filename="../qml/pages/MainPage.qml" line="604"/>
+        <location filename="../qml/pages/MainPage.qml" line="871"/>
+        <location filename="../qml/pages/MainPage.qml" line="1135"/>
         <source>Start</source>
         <translation>Iniciar</translation>
     </message>
@@ -137,90 +137,100 @@
 <context>
     <name>SettingPage</name>
     <message>
-        <location filename="../qml/pages/SettingPage.qml" line="62"/>
+        <location filename="../qml/pages/SettingPage.qml" line="78"/>
         <source>Save</source>
         <translation>Guardar</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingPage.qml" line="63"/>
+        <location filename="../qml/pages/SettingPage.qml" line="79"/>
         <source>Cancel</source>
         <translation>Cancelar</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingPage.qml" line="66"/>
+        <location filename="../qml/pages/SettingPage.qml" line="82"/>
         <source>Settings</source>
         <translation>Ajustes</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingPage.qml" line="73"/>
+        <location filename="../qml/pages/SettingPage.qml" line="89"/>
         <source>Keep backlight on</source>
         <translation>Mantener la retroiluminación</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingPage.qml" line="74"/>
+        <location filename="../qml/pages/SettingPage.qml" line="90"/>
         <source>Prevent screen from dimming.</source>
         <translation>Evitar que la pantalla se apague.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingPage.qml" line="80"/>
+        <location filename="../qml/pages/SettingPage.qml" line="96"/>
         <source>Show additional banner</source>
         <translation>Mostrar banner adicional</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingPage.qml" line="81"/>
+        <location filename="../qml/pages/SettingPage.qml" line="97"/>
         <source>Notification banner in upper screen.</source>
         <translation>Banner de notificación en la parte superior de la pantalla.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingPage.qml" line="99"/>
+        <location filename="../qml/pages/SettingPage.qml" line="104"/>
+        <source>Show background image</source>
+        <translation>Mostrar imagen de fondo</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingPage.qml" line="105"/>
+        <source>Show analog clock image in background.</source>
+        <translation>Mostrar la imagen del reloj analógico de fondo.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingPage.qml" line="123"/>
         <source>Language:</source>
         <translation>Idioma:</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingPage.qml" line="245"/>
+        <location filename="../qml/pages/SettingPage.qml" line="124"/>
         <source>Change of language will be active after restarting the application.</source>
         <translation>El cambio de idioma se aplicará después de reiniciar la aplicación.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingPage.qml" line="254"/>
+        <location filename="../qml/pages/SettingPage.qml" line="336"/>
         <source>Orientation:</source>
         <translation>Orientación:</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingPage.qml" line="259"/>
+        <location filename="../qml/pages/SettingPage.qml" line="337"/>
+        <source>Sets the preferred screen orientation.</source>
+        <translation>Establece la orientación preferida de la pantalla.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingPage.qml" line="342"/>
         <source>Portrait</source>
         <translation>Vertical</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingPage.qml" line="262"/>
+        <location filename="../qml/pages/SettingPage.qml" line="345"/>
         <source>Landscape</source>
         <translation>Apaisado</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingPage.qml" line="265"/>
+        <location filename="../qml/pages/SettingPage.qml" line="348"/>
         <source>Dynamic</source>
         <translation>Dinámico</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/SettingPage.qml" line="303"/>
-        <source>Sets the preferred screen orientation.</source>
-        <translation>Establece la orientación preferida de la pantalla.</translation>
     </message>
 </context>
 <context>
     <name>TimeDialog</name>
     <message>
-        <location filename="../qml/pages/TimeDialog.qml" line="50"/>
+        <location filename="../qml/pages/TimeDialog.qml" line="52"/>
         <source>Save</source>
         <translation>Guardar</translation>
     </message>
     <message>
-        <location filename="../qml/pages/TimeDialog.qml" line="51"/>
+        <location filename="../qml/pages/TimeDialog.qml" line="53"/>
         <source>Cancel</source>
         <translation>Cancelar</translation>
     </message>
     <message>
-        <location filename="../qml/pages/TimeDialog.qml" line="91"/>
+        <location filename="../qml/pages/TimeDialog.qml" line="92"/>
         <source>Dish</source>
         <translation>Plato</translation>
     </message>
