@@ -40,29 +40,29 @@
 <context>
     <name>Archive</name>
     <message>
-        <location filename="../qml/pages/Archive.qml" line="140"/>
-        <source>Rendering</source>
-        <translation>Generando</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Archive.qml" line="141"/>
-        <source>Collecting Podcasts</source>
-        <translation>Recopilando podcasts</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/Archive.qml" line="89"/>
-        <source>History</source>
-        <translation>Historial</translation>
-    </message>
-    <message>
         <location filename="../qml/pages/Archive.qml" line="60"/>
         <source>Library</source>
         <translation>Biblioteca</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Archive.qml" line="94"/>
+        <location filename="../qml/pages/Archive.qml" line="103"/>
+        <source>History</source>
+        <translation>Historial</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Archive.qml" line="110"/>
         <source>Favorites</source>
         <translation>Favoritos</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Archive.qml" line="122"/>
+        <source>Rendering</source>
+        <translation>Generando</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Archive.qml" line="123"/>
+        <source>Collecting Podcasts</source>
+        <translation>Obteniendo podcasts</translation>
     </message>
 </context>
 <context>
@@ -99,27 +99,27 @@
         <translation>Encontrar</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Discover.qml" line="52"/>
+        <location filename="../qml/pages/Discover.qml" line="43"/>
         <source>Search...</source>
         <translation>Buscar...</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Discover.qml" line="56"/>
+        <location filename="../qml/pages/Discover.qml" line="47"/>
         <source>Tags...</source>
         <translation>Etiquetas...</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Discover.qml" line="60"/>
+        <location filename="../qml/pages/Discover.qml" line="51"/>
         <source>Url...</source>
         <translation>Enlace...</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Discover.qml" line="64"/>
+        <location filename="../qml/pages/Discover.qml" line="55"/>
         <source>Import...</source>
         <translation>Importar...</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Discover.qml" line="43"/>
+        <location filename="../qml/pages/Discover.qml" line="59"/>
         <source>Export...</source>
         <translation>Exportar...</translation>
     </message>
@@ -127,30 +127,51 @@
 <context>
     <name>DiscoverExport</name>
     <message>
-        <location filename="../qml/pages/DiscoverExport.qml" line="24"/>
+        <location filename="../qml/pages/DiscoverExport.qml" line="25"/>
         <source>Backup done</source>
         <translation>Copia realizada</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DiscoverExport.qml" line="25"/>
         <location filename="../qml/pages/DiscoverExport.qml" line="26"/>
+        <location filename="../qml/pages/DiscoverExport.qml" line="27"/>
         <source>Backup done to </source>
         <translation>Copia realizada en </translation>
     </message>
     <message>
-        <location filename="../qml/pages/DiscoverExport.qml" line="44"/>
+        <location filename="../qml/pages/DiscoverExport.qml" line="33"/>
+        <source>OPML file saved</source>
+        <translation>Archivo OPML guardado</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/DiscoverExport.qml" line="34"/>
+        <location filename="../qml/pages/DiscoverExport.qml" line="35"/>
+        <source>OPML file saved to </source>
+        <translation>Archivo OPML guardado en </translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/DiscoverExport.qml" line="53"/>
         <source>Export</source>
         <translation>Exportar</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DiscoverExport.qml" line="54"/>
+        <location filename="../qml/pages/DiscoverExport.qml" line="64"/>
         <source>Backup</source>
         <translation>Copia de seguridad</translation>
     </message>
     <message>
-        <location filename="../qml/pages/DiscoverExport.qml" line="57"/>
+        <location filename="../qml/pages/DiscoverExport.qml" line="67"/>
         <source>Start Backup</source>
         <translation>Iniciar copia</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/DiscoverExport.qml" line="85"/>
+        <source>Save to OPML</source>
+        <translation>Guardar OPML</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/DiscoverExport.qml" line="88"/>
+        <source>Start OPML export</source>
+        <translation>Iniciar exportación OPML</translation>
     </message>
 </context>
 <context>
@@ -257,7 +278,7 @@
 <context>
     <name>FeedParserPython</name>
     <message>
-        <location filename="../qml/components/FeedParserPython.qml" line="162"/>
+        <location filename="../qml/components/FeedParserPython.qml" line="174"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
@@ -347,22 +368,22 @@
 <context>
     <name>PodcastItem</name>
     <message>
-        <location filename="../qml/components/PodcastItem.qml" line="16"/>
+        <location filename="../qml/components/PodcastItem.qml" line="22"/>
         <source>Refresh</source>
         <translation>Actualizar</translation>
     </message>
     <message>
-        <location filename="../qml/components/PodcastItem.qml" line="24"/>
+        <location filename="../qml/components/PodcastItem.qml" line="30"/>
         <source>Settings</source>
         <translation>Ajustes</translation>
     </message>
     <message>
-        <location filename="../qml/components/PodcastItem.qml" line="32"/>
+        <location filename="../qml/components/PodcastItem.qml" line="38"/>
         <source>Delete</source>
         <translation>Borrar</translation>
     </message>
     <message>
-        <location filename="../qml/components/PodcastItem.qml" line="38"/>
+        <location filename="../qml/components/PodcastItem.qml" line="44"/>
         <source>Deleting Podcast</source>
         <translation>Borrando podcast</translation>
     </message>
@@ -452,30 +473,35 @@
 <context>
     <name>PrefAboutMenu</name>
     <message>
-        <location filename="../qml/components/PrefAboutMenu.qml" line="6"/>
+        <location filename="../qml/components/PrefAboutMenu.qml" line="8"/>
         <source>Settings</source>
         <translation>Ajustes</translation>
     </message>
     <message>
-        <location filename="../qml/components/PrefAboutMenu.qml" line="10"/>
+        <location filename="../qml/components/PrefAboutMenu.qml" line="12"/>
         <source>About</source>
         <translation>Acerca de</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/PrefAboutMenu.qml" line="16"/>
+        <source>Help</source>
+        <translation>Ayuda</translation>
     </message>
 </context>
 <context>
     <name>Queue</name>
     <message>
-        <location filename="../qml/pages/Queue.qml" line="68"/>
+        <location filename="../qml/pages/Queue.qml" line="69"/>
         <source>Playlist</source>
         <translation>Lista de reproducción</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Queue.qml" line="83"/>
+        <location filename="../qml/pages/Queue.qml" line="84"/>
         <source>No posts</source>
         <translation>No hay publicaciones</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Queue.qml" line="84"/>
+        <location filename="../qml/pages/Queue.qml" line="85"/>
         <source>Pull down to Discover new podcasts or get posts from Inbox or Library</source>
         <translation>Desliza hacia abajo para encontrar nuevos podcasts o ver publicaciones de entradas o biblioteca</translation>
     </message>
@@ -526,22 +552,32 @@
         <translation>Límite de publicaciones automáticas</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="76"/>
+        <location filename="../qml/pages/Settings.qml" line="87"/>
+        <source>Refresh time</source>
+        <translation>Tiempo de actualización</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Settings.qml" line="103"/>
         <source>Audio playrate</source>
         <translation>Velocidad de reproducción</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="90"/>
+        <location filename="../qml/pages/Settings.qml" line="91"/>
+        <source>off</source>
+        <translation>apagado</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Settings.qml" line="117"/>
         <source>Download/Streaming</source>
         <translation>Descarga/Transmisión</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="165"/>
+        <location filename="../qml/pages/Settings.qml" line="198"/>
         <source>Development</source>
         <translation>Desarrollo</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="176"/>
+        <location filename="../qml/pages/Settings.qml" line="209"/>
         <source>Experimental features</source>
         <translation>Funciones experimentales</translation>
     </message>
@@ -556,22 +592,27 @@
         <translation>Al final de la lista</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="107"/>
+        <location filename="../qml/pages/Settings.qml" line="134"/>
         <source>Download Playlist Posts</source>
         <translation>Descargar publicaciones de la lista</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="120"/>
+        <location filename="../qml/pages/Settings.qml" line="143"/>
         <source>Download on Mobile</source>
         <translation>Descargar en el móvil</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="146"/>
+        <location filename="../qml/pages/Settings.qml" line="152"/>
+        <source>Keep Favorites downloaded</source>
+        <translation>Conservar favoritos descargados</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Settings.qml" line="179"/>
         <source>System</source>
         <translation>Sistema</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="157"/>
+        <location filename="../qml/pages/Settings.qml" line="190"/>
         <source>Audio viewable in system</source>
         <translation>Audio visible en el sistema</translation>
     </message>
@@ -656,39 +697,39 @@
 <context>
     <name>harbour-podqast</name>
     <message>
-        <location filename="../qml/harbour-podqast.qml" line="269"/>
+        <location filename="../qml/harbour-podqast.qml" line="273"/>
         <source>New posts available</source>
         <translation>Nuevas publicaciones disponibles</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-podqast.qml" line="270"/>
+        <location filename="../qml/harbour-podqast.qml" line="274"/>
         <source>Click to view updates</source>
         <translation>Haz clic para ver actualizaciones</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-podqast.qml" line="271"/>
+        <location filename="../qml/harbour-podqast.qml" line="275"/>
         <source>New Posts are available. Click to view.</source>
         <translation>Hay nuevas publicaciones. Haz clic para verlas.</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-podqast.qml" line="288"/>
-        <location filename="../qml/harbour-podqast.qml" line="289"/>
+        <location filename="../qml/harbour-podqast.qml" line="292"/>
+        <location filename="../qml/harbour-podqast.qml" line="293"/>
         <source>PodQast message</source>
         <translation>Mensaje de PodQast</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-podqast.qml" line="290"/>
+        <location filename="../qml/harbour-podqast.qml" line="294"/>
         <source>New PodQast message</source>
         <translation>Nuevo mensaje de PodQast</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-podqast.qml" line="316"/>
+        <location filename="../qml/harbour-podqast.qml" line="321"/>
         <source> Podcasts imported</source>
         <translation> podcasts importados</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-podqast.qml" line="317"/>
-        <location filename="../qml/harbour-podqast.qml" line="318"/>
+        <location filename="../qml/harbour-podqast.qml" line="322"/>
+        <location filename="../qml/harbour-podqast.qml" line="323"/>
         <source> Podcasts imported from OPML</source>
         <translation> podcasts importados desde OPML</translation>
     </message>

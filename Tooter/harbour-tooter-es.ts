@@ -32,6 +32,10 @@
         <source>Reading mode</source>
         <translation>Modo lectura</translation>
     </message>
+    <message>
+        <source>Copy URL</source>
+        <translation>Copiar URL</translation>
+    </message>
 </context>
 <context>
     <name>Conversation</name>
@@ -73,6 +77,13 @@
     </message>
 </context>
 <context>
+    <name>ImageFullScreen</name>
+    <message>
+        <source>Error loading</source>
+        <translation>Error al cargar</translation>
+    </message>
+</context>
+<context>
     <name>ImageUploader</name>
     <message>
         <source>The file %1 does not exists</source>
@@ -85,6 +96,22 @@
         <source>Login</source>
         <translation>Acceso</translation>
     </message>
+    <message>
+        <source>Enter an Mastodon instance URL</source>
+        <translation>Introduce URL de una instancia de Mastodon</translation>
+    </message>
+    <message>
+        <source>Mastodon is a free, open-source social network. A decentralized alternative to commercial platforms, it avoids the risks of a single company monopolizing your communication. Pick a server that you trust — whichever you choose, you can interact with everyone else. Anyone can run their own Mastodon instance and participate in the social network seamlessly.</source>
+        <translation>Mastodon es una red social gratuita y de código abierto. Una alternativa descentralizada a las plataformas comerciales, evita los riesgos de una única compañía que monopolice tu comunicación. Elije un servidor en el que confíes — cualquiera que elijas, puede interactuar con todos los demás. Cualquiera puede ejecutar su propia instancia de Mastodon y participar en la red social sin problemas.</translation>
+    </message>
+    <message>
+        <source>Instance</source>
+        <translation>Instancia</translation>
+    </message>
+    <message>
+        <source>Reload</source>
+        <translation>Volver a cargar</translation>
+    </message>
 </context>
 <context>
     <name>MainPage</name>
@@ -93,20 +120,28 @@
         <translation>Inicio</translation>
     </message>
     <message>
-        <source>Timeline</source>
-        <translation>Historia federada</translation>
-    </message>
-    <message>
         <source>Notifications</source>
         <translation>Notificaciones</translation>
+    </message>
+    <message>
+        <source>New Toot</source>
+        <translation>Nuevo toot</translation>
     </message>
     <message>
         <source>Search</source>
         <translation>Buscar</translation>
     </message>
     <message>
-        <source>New Toot</source>
-        <translation>Nuevo toot</translation>
+        <source>@user or #term</source>
+        <translation>@usuario o #término</translation>
+    </message>
+    <message>
+        <source>Local</source>
+        <translation>Local</translation>
+    </message>
+    <message>
+        <source>Federated</source>
+        <translation>Federada</translation>
     </message>
 </context>
 <context>
@@ -133,6 +168,14 @@
     <message>
         <source>Settings</source>
         <translation>Ajustes</translation>
+    </message>
+    <message>
+        <source>Loading</source>
+        <translation>Cargando</translation>
+    </message>
+    <message>
+        <source>please wait...</source>
+        <translation>por favor, espera...</translation>
     </message>
 </context>
 <context>

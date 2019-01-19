@@ -1,5 +1,40 @@
 <?xml version="1.0" ?><!DOCTYPE TS><TS language="es" version="2.1">
 <context>
+    <name/>
+    <message id="followers">
+        <source/>
+        <translation>seguidores</translation>
+    </message>
+    <message id="friends">
+        <source/>
+        <translation>Amigos</translation>
+    </message>
+    <message id="Followers">
+        <source/>
+        <translation>Seguidores</translation>
+    </message>
+    <message id="Following">
+        <source/>
+        <translation>Siguiendo</translation>
+    </message>
+    <message id="Tweets">
+        <source/>
+        <translation>Tuits</translation>
+    </message>
+    <message id="Favourites">
+        <source/>
+        <translation>Favoritos</translation>
+    </message>
+    <message id="retweeted">
+        <source/>
+        <translation>retuiteó</translation>
+    </message>
+    <message id="new-tweet">
+        <source/>
+        <translation>Nuevo tuit</translation>
+    </message>
+</context>
+<context>
     <name>AccountAdd</name>
     <message>
         <source>Add Account</source>
@@ -19,6 +54,21 @@
     <message>
         <source>Open in Browser</source>
         <translation>Abrir en el navegador</translation>
+    </message>
+</context>
+<context>
+    <name>CmpTweet</name>
+    <message>
+        <source>Unfavorite</source>
+        <translation>Eliminar favorito</translation>
+    </message>
+    <message>
+        <source>Favorite</source>
+        <translation>Favorito</translation>
+    </message>
+    <message>
+        <source>Retweet</source>
+        <translation>Retuitear</translation>
     </message>
 </context>
 <context>
@@ -45,6 +95,13 @@
     <message>
         <source>Load more</source>
         <translation>Cargar más</translation>
+    </message>
+</context>
+<context>
+    <name>ImageFullScreen</name>
+    <message>
+        <source>Error loading</source>
+        <translation>Error al cargar</translation>
     </message>
 </context>
 <context>
@@ -87,10 +144,6 @@
         <source>Settings</source>
         <translation>Ajustes</translation>
     </message>
-    <message>
-        <source>Users</source>
-        <translation>Usuarios</translation>
-    </message>
 </context>
 <context>
     <name>NewTweet</name>
@@ -108,22 +161,6 @@
     <message>
         <source>Location</source>
         <translation>Ubicación</translation>
-    </message>
-    <message>
-        <source>Followers</source>
-        <translation>Seguidores</translation>
-    </message>
-    <message>
-        <source>Following</source>
-        <translation>Siguiendo</translation>
-    </message>
-    <message>
-        <source>Tweets</source>
-        <translation>Tuits</translation>
-    </message>
-    <message>
-        <source>Favourites</source>
-        <translation>Favoritos</translation>
     </message>
     <message>
         <source>Unfollow</source>
@@ -164,25 +201,42 @@
         <source>Authorize this app to use your Twitter account in your behalf.</source>
         <translation>Autoriza a esta aplicación a usar tu cuenta de Twitter en tu nombre.</translation>
     </message>
-</context>
-<context>
-    <name>Tweet</name>
     <message>
-        <source>Unfavorite</source>
-        <translation>Eliminar favorito</translation>
+        <source>Credits and license</source>
+        <translation>Créditos y licencia</translation>
     </message>
     <message>
-        <source>Favorite</source>
-        <translation>Favorito</translation>
+        <source>&lt;a style=&apos;text-decoration:none&apos; href=&apos;https://github.com/dysk0/harbour-pingviini/&apos;&gt;Pingviini&lt;/a&gt; is a Twitter client for SailfishOS created by Duško Angirević and licensed under GNU GPL v3. All product names, logos, and brands are property of their respective owners.</source>
+        <translation>&lt;a style=&apos;text-decoration:none&apos; href=&apos;https://github.com/dysk0/harbour-pingviini/&apos;&gt;Pingviini&lt;/a&gt; es un cliente de Twitter para SailfishOS creado por Duško Angirević y está bajo licencia GNU CPL v3. Todos los nombres de producto, logos y marcas son propiedad de sus respectivos propietarios.</translation>
     </message>
     <message>
-        <source>Retweet</source>
-        <translation>Retuitear</translation>
+        <source>This project is heavily based on &lt;a style=&apos;text-decoration:none&apos; href=&apos;https://github.com/jublonet/codebird-js&apos;&gt;Codebird JS&lt;/a&gt; by Jublo Solutions. Thanks for making it available under the conditions of the GNU GPL v3.</source>
+        <translation>Este proyecto está basado en gran medida en &lt;a style=&apos;text-decoration:none&apos; href=&apos;https://github.com/jublonet/codebird-js&apos;&gt;Codebird JS&lt;/a&gt; de Jublo Solutions. Gracias por desarrollarlo bajo las condiciones de GNU GPL v3.</translation>
+    </message>
+    <message>
+        <source>Credits</source>
+        <translation>Créditos</translation>
+    </message>
+    <message>
+        <source>Terms of Service</source>
+        <translation>Términos del servicio</translation>
+    </message>
+    <message>
+        <source>Twitter Privacy Policy</source>
+        <translation>Política de privacidad de Twitter</translation>
     </message>
 </context>
 <context>
     <name>TweetDetails</name>
     <message>
+        <source>Conversation</source>
+        <translation>Conversación</translation>
+    </message>
+    <message>
+        <source>Report as spam</source>
+        <translation>Denunciar como spam</translation>
+    </message>
+    <message>
         <source>Retweet</source>
         <translation>Retuitear</translation>
     </message>
@@ -193,10 +247,6 @@
     <message>
         <source>Favorite</source>
         <translation>Favorito</translation>
-    </message>
-    <message>
-        <source>Report as spam</source>
-        <translation>Denunciar como spam</translation>
     </message>
 </context>
 </TS>
