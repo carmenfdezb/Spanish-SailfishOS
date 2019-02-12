@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="es_ES">
+<TS version="2.1" language="es_ES">
 <context>
     <name>About</name>
     <message>
@@ -32,6 +32,32 @@
  (used for porting SailfishOS)</source>
         <translation>Todas las donaciones van a Verdanditeam
  (usado para portar SailfishOS)</translation>
+    </message>
+    <message>
+        <source>jgibbon for german translation and help.</source>
+        <translation>jgibbon por la traducción al alemán y su ayuda.</translation>
+    </message>
+    <message>
+        <source>carmenfdezb for spanish translation.</source>
+        <translation>carmenfdezb por la traducción al español.</translation>
+    </message>
+    <message>
+        <source>DylanVanAssche for help.</source>
+        <translation>DylanVanAssche por su ayuda.</translation>
+    </message>
+</context>
+<context>
+    <name>ChannelAggregator</name>
+    <message>
+        <source>By %1</source>
+        <translation>Por %1</translation>
+    </message>
+    <message numerus="yes">
+        <source>You have %n new video(s)</source>
+        <translation>
+            <numerusform>Tienes %n vídeo nuevo</numerusform>
+            <numerusform>Tienes %n vídeos nuevos</numerusform>
+        </translation>
     </message>
 </context>
 <context>
@@ -94,6 +120,10 @@
         <source>About</source>
         <translation>Acerca de</translation>
     </message>
+    <message>
+        <source>Settings</source>
+        <translation>Ajustes</translation>
+    </message>
 </context>
 <context>
     <name>PlaylistModel</name>
@@ -115,6 +145,25 @@
     </message>
 </context>
 <context>
+    <name>Settings</name>
+    <message>
+        <source>Settings</source>
+        <translation>Ajustes</translation>
+    </message>
+    <message>
+        <source>Restricted mode (safe for kids)</source>
+        <translation>Modo restringido (seguro para niños)</translation>
+    </message>
+    <message>
+        <source>Automatic change to next video</source>
+        <translation>Cambio automático al siguiente vídeo</translation>
+    </message>
+    <message>
+        <source>Search for related videos</source>
+        <translation>Buscar vídeos relacionados</translation>
+    </message>
+</context>
+<context>
     <name>Subscriptions</name>
     <message>
         <source>Subscriptions</source>
@@ -123,6 +172,25 @@
     <message>
         <source>Unsubscribe</source>
         <translation>Borrar suscripción</translation>
+    </message>
+    <message>
+        <source>Mark all as watched</source>
+        <translation>Marcar todos como vistos</translation>
+    </message>
+</context>
+<context>
+    <name>VideoElement</name>
+    <message>
+        <source>Unsubscribe</source>
+        <translation>Borrar suscripción</translation>
+    </message>
+    <message>
+        <source>Subscribe</source>
+        <translation>Suscribirse</translation>
+    </message>
+    <message>
+        <source>Copy url</source>
+        <translation>Copiar url</translation>
     </message>
 </context>
 <context>
@@ -169,6 +237,22 @@
             <numerusform>%L1 visualización</numerusform>
             <numerusform>%L1 visualizaciones</numerusform>
         </translation>
+    </message>
+    <message>
+        <source>Unsubscribe</source>
+        <translation>Borrar suscripción</translation>
+    </message>
+    <message>
+        <source>Copy url</source>
+        <translation>Copiar url</translation>
+    </message>
+    <message>
+        <source>Download</source>
+        <translation>Descargar</translation>
+    </message>
+    <message>
+        <source>Downloaded to</source>
+        <translation>Descargado en</translation>
     </message>
 </context>
 <context>
