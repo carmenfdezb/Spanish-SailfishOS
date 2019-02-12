@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="es">
+<TS version="2.1" language="es">
 <context>
     <name></name>
     <message id="orn-notrated">
@@ -37,7 +37,7 @@
     </message>
     <message id="orn-network-idle">
         <source>Network is unavailable</source>
-        <translation>La red no está disponible</translation>
+        <translation>No hay conexión de red</translation>
     </message>
     <message id="orn-today">
         <source>Today</source>
@@ -117,7 +117,7 @@
         <translation>Última actualización</translation>
     </message>
     <message id="orn-dt-format">
-        <source>yyyy-dd-MM hh:mm</source>
+        <source>yyyy-MM-dd hh:mm</source>
         <extracomment>Output format for the date labels. For details visit http://doc.qt.io/qt-5/qdate.html#toString</extracomment>
         <translation>hh:mm dd-MM-yyyy</translation>
     </message>
@@ -411,10 +411,6 @@
         <source>Edit</source>
         <translation>Editar</translation>
     </message>
-    <message id="orn-thisdevice">
-        <source>This Device</source>
-        <translation>Este dispositivo</translation>
-    </message>
     <message id="orn-login-menu-item">
         <source>Log in to OpenRepos.net</source>
         <translation>Iniciar sesión en OpenRepos.net</translation>
@@ -424,13 +420,9 @@
         <translation>Iniciar sesión</translation>
     </message>
     <message id="orn-username">
-        <source>Username</source>
-        <translation>Nombre de usuario</translation>
-    </message>
-    <message id="orn-acceptable-username">
-        <source>Only letters, numbers, and underscores</source>
+        <source>Username or e-mail address</source>
         <extracomment>A translated string should not be longer than the original</extracomment>
-        <translation>Sólo letras, números y guiones bajos</translation>
+        <translation>Nombre de usuario o correo</translation>
     </message>
     <message id="orn-login-help">
         <source>Log in to OpenRepos.net to comment applications and reply to others comments.&lt;br /&gt;&lt;br /&gt;Storeman does not store your password or send it to third-parties.</source>
@@ -516,7 +508,7 @@
         <translation>Deshabilitando todo</translation>
     </message>
     <message id="orn-installed-apps">
-        <source>Installed Applications</source>
+        <source>Installed applications</source>
         <translation>Aplicaciones instaladas</translation>
     </message>
     <message id="orn-bookmarks-added">
@@ -667,17 +659,13 @@
         <source>Login to comment</source>
         <translation>Iniciar sesión para comentar</translation>
     </message>
-    <message id="orn-backup-title">
-        <source>Backup to a file</source>
-        <translation>Copiar a archivo</translation>
-    </message>
     <message id="orn-backup">
         <source>Backup</source>
         <translation>Copia de seguridad</translation>
     </message>
     <message id="orn-backup-hint">
-        <source>Backup allows you to save your current OpenRepos repositories, installed applications and bookmarks and restore them later (for example after factory reset). A backup is a local file that is saved to the&lt;br /&gt;&lt;i&gt;~/Documents/Storeman&lt;/i&gt; directory.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;Attention!&lt;/b&gt; You should copy your backups manually to some safe place before performing a factory reset. It could be your SD card, external device, cloud storage or something else.</source>
-        <translation>La copia de seguridad te permite guardar tus repositorios actuales de OpenRepos, las aplicaciones instaladas y las favoritas y restaurarlas después (por ejemplo, tras un reseteo de fábrica). Una copia de seguridad es un archivo local que se guarda en el directorio&lt;br /&gt;&lt;i&gt;~/Documents/Storeman&lt;/i&gt;.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;¡Atención!&lt;/b&gt; Debes copiar tus copias de seguridad manualmente en algún lugar seguro antes de hacer un reseteo de fábrica. Podría ser tu tarjeta SD, dispositivo externo, almacenamiento en la nube o cualquier otro.</translation>
+        <source>&lt;h2&gt;Backup to a file&lt;/h2&gt;&lt;br /&gt;&lt;p&gt;Backup allows you to save your current OpenRepos repositories, installed applications and bookmarks and restore them later (for example after factory reset). A backup is a local file that is saved to the&lt;br /&gt;&lt;i&gt;~/Documents/Storeman&lt;/i&gt; directory.&lt;/p&gt;&lt;br /&gt;&lt;p&gt;&lt;b&gt;Attention!&lt;/b&gt; You should copy your backups manually to some safe place before performing a factory reset. It could be your SD card, external device, cloud storage or something else.&lt;/p&gt;</source>
+        <translation>&lt;h2&gt;Copia de seguridad en archivo&lt;/h2&gt;&lt;br /&gt;&lt;p&gt;Las copias de seguridad permiten guardar tus repositorios actuales de OpenRepos, las aplicaciones instaladas y las favoritas y restaurarlas después (por ejemplo, tras un reseteo de fábrica). Una copia de seguridad es un archivo local que se guarda en el directorio&lt;br /&gt;&lt;i&gt;~/Documents/Storeman&lt;/i&gt; .&lt;/p&gt;&lt;br /&gt;&lt;p&gt;&lt;b&gt;¡Atención! &lt;/b&gt;Debes copiar tus copias de seguridad manualmente en algún lugar seguro antes de hacer un reseteo de fábrica. Podría ser tu tarjeta SD, dispositivo externo, almacenamiento en la nube o cualquier otro.&lt;/p&gt;</translation>
     </message>
     <message id="orn-pmstate-initialising">
         <source>Initialising</source>
@@ -810,10 +798,6 @@
         <source>Public Transport</source>
         <translation>Transporte público</translation>
     </message>
-    <message id="orn-pmstate-refreshingcache">
-        <source>Refreshing cache&lt;br /&gt;(checking for updates)</source>
-        <translation>Actualizando caché&lt;br /&gt;(comprobando actualizaciones)</translation>
-    </message>
     <message id="orn-comments-wait">
         <source>Wait for users&apos; feedback</source>
         <extracomment>This will be shown to an application author</extracomment>
@@ -877,7 +861,7 @@
         <translation>Pensamiento Profundo</translation>
     </message>
     <message id="orn-dcm-user1">
-        <source>A little white mice</source>
+        <source>A little white mouse</source>
         <extracomment>https://simple.wikipedia.org/wiki/42_(answer)</extracomment>
         <translation>Un pequeño ratón blanco</translation>
     </message>
@@ -892,7 +876,7 @@
     </message>
     <message id="orn-hint-commentdelegate">
         <source>Tap to navigate to the replied comment</source>
-        <translation>Da un toque para ir a la respuesta</translation>
+        <translation>Pulsa para ir a la respuesta</translation>
     </message>
     <message id="orn-tags">
         <source>Tags</source>
@@ -902,9 +886,141 @@
         <source>Tagged Applications</source>
         <translation>Aplicaciones etiquetadas</translation>
     </message>
-    <message id="orn-updates-check-interval-descr">
+    <message id="orn-rate-app">
+        <source>Rate the application</source>
+        <translation>Valorar aplicación</translation>
+    </message>
+    <message id="orn-vote-send">
+        <source>Your vote has been sent</source>
+        <translation>Tu voto se ha enviado</translation>
+    </message>
+    <message id="orn-login2rate">
+        <source>Log in to rate the application</source>
+        <translation>Inicia sesión para valorar aplicación</translation>
+    </message>
+    <message id="orn-hint-rating">
+        <source>Tap to rate the application</source>
+        <translation>Pulsa para valorar aplicación</translation>
+    </message>
+    <message id="orn-local-rpms">
+        <source>Local RPM files</source>
+        <translation>Archivos RPM locales</translation>
+    </message>
+    <message id="orn-delete">
+        <source>Delete</source>
+        <translation>Borrar</translation>
+    </message>
+    <message id="orn-deleting">
+        <source>Deleting</source>
+        <translation>Borrando</translation>
+    </message>
+    <message id="orn-no-local-rpms">
+        <source>No local RPM files were found</source>
+        <translation>No se han encontrado archivos RPM</translation>
+    </message>
+    <message id="orn-deletion-error">
+        <source>Failed to delete</source>
+        <translation>Error al borrar</translation>
+    </message>
+    <message id="orn-remove-all">
+        <source>Remove all</source>
+        <translation>Eliminar todo</translation>
+    </message>
+    <message id="orn-removing-all">
+        <source>Removing all</source>
+        <translation>Eliminando todo</translation>
+    </message>
+    <message id="orn-repo-allremoved">
+        <source>All repositories were removed</source>
+        <translation>Se han eliminado todos los repositorios</translation>
+    </message>
+    <message id="orn-search-on-openrepos">
+        <source>Search on OpenRepos.net</source>
+        <translation>Buscar en OpenRepos.net</translation>
+    </message>
+    <message id="orn-repo-suggestion">
+        <source>&lt;h3&gt;Enable the Storeman repository&lt;/h3&gt;&lt;p&gt;To receive the latest versions of Storeman, you need to enable its OpenRepos repository like for any other app.&lt;/p&gt;&lt;p&gt;Do you want to do it now?&lt;/p&gt;</source>
+        <translation>&lt;h3&gt;Habilitar el repositorio de Storeman&lt;/h3&gt;&lt;p&gt;Para recibir las últimas versiones de Storeman, es necesario habilitar su repositorio en OpenRepos como cualquier otra aplicación. &lt;/p&gt;&lt;p&gt;¿Quieres hacerlo ahora?&lt;/p&gt;</translation>
+    </message>
+    <message id="orn-check-for-updates-switch">
+        <source>Check for updates</source>
+        <translation>Comprobar actualizaciones</translation>
+    </message>
+    <message id="orn-check-for-updates-descr">
         <source>Updates are checked only when the Storeman is running</source>
-        <translation>Las actualizaciones sólo se comprueban cuando Storeman está ejecutándose</translation>
+        <translation>Las actualizaciones sólo se comprueban cuando Storeman se está ejecutando</translation>
+    </message>
+    <message id="orn-smart-check-switch">
+        <source>Smart check</source>
+        <translation>Comprobación inteligente</translation>
+    </message>
+    <message id="orn-smart-check-descr">
+        <source>Use the OpenRepos.net API to determine if there are new updates</source>
+        <translation>Usa la API de Openrepos.net para determinar si hay nuevas actualizaciones</translation>
+    </message>
+    <message id="orn-reload">
+        <source>Reload</source>
+        <translation>Volver a cargar</translation>
+    </message>
+    <message id="orn-no-packages">
+        <source>No packages available</source>
+        <translation>No hay paquetes disponibles</translation>
+    </message>
+    <message id="orn-error-comment-sending">
+        <source>Error sending comment</source>
+        <translation>Error al enviar comentario</translation>
+    </message>
+    <message id="orn-error-comment-deletion">
+        <source>Error deleting comment</source>
+        <translation>Error al borrar comentario</translation>
+    </message>
+    <message id="orn-error-network">
+        <source>Network error</source>
+        <translation>Error de conexión</translation>
+    </message>
+    <message id="orn-hint-bookmark">
+        <source>Tap to bookmark the application</source>
+        <translation>Pulsa para marcar la aplicación</translation>
+    </message>
+    <message id="orn-bad-appid">
+        <source>Invalid package ID %1</source>
+        <translation>paquete ID %1 no válido</translation>
+    </message>
+    <message id="orn-backup-filenameph">
+        <source>A file name for backup</source>
+        <translation>Un nombre para la copia de seguridad</translation>
+    </message>
+    <message id="orn-file-exists">
+        <source>File already exists</source>
+        <translation>El archivo ya existe</translation>
+    </message>
+    <message id="orn-backup-items">
+        <source>What to backup</source>
+        <translation>De qué hacer copia de seguridad</translation>
+    </message>
+    <message id="orn-backup-apps">
+        <source>Installed applications</source>
+        <translation>Aplicaciones instaladas</translation>
+    </message>
+    <message id="orn-myapps">
+        <source>My applications</source>
+        <translation>Mis aplicaciones</translation>
+    </message>
+    <message id="orn-hint-close">
+        <source>Tap again to close the hint</source>
+        <translation>Toca de nuevo para cerrar la ayuda</translation>
+    </message>
+    <message id="orn-mainpage">
+        <source>Main page</source>
+        <translation>Página principal</translation>
+    </message>
+    <message id="orn-show-recent-switch">
+        <source>Show recenty updated on start</source>
+        <translation>Actualizado recientemente en el inicio</translation>
+    </message>
+    <message id="orn-show-recent-switch-descr">
+        <source>Switch to the page of recently updated packages on start</source>
+        <translation>Cambia a la página de paquetes actualizados recientemente al iniciar la aplicación</translation>
     </message>
 </context>
 </TS>
