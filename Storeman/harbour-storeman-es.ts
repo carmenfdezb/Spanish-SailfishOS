@@ -1,8 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="es">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="es" version="2.1">
 <context>
-    <name></name>
+    <name/>
     <message id="orn-notrated">
         <source>Not rated yet</source>
         <translation>No valorado aún</translation>
@@ -13,7 +11,7 @@
     </message>
     <message id="orn-refresh">
         <source>Refresh</source>
-        <translation>Actualizar</translation>
+        <translation>Volver a cargar</translation>
     </message>
     <message id="orn-disable">
         <source>Disable</source>
@@ -369,17 +367,11 @@
     </message>
     <message id="orn-mins-ago" numerus="yes">
         <source>%n minute(s) ago</source>
-        <translation>
-            <numerusform>hace %n minuto</numerusform>
-            <numerusform>hace %n minutos</numerusform>
-        </translation>
+        <translation><numerusform>hace %n minuto</numerusform><numerusform>hace %n minutos</numerusform></translation>
     </message>
     <message id="orn-hours-ago" numerus="yes">
         <source>%n hour(s) ago</source>
-        <translation>
-            <numerusform>hace %n hora</numerusform>
-            <numerusform>hace %n horas</numerusform>
-        </translation>
+        <translation><numerusform>hace %n hora</numerusform><numerusform>hace %n horas</numerusform></translation>
     </message>
     <message id="orn-reply-to">
         <source>Reply to %0</source>
@@ -754,10 +746,7 @@
     <message id="orn-pmstate-multiple" numerus="yes">
         <source>%n operations are in progress</source>
         <extracomment>There are always more than 1 operations</extracomment>
-        <translation>
-            <numerusform>%n operación en curso</numerusform>
-            <numerusform>%n operaciones en curso</numerusform>
-        </translation>
+        <translation><numerusform>%n operación en curso</numerusform><numerusform>%n operaciones en curso</numerusform></translation>
     </message>
     <message id="orn-version-available">
         <source>Available version</source>
@@ -785,10 +774,7 @@
     </message>
     <message id="orn-size-bytes" numerus="yes">
         <source>%n byte(s)</source>
-        <translation>
-            <numerusform>%n byte</numerusform>
-            <numerusform>%n bytes</numerusform>
-        </translation>
+        <translation><numerusform>%n byte</numerusform><numerusform>%n bytes</numerusform></translation>
     </message>
     <message id="orn-size-download-install">
         <source>Download / install size</source>
@@ -830,17 +816,11 @@
     </message>
     <message id="orn-interval-m" numerus="yes">
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuto</numerusform>
-            <numerusform>%n minutos</numerusform>
-        </translation>
+        <translation><numerusform>%n minuto</numerusform><numerusform>%n minutos</numerusform></translation>
     </message>
     <message id="orn-interval-h" numerus="yes">
         <source>%n hour(s)</source>
-        <translation>
-            <numerusform>%n hora</numerusform>
-            <numerusform>%n horas</numerusform>
-        </translation>
+        <translation><numerusform>%n hora</numerusform><numerusform>%n horas</numerusform></translation>
     </message>
     <message id="orn-updates-check-interval-invalid">
         <source>The interval must be at least 10 minutes</source>
@@ -1015,7 +995,7 @@
         <translation>Página principal</translation>
     </message>
     <message id="orn-show-recent-switch">
-        <source>Show recenty updated on start</source>
+        <source>Show recently updated on start</source>
         <translation>Actualizado recientemente en el inicio</translation>
     </message>
     <message id="orn-show-recent-switch-descr">
