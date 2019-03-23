@@ -46,7 +46,7 @@
     </message>
     <message>
         <source>Be aware, after clicking you will join chat. Leaving chats not supported for now.</source>
-        <translation>Ten encuenta que después de hacer clic te unirás al chat. Dejar chats no está soportado aún.</translation>
+        <translation>Ten en cuenta que después de hacer clic te unirás al chat. Dejar chats no está soportado aún.</translation>
     </message>
     <message>
         <source>Error to get invite link</source>
@@ -108,6 +108,10 @@
         <source>This groups lives only because of community and by community around Sailfish OS.</source>
         <translation>Estos grupos sólo viven por y para la comunidad que rodea a Sailfish OS.</translation>
     </message>
+    <message>
+        <source>Version</source>
+        <translation>Versión</translation>
+    </message>
 </context>
 <context>
     <name>AppearancePage</name>
@@ -142,6 +146,26 @@
     <message>
         <source>Aways align messages to left</source>
         <translation>Alinear todo a la izquierda</translation>
+    </message>
+    <message>
+        <source>Enable night mode</source>
+        <translation>Activar modo noche</translation>
+    </message>
+    <message>
+        <source>Night Mode</source>
+        <translation>Modo noche</translation>
+    </message>
+    <message>
+        <source>Enable schedule</source>
+        <translation>Activar horario</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>De</translation>
+    </message>
+    <message>
+        <source>Till</source>
+        <translation>A</translation>
     </message>
 </context>
 <context>
@@ -285,6 +309,14 @@
         <source>Mute</source>
         <translation>Silenciar</translation>
     </message>
+    <message>
+        <source>Mark as read</source>
+        <translation>Marcar como leído</translation>
+    </message>
+    <message>
+        <source>Mark as unread</source>
+        <translation>Marcar como no leído</translation>
+    </message>
 </context>
 <context>
     <name>JoinByLinkDelegate</name>
@@ -312,6 +344,10 @@
     <message>
         <source>edited</source>
         <translation>editado</translation>
+    </message>
+    <message>
+        <source>Forwarded from</source>
+        <translation>Reenviado desde</translation>
     </message>
 </context>
 <context>
@@ -364,6 +400,22 @@
         <source>Deleting...</source>
         <translation>Borrando...</translation>
     </message>
+    <message>
+        <source>Forward</source>
+        <translation>Reenviar</translation>
+    </message>
+    <message>
+        <source>Forwarded messages</source>
+        <translation>Mensajes reenviados</translation>
+    </message>
+    <message>
+        <source>messages</source>
+        <translation>mensajes</translation>
+    </message>
+    <message>
+        <source>Edit</source>
+        <translation>Editar</translation>
+    </message>
 </context>
 <context>
     <name>NewMessageDelegate</name>
@@ -407,15 +459,7 @@
     </message>
 </context>
 <context>
-    <name>SettingsPage</name>
-    <message>
-        <source>Settings</source>
-        <translation>Ajustes</translation>
-    </message>
-    <message>
-        <source>Socks5 proxy</source>
-        <translation>Proxy Socks5</translation>
-    </message>
+    <name>ProxyDialog</name>
     <message>
         <source>Server address</source>
         <translation>Dirección del servidor</translation>
@@ -441,6 +485,87 @@
         <translation>Contraseña</translation>
     </message>
     <message>
+        <source>Add proxy</source>
+        <translation>Añadir proxy</translation>
+    </message>
+    <message>
+        <source>Proxy type</source>
+        <translation>Tipo de proxy</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Dirección</translation>
+    </message>
+    <message>
+        <source>HTTP only</source>
+        <translation>Sólo HTTP</translation>
+    </message>
+    <message>
+        <source>Secret</source>
+        <translation>Secreto</translation>
+    </message>
+    <message>
+        <source>secret</source>
+        <translation>secreto</translation>
+    </message>
+    <message>
+        <source>Edit proxy</source>
+        <translation>Editar proxy</translation>
+    </message>
+</context>
+<context>
+    <name>ProxyPage</name>
+    <message>
+        <source>Proxy is ready</source>
+        <translation>El Proxy está listo</translation>
+    </message>
+    <message>
+        <source>Link copied to clipboard</source>
+        <translation>Enlace copiado al portapapeles</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Error</translation>
+    </message>
+    <message>
+        <source>Proxy</source>
+        <translation>Proxy</translation>
+    </message>
+    <message>
+        <source>Connection status: </source>
+        <translation>Estado conexión: </translation>
+    </message>
+    <message>
+        <source>Enabled</source>
+        <translation>Activado</translation>
+    </message>
+    <message>
+        <source>Disabled</source>
+        <translation>Desactivado</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Eliminar</translation>
+    </message>
+    <message>
+        <source>Add proxy</source>
+        <translation>Añadir proxy</translation>
+    </message>
+</context>
+<context>
+    <name>SelectChatDialog</name>
+    <message>
+        <source>Select chat</source>
+        <translation>Seleccionar chat</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsPage</name>
+    <message>
+        <source>Settings</source>
+        <translation>Ajustes</translation>
+    </message>
+    <message>
         <source>General</source>
         <translation>General</translation>
     </message>
@@ -451,18 +576,6 @@
     <message>
         <source>Proxy is ready</source>
         <translation>El Proxy está listo</translation>
-    </message>
-    <message>
-        <source>Set proxy</source>
-        <translation>Configurar proxy</translation>
-    </message>
-    <message>
-        <source>Address. Set empty to disable proxy</source>
-        <translation>Dirección. Deja en blanco para deshabilitar proxy</translation>
-    </message>
-    <message>
-        <source>Connection status: </source>
-        <translation>Estado de la conexión: </translation>
     </message>
     <message>
         <source>About program</source>
@@ -483,6 +596,14 @@
     <message>
         <source>Daemon settings</source>
         <translation>Ajustes de daemon</translation>
+    </message>
+    <message>
+        <source>Logging out</source>
+        <translation>Cerrar sesión</translation>
+    </message>
+    <message>
+        <source>Proxy</source>
+        <translation>Proxy</translation>
     </message>
 </context>
 <context>
@@ -575,6 +696,17 @@
     <message>
         <source>Voice note</source>
         <translation>Nota de voz</translation>
+    </message>
+</context>
+<context>
+    <name>WritingItem</name>
+    <message>
+        <source>Edit text</source>
+        <translation>Editar texto</translation>
+    </message>
+    <message>
+        <source>Edit caption</source>
+        <translation>Editar subtítulo</translation>
     </message>
 </context>
 <context>
