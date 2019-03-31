@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="es_ES">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="es" version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
@@ -123,6 +121,26 @@
         <source>Directory view</source>
         <translation>Apariencia de directorio</translation>
     </message>
+    <message>
+        <source>Thumbnails</source>
+        <translation>Miniaturas</translation>
+    </message>
+    <message>
+        <source>Display thumbnails</source>
+        <translation>Mostrar miniaturas</translation>
+    </message>
+    <message>
+        <source>Display thumbnails for image files</source>
+        <translation>Mostrar miniaturas en archivos de imagen</translation>
+    </message>
+    <message>
+        <source>Cache thumbnails</source>
+        <translation>Miniaturas en caché</translation>
+    </message>
+    <message>
+        <source>Save generated thumbnails for faster loading</source>
+        <translation>Guardar miniaturas generadas para que se carguen más rápido</translation>
+    </message>
 </context>
 <context>
     <name>FileDisplay</name>
@@ -151,6 +169,72 @@
     </message>
 </context>
 <context>
+    <name>FileOperationPage</name>
+    <message>
+        <source>Copying files</source>
+        <translation>Copiando archivos</translation>
+    </message>
+</context>
+<context>
+    <name>FileOrderSettings</name>
+    <message>
+        <source>File ordering</source>
+        <translation>Orden de archivos</translation>
+    </message>
+    <message>
+        <source>File arrangement order </source>
+        <translation>Ordenación de archivos </translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Ordenar por</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nombre</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Hora</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Tamaño</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Tipo</translation>
+    </message>
+    <message>
+        <source>Sort order</source>
+        <translation>Tipo de orden</translation>
+    </message>
+    <message>
+        <source>Ascending</source>
+        <translation>Ascendente</translation>
+    </message>
+    <message>
+        <source>Descending</source>
+        <translation>Descendente</translation>
+    </message>
+    <message>
+        <source>Directory order</source>
+        <translation>Orden de directorio</translation>
+    </message>
+    <message>
+        <source>Display directories first</source>
+        <translation>Mostrar directorios primero</translation>
+    </message>
+    <message>
+        <source>Display directories last</source>
+        <translation>Mostrar directorios al final</translation>
+    </message>
+    <message>
+        <source>Don&apos;t order directories</source>
+        <translation>No ordenar directorios</translation>
+    </message>
+</context>
+<context>
     <name>PermissionEdit</name>
     <message>
         <source>Read</source>
@@ -163,6 +247,18 @@
     <message>
         <source>Execute</source>
         <translation>Ejecución</translation>
+    </message>
+    <message>
+        <source>User permissions</source>
+        <translation>Permisos de usuario</translation>
+    </message>
+    <message>
+        <source>Group permissions</source>
+        <translation>Permisos de grupo</translation>
+    </message>
+    <message>
+        <source>Owner permissions</source>
+        <translation>Permisos de propietario</translation>
     </message>
 </context>
 <context>
@@ -198,6 +294,17 @@
     <message>
         <source>Translations</source>
         <translation>Traducciones</translation>
+    </message>
+</context>
+<context>
+    <name>ShareFilesPage</name>
+    <message>
+        <source>Share</source>
+        <translation>Compartir</translation>
+    </message>
+    <message>
+        <source>No sharing accounts available!</source>
+        <translation>¡Compartir cuentas no está disponible!</translation>
     </message>
 </context>
 <context>
@@ -254,6 +361,10 @@
         <source>Home</source>
         <translation>Carpeta de usuario</translation>
     </message>
+    <message>
+        <source>Android locations</source>
+        <translation>Ubicaciones de Android</translation>
+    </message>
 </context>
 <context>
     <name>TextEdit</name>
@@ -268,6 +379,14 @@
     <message>
         <source>Save</source>
         <translation>Guardar</translation>
+    </message>
+    <message>
+        <source>Clearing text area</source>
+        <translation>Limpiando área de texto</translation>
+    </message>
+    <message>
+        <source>Saving file</source>
+        <translation>Guardando archivo</translation>
     </message>
 </context>
 <context>
