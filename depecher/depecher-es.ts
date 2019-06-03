@@ -144,10 +144,6 @@
         <translation>Ocultar nombre del chat</translation>
     </message>
     <message>
-        <source>Aways align messages to left</source>
-        <translation>Alinear todo a la izquierda</translation>
-    </message>
-    <message>
         <source>Enable night mode</source>
         <translation>Activar modo noche</translation>
     </message>
@@ -166,6 +162,18 @@
     <message>
         <source>Till</source>
         <translation>A</translation>
+    </message>
+    <message>
+        <source>Always align messages to left</source>
+        <translation>Alinear mensajes a la izquierda</translation>
+    </message>
+    <message>
+        <source>Miscellaneous</source>
+        <translation>Varios</translation>
+    </message>
+    <message>
+        <source>Show full screen images in channels</source>
+        <translation>Mostrar mensajes a pantalla completa en los canales</translation>
     </message>
 </context>
 <context>
@@ -620,13 +628,6 @@
     </message>
 </context>
 <context>
-    <name>ShareUI</name>
-    <message>
-        <source>Share with</source>
-        <translation>Compartir con</translation>
-    </message>
-</context>
-<context>
     <name>SignInDialog</name>
     <message>
         <source>Code</source>
@@ -774,11 +775,11 @@
     </message>
     <message>
         <source>Wait closing</source>
-        <translation>Espera cierre</translation>
+        <translation>Cerrando espera</translation>
     </message>
     <message>
         <source>Wait closed</source>
-        <translation>Espera cerrado</translation>
+        <translation>Espera cerrada</translation>
     </message>
 </context>
 </TS>
