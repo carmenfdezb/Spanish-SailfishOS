@@ -477,7 +477,7 @@ msgstr "Por defecto"
 
 #: qml/BasemapButton.qml:221
 msgid "Guidance"
-msgstr "Dirección"
+msgstr "Guía"
 
 #: qml/BasemapButton.qml:222
 msgid "Hybrid"
