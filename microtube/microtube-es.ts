@@ -28,12 +28,6 @@
         <translation>Donar</translation>
     </message>
     <message>
-        <source>All donations go for Verdanditeam devices
- (used for porting SailfishOS)</source>
-        <translation>Todas las donaciones van a Verdanditeam
- (usado para portar SailfishOS)</translation>
-    </message>
-    <message>
         <source>jgibbon for german translation and help.</source>
         <translation>jgibbon por la traducción al alemán y su ayuda.</translation>
     </message>
@@ -92,18 +86,37 @@
         </translation>
     </message>
     <message numerus="yes">
-        <source>%n weeks(s) ago</source>
-        <translation>
-            <numerusform>Hace %n semana</numerusform>
-            <numerusform>Hace %n semanas</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
         <source>%n month(s) ago</source>
         <translation>
             <numerusform>Hace %n mes</numerusform>
             <numerusform>Hace %n meses</numerusform>
         </translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s) ago</source>
+        <translation>
+            <numerusform>Hace %n semana</numerusform>
+            <numerusform>Hace %n semanas</numerusform>
+        </translation>
+    </message>
+    <message>
+        <source>K</source>
+        <comment>K as in Kilo, i.e. thousands</comment>
+        <translation>K</translation>
+    </message>
+    <message>
+        <source>M</source>
+        <comment>M stands for Millions</comment>
+        <translation>M</translation>
+    </message>
+    <message>
+        <source>B</source>
+        <comment>B stands for Billions</comment>
+        <translation>B</translation>
+    </message>
+    <message>
+        <source>%1 views</source>
+        <translation>%1 visualizaciones</translation>
     </message>
 </context>
 <context>
@@ -127,10 +140,6 @@
 </context>
 <context>
     <name>PlaylistModel</name>
-    <message>
-        <source>Searching...</source>
-        <translation>Buscando...</translation>
-    </message>
     <message>
         <source>Show %1 More</source>
         <translation>Mostrar %1 más</translation>
@@ -196,6 +205,10 @@
 <context>
     <name>VideoPlayer</name>
     <message>
+        <source>Downloaded to</source>
+        <translation>Descargado en</translation>
+    </message>
+    <message>
         <source>720p</source>
         <translation>720p</translation>
     </message>
@@ -208,51 +221,40 @@
         <translation>360p</translation>
     </message>
     <message>
-        <source>Subscribe</source>
-        <translation>Suscribirse</translation>
-    </message>
-    <message>
-        <source>Error: Problem with allocating resources</source>
-        <translation>Error: problema con asignación de recursos</translation>
-    </message>
-    <message>
-        <source>Error: Media service error</source>
-        <translation>Error: error con servicio multimedia</translation>
-    </message>
-    <message>
-        <source>Error: Video or Audio format is not supported</source>
-        <translation>Error: formato de audio o vídeo no soportado</translation>
-    </message>
-    <message>
-        <source>Error: Access denied to the video</source>
-        <translation>Error: acceso denegado al vídeo</translation>
-    </message>
-    <message>
-        <source>Error: Network error</source>
-        <translation>Error: error de conexión</translation>
-    </message>
-    <message numerus="yes">
-        <source>%L1 views</source>
-        <translation>
-            <numerusform>%L1 visualización</numerusform>
-            <numerusform>%L1 visualizaciones</numerusform>
-        </translation>
-    </message>
-    <message>
-        <source>Unsubscribe</source>
-        <translation>Borrar suscripción</translation>
+        <source>Download</source>
+        <translation>Descargar</translation>
     </message>
     <message>
         <source>Copy url</source>
         <translation>Copiar url</translation>
     </message>
     <message>
-        <source>Download</source>
-        <translation>Descargar</translation>
+        <source>Error: Problem with allocating resources</source>
+        <translation>Error: problema con la asignación de recursos</translation>
     </message>
     <message>
-        <source>Downloaded to</source>
-        <translation>Descargado en</translation>
+        <source>Error: Media service error</source>
+        <translation>Error: error en servicio multimedia</translation>
+    </message>
+    <message>
+        <source>Error: Video or Audio format is not supported</source>
+        <translation>Error: formato de vídeo o audio no soportado</translation>
+    </message>
+    <message>
+        <source>Error: Access denied to the video</source>
+        <translation>Error: acceso a vídeo denegado</translation>
+    </message>
+    <message>
+        <source>Error: Network error</source>
+        <translation>Error: error de conexión</translation>
+    </message>
+    <message>
+        <source>Unsubscribe</source>
+        <translation>Borrar suscripción</translation>
+    </message>
+    <message>
+        <source>Subscribe</source>
+        <translation>Suscribirse</translation>
     </message>
 </context>
 <context>
