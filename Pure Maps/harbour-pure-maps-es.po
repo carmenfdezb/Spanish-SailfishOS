@@ -533,7 +533,7 @@ msgstr "A pie"
 
 #: qml/BasemapButton.qml:295 routers/ValhallaSettings.qml:38
 msgid "Public transport"
-msgstr "Trans. Público"
+msgstr "T. Público"
 
 #: qml/BasemapButton.qml:357 qml/RoutePage.qml:404
 msgid "Map scale"
