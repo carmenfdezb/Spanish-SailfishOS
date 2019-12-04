@@ -43,6 +43,10 @@
         <source>1Zgp for hungarian translation.</source>
         <translation>1Zgp por la traducción al húngaro.</translation>
     </message>
+    <message>
+        <source>Malakay for Czech translation.</source>
+        <translation>Malakay por la traducción al checo.</translation>
+    </message>
 </context>
 <context>
     <name>ChannelAggregator</name>
@@ -179,6 +183,14 @@
         <source>Search for related videos</source>
         <translation>Buscar vídeos relacionados</translation>
     </message>
+    <message>
+        <source>Region</source>
+        <translation>Región</translation>
+    </message>
+    <message>
+        <source>Download location</source>
+        <translation>Ubicación de descargas</translation>
+    </message>
 </context>
 <context>
     <name>SharePage</name>
@@ -228,10 +240,6 @@
         <translation>720p</translation>
     </message>
     <message>
-        <source>480p</source>
-        <translation>480p</translation>
-    </message>
-    <message>
         <source>360p</source>
         <translation>360p</translation>
     </message>
@@ -245,7 +253,7 @@
     </message>
     <message>
         <source>Error: Problem with allocating resources</source>
-        <translation>Error: problema con la asignación de recursos</translation>
+        <translation>Error: problema con asignación de recursos</translation>
     </message>
     <message>
         <source>Error: Media service error</source>
@@ -257,7 +265,7 @@
     </message>
     <message>
         <source>Error: Access denied to the video</source>
-        <translation>Error: acceso a vídeo denegado</translation>
+        <translation>Error: acceso al vídeo denegado</translation>
     </message>
     <message>
         <source>Error: Network error</source>
@@ -265,7 +273,7 @@
     </message>
     <message>
         <source>Unsubscribe</source>
-        <translation>Borrar suscripción</translation>
+        <translation>Dejar suscripción</translation>
     </message>
     <message>
         <source>Subscribe</source>
