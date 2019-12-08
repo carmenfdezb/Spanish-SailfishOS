@@ -239,8 +239,8 @@
 <context>
     <name>GalleryUI</name>
     <message>
-        <source>Deleting</source>
-        <translation>Borrando</translation>
+        <source>Deleting %1</source>
+        <translation>Borrando %1</translation>
     </message>
 </context>
 <context>
@@ -248,6 +248,36 @@
     <message>
         <source>Auto ISO</source>
         <translation>ISO Auto</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsOverlay</name>
+    <message>
+        <source>Grid:</source>
+        <translation>Cuadrícula:</translation>
+    </message>
+    <message>
+        <source>Swap zoom controls</source>
+        <translation>Invertir controles de zoom</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>Ninguno</translation>
+    </message>
+    <message>
+        <source>Thirds</source>
+        <translation>Tres partes</translation>
+    </message>
+    <message>
+        <source>Ambience</source>
+        <translation>Ambiente</translation>
+    </message>
+</context>
+<context>
+    <name>StorageModel</name>
+    <message>
+        <source>Internal storage</source>
+        <translation>Almacenamiento interno</translation>
     </message>
 </context>
 <context>
