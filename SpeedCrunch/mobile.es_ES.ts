@@ -103,6 +103,16 @@
         <extracomment>Setting title</extracomment>
         <translation>Insertar resultado desde la lista</translation>
     </message>
+    <message id="id-haptic-feedback">
+        <source/>
+        <extracomment>Setting title</extracomment>
+        <translation>Vibración al pulsar</translation>
+    </message>
+    <message id="id-keyboard">
+        <source/>
+        <extracomment>Setting title</extracomment>
+        <translation>Teclado</translation>
+    </message>
     <message id="id-list-font-size">
         <source/>
         <extracomment>Setting title</extracomment>
@@ -143,7 +153,7 @@
     </message>
     <message id="id-user-defined">
         <source/>
-        <translation>Definidas por el usuario</translation>
+        <translation>Definidas por usuario</translation>
     </message>
     <message id="id-remove-from-recent">
         <source/>
@@ -153,7 +163,7 @@
     <message id="id-delete-user-defined">
         <source/>
         <extracomment>Popup menu item</extracomment>
-        <translation>Borrar definidas por el usuario</translation>
+        <translation>Borrar definidas por usuario</translation>
     </message>
     <message id="id-copy-result">
         <source/>
@@ -182,12 +192,10 @@
     </message>
     <message id="id-removing">
         <source/>
-        <extracomment>Remorse timer</extracomment>
         <translation>Borrando</translation>
     </message>
     <message id="id-deleting">
         <source/>
-        <extracomment>Remorse timer</extracomment>
         <translation>Borrando</translation>
     </message>
     <message id="id-evaluation-error">
