@@ -1014,5 +1014,29 @@
         <source>Drag items to change their order</source>
         <translation>Arrastra los elementos para cambiar el orden</translation>
     </message>
+    <message id="orn-cat-adult-content">
+        <source>Adult Content</source>
+        <translation>Contenido adulto</translation>
+    </message>
+    <message id="orn-categories-filter">
+        <source>Categories filter</source>
+        <translation>Filtro de categorías</translation>
+    </message>
+    <message id="orn-categories-filter-descr">
+        <source>Select which categories to show</source>
+        <translation>Selecciona qué categorías mostrar</translation>
+    </message>
+    <message id="orn-pmstate-refreshingcache">
+        <source>Refreshing of cache</source>
+        <translation>Actualizando caché</translation>
+    </message>
+    <message id="orn-refresh-cache-switch">
+        <source>Refresh cache after system upgrade</source>
+        <translation>Actualizar caché después de actualizar el sistema</translation>
+    </message>
+    <message id="orn-refresh-cache-switch-descr">
+        <source>Force refreshing of cache of all repositories after system upgrade</source>
+        <translation>Forzar la actualización de caché tras actualizar el sistema</translation>
+    </message>
 </context>
 </TS>
