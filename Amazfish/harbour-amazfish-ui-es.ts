@@ -90,7 +90,11 @@
     </message>
     <message>
         <source>File type/version: </source>
-        <translation>Tipo de archivo/versión: </translation>
+        <translation>Tipo de archivo/ver.: </translation>
+    </message>
+    <message>
+        <source>File not supported on this device</source>
+        <translation>Archivo no soportado en este dispositivo</translation>
     </message>
 </context>
 <context>
@@ -159,6 +163,18 @@
         <source>S:</source>
         <translation>S:</translation>
     </message>
+    <message>
+        <source>Update Calendar</source>
+        <translation>Actualizar calendario</translation>
+    </message>
+    <message>
+        <source>Informations</source>
+        <translation>Datos</translation>
+    </message>
+    <message>
+        <source>function tests</source>
+        <translation>Pruebas de funcionamiento</translation>
+    </message>
 </context>
 <context>
     <name>FirstPage</name>
@@ -183,16 +199,24 @@
         <translation>Conectar reloj</translation>
     </message>
     <message>
-        <source>AmazFish</source>
-        <translation>AmazFish</translation>
-    </message>
-    <message>
         <source>Start Service</source>
         <translation>Iniciar servicio</translation>
     </message>
     <message>
         <source>Enable Service</source>
         <translation>Habilitar servicio</translation>
+    </message>
+    <message>
+        <source>Amazfish</source>
+        <translation>Amazfish</translation>
+    </message>
+    <message>
+        <source>Goal: </source>
+        <translation>Objetivo: </translation>
+    </message>
+    <message>
+        <source> Steps</source>
+        <translation> pasos</translation>
     </message>
 </context>
 <context>
@@ -211,6 +235,53 @@
     <message>
         <source>Try again</source>
         <translation>Intentar de nuevo</translation>
+    </message>
+    <message>
+        <source>Pull down to start scan</source>
+        <translation>Tira hacia abajo para iniciar escaneo</translation>
+    </message>
+    <message>
+        <source>Pair Device</source>
+        <translation>Vincular dispositivo</translation>
+    </message>
+    <message>
+        <source>Save Key</source>
+        <translation>Guardar clave</translation>
+    </message>
+</context>
+<context>
+    <name>PairSelectDeviceType</name>
+    <message>
+        <source>Select Device Type</source>
+        <translation>Selecciona tipo de dispositivo</translation>
+    </message>
+    <message>
+        <source>Amazfit GTS</source>
+        <translation>Amazfit GTS</translation>
+    </message>
+    <message>
+        <source>Amazfit Bip Lite</source>
+        <translation>Amazfit Bip Lite</translation>
+    </message>
+    <message>
+        <source>Amazfit Bip Watch</source>
+        <translation>Amazfit Bip</translation>
+    </message>
+    <message>
+        <source>Amazfit Cor</source>
+        <translation>Amazfit Cor</translation>
+    </message>
+    <message>
+        <source>Mi Band 3</source>
+        <translation>Mi Band 3</translation>
+    </message>
+    <message>
+        <source>MI Band 2</source>
+        <translation>Mi Band 2</translation>
+    </message>
+    <message>
+        <source>Mi Smart Band 4</source>
+        <translation>Mi Smart Band 4</translation>
     </message>
 </context>
 <context>
@@ -274,6 +345,34 @@
         <source>Low battery notification</source>
         <translation>Notificación de batería baja</translation>
     </message>
+    <message>
+        <source>Refresh calendar every (</source>
+        <translation>Actualizar calendario cada (</translation>
+    </message>
+    <message>
+        <source>Notifications</source>
+        <translation>Notificaciones</translation>
+    </message>
+    <message>
+        <source>Refresh rates</source>
+        <translation>Frecuencia de actualización</translation>
+    </message>
+    <message>
+        <source>Start service on boot</source>
+        <translation>Iniciar servicio en el arranque</translation>
+    </message>
+    <message>
+        <source>Start/Stop the Amazfish Background Service</source>
+        <translation>Iniciar/Detener servicio Amazfish</translation>
+    </message>
+    <message>
+        <source>Start</source>
+        <translation>Iniciar</translation>
+    </message>
+    <message>
+        <source>Stop</source>
+        <translation>Detener</translation>
+    </message>
 </context>
 <context>
     <name>Settings-bip-shortcuts</name>
@@ -323,7 +422,7 @@
     </message>
     <message>
         <source>Save Settings</source>
-        <translation>Aceptar</translation>
+        <translation>Guardar</translation>
     </message>
 </context>
 <context>
@@ -374,7 +473,7 @@
     </message>
     <message>
         <source>Save Settings</source>
-        <translation>Aceptar</translation>
+        <translation>Guardar</translation>
     </message>
     <message>
         <source>Distance Unit</source>
@@ -452,22 +551,6 @@
         <translation>Tiempo</translation>
     </message>
     <message>
-        <source>Start Service</source>
-        <translation>Iniciar servicio</translation>
-    </message>
-    <message>
-        <source>Stop Service</source>
-        <translation>Detener servicio</translation>
-    </message>
-    <message>
-        <source>Enable Service</source>
-        <translation>Habilitar servicio</translation>
-    </message>
-    <message>
-        <source>Disable Service</source>
-        <translation>Deshabilitar servicio</translation>
-    </message>
-    <message>
         <source>Debug Info</source>
         <translation>Info depuración</translation>
     </message>
@@ -524,11 +607,11 @@
     </message>
     <message>
         <source>Goal (steps): </source>
-        <translation>Meta (pasos): </translation>
+        <translation>Objetivo (pasos): </translation>
     </message>
     <message>
         <source>Alert on fitness goal</source>
-        <translation>Alerta al alcanzar meta</translation>
+        <translation>Alerta al lograr objetivo</translation>
     </message>
     <message>
         <source>Use HRM for Sleep Detection</source>
@@ -540,7 +623,19 @@
     </message>
     <message>
         <source>Save Profile</source>
-        <translation>Guardar perfil</translation>
+        <translation>Guardar</translation>
+    </message>
+    <message>
+        <source>Personal data</source>
+        <translation>Datos personales</translation>
+    </message>
+    <message>
+        <source>Personal preferences</source>
+        <translation>Preferencias personales</translation>
+    </message>
+    <message>
+        <source>Heartrate usage</source>
+        <translation>Uso de frecuencia cardiaca</translation>
     </message>
 </context>
 <context>
@@ -564,6 +659,10 @@
     <message>
         <source>hrs (deep)</source>
         <translation>hrs (profundo)</translation>
+    </message>
+    <message>
+        <source>Note: last nights sleep is updated at mid-day</source>
+        <translation>Nota: el sueño de la noche anterior se actuliza a medio día</translation>
     </message>
 </context>
 <context>
