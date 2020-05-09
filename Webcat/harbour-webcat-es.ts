@@ -1,6 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="es">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="es" version="2.1">
+<context>
+    <name/>
+    <message id="components_gallery-la-image-loading-failed">
+        <source>Oops, can&apos;t display the image</source>
+        <extracomment>Image loading failed</extracomment>
+        <translation>Ups, no se pudo mostrar la imagen</translation>
+    </message>
+</context>
 <context>
     <name>AboutPage</name>
     <message>
@@ -222,10 +228,6 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que la página n
         <translation>Cancelar</translation>
     </message>
     <message>
-        <source>Active Downloads: </source>
-        <translation>Descargas activas: </translation>
-    </message>
-    <message>
         <source>Status</source>
         <translation>Estado</translation>
     </message>
@@ -262,10 +264,6 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que la página n
         <translation>Borrar</translation>
     </message>
     <message>
-        <source>Current operation</source>
-        <translation>Operación actual</translation>
-    </message>
-    <message>
         <source>Details</source>
         <translation>Detalles</translation>
     </message>
@@ -280,10 +278,6 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que la página n
     <message>
         <source>Pause</source>
         <translation>Detener</translation>
-    </message>
-    <message>
-        <source>none</source>
-        <translation>ninguno</translation>
     </message>
 </context>
 <context>
@@ -319,6 +313,29 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que la página n
     <message>
         <source>Day Mode</source>
         <translation>Modo día</translation>
+    </message>
+</context>
+<context>
+    <name>FileItemDelegate</name>
+    <message>
+        <source>Deleting </source>
+        <translation>Borrando</translation>
+    </message>
+    <message>
+        <source>Cut</source>
+        <translation>Cortar</translation>
+    </message>
+    <message>
+        <source>Copy</source>
+        <translation>Copiar</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Borrar</translation>
+    </message>
+    <message>
+        <source>Properties</source>
+        <translation>Propiedades</translation>
     </message>
 </context>
 <context>
@@ -426,6 +443,18 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que la página n
         <source>Webkit engine crashed too often!</source>
         <translation>¡El motor webkit se cuelga con demasiada frecuencia!</translation>
     </message>
+    <message>
+        <source>New Tab opened</source>
+        <translation>Nueva pestaña abierta</translation>
+    </message>
+    <message>
+        <source>Switch</source>
+        <translation>Alternar</translation>
+    </message>
+    <message>
+        <source>WARNING: You are using an outdated Webkit render engine</source>
+        <translation>Aviso: Estás usando un motor de renderizado Webkit desactualizado</translation>
+    </message>
 </context>
 <context>
     <name>HistoryPage</name>
@@ -449,8 +478,8 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que la página n
 <context>
     <name>KeyboardCommands</name>
     <message>
-        <source></source>
-        <translation type="unfinished"></translation>
+        <source/>
+        <translation type="unfinished"/>
     </message>
     <message>
         <source>Page History: Go back</source>
@@ -649,26 +678,6 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que la página n
         <translation>Pegar</translation>
     </message>
     <message>
-        <source>Deleting </source>
-        <translation>Borrando </translation>
-    </message>
-    <message>
-        <source>directory</source>
-        <translation>directorio</translation>
-    </message>
-    <message>
-        <source>Cut</source>
-        <translation>Cortar</translation>
-    </message>
-    <message>
-        <source>Copy</source>
-        <translation>Copiar</translation>
-    </message>
-    <message>
-        <source>Delete</source>
-        <translation>Borrar</translation>
-    </message>
-    <message>
         <source>Error pasting file </source>
         <translation>Error al pegar archivo </translation>
     </message>
@@ -687,6 +696,26 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que la página n
     <message>
         <source>Add to places</source>
         <translation>Añadir a lugares</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nombre</translation>
+    </message>
+    <message>
+        <source>Time</source>
+        <translation>Hora</translation>
+    </message>
+    <message>
+        <source>Size</source>
+        <translation>Tamaño</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Tipo</translation>
+    </message>
+    <message>
+        <source>Sort by: </source>
+        <translation>Ordenar por:</translation>
     </message>
 </context>
 <context>
@@ -804,6 +833,10 @@ Si no estás seguro, rechaza el certificado. Esto podría hacer que la página n
     <message>
         <source>Rename</source>
         <translation>Renombrar</translation>
+    </message>
+    <message>
+        <source>Android Storage</source>
+        <translation>Almacenamiento Android</translation>
     </message>
 </context>
 <context>
@@ -1174,6 +1207,14 @@ Por favor, asegúrate de haber iniciado sesión en YouTube. El acceso a algunos 
     <message>
         <source>Pull down to load file or stream</source>
         <translation>Desliza hacia abajo para cargar archivo o transmisión</translation>
+    </message>
+    <message>
+        <source>Zoomed to fit screen</source>
+        <translation>Ajustado a la pantalla</translation>
+    </message>
+    <message>
+        <source>Original</source>
+        <translation>Original</translation>
     </message>
 </context>
 <context>

@@ -40,7 +40,7 @@
     </message>
     <message>
         <source>Write your warning here</source>
-        <translation>Escribe aquí tu aviso</translation>
+        <translation>Escribe aquí tu advertencia</translation>
     </message>
     <message>
         <source>Public</source>
@@ -60,7 +60,7 @@
     </message>
     <message>
         <source>What&apos;s on your mind?</source>
-        <translation>¿Qué tienes en mente?</translation>
+        <translation>¿En qué estás pensando?</translation>
     </message>
 </context>
 <context>
@@ -88,16 +88,16 @@
         <translation>Instancia</translation>
     </message>
     <message>
+        <source>Enter a valid Mastodon instance URL</source>
+        <translation>Introduce una URL de instancia de Mastodon válida</translation>
+    </message>
+    <message>
         <source>Mastodon is a free, open-source social network. A decentralized alternative to commercial platforms, it avoids the risks of a single company monopolizing your communication. Pick a server that you trust — whichever you choose, you can interact with everyone else. Anyone can run their own Mastodon instance and participate in the social network seamlessly.</source>
         <translation>Mastodon es una red social libre y de código abierto. Una alternativa descentralizada a las plataformas comerciales, evita los riesgos de una única compañía que monopolice tu comunicación. Elije un servidor en el que confíes — cualquiera que elijas, puede interactuar con todos los demás. Cualquiera puede ejecutar su propia instancia de Mastodon y participar en la red social sin problemas.</translation>
     </message>
     <message>
         <source>Reload</source>
         <translation>Volver a cargar</translation>
-    </message>
-    <message>
-        <source>Enter a valid Mastodon instance URL</source>
-        <translation>Introduce una URL de instancia de Mastodon válida</translation>
     </message>
 </context>
 <context>
@@ -221,7 +221,7 @@
     </message>
     <message>
         <source>Open Profile in Browser</source>
-        <translation>Abrir perfil en navegador</translation>
+        <translation>Abrir perfil en el navegador</translation>
     </message>
 </context>
 <context>
@@ -243,16 +243,12 @@
         <translation>Retira la autorización a esta aplicación y elimina tu cuenta</translation>
     </message>
     <message>
-        <source>Authorize this app to use your Mastodon account in your behalf</source>
+        <source>Authorize this app to access your Mastodon account</source>
         <translation>Autoriza a esta aplicación para usar tu cuenta de Mastodon en tu nombre</translation>
     </message>
     <message>
         <source>Disable this option if you want to preserve your data connection</source>
         <translation>Deshabilita esta opción si quieres ahorrar en tu conexión de datos</translation>
-    </message>
-    <message>
-        <source>About</source>
-        <translation>Acerca de</translation>
     </message>
     <message>
         <source>Credits</source>
@@ -261,18 +257,6 @@
     <message>
         <source>UI/UX design and development</source>
         <translation>Diseño UI/UX y desarrollo</translation>
-    </message>
-    <message>
-        <source>This application is a forked version of the Mastodon client Tooter, originally developed by Duško Angirević, which fixes various bugs. Source code on &lt;a href=&apos;https://github.com/molan-git/harbour-tooter&apos;&gt;GitHub&lt;/a&gt;.</source>
-        <translation>Esta aplicación es una versión bifurcada del cliente de Mastodon Tooter, desarrollada originalmente por Duško Angirević, que corrige varios errores. Código fuente en &lt;a href=&apos;https://github.com/molan-git/harbour-tooter&apos;&gt;GitHub&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <source>Load Images in Toots</source>
-        <translation>Cargar imágenes en toots</translation>
-    </message>
-    <message>
-        <source>Maintainer of this release</source>
-        <translation>Mantenedor de esta publicación</translation>
     </message>
     <message>
         <source>Visual identity</source>
@@ -297,6 +281,22 @@
     <message>
         <source>Chinese translation</source>
         <translation>Traducción al chino</translation>
+    </message>
+    <message>
+        <source>Load images in toots</source>
+        <translation>Cargar imágenes en messages</translation>
+    </message>
+    <message>
+        <source>Translate</source>
+        <translation>Traducir</translation>
+    </message>
+    <message>
+        <source>Use Transifex to help with app translation to your language</source>
+        <translation>Usar Transifex para ayudar con traducciones</translation>
+    </message>
+    <message>
+        <source>Development and translations</source>
+        <translation>Desarrollo y traducciones</translation>
     </message>
 </context>
 <context>

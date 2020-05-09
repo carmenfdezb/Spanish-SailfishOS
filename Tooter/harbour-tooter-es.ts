@@ -19,49 +19,10 @@
     </message>
 </context>
 <context>
-    <name>Browser</name>
-    <message>
-        <source>Open in Browser</source>
-        <translation>Abrir en navegador</translation>
-    </message>
-    <message>
-        <source>Web mode</source>
-        <translation>Modo Web</translation>
-    </message>
-    <message>
-        <source>Reading mode</source>
-        <translation>Modo lectura</translation>
-    </message>
-    <message>
-        <source>Copy URL</source>
-        <translation>Copiar URL</translation>
-    </message>
-</context>
-<context>
     <name>Conversation</name>
     <message>
         <source>Conversation</source>
         <translation>Conversación</translation>
-    </message>
-    <message>
-        <source>Content warning!</source>
-        <translation>Advertencia de contenido</translation>
-    </message>
-    <message>
-        <source>public</source>
-        <translation>público</translation>
-    </message>
-    <message>
-        <source>unlisted</source>
-        <translation>sin federar</translation>
-    </message>
-    <message>
-        <source>followers only</source>
-        <translation>sólo seguidores</translation>
-    </message>
-    <message>
-        <source>direct</source>
-        <translation>directo</translation>
     </message>
     <message>
         <source>Delete</source>
@@ -74,6 +35,30 @@
     <message>
         <source>Tap to insert</source>
         <translation>Toca para insertar</translation>
+    </message>
+    <message>
+        <source>Write your warning here</source>
+        <translation>Escribe aquí tu advertencia</translation>
+    </message>
+    <message>
+        <source>What&apos;s on your mind?</source>
+        <translation>¿En qué estás pensando?</translation>
+    </message>
+    <message>
+        <source>Public</source>
+        <translation>Público</translation>
+    </message>
+    <message>
+        <source>Unlisted</source>
+        <translation>Sin federar</translation>
+    </message>
+    <message>
+        <source>Followers-only</source>
+        <translation>Sólo seguidores</translation>
+    </message>
+    <message>
+        <source>Direct</source>
+        <translation>Directo</translation>
     </message>
 </context>
 <context>
@@ -97,16 +82,16 @@
         <translation>Acceso</translation>
     </message>
     <message>
+        <source>Instance</source>
+        <translation>Instancia</translation>
+    </message>
+    <message>
         <source>Enter an Mastodon instance URL</source>
         <translation>Introduce URL de una instancia de Mastodon</translation>
     </message>
     <message>
         <source>Mastodon is a free, open-source social network. A decentralized alternative to commercial platforms, it avoids the risks of a single company monopolizing your communication. Pick a server that you trust — whichever you choose, you can interact with everyone else. Anyone can run their own Mastodon instance and participate in the social network seamlessly.</source>
         <translation>Mastodon es una red social gratuita y de código abierto. Una alternativa descentralizada a las plataformas comerciales, evita los riesgos de una única compañía que monopolice tu comunicación. Elije un servidor en el que confíes — cualquiera que elijas, puede interactuar con todos los demás. Cualquiera puede ejecutar su propia instancia de Mastodon y participar en la red social sin problemas.</translation>
-    </message>
-    <message>
-        <source>Instance</source>
-        <translation>Instancia</translation>
     </message>
     <message>
         <source>Reload</source>
@@ -228,6 +213,14 @@
         <source>Followers</source>
         <translation>Seguidores</translation>
     </message>
+    <message>
+        <source>Bio</source>
+        <translation>Bio</translation>
+    </message>
+    <message>
+        <source>Open Profile in Browser</source>
+        <translation>Abrir perfil en el navegador</translation>
+    </message>
 </context>
 <context>
     <name>Settings</name>
@@ -244,6 +237,10 @@
         <translation>Añadir cuenta</translation>
     </message>
     <message>
+        <source>Deauthorize this app and remove your account</source>
+        <translation>Retira la autorización a esta aplicación y elimina tu cuenta</translation>
+    </message>
+    <message>
         <source>Authorize this app to use your Mastodon account in your behalf</source>
         <translation>Autoriza a esta aplicación a usar tu cuenta de Mastodon en tu nombre</translation>
     </message>
@@ -252,12 +249,8 @@
         <translation>Cargar imágenes en toots</translation>
     </message>
     <message>
-        <source>Deauthorize this app and remove your account</source>
-        <translation>Retira la autorización a esta aplicación y elimina tu cuenta</translation>
-    </message>
-    <message>
-        <source>Credits</source>
-        <translation>Créditos</translation>
+        <source>Disable this option if you want to preserve your data connection</source>
+        <translation>Deshabilita esta opción si quieres ahorrar en tu conexión de datos</translation>
     </message>
     <message>
         <source>Translate</source>
@@ -268,12 +261,36 @@
         <translation>Usa Transifex para ayudar en la traducción a tu idioma de esta aplicación</translation>
     </message>
     <message>
-        <source>Disable this option if you want to preserve your data connection</source>
-        <translation>Deshabilita esta opción si quieres ahorrar en tu conexión de datos</translation>
+        <source>Credits</source>
+        <translation>Créditos</translation>
     </message>
     <message>
         <source>UI/UX design and development</source>
         <translation>Diseño UI/UX y desarrollo</translation>
+    </message>
+    <message>
+        <source>Visual identity</source>
+        <translation>Identidad visual</translation>
+    </message>
+    <message>
+        <source>Occitan &amp; French translation</source>
+        <translation>Traducción al occitano y francés</translation>
+    </message>
+    <message>
+        <source>Dutch translation</source>
+        <translation>Traducción al holandés</translation>
+    </message>
+    <message>
+        <source>Spanish translation</source>
+        <translation>Traducción al español</translation>
+    </message>
+    <message>
+        <source>Added README file</source>
+        <translation>Archivo README añadido</translation>
+    </message>
+    <message>
+        <source>Development and maintenence</source>
+        <translation>Desarrollo y mantenimiento</translation>
     </message>
 </context>
 <context>
