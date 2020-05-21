@@ -1,17 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="es">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="es" version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
         <location filename="../qml/pages/settings/about/AboutPage.qml" line="20"/>
         <source>GitHub Repository</source>
         <translation>Repositorio GitHub</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/settings/about/AboutPage.qml" line="26"/>
-        <source>Report an Issue</source>
-        <translation>Informar de una incidencia</translation>
     </message>
     <message>
         <location filename="../qml/pages/settings/about/AboutPage.qml" line="40"/>
@@ -218,7 +211,7 @@
 <context>
     <name>BrowserTab</name>
     <message>
-        <location filename="../qml/components/browsertab/BrowserTab.qml" line="26"/>
+        <location filename="../qml/components/browsertab/BrowserTab.qml" line="29"/>
         <source>New Tab</source>
         <translation>Nueva pestaña</translation>
     </message>
@@ -226,48 +219,48 @@
 <context>
     <name>BrowserWebView</name>
     <message>
-        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="122"/>
-        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="200"/>
+        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="123"/>
+        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="201"/>
         <source>Settings</source>
         <translation>Ajustes</translation>
     </message>
     <message>
-        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="127"/>
-        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="183"/>
+        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="128"/>
+        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="184"/>
         <source>Remove from Favorites</source>
-        <translation>Quitar de Favoritos</translation>
+        <translation>Quitar de favoritos</translation>
     </message>
     <message>
-        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="127"/>
-        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="183"/>
+        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="128"/>
+        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="184"/>
         <source>Add to Favorites</source>
-        <translation>Añadir a Favoritos</translation>
+        <translation>Añadir a favoritos</translation>
     </message>
     <message>
-        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="144"/>
-        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="177"/>
+        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="145"/>
+        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="178"/>
         <source>Stop</source>
         <translation>Parar</translation>
     </message>
     <message>
-        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="144"/>
-        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="177"/>
+        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="145"/>
+        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="178"/>
         <source>Refresh</source>
         <translation>Actualizar</translation>
     </message>
     <message>
-        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="150"/>
-        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="171"/>
+        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="151"/>
+        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="172"/>
         <source>New tab</source>
         <translation>Nueva pestaña</translation>
     </message>
     <message>
-        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="286"/>
+        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="287"/>
         <source>Accept Certificate from: %1 ?</source>
         <translation>¿Aceptas certificado de: %1?</translation>
     </message>
     <message>
-        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="365"/>
+        <location filename="../qml/components/browsertab/webview/BrowserWebView.qml" line="366"/>
         <source>Downloading</source>
         <translation>Descargando</translation>
     </message>
@@ -682,7 +675,15 @@
     <message>
         <location filename="../qml/components/items/FavoriteItem.qml" line="44"/>
         <source>Add to Quick Grid</source>
-        <translation>Añadir a la rejilla rápida</translation>
+        <translation>Añadir a rejilla rápida</translation>
+    </message>
+</context>
+<context>
+    <name>FavoriteItemQuick</name>
+    <message>
+        <location filename="../qml/components/quickgrid/FavoriteItemQuick.qml" line="104"/>
+        <source>Removing item</source>
+        <translation>Borrando elemento</translation>
     </message>
 </context>
 <context>
@@ -718,7 +719,7 @@
     <message>
         <location filename="../qml/pages/segment/favorite/FavoritesImportPage.qml" line="36"/>
         <source>Import Favorites</source>
-        <translation>Importar Favoritos</translation>
+        <translation>Importar favoritos</translation>
     </message>
     <message>
         <location filename="../qml/pages/segment/favorite/FavoritesImportPage.qml" line="50"/>
@@ -760,36 +761,54 @@
     </message>
     <message>
         <location filename="../qml/menus/FavoritesMenu.qml" line="28"/>
+        <source>Folders at top</source>
+        <translation>Carpetas primero</translation>
+    </message>
+    <message>
+        <location filename="../qml/menus/FavoritesMenu.qml" line="28"/>
+        <source>Folders by ID</source>
+        <translation>Carpetas por ID</translation>
+    </message>
+    <message>
+        <location filename="../qml/menus/FavoritesMenu.qml" line="34"/>
         <source>Add Folder</source>
         <translation>Añadir carpeta</translation>
     </message>
     <message>
-        <location filename="../qml/menus/FavoritesMenu.qml" line="34"/>
+        <location filename="../qml/menus/FavoritesMenu.qml" line="40"/>
         <source>Add Favorite</source>
         <translation>Añadir favorito</translation>
     </message>
 </context>
 <context>
+    <name>FavoritesQuick</name>
+    <message>
+        <location filename="../qml/components/quickgrid/FavoritesQuick.qml" line="117"/>
+        <source>The Quick Grid is empty</source>
+        <translation>La rejilla rápida está vacía</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/quickgrid/FavoritesQuick.qml" line="117"/>
+        <source>Long Press to edit</source>
+        <translation>Mantén pulsado para editar</translation>
+    </message>
+</context>
+<context>
     <name>FavoritesSegment</name>
     <message>
-        <location filename="../qml/components/segments/FavoritesSegment.qml" line="39"/>
+        <location filename="../qml/components/segments/FavoritesSegment.qml" line="46"/>
         <source>Favorites imported successfully</source>
         <translation>Favoritos importados con éxito</translation>
     </message>
     <message>
-        <location filename="../qml/components/segments/FavoritesSegment.qml" line="42"/>
+        <location filename="../qml/components/segments/FavoritesSegment.qml" line="49"/>
         <source>Cannot import favorites</source>
         <translation>No es posible importar favoritos</translation>
     </message>
     <message>
-        <location filename="../qml/components/segments/FavoritesSegment.qml" line="55"/>
+        <location filename="../qml/components/segments/FavoritesSegment.qml" line="62"/>
         <source>Favorites</source>
         <translation>Favoritos</translation>
-    </message>
-    <message>
-        <location filename="../qml/components/segments/FavoritesSegment.qml" line="61"/>
-        <source>Back</source>
-        <translation>Volver</translation>
     </message>
 </context>
 <context>
@@ -813,62 +832,142 @@
 <context>
     <name>GeneralSettingsPage</name>
     <message>
-        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="56"/>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="64"/>
         <source>Save</source>
         <translation>Guardar</translation>
     </message>
     <message>
-        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="62"/>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="67"/>
+        <source>Main UI</source>
+        <translation>UI principal</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="76"/>
+        <source>Phone UI</source>
+        <translation>UI teléfono</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="87"/>
+        <source>Tablet UI</source>
+        <translation>UI tableta</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="100"/>
+        <source>Tablet UI Landscape only</source>
+        <translation>Sólo UI tableta en apaisado</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="109"/>
+        <source>QuickGrid/FavoriteGrid</source>
+        <translation>Rejilla rápida/favoritos</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="114"/>
+        <source>Show Grid panel switch</source>
+        <translation>Mostrar panel de rejillas</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="123"/>
+        <source>Default QuickGrid List</source>
+        <translation>Rejilla por defecto</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="127"/>
+        <source>QuickGrid</source>
+        <translation>Rejilla rápida</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="128"/>
+        <source>Favorites</source>
+        <translation>Favoritos</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="140"/>
+        <source>Portrait number of Columns</source>
+        <translation>Nº de columnas en vertical</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="152"/>
+        <source>Landscape number of Columns</source>
+        <translation>Nº de columnas en apaisado</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="158"/>
+        <source>Main Browser GUI Size Factor in %</source>
+        <translation>Factor de tamaño en %</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="167"/>
+        <source>Landscape</source>
+        <translation>Apaisado</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="176"/>
+        <source>Portrait</source>
+        <translation>Vertical</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="185"/>
+        <source>General settings</source>
+        <translation>Ajustes generales</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="190"/>
         <source>Home Page</source>
         <translation>Página de inicio</translation>
     </message>
     <message>
-        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="71"/>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="199"/>
         <source>Search Engines</source>
         <translation>Motor de búsqueda</translation>
     </message>
     <message>
-        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="72"/>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="200"/>
         <source>Long press to edit</source>
         <translation>Mantén pulsado para editar</translation>
     </message>
     <message>
-        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="97"/>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="225"/>
         <source>Browsing menu</source>
         <translation>Menú de navegación</translation>
     </message>
     <message>
-        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="98"/>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="226"/>
         <source>Browsing Menu appearance on webpage</source>
         <translation>Apariencia del menú de navegación en la página web</translation>
     </message>
     <message>
-        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="117"/>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="238"/>
+        <source>Phone UI only</source>
+        <translation>Sólo UI teléfono</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="246"/>
         <source>User Agent</source>
         <translation>Agente de usuario</translation>
     </message>
     <message>
-        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="136"/>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="265"/>
         <source>Left handed mode</source>
         <translation>Modo para zurdos</translation>
     </message>
     <message>
-        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="144"/>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="273"/>
         <source>Integrate to MIME</source>
         <translation>Integrar a MIME</translation>
     </message>
     <message>
-        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="154"/>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="283"/>
         <source>Custom actions</source>
         <translation>Acciones personalizadas</translation>
     </message>
     <message>
-        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="159"/>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="288"/>
         <source>Pressed</source>
         <translation>Pulsar</translation>
     </message>
     <message>
-        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="177"/>
+        <location filename="../qml/pages/settings/GeneralSettingsPage.qml" line="306"/>
         <source>Long Pressed</source>
         <translation>Mantener pulsado</translation>
     </message>
@@ -1021,7 +1120,7 @@
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="48"/>
+        <location filename="../qml/pages/MainPage.qml" line="54"/>
         <source>Loading..</source>
         <translation>Cargando...</translation>
     </message>
@@ -1189,7 +1288,7 @@
     <message>
         <location filename="../qml/pages/settings/PrivacySettingsPage.qml" line="60"/>
         <source>Keep Favicons when deleting personal data</source>
-        <translation>Mantener los iconos de Favoritos cuando se borren los datos personales</translation>
+        <translation>Mantener los iconos de favoritos cuando se borren los datos personales</translation>
     </message>
     <message>
         <location filename="../qml/pages/settings/PrivacySettingsPage.qml" line="71"/>
@@ -1267,6 +1366,26 @@
         <source>Port</source>
         <translation>Puerto</translation>
     </message>
+    <message>
+        <location filename="../qml/pages/settings/ProxySettingsPage.qml" line="84"/>
+        <source>Use Socks</source>
+        <translation>Usar socks</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/settings/ProxySettingsPage.qml" line="85"/>
+        <source>Socket Secure (SOCKS) is an Internet protocol that exchanges network packets between a client and server through a proxy server.</source>
+        <translation>Socket Secure (SOCKS) es un protocolo de internet que intercambia paquetes de red entre un cliente y un servidor a través de un servidor proxy.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/settings/ProxySettingsPage.qml" line="93"/>
+        <source>Use TOR</source>
+        <translation>Usar TOR</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/settings/ProxySettingsPage.qml" line="94"/>
+        <source>TOR is free software for enabling anonymous communication. This will setup the proxy automatically to use TOR. TOR service must be running on the system for this to work.</source>
+        <translation>TOR es una aplicación libre para permitir la comunicación anónima. Esto configurará el proxy automáticamente para usar TOR. TOR debe ejecutarse en el sistema para que esto funcione.</translation>
+    </message>
 </context>
 <context>
     <name>QueryBar</name>
@@ -1283,16 +1402,6 @@
 </context>
 <context>
     <name>QuickGrid</name>
-    <message>
-        <location filename="../qml/components/quickgrid/QuickGrid.qml" line="42"/>
-        <source>Settings</source>
-        <translation>Ajustes</translation>
-    </message>
-    <message>
-        <location filename="../qml/components/quickgrid/QuickGrid.qml" line="48"/>
-        <source>New tab</source>
-        <translation>Nueva pestaña</translation>
-    </message>
     <message>
         <location filename="../qml/components/quickgrid/QuickGrid.qml" line="80"/>
         <source>The Quick Grid is empty</source>
@@ -1640,14 +1749,50 @@
         <translation>Reproductor multimedia</translation>
     </message>
     <message>
-        <location filename="../qml/components/items/tab/TabListItem.qml" line="387"/>
+        <location filename="../qml/components/items/tab/TabListItem.qml" line="397"/>
         <source>Link copied to clipboard</source>
         <translation>Enlace copiado al portapapeles</translation>
     </message>
     <message>
-        <location filename="../qml/components/items/tab/TabListItem.qml" line="447"/>
+        <location filename="../qml/components/items/tab/TabListItem.qml" line="457"/>
         <source>Downloading web page</source>
         <translation>Descargando página web</translation>
+    </message>
+</context>
+<context>
+    <name>TabListItemSmall</name>
+    <message>
+        <location filename="../qml/components/items/tab/TabListItemSmall.qml" line="40"/>
+        <source>Quick Grid</source>
+        <translation>Rejilla rápida</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/items/tab/TabListItemSmall.qml" line="43"/>
+        <source>Load error</source>
+        <translation>Error de carga</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/items/tab/TabListItemSmall.qml" line="46"/>
+        <source>Grabber</source>
+        <translation>Capturador</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/items/tab/TabListItemSmall.qml" line="49"/>
+        <source>Media Player</source>
+        <translation>Reproductor multimedia</translation>
+    </message>
+</context>
+<context>
+    <name>TabStack</name>
+    <message>
+        <location filename="../qml/components/tabview/TabStack.qml" line="52"/>
+        <source>Quick Grid</source>
+        <translation>Rejilla rápida</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/tabview/TabStack.qml" line="60"/>
+        <source>Favorites Grid</source>
+        <translation>Rejilla favoritos</translation>
     </message>
 </context>
 <context>
@@ -1777,20 +1922,20 @@
 <context>
     <name>WebViewListener</name>
     <message>
-        <location filename="../qml/components/browsertab/webview/WebViewListener.qml" line="142"/>
-        <location filename="../qml/components/browsertab/webview/WebViewListener.qml" line="156"/>
+        <location filename="../qml/components/browsertab/webview/WebViewListener.qml" line="144"/>
+        <location filename="../qml/components/browsertab/webview/WebViewListener.qml" line="158"/>
         <source>No videos found, report to developer</source>
         <translation>No se han encontrado vídeos, informa al desarrollador</translation>
     </message>
     <message>
-        <location filename="../qml/components/browsertab/webview/WebViewListener.qml" line="142"/>
-        <location filename="../qml/components/browsertab/webview/WebViewListener.qml" line="156"/>
+        <location filename="../qml/components/browsertab/webview/WebViewListener.qml" line="144"/>
+        <location filename="../qml/components/browsertab/webview/WebViewListener.qml" line="158"/>
         <source>Video grabbed successfully</source>
         <translation>Vídeo capturado con éxito</translation>
     </message>
     <message>
-        <location filename="../qml/components/browsertab/webview/WebViewListener.qml" line="150"/>
-        <location filename="../qml/components/browsertab/webview/WebViewListener.qml" line="164"/>
+        <location filename="../qml/components/browsertab/webview/WebViewListener.qml" line="152"/>
+        <location filename="../qml/components/browsertab/webview/WebViewListener.qml" line="166"/>
         <source>Codec</source>
         <translation>Códec</translation>
     </message>
@@ -1869,12 +2014,12 @@
 <context>
     <name>harbour-webpirate</name>
     <message>
-        <location filename="../qml/harbour-webpirate.qml" line="24"/>
+        <location filename="../qml/harbour-webpirate.qml" line="23"/>
         <source>Download Completed</source>
         <translation>Descarga Completada</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-webpirate.qml" line="25"/>
+        <location filename="../qml/harbour-webpirate.qml" line="24"/>
         <source>Download Failed</source>
         <translation>Decarga Fallida</translation>
     </message>
