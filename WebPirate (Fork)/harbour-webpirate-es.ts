@@ -2016,12 +2016,12 @@
     <message>
         <location filename="../qml/harbour-webpirate.qml" line="23"/>
         <source>Download Completed</source>
-        <translation>Descarga Completada</translation>
+        <translation>Descarga completada</translation>
     </message>
     <message>
         <location filename="../qml/harbour-webpirate.qml" line="24"/>
         <source>Download Failed</source>
-        <translation>Decarga Fallida</translation>
+        <translation>Error en descarga</translation>
     </message>
 </context>
 </TS>
