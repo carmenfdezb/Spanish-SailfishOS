@@ -681,9 +681,14 @@
 <context>
     <name>FavoriteItemQuick</name>
     <message>
-        <location filename="../qml/components/quickgrid/FavoriteItemQuick.qml" line="104"/>
-        <source>Removing item</source>
-        <translation>Borrando elemento</translation>
+        <location filename="../qml/components/quickgrid/FavoriteItemQuick.qml" line="92"/>
+        <source>Deleting Favorite</source>
+        <translation>Borrando favorito</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/quickgrid/FavoriteItemQuick.qml" line="92"/>
+        <source>Deleting Folder and Favorites within</source>
+        <translation>Borrando carpeta y los favoritos que contiene</translation>
     </message>
 </context>
 <context>
@@ -783,12 +788,12 @@
 <context>
     <name>FavoritesQuick</name>
     <message>
-        <location filename="../qml/components/quickgrid/FavoritesQuick.qml" line="117"/>
+        <location filename="../qml/components/quickgrid/FavoritesQuick.qml" line="128"/>
         <source>The Quick Grid is empty</source>
         <translation>La rejilla rápida está vacía</translation>
     </message>
     <message>
-        <location filename="../qml/components/quickgrid/FavoritesQuick.qml" line="117"/>
+        <location filename="../qml/components/quickgrid/FavoritesQuick.qml" line="128"/>
         <source>Long Press to edit</source>
         <translation>Mantén pulsado para editar</translation>
     </message>
