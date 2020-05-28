@@ -23,10 +23,6 @@
 <context>
     <name>Conversation</name>
     <message>
-        <source>Conversation</source>
-        <translation>Conversación</translation>
-    </message>
-    <message>
         <source>Delete</source>
         <translation>Borrar</translation>
     </message>
@@ -61,6 +57,14 @@
     <message>
         <source>What&apos;s on your mind?</source>
         <translation>¿En qué estás pensando?</translation>
+    </message>
+    <message>
+        <source>Toot sent!</source>
+        <translation>¡Toot enviado!</translation>
+    </message>
+    <message>
+        <source>Copy Link to Clipboard</source>
+        <translation>Copiar enlace al portapapeles</translation>
     </message>
 </context>
 <context>
