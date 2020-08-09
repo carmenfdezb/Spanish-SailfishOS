@@ -197,7 +197,7 @@
     </message>
     <message>
         <source>Add Custom</source>
-        <translation>Añadir estación personalizada</translation>
+        <translation>Añadir manualmente</translation>
     </message>
     <message>
         <source>From</source>
