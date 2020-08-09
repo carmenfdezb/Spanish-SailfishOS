@@ -50,6 +50,22 @@
         <source>Spanish</source>
         <translation>Español</translation>
     </message>
+    <message>
+        <source>Swedish</source>
+        <translation>Sueco</translation>
+    </message>
+    <message>
+        <source>Danish</source>
+        <translation>Danés</translation>
+    </message>
+    <message>
+        <source>Italian</source>
+        <translation>Italiano</translation>
+    </message>
+    <message>
+        <source>Polish</source>
+        <translation>Polaco</translation>
+    </message>
 </context>
 <context>
     <name>BrowseByCategoryPageForm.ui</name>
@@ -180,12 +196,12 @@
         <translation>Favoritos</translation>
     </message>
     <message>
-        <source>From </source>
-        <translation>De </translation>
-    </message>
-    <message>
         <source>Add Custom</source>
         <translation>Añadir estación personalizada</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>De</translation>
     </message>
 </context>
 <context>
@@ -264,12 +280,12 @@
         <translation>Establece el estilo del reproductor</translation>
     </message>
     <message>
-        <source>Sets the endpoint to be used for API calls e.g. rad.io for English and radio.de for German</source>
-        <translation>Establece el endpoint que se usará en las llamadas API, p.e. rad.io para el inglés y radio.es para el español</translation>
-    </message>
-    <message>
         <source>Removes everything in the database and gives you a clean start. &lt;i&gt;&lt;b&gt;Used with caution&lt;/b&gt;&lt;/i&gt;</source>
         <translation>Borra todo el contenido de la base de datos para un inicio limpio. &lt;i&gt;&lt;b&gt;Usar con precaución&lt;/b&gt;&lt;/i&gt;</translation>
+    </message>
+    <message>
+        <source>Sets the endpoint to be used for API calls e.g. radio.net for English and radio.de for German. Also effects Top 100 and translations back from the api</source>
+        <translation>Establece la dirección que se usará en las llamadas API, p.e. radio.net para el inglés y radio.es para el español. Esto también afecta a Top 100 y a las traducciones que devuelve la api</translation>
     </message>
 </context>
 <context>
