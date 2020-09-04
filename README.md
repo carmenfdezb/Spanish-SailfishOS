@@ -12,8 +12,8 @@ Spanish translation files for SailfishOS native apps. All of the translations ar
     #cp <file_name.qm> /usr/share/<app_name>/translations <br><br>
 * Via File Browser
   1. Download .qm file from your device.
-  2. Install [FBRoot](https://openrepos.net/content/schturman/startasroot-file-browser) from Openrepos/Warehouse/Storeman
-  3. Open FBRoot and go to Downloads folder. Copy .qm file and paste to /usr/share/<app_name>/translations <br><br>
+  2. Install [Root Mode for File Browser v2+](https://openrepos.net/content/ichthyosaurus/root-mode-file-browser-v2) from Openrepos/Storeman
+  3. Open File Browser (Root mode) and go to Downloads folder. Copy .qm file and paste to /usr/share/<app_name>/translations <br><br>
 ## Español
 Archivos de traducción al español de aplicaciones nativas de SailfishOS. Soy la autora de todas las traducciones y son para el español de España.
 ### Cómo usar
@@ -27,5 +27,5 @@ Archivos de traducción al español de aplicaciones nativas de SailfishOS. Soy l
     #cp <file_name.qm> /usr/share/<app_name>/translations <br><br>
 * Vía explorador de archivos
   1. Descarga el archivo .qm desde tu dispositivo.
-  2. Instala [FBRoot](https://openrepos.net/content/schturman/startasroot-file-browser) desde Openrepos/Warehouse/Storeman
-  3. Abre FBRoot y ve a la carpeta Downloads. Copia el archivo .qm y pégalo en /usr/share/<app_name>/translations
+  2. Instala [Root Mode for File Browser v2+](https://openrepos.net/content/ichthyosaurus/root-mode-file-browser-v2) desde Openrepos/Storeman
+  3. Abre File Browser (Root mode) y ve a la carpeta Downloads. Copia el archivo .qm y pégalo en /usr/share/<app_name>/translations
