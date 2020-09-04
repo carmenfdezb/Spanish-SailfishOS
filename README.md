@@ -13,7 +13,7 @@ Spanish translation files for SailfishOS native apps. All of the translations ar
 * Via File Browser
   1. Download .qm file from your device.
   2. Install [Root Mode for File Browser v2+](https://openrepos.net/content/ichthyosaurus/root-mode-file-browser-v2) from Openrepos/Storeman
-  3. Open File Browser (Root mode) and go to Downloads folder. Copy .qm file and paste to /usr/share/<app_name>/translations <br><br>
+  3. Open File Browser (Root mode) and go to Downloads folder. Copy .qm file and paste it to /usr/share/<app_name>/translations <br><br>
 ## Español
 Archivos de traducción al español de aplicaciones nativas de SailfishOS. Soy la autora de todas las traducciones y son para el español de España.
 ### Cómo usar
