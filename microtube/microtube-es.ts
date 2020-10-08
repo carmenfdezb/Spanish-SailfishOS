@@ -2,6 +2,23 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="es_ES">
 <context>
+    <name>APIKeyDialog</name>
+    <message>
+        <source>Youtube API Key</source>
+        <translation>Clave API de Youtube</translation>
+    </message>
+    <message>
+        <source>API Key</source>
+        <translation>Clave API</translation>
+    </message>
+    <message>
+        <source>Youtube API key is required to run this application.
+To get Youtube API key go to &lt;a href=&quot;https://console.cloud.google.com&quot;&gt;https://console.cloud.google.com&lt;/a&gt; and get &quot;YouTube Data API v3&quot; API key.</source>
+        <translation>Es necesaria una clave API de Youtube para ejecutar esta aplicación.
+Para obtener la clave API de Youtube ve a &lt;a href=&quot;https://console.cloud.google.com&quot;&gt;https://console.cloud.google.com&lt;/a&gt; y solicita una clave &quot;YouTube Data API v3&quot;.</translation>
+    </message>
+</context>
+<context>
     <name>About</name>
     <message>
         <source>About</source>
@@ -47,6 +64,41 @@
         <source>Malakay for Czech translation.</source>
         <translation>Malakay por la traducción al checo.</translation>
     </message>
+    <message>
+        <source>mkiol for integration with Jupii.</source>
+        <translation>mkiol por la integración con Jupii.</translation>
+    </message>
+</context>
+<context>
+    <name>Channel</name>
+    <message>
+        <source>Unsubscribe</source>
+        <translation>Borrar suscripción</translation>
+    </message>
+    <message>
+        <source>Subscribe</source>
+        <translation>Suscribirse</translation>
+    </message>
+    <message>
+        <source>Copy url</source>
+        <translation>Copiar url</translation>
+    </message>
+    <message>
+        <source>Play all</source>
+        <translation>Reproducir todo</translation>
+    </message>
+    <message>
+        <source>Created at: %1-%2-%3</source>
+        <translation>Creado por: %1-%2-%3</translation>
+    </message>
+    <message>
+        <source>Description</source>
+        <translation>Descripción</translation>
+    </message>
+    <message>
+        <source>Show more</source>
+        <translation>Mostrar más</translation>
+    </message>
 </context>
 <context>
     <name>ChannelAggregator</name>
@@ -60,6 +112,27 @@
             <numerusform>Tienes %n vídeo nuevo</numerusform>
             <numerusform>Tienes %n vídeos nuevos</numerusform>
         </translation>
+    </message>
+</context>
+<context>
+    <name>Comment</name>
+    <message>
+        <source>%1 replies</source>
+        <translation>%1 respuestas</translation>
+    </message>
+</context>
+<context>
+    <name>Comments</name>
+    <message>
+        <source>Comments</source>
+        <translation>Comentarios</translation>
+    </message>
+</context>
+<context>
+    <name>CommentsModel</name>
+    <message>
+        <source>Show more</source>
+        <translation>Mostrar más</translation>
     </message>
 </context>
 <context>
@@ -126,6 +199,120 @@
         <source>%1 views</source>
         <translation>%1 visualizaciones</translation>
     </message>
+    <message>
+        <source>%1 subscribers</source>
+        <translation>%1 suscriptores</translation>
+    </message>
+</context>
+<context>
+    <name>Filters</name>
+    <message>
+        <source>Filters</source>
+        <translation>Filtros</translation>
+    </message>
+    <message>
+        <source>Sort by</source>
+        <translation>Ordenar por</translation>
+    </message>
+    <message>
+        <source>Relevance</source>
+        <translation>Relevancia</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Fecha</translation>
+    </message>
+    <message>
+        <source>View Count</source>
+        <translation>Visualizaciones</translation>
+    </message>
+    <message>
+        <source>Rating</source>
+        <translation>Puntuación</translation>
+    </message>
+    <message>
+        <source>Anytime</source>
+        <translation>Cualquier momento</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Hoy</translation>
+    </message>
+    <message>
+        <source>7 Days</source>
+        <translation>7 días</translation>
+    </message>
+    <message>
+        <source>30 Days</source>
+        <translation>30 días</translation>
+    </message>
+    <message>
+        <source>Duration</source>
+        <translation>Duración</translation>
+    </message>
+    <message>
+        <source>All</source>
+        <translation>Todos</translation>
+    </message>
+    <message>
+        <source>Short</source>
+        <translation>Corta</translation>
+    </message>
+    <message>
+        <source>Medium</source>
+        <translation>Mediana</translation>
+    </message>
+    <message>
+        <source>Long</source>
+        <translation>Larga</translation>
+    </message>
+</context>
+<context>
+    <name>InstallDialog</name>
+    <message>
+        <source>Thank you for installing Microtube!</source>
+        <translation>¡Gracias por instalar Microtube!</translation>
+    </message>
+    <message>
+        <source>Changelog</source>
+        <translation>Registro de cambios</translation>
+    </message>
+    <message>
+        <source>Added subscriptions import</source>
+        <translation>Añadida importación de suscripciones</translation>
+    </message>
+    <message>
+        <source>Added first install and update page</source>
+        <translation>Añadida página de primera instalación y actualización</translation>
+    </message>
+    <message>
+        <source>Added categories</source>
+        <translation>Añadidas categorías</translation>
+    </message>
+    <message>
+        <source>Added full description with working links</source>
+        <translation>Añadida descripción completa con enlaces operativos</translation>
+    </message>
+    <message>
+        <source>Added DLNA casting using Yupii</source>
+        <translation>Añadida transmisión por DLNA usando Yupii</translation>
+    </message>
+    <message>
+        <source>Donation</source>
+        <translation>Donación</translation>
+    </message>
+    <message>
+        <source>Installation</source>
+        <translation>Instalación</translation>
+    </message>
+    <message>
+        <source>Added Comments</source>
+        <translation>Añadidos comentarios</translation>
+    </message>
+    <message>
+        <source>Added listing channels and channel page</source>
+        <translation>Añadidos lista de canales y página del canal</translation>
+    </message>
 </context>
 <context>
     <name>Main</name>
@@ -144,6 +331,10 @@
     <message>
         <source>Settings</source>
         <translation>Ajustes</translation>
+    </message>
+    <message>
+        <source>Filters</source>
+        <translation>Filtros</translation>
     </message>
 </context>
 <context>
@@ -164,6 +355,10 @@
         <source>Show more</source>
         <translation>Mostrar más</translation>
     </message>
+    <message>
+        <source>API key quota exceeded.</source>
+        <translation>Límite excedido para clave API.</translation>
+    </message>
 </context>
 <context>
     <name>Settings</name>
@@ -178,10 +373,6 @@
     <message>
         <source>Automatic change to next video</source>
         <translation>Reproducción automática</translation>
-    </message>
-    <message>
-        <source>Search for related videos</source>
-        <translation>Buscar vídeos relacionados</translation>
     </message>
     <message>
         <source>Region</source>
@@ -204,8 +395,24 @@
         <translation>Después de aplicar la clave, debes reiniciar Microtube</translation>
     </message>
     <message>
-        <source>To get Youtube API key go to &lt;a href=&quot;https://console.cloud.google.com&quot;&gt;https://console.cloud.google.com&lt;/a&gt; and get &quot;YouTube Data API v3&quot; API key</source>
-        <translation>Para obtener la clave API de Youtube ve a &lt;a href=&quot;https://console.cloud.google.com&quot;&gt;https://console.cloud.google.com&lt;/a&gt; y solicita una clave &quot;YouTube Data API v3&quot;</translation>
+        <source>Default category</source>
+        <translation>Categoría por defecto</translation>
+    </message>
+    <message>
+        <source>Buffer</source>
+        <translation>Búfer</translation>
+    </message>
+    <message>
+        <source>Test new install</source>
+        <translation>Probar nueva instalación</translation>
+    </message>
+    <message>
+        <source>Test update</source>
+        <translation>Probar actualización</translation>
+    </message>
+    <message>
+        <source>To get Youtube API key go to &lt;a href=&quot;https://console.cloud.google.com&quot;&gt;https://console.cloud.google.com&lt;/a&gt; and get &quot;YouTube Data API v3&quot; API key.</source>
+        <translation>Para obtener la clave API de Youtube ve a &lt;a href=&quot;https://console.cloud.google.com&quot;&gt;https://console.cloud.google.com&lt;/a&gt; y solicita una clave &quot;YouTube Data API v3&quot;.</translation>
     </message>
 </context>
 <context>
@@ -218,6 +425,14 @@
 <context>
     <name>Subscriptions</name>
     <message>
+        <source>Mark all as watched</source>
+        <translation>Marcar todo como visto</translation>
+    </message>
+    <message>
+        <source>Import subscriptions</source>
+        <translation>Importar suscripciones</translation>
+    </message>
+    <message>
         <source>Subscriptions</source>
         <translation>Suscripciones</translation>
     </message>
@@ -225,9 +440,75 @@
         <source>Unsubscribe</source>
         <translation>Borrar suscripción</translation>
     </message>
+</context>
+<context>
+    <name>SubscriptionsImport</name>
     <message>
-        <source>Mark all as watched</source>
-        <translation>Marcar todos como vistos</translation>
+        <source>Import</source>
+        <translation>Importar</translation>
+    </message>
+    <message>
+        <source>Import file</source>
+        <translation>Importar archivo</translation>
+    </message>
+    <message>
+        <source>Instructions</source>
+        <translation>Instrucciones</translation>
+    </message>
+    <message>
+        <source>Go to YouTube website on desktop and while logged in, save the page by clicking ctrl+s. Upload saved file to your device and pick it from pull down menu.</source>
+        <translation>Visita el sitio web de YouTube desde un ordenador, y cuando accedas con tu usuario, guarda la página pulsando ctrl+s. Copia el archivo guardado en tu dispositivo y selecciónalo en el menú deslizante.</translation>
+    </message>
+    <message>
+        <source>Import successful</source>
+        <translation>Importación correcta</translation>
+    </message>
+</context>
+<context>
+    <name>UpdateDialog</name>
+    <message>
+        <source>Update</source>
+        <translation>Actualizar</translation>
+    </message>
+    <message>
+        <source>Microtube was updated to version %1!</source>
+        <translation>¡Microtube se ha actualizado a la versión %1!</translation>
+    </message>
+    <message>
+        <source>Changelog</source>
+        <translation>Registro de cambios</translation>
+    </message>
+    <message>
+        <source>Added subscriptions import</source>
+        <translation>Añadida importación de suscripciones</translation>
+    </message>
+    <message>
+        <source>Added first install and update page</source>
+        <translation>Añadida página de primera instalación y actualización</translation>
+    </message>
+    <message>
+        <source>Added categories</source>
+        <translation>Añadidas categorías</translation>
+    </message>
+    <message>
+        <source>Added full description with working links</source>
+        <translation>Añadida descripción completa con enlaces operativos</translation>
+    </message>
+    <message>
+        <source>Added DLNA casting using Yupii</source>
+        <translation>Añadida transmisión por DLNA usando Yupii</translation>
+    </message>
+    <message>
+        <source>Donation</source>
+        <translation>Donación</translation>
+    </message>
+    <message>
+        <source>Added Comments</source>
+        <translation>Añadidos comentarios</translation>
+    </message>
+    <message>
+        <source>Added listing channels and channel page</source>
+        <translation>Añadidos lista de canales y página del canal</translation>
     </message>
 </context>
 <context>
@@ -291,16 +572,17 @@
         <source>Subscribe</source>
         <translation>Suscribirse</translation>
     </message>
-</context>
-<context>
-    <name>YT</name>
     <message>
-        <source>All Videos</source>
-        <translation>Todos los vídeos</translation>
+        <source>Comments</source>
+        <translation>Comentarios</translation>
     </message>
     <message>
-        <source>Unwatched Videos</source>
-        <translation>Vídeos no vistos</translation>
+        <source>360p</source>
+        <translation>360p</translation>
+    </message>
+    <message>
+        <source>Load recommended videos</source>
+        <translation>Cargar vídeos recomendados</translation>
     </message>
 </context>
 <context>
