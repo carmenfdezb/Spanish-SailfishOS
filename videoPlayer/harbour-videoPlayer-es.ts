@@ -372,10 +372,6 @@
         <translation>Abrir vídeo</translation>
     </message>
     <message>
-        <source>No History</source>
-        <translation type="vanished">No hay historial</translation>
-    </message>
-    <message>
         <location filename="../qml/pages/FirstPage.qml" line="328"/>
         <source>History</source>
         <translation>Historial</translation>
@@ -406,10 +402,6 @@
         <translation>Introducir URL</translation>
     </message>
     <message>
-        <source>Playlists</source>
-        <translation type="vanished">Listas de reprod.</translation>
-    </message>
-    <message>
         <location filename="../qml/pages/FirstPage.qml" line="320"/>
         <source>About </source>
         <translation>Acerca de </translation>
@@ -423,18 +415,6 @@
         <location filename="../qml/pages/FirstPage.qml" line="341"/>
         <source>Show Player</source>
         <translation>Mostrar reproductor</translation>
-    </message>
-    <message>
-        <source>Open</source>
-        <translation type="vanished">Abrir</translation>
-    </message>
-    <message>
-        <source>Type in URL here</source>
-        <translation type="vanished">Escribe aquí la URL</translation>
-    </message>
-    <message>
-        <source>URL to media</source>
-        <translation type="vanished">URL a multimedia</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="540"/>
