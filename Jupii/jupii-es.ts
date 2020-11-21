@@ -1956,7 +1956,7 @@
     <message>
         <location filename="../desktop/qml/main.qml" line="45"/>
         <source>Devices (connected to %1)</source>
-        <translation>DIspositivos (conectados a %1)</translation>
+        <translation>Dispositivos (conectados a %1)</translation>
     </message>
     <message>
         <location filename="../desktop/qml/main.qml" line="46"/>
