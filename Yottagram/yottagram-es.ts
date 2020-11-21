@@ -32,18 +32,22 @@
         <translation>Carmen F. B. por la traducción al español.</translation>
     </message>
     <message>
-        <source>Fernando Lanero, Mika, Leszek Lesner,
-A. Madani, Timo Könnecke, Rudi Timmermans
-for being awesome testers.</source>
-        <translation>A Fernando Lanero, Mika, Leszek Lesner,
-A. Madani, Timo Könnecke, Rudi Timmermans
-por ser unos testeadores fantásticos.</translation>
-    </message>
-    <message>
         <source>Everyone in my 
 &lt;a href=&quot;https://t.me/SFOSFanclub&quot;&gt;SFOS Fanclub&lt;/a&gt; group&lt;br/&gt;for keeping me motivated!</source>
-        <translation>¡A todo el mundo de mi grupo 
+        <translation>¡Todo el mundo de mi grupo 
 &lt;a href=&quot;https://t.me/SFOSFanclub&quot;&gt;SFOS Fanclub&lt;/a&gt;&lt;br/&gt;por mantenerme motivado!</translation>
+    </message>
+    <message>
+        <source>Fernando Lanero, Mika, Leszek Lesner, A. Madani, Timo Könnecke, Rudi Timmermans for being awesome testers.</source>
+        <translation>Fernando Lanero, Mika, Leszek Lesner, A. Madani, Timo Könnecke, Rudi Timmermans por ser unos testeadores fantásticos.</translation>
+    </message>
+    <message>
+        <source>Greg Goncharov (@gregguh at telegram) for icons.</source>
+        <translation>Greg. Goncharov (@gregguh en telegram) por los iconos.</translation>
+    </message>
+    <message>
+        <source>dashinfantry for chinese translation.</source>
+        <translation>dashinfantry por la traducción al chino.</translation>
     </message>
 </context>
 <context>
@@ -327,10 +331,6 @@ por ser unos testeadores fantásticos.</translation>
         <translation>Ajustes</translation>
     </message>
     <message>
-        <source>Log in</source>
-        <translation>Iniciar sesión</translation>
-    </message>
-    <message>
         <source>Archived chats</source>
         <translation>Chats archivados</translation>
     </message>
@@ -407,11 +407,11 @@ por ser unos testeadores fantásticos.</translation>
     </message>
     <message>
         <source>Unpin from top</source>
-        <translation>Desfijar del inicio</translation>
+        <translation>Desfijar del principio</translation>
     </message>
     <message>
         <source>Pin to top</source>
-        <translation>Fijar al inicio</translation>
+        <translation>Fijar al principio</translation>
     </message>
     <message>
         <source>%1 pinned message</source>
@@ -448,8 +448,16 @@ por ser unos testeadores fantásticos.</translation>
 <context>
     <name>CoverPage</name>
     <message>
-        <source>Yottagram (dev)</source>
-        <translation>Yottagram (dev)</translation>
+        <source>Unread chats: %L1</source>
+        <translation>Chats sin leer: %L1</translation>
+    </message>
+    <message>
+        <source>Yottagram</source>
+        <translation>Yottagram</translation>
+    </message>
+    <message>
+        <source>New messages: %L1</source>
+        <translation>Mensajes nuevos: %L1</translation>
     </message>
 </context>
 <context>
@@ -684,6 +692,18 @@ por ser unos testeadores fantásticos.</translation>
     <message>
         <source>Send button</source>
         <translation>Botón enviar</translation>
+    </message>
+    <message>
+        <source>Animated stickers</source>
+        <translation>Stickers animados</translation>
+    </message>
+    <message>
+        <source>Include muted chats in unread chats and messages counts</source>
+        <translation>Incluir los chats silenciados en recuento de mensajes y chats sin leer</translation>
+    </message>
+    <message>
+        <source>Message font size</source>
+        <translation>Tamaño de fuente</translation>
     </message>
 </context>
 <context>
