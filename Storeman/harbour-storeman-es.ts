@@ -267,10 +267,6 @@
         <source>Changelog</source>
         <translation>Registro de cambios</translation>
     </message>
-    <message id="orn-user-apps">
-        <source>User applications</source>
-        <translation>Aplicaciones del usuario</translation>
-    </message>
     <message id="orn-comments-withnum">
         <source>Comments (%0)</source>
         <translation>Comentarios (%0)</translation>
@@ -752,18 +748,6 @@
         <source>Available version</source>
         <translation>Versión disponible</translation>
     </message>
-    <message id="orn-size-kb">
-        <source>%0 KB</source>
-        <translation>%0 KB</translation>
-    </message>
-    <message id="orn-size-mb">
-        <source>%0 MB</source>
-        <translation>%0 MB</translation>
-    </message>
-    <message id="orn-size-gb">
-        <source>%0 GB</source>
-        <translation>%0 GB</translation>
-    </message>
     <message id="orn-error-packagenotfound">
         <source>Couldn&apos;t find package</source>
         <translation>No se encontró el paquete</translation>
@@ -771,10 +755,6 @@
     <message id="orn-size-installed">
         <source>Installed size</source>
         <translation>Tamaño instalado</translation>
-    </message>
-    <message id="orn-size-bytes" numerus="yes">
-        <source>%n byte(s)</source>
-        <translation><numerusform>%n byte</numerusform><numerusform>%n bytes</numerusform></translation>
     </message>
     <message id="orn-size-download-install">
         <source>Download / install size</source>
@@ -982,10 +962,6 @@
         <source>Installed applications</source>
         <translation>Aplicaciones instaladas</translation>
     </message>
-    <message id="orn-myapps">
-        <source>My applications</source>
-        <translation>Mis aplicaciones</translation>
-    </message>
     <message id="orn-hint-close">
         <source>Tap again to close the hint</source>
         <translation>Toca de nuevo para cerrar la ayuda</translation>
@@ -1045,6 +1021,30 @@
     <message id="orn-save-password-help">
         <source>Save password to the encrypted device storage to perform automatic re-login.</source>
         <translation>Guarda la contraseña de manera cifrada en el dispositivo para reiniciar la sesión automáticamente.</translation>
+    </message>
+    <message id="orn-share-link">
+        <source>Share link</source>
+        <translation>Compartir enlace</translation>
+    </message>
+    <message id="orn-repository">
+        <source>Repository</source>
+        <translation>Repositorio</translation>
+    </message>
+    <message id="orn-myrepository">
+        <source>My repository</source>
+        <translation>Mi repositorio</translation>
+    </message>
+    <message id="orn-donate-with">
+        <source>Donate with %1</source>
+        <translation>Donar con %1</translation>
+    </message>
+    <message id="orn-cover-updates-available">
+        <source>Updates available</source>
+        <translation>Actualizaciones disponibles</translation>
+    </message>
+    <message id="orn-package-updated">
+        <source>Package %0 was successfully updated</source>
+        <translation>El paquete %0 se actualizó correctamente</translation>
     </message>
 </context>
 </TS>
