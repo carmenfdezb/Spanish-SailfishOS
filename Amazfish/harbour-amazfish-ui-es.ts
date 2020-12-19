@@ -2,7 +2,7 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="es">
 <context>
-    <name>AddCityDialog</name>
+    <name>AddCityPage</name>
     <message>
         <source>Set Location</source>
         <translation>Establecer ubicación</translation>
@@ -114,10 +114,6 @@
         <translation>Actualizar</translation>
     </message>
     <message>
-        <source>AmazFish</source>
-        <translation>AmazFish</translation>
-    </message>
-    <message>
         <source>Address: </source>
         <translation>Dirección: </translation>
     </message>
@@ -178,11 +174,31 @@
         <translation>Actualizar calendario</translation>
     </message>
     <message>
-        <source>Informations</source>
-        <translation>Datos</translation>
+        <source>Model: </source>
+        <translation>Modelo: </translation>
     </message>
     <message>
-        <source>function tests</source>
+        <source>Firmware Rev: </source>
+        <translation>Rev. firmware: </translation>
+    </message>
+    <message>
+        <source>Manufacturer: </source>
+        <translation>Fabricante: </translation>
+    </message>
+    <message>
+        <source>Music Control</source>
+        <translation>Control de música</translation>
+    </message>
+    <message>
+        <source>Debugging</source>
+        <translation>Depuración</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Información</translation>
+    </message>
+    <message>
+        <source>Function Tests</source>
         <translation>Pruebas de funcionamiento</translation>
     </message>
 </context>
@@ -216,18 +232,6 @@
         <translation>Conectar reloj</translation>
     </message>
     <message>
-        <source>Start Service</source>
-        <translation>Iniciar servicio</translation>
-    </message>
-    <message>
-        <source>Enable Service</source>
-        <translation>Habilitar servicio</translation>
-    </message>
-    <message>
-        <source>Amazfish</source>
-        <translation>Amazfish</translation>
-    </message>
-    <message>
         <source>%1%</source>
         <translation>%1%</translation>
     </message>
@@ -238,6 +242,26 @@
     <message>
         <source>Data Graphs</source>
         <translation>Gráficos de datos</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Pasos</translation>
+    </message>
+    <message>
+        <source>Heartrate</source>
+        <translation>Frecuencia cardiaca</translation>
+    </message>
+    <message>
+        <source>Service</source>
+        <translation>Servicio</translation>
+    </message>
+    <message>
+        <source>Start</source>
+        <translation>Iniciar</translation>
+    </message>
+    <message>
+        <source>Enable</source>
+        <translation>Habilitar</translation>
     </message>
 </context>
 <context>
@@ -283,6 +307,41 @@
     </message>
 </context>
 <context>
+    <name>JSTools</name>
+    <message>
+        <source>Empty</source>
+        <translation>Vacío</translation>
+    </message>
+    <message>
+        <source>Heartrate</source>
+        <translation>Frecuencia cardiaca</translation>
+    </message>
+    <message>
+        <source>Pace</source>
+        <translation>Ritmo</translation>
+    </message>
+    <message>
+        <source>Speed</source>
+        <translation>Velocidad</translation>
+    </message>
+    <message>
+        <source>Altitude</source>
+        <translation>Altitud</translation>
+    </message>
+    <message>
+        <source>Distance</source>
+        <translation>Distancia</translation>
+    </message>
+    <message>
+        <source>Pause</source>
+        <translation>Pausa</translation>
+    </message>
+    <message>
+        <source>Duration</source>
+        <translation>Duración</translation>
+    </message>
+</context>
+<context>
     <name>PairPage</name>
     <message>
         <source>Pair Device</source>
@@ -308,16 +367,27 @@
         <source>No devices found</source>
         <translation>Ningún dispositivo encontrado</translation>
     </message>
-    <message>
-        <source>Pull down to scan for devices</source>
-        <translation>Desliza hacia abajo para buscar dispositivos</translation>
-    </message>
 </context>
 <context>
     <name>PairSelectDeviceType</name>
     <message>
         <source>Select Device Type</source>
         <translation>Selecciona tipo de dispositivo</translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>%1s</source>
+        <translation>%1s</translation>
+    </message>
+    <message>
+        <source>%1m %2s</source>
+        <translation>%1m %2s</translation>
+    </message>
+    <message>
+        <source>%1h %2m %3s</source>
+        <translation>%1h %2m %3s</translation>
     </message>
 </context>
 <context>
@@ -353,10 +423,6 @@
 </context>
 <context>
     <name>Settings-app</name>
-    <message>
-        <source>Device Settings</source>
-        <translation>Ajustes de dispositivo</translation>
-    </message>
     <message>
         <source>Notify on connect</source>
         <translation>Notificar al conectar</translation>
@@ -408,6 +474,22 @@
     <message>
         <source>Stop</source>
         <translation>Detener</translation>
+    </message>
+    <message>
+        <source>Amazfish Service</source>
+        <translation>Servicio Amazfish</translation>
+    </message>
+    <message>
+        <source>Application Settings</source>
+        <translation>Ajustes de aplicación</translation>
+    </message>
+    <message>
+        <source>BT Adapter</source>
+        <translation>Adaptador BT</translation>
+    </message>
+    <message>
+        <source>Navigation notifications</source>
+        <translation>Notificaciones de navegación</translation>
     </message>
 </context>
 <context>
@@ -705,6 +787,177 @@
     <message>
         <source>Hours</source>
         <translation>Horas</translation>
+    </message>
+</context>
+<context>
+    <name>SportPage</name>
+    <message>
+        <source>Data:</source>
+        <translation>Datos:</translation>
+    </message>
+    <message>
+        <source>Steps</source>
+        <translation>Pasos</translation>
+    </message>
+    <message>
+        <source>Active Seconds</source>
+        <translation>Segundos activo</translation>
+    </message>
+    <message>
+        <source>Calories</source>
+        <translation>Calorías</translation>
+    </message>
+    <message>
+        <source>Distance</source>
+        <translation>Distancia</translation>
+    </message>
+    <message>
+        <source>Ascent</source>
+        <translation>Ascenso</translation>
+    </message>
+    <message>
+        <source>Descent</source>
+        <translation>Descenso</translation>
+    </message>
+    <message>
+        <source>Max Altitude</source>
+        <translation>Altitud máx</translation>
+    </message>
+    <message>
+        <source>Min Altitude</source>
+        <translation>Altitud mín</translation>
+    </message>
+    <message>
+        <source>Min Pace</source>
+        <translation>Ritmo mín</translation>
+    </message>
+    <message>
+        <source>Max Pace</source>
+        <translation>Ritmo máx</translation>
+    </message>
+    <message>
+        <source>Average HR</source>
+        <translation>FC media</translation>
+    </message>
+    <message>
+        <source>Average Pace</source>
+        <translation>Ritmo medio</translation>
+    </message>
+    <message>
+        <source>Average Stride</source>
+        <translation>Zancada media</translation>
+    </message>
+    <message>
+        <source>Max HR</source>
+        <translation>FC máx</translation>
+    </message>
+    <message>
+        <source>Time Ascending</source>
+        <translation>Tiempo de ascenso</translation>
+    </message>
+    <message>
+        <source>Time Descending</source>
+        <translation>Tiempo de descenso</translation>
+    </message>
+    <message>
+        <source>Time Flat</source>
+        <translation>Tiempo en llano</translation>
+    </message>
+    <message>
+        <source>Average Stroke</source>
+        <translation>Promedio de brazadas</translation>
+    </message>
+    <message>
+        <source>Average Stroke/s</source>
+        <translation>Frecuencia de brazadas</translation>
+    </message>
+    <message>
+        <source>Average Lap Pace</source>
+        <translation>Ritmo medio de vuelta</translation>
+    </message>
+    <message>
+        <source>Strokes</source>
+        <translation>Brazadas</translation>
+    </message>
+    <message>
+        <source>SWOLF Index</source>
+        <translation>Índice SWOLF</translation>
+    </message>
+    <message>
+        <source>Swim Style</source>
+        <translation>Estilo de natación</translation>
+    </message>
+    <message>
+        <source>Laps</source>
+        <translation>Vueltas</translation>
+    </message>
+    <message>
+        <source>Max Latitude</source>
+        <translation>Latitud máx</translation>
+    </message>
+    <message>
+        <source>Min Latitude</source>
+        <translation>Latitud mín</translation>
+    </message>
+    <message>
+        <source>Max Longitude</source>
+        <translation>Longitud máx</translation>
+    </message>
+    <message>
+        <source>Min Longitude</source>
+        <translation>Longitud mín</translation>
+    </message>
+    <message>
+        <source>Max Speed</source>
+        <translation>Velocidad máx</translation>
+    </message>
+    <message>
+        <source>Total Stride</source>
+        <translation>Total de zancadas</translation>
+    </message>
+    <message>
+        <source>steps</source>
+        <translation>pasos</translation>
+    </message>
+    <message>
+        <source>seconds</source>
+        <translation>segundos</translation>
+    </message>
+    <message>
+        <source>kcal</source>
+        <translation>kcal</translation>
+    </message>
+    <message>
+        <source>meters</source>
+        <translation>metros</translation>
+    </message>
+    <message>
+        <source>seconds/m</source>
+        <translation>segundos/m</translation>
+    </message>
+    <message>
+        <source>bpm</source>
+        <translation>bpm</translation>
+    </message>
+    <message>
+        <source>seconds/km</source>
+        <translation>segundos/km</translation>
+    </message>
+    <message>
+        <source>cm</source>
+        <translation>cm</translation>
+    </message>
+    <message>
+        <source>strokes/s</source>
+        <translation>brazadas/s</translation>
+    </message>
+    <message>
+        <source>strokes</source>
+        <translation>brazadas</translation>
+    </message>
+    <message>
+        <source>swolf</source>
+        <translation>swolf</translation>
     </message>
 </context>
 <context>
