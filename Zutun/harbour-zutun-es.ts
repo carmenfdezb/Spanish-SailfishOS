@@ -173,6 +173,63 @@
         <extracomment>Section Header for the Files section in Settings page</extracomment>
         <translation>Archivos recientes</translation>
     </message>
+    <message>
+        <source>Tasklist</source>
+        <extracomment>Section Header for the Tasklist section in Settings page</extracomment>
+        <translation>Lista de tareas</translation>
+    </message>
+    <message>
+        <source>Edit Task</source>
+        <extracomment>Section Header for the Edit section in Settings page</extracomment>
+        <translation>Editar tarea</translation>
+    </message>
+    <message>
+        <source>Automatically add creation date to newly added tasks.</source>
+        <extracomment>TextSwitch for adding creation date</extracomment>
+        <translation>Añadir automáticamente la fecha de creación en las tareas nuevas.</translation>
+    </message>
+    <message>
+        <source>Notifications</source>
+        <extracomment>Section Header for the notification section in settings page</extracomment>
+        <translation>Notificaciones</translation>
+    </message>
+    <message>
+        <source>Show notifications for tasks having a due date.</source>
+        <extracomment>TextSwitch for wheter or not show notifications</extracomment>
+        <translation>Mostrar notificationes para tareas con fecha de vencimiento.</translation>
+    </message>
+    <message>
+        <source>next 7 days</source>
+        <translation>próximos 7 días</translation>
+    </message>
+    <message>
+        <source>one month</source>
+        <translation>Un mes</translation>
+    </message>
+    <message>
+        <source>Show notifications</source>
+        <extracomment>TextSwitch for wheter or not show notifications</extracomment>
+        <translation>Mostrar notificaciones</translation>
+    </message>
+    <message>
+        <source>anytime</source>
+        <translation>cualquier momento</translation>
+    </message>
+    <message>
+        <source>Show tasks due within</source>
+        <extracomment>ComboBox limt tasks within range of time</extracomment>
+        <translation>Mostrar tareas pendientes en</translation>
+    </message>
+    <message>
+        <source>Max count of notifications</source>
+        <extracomment>ComboBox limt number of notifications</extracomment>
+        <translation>Número máximo de notificaciones</translation>
+    </message>
+    <message>
+        <source>unlimited</source>
+        <extracomment>unlimited number of notifications</extracomment>
+        <translation>ilimitado</translation>
+    </message>
 </context>
 <context>
     <name>SortPage</name>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="es">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="es" version="2.1">
 <context>
     <name>AboutPage</name>
     <message>
@@ -195,10 +193,7 @@
     <message numerus="yes">
         <location filename="../qml/pages/components/BookmarkRemorsePopup.qml" line="34"/>
         <source>Deleting %Ln bookmark(s)</source>
-        <translation>
-            <numerusform>Borrando %Ln marcador</numerusform>
-            <numerusform>Borrando %Ln marcadores</numerusform>
-        </translation>
+        <translation><numerusform>Borrando %Ln marcador</numerusform><numerusform>Borrando %Ln marcadores</numerusform></translation>
     </message>
 </context>
 <context>
@@ -406,49 +401,81 @@
     </message>
 </context>
 <context>
+    <name>LinksBag::Application</name>
+    <message>
+        <location filename="../src/application.cpp" line="124"/>
+        <source>Authorized</source>
+        <translation>Autorizado</translation>
+    </message>
+    <message>
+        <location filename="../src/application.cpp" line="124"/>
+        <source>Not authorized</source>
+        <translation>No autorizado</translation>
+    </message>
+</context>
+<context>
     <name>LinksBag::GetPocketApi</name>
     <message>
+        <location filename="../src/getpocketapi.cpp" line="239"/>
+        <location filename="../src/getpocketapi.cpp" line="309"/>
         <source>General error</source>
-        <translation type="vanished">Error general</translation>
+        <translation>Error general</translation>
     </message>
     <message>
+        <location filename="../src/getpocketapi.cpp" line="256"/>
+        <location filename="../src/getpocketapi.cpp" line="326"/>
+        <source>Network error: %1</source>
+        <translation>Error de red: %1</translation>
+    </message>
+    <message>
+        <location filename="../src/getpocketapi.cpp" line="277"/>
+        <location filename="../src/getpocketapi.cpp" line="344"/>
         <source>Reply data is corrupted</source>
-        <translation type="vanished">Los datos de respuesta están corruptos</translation>
+        <translation>Los datos de respuesta están corruptos</translation>
     </message>
     <message>
+        <location filename="../src/getpocketapi.cpp" line="474"/>
         <source>Unable to remove bookamark</source>
-        <translation type="vanished">No es posible borrar marcador</translation>
+        <translation>No es posible borrar marcador</translation>
     </message>
     <message>
+        <location filename="../src/getpocketapi.cpp" line="497"/>
+        <location filename="../src/getpocketapi.cpp" line="521"/>
         <source>Unable to mark bookamark as %1</source>
-        <translation type="vanished">No es posible marcar marcador como %1</translation>
+        <translation>No es posible marcar marcador como %1</translation>
     </message>
     <message>
+        <location filename="../src/getpocketapi.cpp" line="498"/>
         <source>favorite</source>
-        <translation type="vanished">favorito</translation>
+        <translation>favorito</translation>
     </message>
     <message>
+        <location filename="../src/getpocketapi.cpp" line="498"/>
         <source>unfavorite</source>
-        <translation type="vanished">no favorito</translation>
+        <translation>no favorito</translation>
     </message>
     <message>
+        <location filename="../src/getpocketapi.cpp" line="522"/>
         <source>read</source>
-        <translation type="vanished">leído</translation>
+        <translation>leído</translation>
     </message>
     <message>
+        <location filename="../src/getpocketapi.cpp" line="522"/>
         <source>unread</source>
-        <translation type="vanished">no leído</translation>
+        <translation>no leído</translation>
     </message>
     <message>
+        <location filename="../src/getpocketapi.cpp" line="545"/>
         <source>Unable to update tags</source>
-        <translation type="vanished">No es posible actualizar etiquetas</translation>
+        <translation>No es posible actualizar etiquetas</translation>
     </message>
 </context>
 <context>
     <name>LinksBag::LinksBagManager</name>
     <message>
+        <location filename="../src/linksbagmanager.cpp" line="201"/>
         <source>GetPocket error (%1): </source>
-        <translation type="vanished">Error en servivo pocket (%1): </translation>
+        <translation>Error en servivo pocket (%1): </translation>
     </message>
 </context>
 <context>
@@ -460,18 +487,13 @@
     </message>
     <message>
         <location filename="../qml/pages/LoginPage.qml" line="59"/>
-        <source>Before we begin, choose how you&apos;ll log into your GetPocket.com account</source>
-        <translation>Antes de comenzar, elige la forma de acceder a tu cuenta de GetPocket.com</translation>
+        <source>Before we begin, please log into your GetPocket.com account</source>
+        <translation>Antes de empezar, inicia sesión en tu cuenta de GetPocket.com</translation>
     </message>
     <message>
         <location filename="../qml/pages/LoginPage.qml" line="64"/>
-        <source>Login with Google</source>
-        <translation>Iniciar sesión con Google</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/LoginPage.qml" line="72"/>
-        <source>Firefox/Regular account</source>
-        <translation>Cuenta Firefox</translation>
+        <source>Login</source>
+        <translation>Iniciar sesión</translation>
     </message>
 </context>
 <context>
@@ -640,27 +662,32 @@
         <translation>Descargar usando sólo WiFi</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="273"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="274"/>
+        <source>Download only unread</source>
+        <translation>Descargar solo no leído</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SettingsPage.qml" line="283"/>
         <source>Cache</source>
         <translation>Caché</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="276"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="286"/>
         <source>Remove saved articles</source>
         <translation>Borrar artículos guardados</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="277"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="287"/>
         <source>Removing saved articles</source>
         <translation>Borrando artículos guardados</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="282"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="292"/>
         <source>Clear thumbnail cache</source>
         <translation>Limpiar caché de miniaturas</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="283"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="293"/>
         <source>Clearing thumbnail cache</source>
         <translation>Limpiando caché de miniaturas</translation>
     </message>
@@ -680,22 +707,22 @@
         <translation>Descargado: %L1/%L2</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="287"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="297"/>
         <source>Account</source>
         <translation>Cuenta</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="297"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="307"/>
         <source>You&apos;re logged in as %1.</source>
         <translation>Has iniciado sesión como %1.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="304"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="314"/>
         <source>Logout</source>
         <translation>Cerrar sesión</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SettingsPage.qml" line="305"/>
+        <location filename="../qml/pages/SettingsPage.qml" line="315"/>
         <source>Logging out</source>
         <translation>Cerrando sesión</translation>
     </message>
@@ -726,45 +753,45 @@
 <context>
     <name>harbour-linksbag</name>
     <message>
-        <location filename="../qml/harbour-linksbag.qml" line="135"/>
+        <location filename="../qml/harbour-linksbag.qml" line="140"/>
         <source>%1, %2</source>
         <translation>%1, %2</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-linksbag.qml" line="140"/>
-        <location filename="../qml/harbour-linksbag.qml" line="153"/>
-        <location filename="../qml/harbour-linksbag.qml" line="160"/>
-        <location filename="../qml/harbour-linksbag.qml" line="173"/>
+        <location filename="../qml/harbour-linksbag.qml" line="145"/>
+        <location filename="../qml/harbour-linksbag.qml" line="158"/>
+        <location filename="../qml/harbour-linksbag.qml" line="165"/>
+        <location filename="../qml/harbour-linksbag.qml" line="178"/>
         <source>All</source>
         <translation>Todos</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-linksbag.qml" line="143"/>
+        <location filename="../qml/harbour-linksbag.qml" line="148"/>
         <source>Read</source>
         <translation>Leído</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-linksbag.qml" line="146"/>
+        <location filename="../qml/harbour-linksbag.qml" line="151"/>
         <source>Unread</source>
         <translation>No leído</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-linksbag.qml" line="149"/>
+        <location filename="../qml/harbour-linksbag.qml" line="154"/>
         <source>Favorite</source>
         <translation>Favorito</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-linksbag.qml" line="163"/>
+        <location filename="../qml/harbour-linksbag.qml" line="168"/>
         <source>Articles</source>
         <translation>Artículos</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-linksbag.qml" line="166"/>
+        <location filename="../qml/harbour-linksbag.qml" line="171"/>
         <source>Images</source>
         <translation>Imágenes</translation>
     </message>
     <message>
-        <location filename="../qml/harbour-linksbag.qml" line="169"/>
+        <location filename="../qml/harbour-linksbag.qml" line="174"/>
         <source>Videos</source>
         <translation>Vídeos</translation>
     </message>

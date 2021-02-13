@@ -20,27 +20,27 @@
 <context>
     <name>FirstPage</name>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="64"/>
+        <location filename="../qml/pages/FirstPage.qml" line="52"/>
         <source>Recordings</source>
         <translation>Grabaciones</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="76"/>
+        <location filename="../qml/pages/FirstPage.qml" line="64"/>
         <source>Settings</source>
         <translation>Ajustes</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="83"/>
+        <location filename="../qml/pages/FirstPage.qml" line="71"/>
         <source>Your recordings will be shown here</source>
         <translation>Tus grabaciones se mostrarán aquí</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="167"/>
+        <location filename="../qml/pages/FirstPage.qml" line="155"/>
         <source>Recording...</source>
         <translation>Grabando...</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="177"/>
+        <location filename="../qml/pages/FirstPage.qml" line="165"/>
         <source>Paused</source>
         <translation>En pausa</translation>
     </message>
@@ -48,22 +48,17 @@
 <context>
     <name>LocationPage</name>
     <message>
-        <location filename="../qml/pages/LocationPage.qml" line="71"/>
-        <source>Current location</source>
-        <translation>Ubicación actual</translation>
+        <location filename="../qml/pages/LocationPage.qml" line="22"/>
+        <location filename="../qml/pages/LocationPage.qml" line="79"/>
+        <source>SD Card</source>
+        <translation>
+Tarjeta SD</translation>
     </message>
     <message>
         <location filename="../qml/pages/LocationPage.qml" line="24"/>
         <location filename="../qml/pages/LocationPage.qml" line="79"/>
         <source>Home</source>
         <translation>Home</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/LocationPage.qml" line="22"/>
-        <location filename="../qml/pages/LocationPage.qml" line="79"/>
-        <source>SD Card</source>
-        <translation>
-Tarjeta SD</translation>
     </message>
     <message>
         <location filename="../qml/pages/LocationPage.qml" line="39"/>
@@ -76,6 +71,11 @@ Tarjeta SD</translation>
         <translation>Borrando</translation>
     </message>
     <message>
+        <location filename="../qml/pages/LocationPage.qml" line="71"/>
+        <source>Current location</source>
+        <translation>Ubicación actual</translation>
+    </message>
+    <message>
         <location filename="../qml/pages/LocationPage.qml" line="85"/>
         <source>New directory</source>
         <translation>Nuevo directorio</translation>
@@ -84,29 +84,6 @@ Tarjeta SD</translation>
         <location filename="../qml/pages/LocationPage.qml" line="96"/>
         <source>Apply</source>
         <translation>Aplicar</translation>
-    </message>
-</context>
-<context>
-    <name>MigrationPage</name>
-    <message>
-        <location filename="../qml/pages/MigrationPage.qml" line="7"/>
-        <source>Migration failed, old recordings should still be in the old folder.</source>
-        <translation>La migración ha fallado, las grabaciones antiguas todavía están en la carpeta antigua.</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/MigrationPage.qml" line="9"/>
-        <source>Migration finished</source>
-        <translation>Migración finalizada</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/MigrationPage.qml" line="17"/>
-        <source>Migration</source>
-        <translation>Migración</translation>
-    </message>
-    <message>
-        <location filename="../qml/pages/MigrationPage.qml" line="27"/>
-        <source>The default folder has changed from &quot;%0&quot; to &quot;%1&quot;. Do you want to move existing recordings to the new folder? If you cancel the old directory will be kept.</source>
-        <translation>La carpeta por defecto ha cambiado de %0 a %1. ¿Deseas mover las grabaciones existentes a la nueva carpeta? Si le das a cancelar, el directorio antiguo se mantendrá.</translation>
     </message>
 </context>
 <context>
@@ -135,7 +112,7 @@ Tarjeta SD</translation>
 <context>
     <name>Recorder</name>
     <message>
-        <location filename="../src/recorder.cpp" line="131"/>
+        <location filename="../src/recorder.cpp" line="188"/>
         <source>recording</source>
         <translation>grabando</translation>
     </message>
@@ -157,38 +134,43 @@ Tarjeta SD</translation>
         <source>Deleting</source>
         <translation>Borrando</translation>
     </message>
+    <message>
+        <location filename="../qml/components/RecordingDelegate.qml" line="25"/>
+        <source>Share</source>
+        <translation>Compartir</translation>
+    </message>
 </context>
 <context>
     <name>RecordingsModel</name>
     <message>
-        <location filename="../src/recordingsmodel.cpp" line="183"/>
-        <source>Older</source>
-        <translation>Más antiguos</translation>
-    </message>
-    <message>
-        <location filename="../src/recordingsmodel.cpp" line="181"/>
-        <source>Last 6 months</source>
-        <translation>Últimos 6 meses</translation>
-    </message>
-    <message>
-        <location filename="../src/recordingsmodel.cpp" line="173"/>
-        <source>This week</source>
-        <translation>Esta semana</translation>
-    </message>
-    <message>
-        <location filename="../src/recordingsmodel.cpp" line="169"/>
-        <source>Yesterday</source>
-        <translation>Ayer</translation>
-    </message>
-    <message>
-        <location filename="../src/recordingsmodel.cpp" line="165"/>
+        <location filename="../src/recordingsmodel.cpp" line="166"/>
         <source>Today</source>
         <translation>Hoy</translation>
     </message>
     <message>
-        <location filename="../src/recordingsmodel.cpp" line="177"/>
+        <location filename="../src/recordingsmodel.cpp" line="170"/>
+        <source>Yesterday</source>
+        <translation>Ayer</translation>
+    </message>
+    <message>
+        <location filename="../src/recordingsmodel.cpp" line="174"/>
+        <source>This week</source>
+        <translation>Esta semana</translation>
+    </message>
+    <message>
+        <location filename="../src/recordingsmodel.cpp" line="178"/>
         <source>This month</source>
         <translation>Este mes</translation>
+    </message>
+    <message>
+        <location filename="../src/recordingsmodel.cpp" line="182"/>
+        <source>Last 6 months</source>
+        <translation>Últimos 6 meses</translation>
+    </message>
+    <message>
+        <location filename="../src/recordingsmodel.cpp" line="184"/>
+        <source>Older</source>
+        <translation>Más antiguos</translation>
     </message>
 </context>
 <context>
@@ -217,69 +199,159 @@ Tarjeta SD</translation>
 <context>
     <name>Settings</name>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="57"/>
+        <location filename="../qml/pages/Settings.qml" line="59"/>
         <source>Settings</source>
         <translation>Ajustes</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="61"/>
+        <location filename="../qml/pages/Settings.qml" line="63"/>
         <source>Location</source>
         <translation>Ubicación</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="65"/>
+        <location filename="../qml/pages/Settings.qml" line="67"/>
         <source>Recordings Location</source>
         <translation>
 Ubicación de grabaciones</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="76"/>
+        <location filename="../qml/pages/Settings.qml" line="78"/>
         <source>Set to default</source>
         <translation>Ajuste por defecto</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="77"/>
+        <location filename="../qml/pages/Settings.qml" line="79"/>
         <source>Applying</source>
         <translation>Aplicando</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="85"/>
+        <location filename="../qml/pages/Settings.qml" line="87"/>
         <source>Recursive Search</source>
         <translation>Búsqueda recursiva</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="86"/>
+        <location filename="../qml/pages/Settings.qml" line="88"/>
         <source>Search for recording files in subdirectories</source>
         <translation>Buscar ficheros de grabaciones en subdirectorios</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="92"/>
-        <location filename="../qml/pages/Settings.qml" line="97"/>
+        <location filename="../qml/pages/Settings.qml" line="94"/>
+        <source>Volume</source>
+        <translation>Volumen</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Settings.qml" line="101"/>
+        <source>%1%</source>
+        <translation>%1%</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Settings.qml" line="102"/>
+        <source>Volume of sound recording</source>
+        <translation>Volumen de grabación</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Settings.qml" line="110"/>
+        <location filename="../qml/pages/Settings.qml" line="115"/>
         <source>Codec</source>
         <translation>Códec</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="99"/>
+        <location filename="../qml/pages/Settings.qml" line="117"/>
         <source>Vorbis is a good choice for music. Speex is a good choice for speech. PCM and FLAC are both a lossless format.</source>
         <translation>Vorbis es una buena opción para música. Speex es buena opción para voz. PCM y FLAC son formatos sin pérdidas.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="123"/>
+        <location filename="../qml/pages/Settings.qml" line="131"/>
+        <source>Encoding Quality</source>
+        <translation>Calidad de codificación</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Settings.qml" line="137"/>
+        <source>Very low</source>
+        <translation>Muy baja</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Settings.qml" line="138"/>
+        <source>Low</source>
+        <translation>Baja</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Settings.qml" line="139"/>
+        <source>Normal</source>
+        <translation>Normal</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Settings.qml" line="140"/>
+        <source>High</source>
+        <translation>Alta</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Settings.qml" line="141"/>
+        <source>Very high</source>
+        <translation>Muy alta</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Settings.qml" line="147"/>
+        <source>Encoding Mode</source>
+        <translation>Modo de codificación</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Settings.qml" line="150"/>
+        <source>Constant quality with adjusted bit rate to fit.</source>
+        <translation>Calidad constante con tasa de bits ajustada.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Settings.qml" line="151"/>
+        <source>Constant bit rate with adjusted quality to fit.</source>
+        <translation>Tasa de bits constante con calidad ajustada.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Settings.qml" line="152"/>
+        <source>Variable bit rate with fixed average value.</source>
+        <translation>Tasa de bits variable con valor medio fijado.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Settings.qml" line="153"/>
+        <source>Process the recording at first to determine its characteristics, and then process a second time to allocate more bits to the areas that need it.</source>
+        <translation>Procesa la grabación la primera vez para determinar sus características, y luego una segunda vez para asignar más bits a las áreas que lo necesitan.</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Settings.qml" line="164"/>
+        <source>Constant quality</source>
+        <translation>Calidad constante</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Settings.qml" line="165"/>
+        <source>Constant bit rate</source>
+        <translation>Tasa de bit constante</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Settings.qml" line="166"/>
+        <source>Average bit rate</source>
+        <translation>Tasa de bits media</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Settings.qml" line="167"/>
+        <source>Two pass encoding</source>
+        <translation>Codificación en dos pasos</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/Settings.qml" line="183"/>
         <source>Sample Rate</source>
         <translation>Frecuencia de muestreo</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="129"/>
+        <location filename="../qml/pages/Settings.qml" line="189"/>
         <source>auto</source>
         <translation>auto</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Settings.qml" line="130"/>
-        <location filename="../qml/pages/Settings.qml" line="131"/>
-        <location filename="../qml/pages/Settings.qml" line="132"/>
-        <location filename="../qml/pages/Settings.qml" line="133"/>
-        <location filename="../qml/pages/Settings.qml" line="134"/>
-        <location filename="../qml/pages/Settings.qml" line="135"/>
+        <location filename="../qml/pages/Settings.qml" line="190"/>
+        <location filename="../qml/pages/Settings.qml" line="191"/>
+        <location filename="../qml/pages/Settings.qml" line="192"/>
+        <location filename="../qml/pages/Settings.qml" line="193"/>
+        <location filename="../qml/pages/Settings.qml" line="194"/>
+        <location filename="../qml/pages/Settings.qml" line="195"/>
         <source>%0kHz</source>
         <translation>%0kHz</translation>
     </message>
