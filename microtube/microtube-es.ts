@@ -68,6 +68,37 @@ Para obtener la clave API de Youtube ve a &lt;a href=&quot;https://console.cloud
         <source>mkiol for integration with Jupii.</source>
         <translation>mkiol por la integración con Jupii.</translation>
     </message>
+    <message>
+        <source>SponsorBlock plugin from &lt;br/&gt;&lt;a href=&quot;https://sponsor.ajay.app&quot;&gt;https://sponsor.ajay.app&lt;/a&gt;</source>
+        <translation>Complemento SponsorBlock de &lt;br/&gt;&lt;a href=&quot;https://sponsor.ajay.app&quot;&gt;https://sponsor.ajay.app&lt;/a&gt;</translation>
+    </message>
+</context>
+<context>
+    <name>CategoriesModel</name>
+    <message>
+        <source>Most Popular</source>
+        <translation>Más popular</translation>
+    </message>
+    <message>
+        <source>Trending</source>
+        <translation>Tendencias</translation>
+    </message>
+    <message>
+        <source>Music</source>
+        <translation>Música</translation>
+    </message>
+    <message>
+        <source>News</source>
+        <translation>Noticias</translation>
+    </message>
+    <message>
+        <source>Movies</source>
+        <translation>Películas</translation>
+    </message>
+    <message>
+        <source>Gaming</source>
+        <translation>Videojuegos</translation>
+    </message>
 </context>
 <context>
     <name>Channel</name>
@@ -86,10 +117,6 @@ Para obtener la clave API de Youtube ve a &lt;a href=&quot;https://console.cloud
     <message>
         <source>Play all</source>
         <translation>Reproducir todo</translation>
-    </message>
-    <message>
-        <source>Created at: %1-%2-%3</source>
-        <translation>Creado por: %1-%2-%3</translation>
     </message>
     <message>
         <source>Description</source>
@@ -149,8 +176,27 @@ Para obtener la clave API de Youtube ve a &lt;a href=&quot;https://console.cloud
 <context>
     <name>DataUtils</name>
     <message>
+        <source>K</source>
+        <comment>K as in Kilo, i.e. thousands</comment>
+        <translation>K</translation>
+    </message>
+    <message>
+        <source>M</source>
+        <comment>M stands for Millions</comment>
+        <translation>M</translation>
+    </message>
+    <message>
+        <source>B</source>
+        <comment>B stands for Billions</comment>
+        <translation>B</translation>
+    </message>
+    <message>
+        <source>%1 subscribers</source>
+        <translation>%1 suscriptores</translation>
+    </message>
+    <message>
         <source>Just now</source>
-        <translation>Justo ahora</translation>
+        <translation>Ahora</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s) ago</source>
@@ -167,6 +213,13 @@ Para obtener la clave API de Youtube ve a &lt;a href=&quot;https://console.cloud
         </translation>
     </message>
     <message numerus="yes">
+        <source>%n week(s) ago</source>
+        <translation>
+            <numerusform>Hace %n semana</numerusform>
+            <numerusform>Hace %n semanas</numerusform>
+        </translation>
+    </message>
+    <message numerus="yes">
         <source>%n month(s) ago</source>
         <translation>
             <numerusform>Hace %n mes</numerusform>
@@ -174,34 +227,15 @@ Para obtener la clave API de Youtube ve a &lt;a href=&quot;https://console.cloud
         </translation>
     </message>
     <message numerus="yes">
-        <source>%n week(s) ago</source>
+        <source>%n year(s) ago</source>
         <translation>
-            <numerusform>Hace %n semana</numerusform>
-            <numerusform>Hace %n semanas</numerusform>
+            <numerusform>Hace %n año</numerusform>
+            <numerusform>Hace %n años</numerusform>
         </translation>
-    </message>
-    <message>
-        <source>K</source>
-        <comment>K as in Kilo, i.e. thousands</comment>
-        <translation>K</translation>
-    </message>
-    <message>
-        <source>M</source>
-        <comment>M stands for Millions</comment>
-        <translation>M</translation>
-    </message>
-    <message>
-        <source>B</source>
-        <comment>B stands for Billions</comment>
-        <translation>B</translation>
     </message>
     <message>
         <source>%1 views</source>
         <translation>%1 visualizaciones</translation>
-    </message>
-    <message>
-        <source>%1 subscribers</source>
-        <translation>%1 suscriptores</translation>
     </message>
 </context>
 <context>
@@ -278,26 +312,6 @@ Para obtener la clave API de Youtube ve a &lt;a href=&quot;https://console.cloud
         <translation>Registro de cambios</translation>
     </message>
     <message>
-        <source>Added subscriptions import</source>
-        <translation>Añadida importación de suscripciones</translation>
-    </message>
-    <message>
-        <source>Added first install and update page</source>
-        <translation>Añadida página de primera instalación y actualización</translation>
-    </message>
-    <message>
-        <source>Added categories</source>
-        <translation>Añadidas categorías</translation>
-    </message>
-    <message>
-        <source>Added full description with working links</source>
-        <translation>Añadida descripción completa con enlaces operativos</translation>
-    </message>
-    <message>
-        <source>Added DLNA casting using Yupii</source>
-        <translation>Añadida transmisión por DLNA usando Yupii</translation>
-    </message>
-    <message>
         <source>Donation</source>
         <translation>Donación</translation>
     </message>
@@ -306,12 +320,24 @@ Para obtener la clave API de Youtube ve a &lt;a href=&quot;https://console.cloud
         <translation>Instalación</translation>
     </message>
     <message>
-        <source>Added Comments</source>
-        <translation>Añadidos comentarios</translation>
+        <source>Updated minitube backend</source>
+        <translation>Backend de minitube actualizado</translation>
     </message>
     <message>
-        <source>Added listing channels and channel page</source>
-        <translation>Añadidos lista de canales y página del canal</translation>
+        <source>Removed API key requirement</source>
+        <translation>Requerimiento de clave API eliminado</translation>
+    </message>
+    <message>
+        <source>Removed comments (no api key no comments)</source>
+        <translation>Comentarios eliminados (sin clave api no hay comentarios)</translation>
+    </message>
+    <message>
+        <source>Back to short description</source>
+        <translation>Regreso a descripción corta</translation>
+    </message>
+    <message>
+        <source>SponsorBlock plugin integration (enable in settings)</source>
+        <translation>Integración del complemento SponsorBlock (activar en ajustes)</translation>
     </message>
 </context>
 <context>
@@ -383,18 +409,6 @@ Para obtener la clave API de Youtube ve a &lt;a href=&quot;https://console.cloud
         <translation>Ubicación de descargas</translation>
     </message>
     <message>
-        <source>Youtube API Key</source>
-        <translation>Clave API de Youtube</translation>
-    </message>
-    <message>
-        <source>API Key</source>
-        <translation>Clave API</translation>
-    </message>
-    <message>
-        <source>After applying key, you need to restart Microtube</source>
-        <translation>Después de aplicar la clave, debes reiniciar Microtube</translation>
-    </message>
-    <message>
         <source>Default category</source>
         <translation>Categoría por defecto</translation>
     </message>
@@ -411,8 +425,8 @@ Para obtener la clave API de Youtube ve a &lt;a href=&quot;https://console.cloud
         <translation>Probar actualización</translation>
     </message>
     <message>
-        <source>To get Youtube API key go to &lt;a href=&quot;https://console.cloud.google.com&quot;&gt;https://console.cloud.google.com&lt;/a&gt; and get &quot;YouTube Data API v3&quot; API key.</source>
-        <translation>Para obtener la clave API de Youtube ve a &lt;a href=&quot;https://console.cloud.google.com&quot;&gt;https://console.cloud.google.com&lt;/a&gt; y solicita una clave &quot;YouTube Data API v3&quot;.</translation>
+        <source>SponsorBlock Plugin Configuration</source>
+        <translation>Configuración de SponsorBlock</translation>
     </message>
 </context>
 <context>
@@ -420,6 +434,49 @@ Para obtener la clave API de Youtube ve a &lt;a href=&quot;https://console.cloud
     <message>
         <source>Share</source>
         <translation>Compartir</translation>
+    </message>
+</context>
+<context>
+    <name>SponsorBlockSettings</name>
+    <message>
+        <source>SponsorBlock Settings</source>
+        <translation>Ajustes de SponsorBlock</translation>
+    </message>
+    <message>
+        <source>Enable SponsorBlock</source>
+        <translation>Activar SponsorBlock</translation>
+    </message>
+    <message>
+        <source>Categories</source>
+        <translation>Categorías</translation>
+    </message>
+    <message>
+        <source>Sponsors</source>
+        <translation>Patrocinadores</translation>
+    </message>
+    <message>
+        <source>Intermission/Intro Animation</source>
+        <translation>Intermisión/Intro animación</translation>
+    </message>
+    <message>
+        <source>Endcards/Credits</source>
+        <translation>Pantallas finales/Créditos</translation>
+    </message>
+    <message>
+        <source>Interaction Reminder (Subscribe)</source>
+        <translation>Recordatorio de interacción (Suscribir)</translation>
+    </message>
+    <message>
+        <source>Unpaid/Self Promotion</source>
+        <translation>No remunerado/Autopromoción</translation>
+    </message>
+    <message>
+        <source>Music: Non-Music Section</source>
+        <translation>Música: sección sin música</translation>
+    </message>
+    <message>
+        <source>Uses SponsorBlock plugin from https://sponsor.ajay.app</source>
+        <translation>Usa el complemento SponsorBlock de https://sponsor.ajay.app</translation>
     </message>
 </context>
 <context>
@@ -479,36 +536,28 @@ Para obtener la clave API de Youtube ve a &lt;a href=&quot;https://console.cloud
         <translation>Registro de cambios</translation>
     </message>
     <message>
-        <source>Added subscriptions import</source>
-        <translation>Añadida importación de suscripciones</translation>
-    </message>
-    <message>
-        <source>Added first install and update page</source>
-        <translation>Añadida página de primera instalación y actualización</translation>
-    </message>
-    <message>
-        <source>Added categories</source>
-        <translation>Añadidas categorías</translation>
-    </message>
-    <message>
-        <source>Added full description with working links</source>
-        <translation>Añadida descripción completa con enlaces operativos</translation>
-    </message>
-    <message>
-        <source>Added DLNA casting using Yupii</source>
-        <translation>Añadida transmisión por DLNA usando Yupii</translation>
-    </message>
-    <message>
         <source>Donation</source>
         <translation>Donación</translation>
     </message>
     <message>
-        <source>Added Comments</source>
-        <translation>Añadidos comentarios</translation>
+        <source>Updated minitube backend</source>
+        <translation>Backend de minitube actualizado</translation>
     </message>
     <message>
-        <source>Added listing channels and channel page</source>
-        <translation>Añadidos lista de canales y página del canal</translation>
+        <source>Removed API key requirement</source>
+        <translation>Requerimiento de clave API eliminado</translation>
+    </message>
+    <message>
+        <source>Removed comments (no api key no comments)</source>
+        <translation>Comentarios eliminados (sin clave api no hay comentarios)</translation>
+    </message>
+    <message>
+        <source>Back to short description</source>
+        <translation>Regreso a descripción corta</translation>
+    </message>
+    <message>
+        <source>SponsorBlock plugin integration (enable in settings)</source>
+        <translation>Integración del complemento SponsorBlock (activar en ajustes)</translation>
     </message>
 </context>
 <context>
@@ -573,16 +622,19 @@ Para obtener la clave API de Youtube ve a &lt;a href=&quot;https://console.cloud
         <translation>Suscribirse</translation>
     </message>
     <message>
-        <source>Comments</source>
-        <translation>Comentarios</translation>
-    </message>
-    <message>
         <source>360p</source>
         <translation>360p</translation>
     </message>
     <message>
         <source>Load recommended videos</source>
         <translation>Cargar vídeos recomendados</translation>
+    </message>
+</context>
+<context>
+    <name>YTJSVideo</name>
+    <message>
+        <source>Cannot get video stream for %1</source>
+        <translation>No es posible obtener transmisión de vídeo %1</translation>
     </message>
 </context>
 <context>
@@ -778,10 +830,6 @@ Para obtener la clave API de Youtube ve a &lt;a href=&quot;https://console.cloud
     <message>
         <source>Worldwide</source>
         <translation>Todo el mundo</translation>
-    </message>
-    <message>
-        <source>United States</source>
-        <translation>Estados Unidos</translation>
     </message>
 </context>
 <context>
