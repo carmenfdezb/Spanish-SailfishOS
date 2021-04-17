@@ -2,36 +2,82 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="es">
 <context>
+    <name>AppInfoSingleton</name>
+    <message>
+        <location filename="../qml/components/AppInfoSingleton.qml" line="10"/>
+        <source>ThemeColor</source>
+        <translation>ColorDelTema</translation>
+    </message>
+</context>
+<context>
     <name>ColorField</name>
     <message>
-        <location filename="../qml/components/ColorField.qml" line="10"/>
+        <location filename="../qml/components/ColorField.qml" line="9"/>
         <source>specify RGB or aRGB value, e.g.</source>
         <translation>especifica valor RGB o aRGB, p.e.</translation>
     </message>
     <message>
-        <location filename="../qml/components/ColorField.qml" line="10"/>
+        <location filename="../qml/components/ColorField.qml" line="9"/>
         <source>(the # is optional)</source>
         <translation>(# es opcional)</translation>
     </message>
 </context>
 <context>
+    <name>ColorFilters</name>
+    <message>
+        <location filename="../qml/components/ColorFilters.qml" line="14"/>
+        <source>Tint</source>
+        <translation>Teñir</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/ColorFilters.qml" line="14"/>
+        <source>Red</source>
+        <translation>Rojo</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/ColorFilters.qml" line="27"/>
+        <source>Darken</source>
+        <translation>Oscurecer</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/ColorFilters.qml" line="40"/>
+        <source>Brighten</source>
+        <translation>Aclarar</translation>
+    </message>
+</context>
+<context>
+    <name>ColorGenerators</name>
+    <message>
+        <location filename="../qml/components/ColorGenerators.qml" line="9"/>
+        <source>Randomizer</source>
+        <translation>Aleatorizar</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/ColorGenerators.qml" line="11"/>
+        <source>Filters</source>
+        <translation>Filtros</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/ColorGenerators.qml" line="13"/>
+        <source>Scheme Generators</source>
+        <translation>Generadores de tema</translation>
+    </message>
+</context>
+<context>
     <name>ColorRandomizer</name>
     <message>
-        <location filename="../qml/components/ColorRandomizer.qml" line="20"/>
+        <location filename="../qml/components/ColorRandomizer.qml" line="21"/>
         <source>Random</source>
         <translation>Aleatorio</translation>
     </message>
     <message>
-        <location filename="../qml/components/ColorRandomizer.qml" line="20"/>
-        <location filename="../qml/components/ColorRandomizer.qml" line="35"/>
-        <location filename="../qml/components/ColorRandomizer.qml" line="56"/>
         <source>Colors</source>
-        <translation>Colores</translation>
+        <translation type="vanished">Colores</translation>
     </message>
     <message>
-        <location filename="../qml/components/ColorRandomizer.qml" line="30"/>
-        <location filename="../qml/components/ColorRandomizer.qml" line="51"/>
-        <location filename="../qml/components/ColorRandomizer.qml" line="72"/>
+        <location filename="../qml/components/ColorRandomizer.qml" line="31"/>
+        <location filename="../qml/components/ColorRandomizer.qml" line="61"/>
+        <location filename="../qml/components/ColorRandomizer.qml" line="81"/>
         <source>Generated</source>
         <translation>Generados</translation>
     </message>
@@ -46,9 +92,37 @@
         <translation>Oscuros</translation>
     </message>
     <message>
-        <location filename="../qml/components/ColorRandomizer.qml" line="56"/>
+        <location filename="../qml/components/ColorRandomizer.qml" line="65"/>
         <source>Gray</source>
         <translation>Grises</translation>
+    </message>
+</context>
+<context>
+    <name>ColorSchemeGenerator</name>
+    <message>
+        <location filename="../qml/components/ColorSchemeGenerator.qml" line="44"/>
+        <source>Solarize</source>
+        <translation>Solarizar</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/ColorSchemeGenerator.qml" line="57"/>
+        <source>Generate</source>
+        <translation>Generar</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/ColorSchemeGenerator.qml" line="57"/>
+        <source>from</source>
+        <translation>de</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/ColorSchemeGenerator.qml" line="57"/>
+        <source>Highlight</source>
+        <translation>Resaltar</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/ColorSchemeGenerator.qml" line="58"/>
+        <source>Applying</source>
+        <translation>Aplicando</translation>
     </message>
 </context>
 <context>
@@ -89,32 +163,32 @@
         <translation type="vanished">Colour</translation>
     </message>
     <message>
-        <location filename="../qml/components/ColorSliders.qml" line="13"/>
+        <location filename="../qml/components/ColorSliders.qml" line="14"/>
         <source>Primary Color</source>
         <translation>Color principal</translation>
     </message>
     <message>
-        <location filename="../qml/components/ColorSliders.qml" line="18"/>
+        <location filename="../qml/components/ColorSliders.qml" line="19"/>
         <source>Secondary Color</source>
         <translation>Color secundario</translation>
     </message>
     <message>
-        <location filename="../qml/components/ColorSliders.qml" line="23"/>
+        <location filename="../qml/components/ColorSliders.qml" line="24"/>
         <source>Highlight Color</source>
         <translation>Color de realce</translation>
     </message>
     <message>
-        <location filename="../qml/components/ColorSliders.qml" line="28"/>
+        <location filename="../qml/components/ColorSliders.qml" line="29"/>
         <source>Secondary Highlight Color</source>
         <translation>Color secundario de realce</translation>
     </message>
     <message>
-        <location filename="../qml/components/ColorSliders.qml" line="33"/>
+        <location filename="../qml/components/ColorSliders.qml" line="34"/>
         <source>Highlight Background Color</source>
         <translation>Color de fondo de realce</translation>
     </message>
     <message>
-        <location filename="../qml/components/ColorSliders.qml" line="38"/>
+        <location filename="../qml/components/ColorSliders.qml" line="39"/>
         <source>Background Glow Color</source>
         <translation>Color de punto luminoso</translation>
     </message>
@@ -122,36 +196,36 @@
 <context>
     <name>ColorSwapper</name>
     <message>
-        <location filename="../qml/components/ColorSwapper.qml" line="66"/>
+        <location filename="../qml/components/ColorSwapper.qml" line="65"/>
         <source>Copy</source>
         <translation>Copiar</translation>
     </message>
     <message>
-        <location filename="../qml/components/ColorSwapper.qml" line="66"/>
+        <location filename="../qml/components/ColorSwapper.qml" line="65"/>
         <source>Swap</source>
         <translation>Intercambiar</translation>
     </message>
     <message>
-        <location filename="../qml/components/ColorSwapper.qml" line="83"/>
-        <location filename="../qml/components/ColorSwapper.qml" line="104"/>
+        <location filename="../qml/components/ColorSwapper.qml" line="82"/>
+        <location filename="../qml/components/ColorSwapper.qml" line="102"/>
         <source>Primary Color</source>
         <translation>Color principal</translation>
     </message>
     <message>
-        <location filename="../qml/components/ColorSwapper.qml" line="84"/>
-        <location filename="../qml/components/ColorSwapper.qml" line="105"/>
+        <location filename="../qml/components/ColorSwapper.qml" line="83"/>
+        <location filename="../qml/components/ColorSwapper.qml" line="103"/>
         <source>Secondary Color</source>
         <translation>Color secundario</translation>
     </message>
     <message>
-        <location filename="../qml/components/ColorSwapper.qml" line="85"/>
-        <location filename="../qml/components/ColorSwapper.qml" line="106"/>
+        <location filename="../qml/components/ColorSwapper.qml" line="84"/>
+        <location filename="../qml/components/ColorSwapper.qml" line="104"/>
         <source>Highlight Color</source>
         <translation>Color de realce</translation>
     </message>
     <message>
-        <location filename="../qml/components/ColorSwapper.qml" line="86"/>
-        <location filename="../qml/components/ColorSwapper.qml" line="107"/>
+        <location filename="../qml/components/ColorSwapper.qml" line="85"/>
+        <location filename="../qml/components/ColorSwapper.qml" line="105"/>
         <source>Secondary Highlight Color</source>
         <translation>Color secundario de realce</translation>
     </message>
@@ -168,7 +242,7 @@
         <translation>Entrada de color</translation>
     </message>
     <message>
-        <location filename="../qml/components/ColorTextInput.qml" line="73"/>
+        <location filename="../qml/components/ColorTextInput.qml" line="74"/>
         <source>Input value, tap to reset</source>
         <translation>Valor de entrada, toca para resetear</translation>
     </message>
@@ -176,32 +250,32 @@
 <context>
     <name>ColorTextInputs</name>
     <message>
-        <location filename="../qml/components/ColorTextInputs.qml" line="13"/>
+        <location filename="../qml/components/ColorTextInputs.qml" line="14"/>
         <source>Primary Color</source>
         <translation>Color principal</translation>
     </message>
     <message>
-        <location filename="../qml/components/ColorTextInputs.qml" line="18"/>
+        <location filename="../qml/components/ColorTextInputs.qml" line="19"/>
         <source>Secondary Color</source>
         <translation>Color secundario</translation>
     </message>
     <message>
-        <location filename="../qml/components/ColorTextInputs.qml" line="23"/>
+        <location filename="../qml/components/ColorTextInputs.qml" line="24"/>
         <source>Highlight Color</source>
         <translation>Color de realce</translation>
     </message>
     <message>
-        <location filename="../qml/components/ColorTextInputs.qml" line="28"/>
+        <location filename="../qml/components/ColorTextInputs.qml" line="29"/>
         <source>Secondary Highlight Color</source>
         <translation>Color secundario de realce</translation>
     </message>
     <message>
-        <location filename="../qml/components/ColorTextInputs.qml" line="33"/>
+        <location filename="../qml/components/ColorTextInputs.qml" line="34"/>
         <source>Highlight Background Color</source>
         <translation>Color de fondo de realce</translation>
     </message>
     <message>
-        <location filename="../qml/components/ColorTextInputs.qml" line="38"/>
+        <location filename="../qml/components/ColorTextInputs.qml" line="39"/>
         <source>Background Glow Color</source>
         <translation>Color de punto luminoso</translation>
     </message>
@@ -217,7 +291,7 @@
 <context>
     <name>FirstPage</name>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="37"/>
+        <location filename="../qml/pages/FirstPage.qml" line="45"/>
         <source>Adjust Theme Colors</source>
         <translation>Ajustar colores del tema</translation>
     </message>
@@ -242,7 +316,7 @@
         <translation type="vanished">Secondary Highlight Colour</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="39"/>
+        <location filename="../qml/pages/FirstPage.qml" line="48"/>
         <source>Showroom</source>
         <translation>Sala de exposiciones</translation>
     </message>
@@ -279,18 +353,16 @@
         <translation>Intercambiador/Copiadora</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="131"/>
         <source>Compute all Colors from Highlight</source>
-        <translation>Calcular todos los colores de realce</translation>
+        <translation type="vanished">Calcular todos los colores de realce</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="132"/>
-        <location filename="../qml/pages/FirstPage.qml" line="135"/>
+        <location filename="../qml/pages/FirstPage.qml" line="130"/>
         <source>Applying</source>
         <translation>Aplicando</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="134"/>
+        <location filename="../qml/pages/FirstPage.qml" line="129"/>
         <source>Apply Colors to System</source>
         <translation>Aplicar colores al sistema</translation>
     </message>
@@ -299,49 +371,53 @@
         <translation type="vanished">Reload Colours from System</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="137"/>
+        <location filename="../qml/pages/FirstPage.qml" line="76"/>
+        <source>Generators</source>
+        <translation>Generadores</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/FirstPage.qml" line="132"/>
         <source>Reload Colors from current Theme</source>
         <translation>Volver a cargar colores del tema actual</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="140"/>
+        <location filename="../qml/pages/FirstPage.qml" line="135"/>
         <source>Reload Colors from System Config</source>
         <translation>Volver a cargar colores del sistema</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="146"/>
+        <location filename="../qml/pages/FirstPage.qml" line="141"/>
         <source>Experimental or dangerous actions</source>
         <translation>Acciones experimentales o peligrosas</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="147"/>
+        <location filename="../qml/pages/FirstPage.qml" line="142"/>
         <source>Export to Ambience file</source>
         <translation>Exportar a archivo de ambiente</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="147"/>
-        <location filename="../qml/pages/FirstPage.qml" line="151"/>
+        <location filename="../qml/pages/FirstPage.qml" line="145"/>
         <source>(not implemented)</source>
         <translation>(no implementado)</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="151"/>
+        <location filename="../qml/pages/FirstPage.qml" line="145"/>
         <source>Save Theme to current Ambience</source>
         <translation>Guardar tema a ambiente actual</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="152"/>
+        <location filename="../qml/pages/FirstPage.qml" line="146"/>
         <source>Saving</source>
         <translation>Guardando</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="156"/>
-        <location filename="../qml/pages/FirstPage.qml" line="159"/>
+        <location filename="../qml/pages/FirstPage.qml" line="150"/>
+        <location filename="../qml/pages/FirstPage.qml" line="153"/>
         <source>Resetting</source>
         <translation>Restableciendo</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="162"/>
+        <location filename="../qml/pages/FirstPage.qml" line="156"/>
         <source>Restarting</source>
         <translation>Reiniciando</translation>
     </message>
@@ -350,22 +426,22 @@
         <translation type="vanished">Saving…</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="155"/>
+        <location filename="../qml/pages/FirstPage.qml" line="149"/>
         <source>Reset all values and restart</source>
         <translation>Restaurar todos los valores y reiniciar</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="158"/>
+        <location filename="../qml/pages/FirstPage.qml" line="152"/>
         <source>Reset nonstandard values</source>
         <translation>Restaurar a valores no estándar</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="161"/>
+        <location filename="../qml/pages/FirstPage.qml" line="155"/>
         <source>Restart Lipstick</source>
         <translation>Reiniciar Lipstick</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="125"/>
+        <location filename="../qml/pages/FirstPage.qml" line="123"/>
         <source>Help</source>
         <translation>Ayuda</translation>
     </message>
@@ -384,9 +460,8 @@
         <translation type="vanished">Swapper</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="76"/>
         <source>Randomizer</source>
-        <translation>Aleatorizar</translation>
+        <translation type="vanished">Aleatorizar</translation>
     </message>
     <message>
         <location filename="../qml/pages/FirstPage.qml" line="77"/>
@@ -394,7 +469,7 @@
         <translation>Original de Jolla</translation>
     </message>
     <message>
-        <location filename="../qml/pages/FirstPage.qml" line="128"/>
+        <location filename="../qml/pages/FirstPage.qml" line="126"/>
         <source>Open Ambience Settings</source>
         <translation>Abrir ajustes de ambiente</translation>
     </message>
@@ -701,58 +776,58 @@ Changing the Ambience from the System Settings may also help.</translation>
 <context>
     <name>LootBoxItem</name>
     <message>
-        <location filename="../qml/components/LootBoxItem.qml" line="21"/>
-        <location filename="../qml/components/LootBoxItem.qml" line="26"/>
+        <location filename="../qml/components/LootBoxItem.qml" line="22"/>
+        <location filename="../qml/components/LootBoxItem.qml" line="27"/>
         <source>ThemeColor</source>
         <translation>ColorDelTema</translation>
     </message>
     <message>
-        <location filename="../qml/components/LootBoxItem.qml" line="25"/>
+        <location filename="../qml/components/LootBoxItem.qml" line="26"/>
         <source>A Lootbox was delivered!</source>
         <translation>¡Se ha entregado una caja de recompensa!</translation>
     </message>
     <message>
-        <location filename="../qml/components/LootBoxItem.qml" line="26"/>
+        <location filename="../qml/components/LootBoxItem.qml" line="27"/>
         <source>now has more shelves!</source>
         <translation>¡Ahora tienes más estantes!</translation>
     </message>
     <message>
-        <location filename="../qml/components/LootBoxItem.qml" line="26"/>
+        <location filename="../qml/components/LootBoxItem.qml" line="27"/>
         <source>Your persistence has been rewarded.</source>
         <translation>Se ha premiado tu perseverancia.</translation>
     </message>
     <message>
-        <location filename="../qml/components/LootBoxItem.qml" line="27"/>
+        <location filename="../qml/components/LootBoxItem.qml" line="28"/>
         <source>Your persistence has been rewarded!</source>
         <translation>¡Se ha premiado tu perseverancia!</translation>
     </message>
     <message>
-        <location filename="../qml/components/LootBoxItem.qml" line="37"/>
+        <location filename="../qml/components/LootBoxItem.qml" line="38"/>
         <source>Purchase Options</source>
         <translation>Opciones de compra</translation>
     </message>
     <message>
-        <location filename="../qml/components/LootBoxItem.qml" line="46"/>
+        <location filename="../qml/components/LootBoxItem.qml" line="47"/>
         <source>Payment* received!</source>
         <translation>¡Pago* recibido!</translation>
     </message>
     <message>
-        <location filename="../qml/components/LootBoxItem.qml" line="46"/>
+        <location filename="../qml/components/LootBoxItem.qml" line="47"/>
         <source>Buy more shelves</source>
         <translation>Comprar más estantes</translation>
     </message>
     <message>
-        <location filename="../qml/components/LootBoxItem.qml" line="51"/>
+        <location filename="../qml/components/LootBoxItem.qml" line="52"/>
         <source>Using Jolla Shop credentials to buy Storage Lootbox</source>
         <translation>Usando credenciales de la tienda de Jolla para comprar caja de recompensa</translation>
     </message>
     <message>
-        <location filename="../qml/components/LootBoxItem.qml" line="64"/>
+        <location filename="../qml/components/LootBoxItem.qml" line="65"/>
         <source>Thank you for your purchase!&lt;br /&gt;Your extra shelves will be delivered in the next update!</source>
         <translation>¡Gracias por la compra!&lt;br /&gt;¡Tus estantes extra se entregarán en la siguiente actualización!</translation>
     </message>
     <message>
-        <location filename="../qml/components/LootBoxItem.qml" line="74"/>
+        <location filename="../qml/components/LootBoxItem.qml" line="75"/>
         <source>*) No seriously there are no in-app-purchases in this app or Lootboxes in the Jolla Shop. That would be ridiculous.&lt;br /&gt;No funds were transfered.&lt;br /&gt; In fact, nothing really happened just now.&lt;br /&gt;…or did it?</source>
         <translation>*) No, en serio, no hay compras internas en esta aplicación o cajas de recompensa en la Tienda Jolla. Eso sería ridículo. &lt;br/&gt;No se han transferido fondos.&lt;br/&gt;De hecho, realmente no sucedió nada en este momento. &lt;br/&gt;...¿o sí?</translation>
     </message>
@@ -762,14 +837,51 @@ Changing the Ambience from the System Settings may also help.</translation>
     </message>
 </context>
 <context>
+    <name>SaveAmbience</name>
+    <message>
+        <location filename="../qml/pages/SaveAmbience.qml" line="53"/>
+        <source>Export Functions</source>
+        <translation>Exportar funciones</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SaveAmbience.qml" line="60"/>
+        <source>Here you can export your creation to a .ambience (json) file.&lt;br /&gt;
+                      This is not terribly useful at the moment, but you can use that file to build your own ambiences by adding an image, optionally some sounds, and package the whole thing as an RPM.
+                     </source>
+        <translation>Aquí puedes exportar tu creación a un archivo .ambience (json).&lt;br /&gt;
+                      Por ahora esto no es muy útil, pero puedes usar el archivo para construir tus propios ambientes añadiendo una imagen, opcionalmente algunos sonidos y empaquetarlo todo en un RPM.
+                     </translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SaveAmbience.qml" line="64"/>
+        <source>Export to File</source>
+        <translation>Exportar a archivo</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SaveAmbience.qml" line="69"/>
+        <source>Ambience Name</source>
+        <translation>Nombre de ambiente</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SaveAmbience.qml" line="71"/>
+        <source>A cool Ambience Name</source>
+        <translation>Un nombre de ambiente bonito</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/SaveAmbience.qml" line="93"/>
+        <source>Click to export</source>
+        <translation>Haz clic para exportar</translation>
+    </message>
+</context>
+<context>
     <name>SaveSlot</name>
     <message>
-        <location filename="../qml/components/SaveSlot.qml" line="39"/>
+        <location filename="../qml/components/SaveSlot.qml" line="38"/>
         <source>Ambience</source>
         <translation>Ambiente</translation>
     </message>
     <message>
-        <location filename="../qml/components/SaveSlot.qml" line="39"/>
+        <location filename="../qml/components/SaveSlot.qml" line="38"/>
         <source>Shelf</source>
         <translation>Estante</translation>
     </message>
@@ -787,17 +899,17 @@ Changing the Ambience from the System Settings may also help.</translation>
 <context>
     <name>Saver</name>
     <message>
-        <location filename="../qml/pages/Saver.qml" line="71"/>
+        <location filename="../qml/pages/Saver.qml" line="70"/>
         <source>Global Cupboard</source>
         <translation>Armario global</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Saver.qml" line="104"/>
+        <location filename="../qml/pages/Saver.qml" line="102"/>
         <source>Clean out this cupboard</source>
         <translation>Limpiar este armario</translation>
     </message>
     <message>
-        <location filename="../qml/pages/Saver.qml" line="104"/>
+        <location filename="../qml/pages/Saver.qml" line="102"/>
         <source>Spring Clean</source>
         <translation>Limpieza general</translation>
     </message>
@@ -810,17 +922,17 @@ Changing the Ambience from the System Settings may also help.</translation>
         <translation>anónimo</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SaverPlus.qml" line="103"/>
+        <location filename="../qml/pages/SaverPlus.qml" line="101"/>
         <source>Ambience Cupboard</source>
         <translation>Armario del ambiente</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SaverPlus.qml" line="147"/>
+        <location filename="../qml/pages/SaverPlus.qml" line="145"/>
         <source>Clean out this cupboard</source>
         <translation>Limpiar este armario</translation>
     </message>
     <message>
-        <location filename="../qml/pages/SaverPlus.qml" line="147"/>
+        <location filename="../qml/pages/SaverPlus.qml" line="145"/>
         <source>Spring Clean</source>
         <translation>Limpieza general</translation>
     </message>
@@ -828,11 +940,11 @@ Changing the Ambience from the System Settings may also help.</translation>
 <context>
     <name>ShowRoom</name>
     <message>
-        <location filename="../qml/components/ShowRoom.qml" line="89"/>
-        <location filename="../qml/components/ShowRoom.qml" line="90"/>
-        <location filename="../qml/components/ShowRoom.qml" line="91"/>
         <location filename="../qml/components/ShowRoom.qml" line="92"/>
         <location filename="../qml/components/ShowRoom.qml" line="93"/>
+        <location filename="../qml/components/ShowRoom.qml" line="94"/>
+        <location filename="../qml/components/ShowRoom.qml" line="95"/>
+        <location filename="../qml/components/ShowRoom.qml" line="96"/>
         <source>A very long line showing Text in </source>
         <translation>Una línea muy larga está mostrando texto en </translation>
     </message>
@@ -841,39 +953,39 @@ Changing the Ambience from the System Settings may also help.</translation>
         <translation type="vanished">Colour</translation>
     </message>
     <message>
-        <location filename="../qml/components/ShowRoom.qml" line="89"/>
-        <location filename="../qml/components/ShowRoom.qml" line="108"/>
-        <location filename="../qml/components/ShowRoom.qml" line="136"/>
+        <location filename="../qml/components/ShowRoom.qml" line="92"/>
+        <location filename="../qml/components/ShowRoom.qml" line="111"/>
+        <location filename="../qml/components/ShowRoom.qml" line="139"/>
         <source>Primary Color</source>
         <translation>Color principal</translation>
     </message>
     <message>
-        <location filename="../qml/components/ShowRoom.qml" line="90"/>
-        <location filename="../qml/components/ShowRoom.qml" line="114"/>
-        <location filename="../qml/components/ShowRoom.qml" line="142"/>
+        <location filename="../qml/components/ShowRoom.qml" line="93"/>
+        <location filename="../qml/components/ShowRoom.qml" line="117"/>
+        <location filename="../qml/components/ShowRoom.qml" line="145"/>
         <source>Secondary Color</source>
         <translation>Color secundario</translation>
     </message>
     <message>
-        <location filename="../qml/components/ShowRoom.qml" line="91"/>
+        <location filename="../qml/components/ShowRoom.qml" line="94"/>
         <source>Highlight Color</source>
         <translation>Color de realce</translation>
     </message>
     <message>
-        <location filename="../qml/components/ShowRoom.qml" line="92"/>
+        <location filename="../qml/components/ShowRoom.qml" line="95"/>
         <source>Secondary Highlight Color</source>
         <translation>Color secundario de realce</translation>
     </message>
     <message>
-        <location filename="../qml/components/ShowRoom.qml" line="93"/>
+        <location filename="../qml/components/ShowRoom.qml" line="96"/>
         <source>Error Color</source>
         <translation>Color de error</translation>
     </message>
     <message>
-        <location filename="../qml/components/ShowRoom.qml" line="108"/>
-        <location filename="../qml/components/ShowRoom.qml" line="114"/>
-        <location filename="../qml/components/ShowRoom.qml" line="136"/>
-        <location filename="../qml/components/ShowRoom.qml" line="142"/>
+        <location filename="../qml/components/ShowRoom.qml" line="111"/>
+        <location filename="../qml/components/ShowRoom.qml" line="117"/>
+        <location filename="../qml/components/ShowRoom.qml" line="139"/>
+        <location filename="../qml/components/ShowRoom.qml" line="145"/>
         <source>Background Color</source>
         <translation>Color de fondo</translation>
     </message>
@@ -882,48 +994,48 @@ Changing the Ambience from the System Settings may also help.</translation>
         <translation type="vanished">four kinds of background overlay opacities and colours</translation>
     </message>
     <message>
-        <location filename="../qml/components/ShowRoom.qml" line="108"/>
-        <location filename="../qml/components/ShowRoom.qml" line="114"/>
-        <location filename="../qml/components/ShowRoom.qml" line="136"/>
-        <location filename="../qml/components/ShowRoom.qml" line="142"/>
+        <location filename="../qml/components/ShowRoom.qml" line="111"/>
+        <location filename="../qml/components/ShowRoom.qml" line="117"/>
+        <location filename="../qml/components/ShowRoom.qml" line="139"/>
+        <location filename="../qml/components/ShowRoom.qml" line="145"/>
         <source>Text</source>
         <translation>Texto</translation>
     </message>
     <message>
-        <location filename="../qml/components/ShowRoom.qml" line="165"/>
+        <location filename="../qml/components/ShowRoom.qml" line="168"/>
         <source>Progress Bar Demo</source>
         <translation>Demo de barra de progreso</translation>
     </message>
     <message>
-        <location filename="../qml/components/ShowRoom.qml" line="165"/>
+        <location filename="../qml/components/ShowRoom.qml" line="168"/>
         <source>Tap to restart Demos</source>
         <translation>Toca para reiniciar Demos</translation>
     </message>
     <message>
-        <location filename="../qml/components/ShowRoom.qml" line="168"/>
+        <location filename="../qml/components/ShowRoom.qml" line="171"/>
         <source>Remorse Item Demo</source>
         <translation>Demo de barra de cancelación</translation>
     </message>
     <message>
-        <location filename="../qml/components/ShowRoom.qml" line="224"/>
-        <location filename="../qml/components/ShowRoom.qml" line="225"/>
-        <location filename="../qml/components/ShowRoom.qml" line="232"/>
+        <location filename="../qml/components/ShowRoom.qml" line="227"/>
+        <location filename="../qml/components/ShowRoom.qml" line="228"/>
+        <location filename="../qml/components/ShowRoom.qml" line="235"/>
         <source>MenuItem</source>
         <translation>Elemento del menú</translation>
     </message>
     <message>
-        <location filename="../qml/components/ShowRoom.qml" line="225"/>
+        <location filename="../qml/components/ShowRoom.qml" line="228"/>
         <source>selected</source>
         <translation>seleccionado</translation>
     </message>
     <message>
-        <location filename="../qml/components/ShowRoom.qml" line="232"/>
+        <location filename="../qml/components/ShowRoom.qml" line="235"/>
         <source>disabled</source>
         <translation>desactivado</translation>
     </message>
     <message>
-        <location filename="../qml/components/ShowRoom.qml" line="252"/>
-        <location filename="../qml/components/ShowRoom.qml" line="253"/>
+        <location filename="../qml/components/ShowRoom.qml" line="255"/>
+        <location filename="../qml/components/ShowRoom.qml" line="256"/>
         <source>Button</source>
         <translation>Botón</translation>
     </message>
