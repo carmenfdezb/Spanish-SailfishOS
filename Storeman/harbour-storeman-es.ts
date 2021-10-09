@@ -526,14 +526,6 @@
         <source>Updates available</source>
         <translation>Actualizaciones disponibles</translation>
     </message>
-    <message id="orn-updates-available-preview">
-        <source>Click to view updates</source>
-        <translation>Haz clic para ver las actualizaciones</translation>
-    </message>
-    <message id="orn-view-details">
-        <source>Click to view details</source>
-        <translation>Haz clic para ver los detalles</translation>
-    </message>
     <message id="orn-error-depresolution">
         <source>Nothing provides %1 needed by %2</source>
         <extracomment>A template string for a dependecy resolution error. %1 is a dependency and %2 is a failed package.</extracomment>
@@ -778,10 +770,6 @@
         <source>%n hour(s)</source>
         <translation><numerusform>%n hora</numerusform><numerusform>%n horas</numerusform></translation>
     </message>
-    <message id="orn-updates-check-interval-invalid">
-        <source>The interval must be at least 10 minutes</source>
-        <translation>El intervalo debe ser al menos 10  minutos</translation>
-    </message>
     <message id="orn-tag-strikeout">
         <source>S</source>
         <extracomment>Tag strikeout</extracomment>
@@ -874,10 +862,6 @@
         <source>Search on OpenRepos.net</source>
         <translation>Buscar en OpenRepos.net</translation>
     </message>
-    <message id="orn-repo-suggestion">
-        <source>&lt;h3&gt;Enable the Storeman repository&lt;/h3&gt;&lt;p&gt;To receive the latest versions of Storeman, you need to enable its OpenRepos repository like for any other app.&lt;/p&gt;&lt;p&gt;Do you want to do it now?&lt;/p&gt;</source>
-        <translation>&lt;h3&gt;Habilitar el repositorio de Storeman&lt;/h3&gt;&lt;p&gt;Para recibir las últimas versiones de Storeman, es necesario habilitar su repositorio en OpenRepos como cualquier otra aplicación. &lt;/p&gt;&lt;p&gt;¿Quieres hacerlo ahora?&lt;/p&gt;</translation>
-    </message>
     <message id="orn-check-for-updates-switch">
         <source>Check for updates</source>
         <translation>Comprobar actualizaciones</translation>
@@ -892,7 +876,7 @@
     </message>
     <message id="orn-smart-check-descr">
         <source>Use the OpenRepos.net API to determine if there are new updates</source>
-        <translation>Usa la API de Openrepos.net para determinar si hay nuevas actualizaciones</translation>
+        <translation>Usar la API de Openrepos.net para determinar si hay nuevas actualizaciones</translation>
     </message>
     <message id="orn-reload">
         <source>Reload</source>
@@ -952,7 +936,7 @@
     </message>
     <message id="orn-show-recent-switch-descr">
         <source>Switch to the page of recently updated packages on start</source>
-        <translation>Cambia a la página de paquetes actualizados recientemente al iniciar la aplicación</translation>
+        <translation>Cambiar a la página de paquetes actualizados recientemente al iniciar la aplicación</translation>
     </message>
     <message id="orn-mainpage-order">
         <source>Order items</source>
@@ -1025,6 +1009,54 @@
     <message id="orn-app-description-full">
         <source>&lt;p&gt;Native OpenRepos.net client for Sailfish&amp;nbsp;OS&lt;/p&gt;&lt;p&gt;This is an open source software which is distributed under the terms of the &lt;a href=&apos;%1&apos;&gt;MIT&amp;nbsp;License&lt;/a&gt;&lt;/p&gt;&lt;p&gt;You can report an issue on OpenRepos.net or GitHub (use the buttons below)&lt;/p&gt;</source>
         <translation>&lt;p&gt;Cliente nativo de OpenRepos.net para Sailfish&amp;nbsp;OS&lt;/p&gt; &lt;p&gt;Este es un programa de código abierto que se distribuye bajo los términos de la &lt;a href=&apos;%1&apos;&gt;Licencia&amp;nbsp;MIT&lt;/a&gt; &lt;/p&gt;&lt;p&gt;Puedes informar de un problema en OpenRepos.net o en GitHub (usa los botones de abajo) &lt;/p&gt;</translation>
+    </message>
+    <message id="orn-show-details">
+        <source>Show details</source>
+        <translation>Mostrar detalles</translation>
+    </message>
+    <message id="orn-unused-repos-found">
+        <source>Unused repositories found</source>
+        <translation>Se encontraron repositorios no usados</translation>
+    </message>
+    <message id="orn-no-unused-repos">
+        <source>Unused repositories not found</source>
+        <translation>No se encontraron repositorios no usados</translation>
+    </message>
+    <message id="orn-search-unused-repos">
+        <source>Search for unused</source>
+        <translation>Buscar no usados</translation>
+    </message>
+    <message id="orn-unused-repos-switch">
+        <source>Search for unused repositories</source>
+        <translation>Buscar repositorios no usados</translation>
+    </message>
+    <message id="orn-unused-repos-switch-descr">
+        <source>Search for unused repositories after removing packages.</source>
+        <translation>Buscar repositorios no usados después de eliminar paquetes.</translation>
+    </message>
+    <message id="orn-unused-repos">
+        <source>Unused repositories</source>
+        <translation>Repositorios no usados</translation>
+    </message>
+    <message id="orn-unused-repos-text">
+        <source>&lt;p&gt;There are no installed packages for the next repositories.&lt;/p&gt;&lt;p&gt;Do you want to remove them now?&lt;/p&gt;</source>
+        <translation>&lt;p&gt;No hay paquetes instalados de los siguientes repositorios.&lt;/p&gt;&lt;p&gt;¿Quieres eliminarlos ahora?&lt;/p&gt;</translation>
+    </message>
+    <message id="orn-updates-check-interval-minimum">
+        <source>At least 10 minutes</source>
+        <translation>Al menos 10 minutos</translation>
+    </message>
+    <message id="orn-check-for-self-updates-switch">
+        <source>Check for self-updates</source>
+        <translation>Comprobar auto-actualizaciones</translation>
+    </message>
+    <message id="orn-check-for-self-updates-descr">
+        <source>Enable the Storeman OBS repository to check for Storeman updates</source>
+        <translation>Habilitar el repositorio OBS de Storeman para comprobar actualizaciones</translation>
+    </message>
+    <message id="orn-storeman-repo-name">
+        <source>Storeman OBS Repository</source>
+        <translation>Repositorio OBS de Storeman</translation>
     </message>
 </context>
 </TS>
