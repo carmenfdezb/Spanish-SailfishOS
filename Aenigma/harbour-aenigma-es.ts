@@ -214,7 +214,7 @@
     </message>
     <message id="id-hints-used">
         <source>Hints used</source>
-        <translation>Sugerencias usadas</translation>
+        <translation>Pistas usadas</translation>
     </message>
     <message id="id-generator-failed-msg">
         <source>Generation of Sudoku game failed! Please try again!</source>
@@ -228,6 +228,78 @@
     <message id="id-resetting-settings">
         <source>Resetting settings</source>
         <translation>Restableciendo ajustes</translation>
+    </message>
+    <message id="id-games">
+        <source>Games</source>
+        <translation>Partidas</translation>
+    </message>
+    <message id="id-average-time">
+        <source>Average time</source>
+        <translation>Tiempo medio</translation>
+    </message>
+    <message id="id-minimum-time">
+        <source>Minimum time</source>
+        <translation>Tiempo mínimo</translation>
+    </message>
+    <message id="id-average-steps">
+        <source>Average steps</source>
+        <translation>Media de pasos</translation>
+    </message>
+    <message id="id-minimum-steps">
+        <source>Minimum steps</source>
+        <translation>Pasos mínimo</translation>
+    </message>
+    <message id="id-average-hints">
+        <source>Average hints</source>
+        <translation>Media de pistas</translation>
+    </message>
+    <message id="id-minimum-hints">
+        <source>Minimum hints</source>
+        <translation>Pistas mínimas</translation>
+    </message>
+    <message id="id-statistics">
+        <source>Statistics</source>
+        <translation>Estadísticas</translation>
+    </message>
+    <message id="id-reset-statistics">
+        <source>Reset statistics</source>
+        <translation>Reiniciar estadísticas</translation>
+    </message>
+    <message id="id-refresh">
+        <source>Refresh</source>
+        <translation>Actualizar</translation>
+    </message>
+    <message id="id-total-time">
+        <source>Total time</source>
+        <translation>Tiempo total</translation>
+    </message>
+    <message id="id-no-stat-data">
+        <source>No statistic data available</source>
+        <translation>No hay datos estadísticos</translation>
+    </message>
+    <message id="id-no-stat-data-hint">
+        <source>Play some games and come back</source>
+        <translation>Juega algunas partidas y vuelve</translation>
+    </message>
+    <message id="id-no-data-available">
+        <source>No data available</source>
+        <translation>No hay datos</translation>
+    </message>
+    <message id="id-overview">
+        <source>Overview</source>
+        <translation>No hay datos</translation>
+    </message>
+    <message id="id-total-games">
+        <source>Total games</source>
+        <translation>Total de partidas</translation>
+    </message>
+    <message id="id-style-dark-shadow">
+        <source>Dark Shadow</source>
+        <translation>Fondo oscuro</translation>
+    </message>
+    <message id="id-difficulty-level">
+        <source>Difficulty level</source>
+        <translation>Nivel de dificultad</translation>
     </message>
 </context>
 </TS>
