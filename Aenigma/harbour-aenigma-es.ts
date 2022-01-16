@@ -301,5 +301,78 @@
         <source>Difficulty level</source>
         <translation>Nivel de dificultad</translation>
     </message>
+    <message id="id-choose-color">
+        <source>Choose color</source>
+        <translation>Elige color</translation>
+    </message>
+    <message id="id-color">
+        <source>Color</source>
+        <translation>Color</translation>
+    </message>
+    <message id="id-preview">
+        <source>Preview</source>
+        <translation>Vista previa</translation>
+    </message>
+    <message id="id-background-color">
+        <source>Background color</source>
+        <translation>Color del fondo</translation>
+    </message>
+    <message id="id-opacity">
+        <source>opacity</source>
+        <oldsource>%1% opacity</oldsource>
+        <translation>opacidad</translation>
+    </message>
+    <message id="id-grid-color">
+        <source>Grid color</source>
+        <translation>Color de cuadrícula</translation>
+    </message>
+    <message id="id-background">
+        <source>Background</source>
+        <translation>Fondo</translation>
+    </message>
+    <message id="id-grid">
+        <source>Grid</source>
+        <translation>Cuadrícula</translation>
+    </message>
+    <message id="id-customize-style">
+        <source>Customize style</source>
+        <translation>Personalizar estilo</translation>
+    </message>
+    <message id="id-cell-preview">
+        <source>Cell preview</source>
+        <translation>Vista previa de la casilla</translation>
+    </message>
+    <message id="id-error-highlighting">
+        <source>Error highlighting</source>
+        <translation>Error en resaltado</translation>
+    </message>
+    <message id="id-number-color">
+        <source>Number color</source>
+        <translation>Color del número</translation>
+    </message>
+    <message id="id-fixed-number">
+        <source>Fixed number</source>
+        <translation>Número corregido</translation>
+    </message>
+    <message id="id-notes">
+        <source>Notes</source>
+        <translation>Notas</translation>
+    </message>
+    <message id="id-custom">
+        <source>Custom</source>
+        <translation>Personalizado</translation>
+    </message>
+    <message id="id-customize">
+        <source>Customize</source>
+        <translation>Personalizar</translation>
+    </message>
+    <message id="id-inserted-number">
+        <source>Inserted number</source>
+        <translation>Número insertado</translation>
+    </message>
+    <message id="id-board-style">
+        <source>Board style</source>
+        <translation>Número insertado</translation>
+    </message>
 </context>
 </TS>
