@@ -53,34 +53,50 @@
 <context>
     <name>AuthorizationCode</name>
     <message>
-        <source>UI Template</source>
-        <translation>Plantilla UI</translation>
-    </message>
-    <message>
         <source>Code</source>
         <translation>Código</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Acceso</translation>
+    </message>
+    <message>
+        <source>Submit</source>
+        <translation>Enviar</translation>
     </message>
 </context>
 <context>
     <name>AuthorizationNumber</name>
     <message>
-        <source>UI Template</source>
-        <translation>Plantilla UI</translation>
-    </message>
-    <message>
         <source>Number with +XXX</source>
         <translation>Número con +XXX</translation>
+    </message>
+    <message>
+        <source>Proxy settings</source>
+        <translation>Ajustes de proxy</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Acceso</translation>
+    </message>
+    <message>
+        <source>Submit</source>
+        <translation>Enviar</translation>
     </message>
 </context>
 <context>
     <name>AuthorizationPassword</name>
     <message>
-        <source>UI Template</source>
-        <translation>Plantilla UI</translation>
-    </message>
-    <message>
         <source>Password</source>
         <translation>Contraseña</translation>
+    </message>
+    <message>
+        <source>Login</source>
+        <translation>Acceso</translation>
+    </message>
+    <message>
+        <source>Submit</source>
+        <translation>Enviar</translation>
     </message>
 </context>
 <context>
@@ -223,14 +239,6 @@
 <context>
     <name>Chat</name>
     <message>
-        <source>%1 left</source>
-        <translation>%1 salió</translation>
-    </message>
-    <message>
-        <source>%1 joined</source>
-        <translation>%1 se unió</translation>
-    </message>
-    <message>
         <source>Open secret chat</source>
         <translation>Abrir chat secreto</translation>
     </message>
@@ -323,10 +331,6 @@
         <translation>Nota voz</translation>
     </message>
     <message>
-        <source>Save to gallery</source>
-        <translation>Guardar en galería</translation>
-    </message>
-    <message>
         <source>Pin message</source>
         <translation>Fijar mensaje</translation>
     </message>
@@ -366,6 +370,82 @@
         <source>Call</source>
         <translation>Llamar</translation>
     </message>
+    <message>
+        <source>Swipe from bottom to access upload options</source>
+        <translation>Desliza desde abajo para acceder a las posibilidades de envío</translation>
+    </message>
+    <message>
+        <source>%1 online</source>
+        <translation>%1 en línea</translation>
+    </message>
+    <message>
+        <source>Many people are typing...</source>
+        <translation>Varias personas están escribiendo...</translation>
+    </message>
+    <message>
+        <source>%1 and %2 are typing...</source>
+        <translation>%1 y %2 están escribiendo...</translation>
+    </message>
+    <message>
+        <source>%1 is typing...</source>
+        <translation>%1 está escribiendo...</translation>
+    </message>
+    <message>
+        <source>%1 is recording video</source>
+        <translation>%1 está grabando un vídeo</translation>
+    </message>
+    <message>
+        <source>%1 is uploading video</source>
+        <translation>%1 está enviando un vídeo</translation>
+    </message>
+    <message>
+        <source>%1 is recording voicenote</source>
+        <translation>%1 está grabando una nota de voz</translation>
+    </message>
+    <message>
+        <source>%1 is uploading voicenote</source>
+        <translation>%1 está enviando una nota de voz</translation>
+    </message>
+    <message>
+        <source>%1 is uploading photo</source>
+        <translation>%1 está enviando una foto</translation>
+    </message>
+    <message>
+        <source>%1 is uploading document</source>
+        <translation>%1 está enviando un documento</translation>
+    </message>
+    <message>
+        <source>%1 is choosing sticker</source>
+        <translation>%1 está seleccionando un sticker</translation>
+    </message>
+    <message>
+        <source>%1 is choosing location</source>
+        <translation>%1 está seleccionando ubicación</translation>
+    </message>
+    <message>
+        <source>%1 is choosing contact</source>
+        <translation>%1 está seleccionando un contacto</translation>
+    </message>
+    <message>
+        <source>%1 is playing game</source>
+        <translation>%1 está jugando a un juego</translation>
+    </message>
+    <message>
+        <source>%1 is recording videonote</source>
+        <translation>%1 está grabando una nota de vídeo</translation>
+    </message>
+    <message>
+        <source>%1 is uploading videonote</source>
+        <translation>%1 está enviando una nota de vídeo</translation>
+    </message>
+    <message>
+        <source>%1 is watching animations</source>
+        <translation>%1 está viendo animaciones</translation>
+    </message>
+    <message>
+        <source>Channel created</source>
+        <translation>Canal creado</translation>
+    </message>
 </context>
 <context>
     <name>ChatList</name>
@@ -394,24 +474,8 @@
         <translation>Mensajes guardados</translation>
     </message>
     <message>
-        <source>%1 left</source>
-        <translation>%1 salió</translation>
-    </message>
-    <message>
-        <source>%1 joined</source>
-        <translation>%1 se unió</translation>
-    </message>
-    <message>
         <source>Audio</source>
         <translation>Audio</translation>
-    </message>
-    <message>
-        <source>Video note</source>
-        <translation>Nota de vídeo</translation>
-    </message>
-    <message>
-        <source>Voice note</source>
-        <translation>Nota de voz</translation>
     </message>
     <message>
         <source>Photo</source>
@@ -430,19 +494,8 @@
         <translation>Documento</translation>
     </message>
     <message>
-        <source>GIF</source>
-        <translation>GIF</translation>
-    </message>
-    <message>
         <source>Poll</source>
         <translation>Encuesta</translation>
-    </message>
-    <message numerus="yes">
-        <source>Self-destruct timer set to %n second(s)</source>
-        <translation>
-            <numerusform>Autodestrucción en %n segundo</numerusform>
-            <numerusform>Autodestrucción en %n segundos</numerusform>
-        </translation>
     </message>
     <message>
         <source>Unpin from top</source>
@@ -453,18 +506,6 @@
         <translation>Fijar arriba</translation>
     </message>
     <message>
-        <source>%1 pinned message</source>
-        <translation>%1 fijó un mensaje</translation>
-    </message>
-    <message>
-        <source>Outgoing call</source>
-        <translation>Llamada saliente</translation>
-    </message>
-    <message>
-        <source>Incoming call</source>
-        <translation>Llamada entrante</translation>
-    </message>
-    <message>
         <source>Location</source>
         <translation>Ubicación</translation>
     </message>
@@ -473,8 +514,24 @@
         <translation>Contacto</translation>
     </message>
     <message>
-        <source>%1 joined telegram</source>
-        <translation>%1 se unió a telegram</translation>
+        <source>Archive</source>
+        <translation>Archivado</translation>
+    </message>
+    <message>
+        <source>Main</source>
+        <translation>Principal</translation>
+    </message>
+    <message>
+        <source>VoiceNote</source>
+        <translation>Nota de voz</translation>
+    </message>
+    <message>
+        <source>VideoNote</source>
+        <translation>Nota de vídeo</translation>
+    </message>
+    <message>
+        <source>GIF</source>
+        <translation>GIF</translation>
     </message>
 </context>
 <context>
@@ -616,7 +673,7 @@
         <translation>Latitud:</translation>
     </message>
     <message>
-        <source>Longitude</source>
+        <source>Longitude:</source>
         <translation>Longitud:</translation>
     </message>
 </context>
@@ -664,6 +721,10 @@
     <message>
         <source>%1 joined telegram</source>
         <translation>%1 se unió a telegram</translation>
+    </message>
+    <message>
+        <source>Group created</source>
+        <translation>Grupo creado</translation>
     </message>
 </context>
 <context>
@@ -764,6 +825,57 @@
     <message>
         <source>Quiz mode</source>
         <translation>Modo cuestionario</translation>
+    </message>
+</context>
+<context>
+    <name>ProxySettings</name>
+    <message>
+        <source>Add server</source>
+        <translation>Añadir servidor</translation>
+    </message>
+    <message>
+        <source>Disable proxy</source>
+        <translation>Desactivar proxy</translation>
+    </message>
+    <message>
+        <source>Proxy settings</source>
+        <translation>Ajustes de proxy</translation>
+    </message>
+    <message>
+        <source>Enable</source>
+        <translation>Activar</translation>
+    </message>
+    <message>
+        <source>Test</source>
+        <translation>Probar</translation>
+    </message>
+    <message>
+        <source>Delete</source>
+        <translation>Borrar</translation>
+    </message>
+    <message>
+        <source>Server settings</source>
+        <translation>Ajustes del servidor</translation>
+    </message>
+    <message>
+        <source>Server</source>
+        <translation>Servidor</translation>
+    </message>
+    <message>
+        <source>Port</source>
+        <translation>Puerto</translation>
+    </message>
+    <message>
+        <source>Username</source>
+        <translation>Nombre de usuario</translation>
+    </message>
+    <message>
+        <source>Password</source>
+        <translation>Contraseña</translation>
+    </message>
+    <message>
+        <source>Secret</source>
+        <translation>Secreto</translation>
     </message>
 </context>
 <context>
@@ -886,6 +998,10 @@
         <source>Call settings</source>
         <translation>Ajustes de llamada</translation>
     </message>
+    <message>
+        <source>Proxy settings</source>
+        <translation>Ajustes de proxy</translation>
+    </message>
 </context>
 <context>
     <name>SupergroupInfo</name>
@@ -970,7 +1086,7 @@
     </message>
     <message>
         <source>Never seen</source>
-        <translation>No visto</translation>
+        <translation>Nunca en línea</translation>
     </message>
 </context>
 <context>
