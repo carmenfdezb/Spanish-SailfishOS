@@ -374,5 +374,49 @@
         <source>Board style</source>
         <translation>Número insertado</translation>
     </message>
+    <message id="id-add-bookmark">
+        <source>Add bookmark</source>
+        <translation>Añadir marcador</translation>
+    </message>
+    <message id="id-bookmarks">
+        <source>Bookmarks</source>
+        <translation>Marcadores</translation>
+    </message>
+    <message id="id-load">
+        <source>Load</source>
+        <translation>Cargar</translation>
+    </message>
+    <message id="id-load-bookmarked-state">
+        <source>Loading bookmarked game state</source>
+        <translation>Recuperando estado del juego guardado</translation>
+    </message>
+    <message id="id-resetting-bookmarks">
+        <source>Resetting bookmarks</source>
+        <translation>Borrando marcadores</translation>
+    </message>
+    <message id="id-delete">
+        <source>Delete</source>
+        <translation>Eliminar</translation>
+    </message>
+    <message id="id-deleting-bookmark">
+        <source>Deleting bookmark</source>
+        <translation>Borrando marcador</translation>
+    </message>
+    <message id="id-bookmark-added">
+        <source>Bookmark added</source>
+        <translation>Marcador añadido</translation>
+    </message>
+    <message id="id-revert-to-last-correct-state">
+        <source>Revert to correct state</source>
+        <translation>Volver al estado correcto</translation>
+    </message>
+    <message id="id-enter-description">
+        <source>Enter description</source>
+        <translation>Introducir descripción</translation>
+    </message>
+    <message id="id-add">
+        <source>Add</source>
+        <translation>Añadir</translation>
+    </message>
 </context>
 </TS>
