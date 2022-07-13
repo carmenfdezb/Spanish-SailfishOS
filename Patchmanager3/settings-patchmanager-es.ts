@@ -5,7 +5,7 @@
         <location filename="../src/bin/dialog/dialog.qml" line="63"/>
         <location filename="../src/bin/dialog/dialog.qml" line="80"/>
         <source>Activate all enabled Patches</source>
-        <translation>Activar todos los parches habilitados</translation>
+        <translation>Activar parches habilitados</translation>
     </message>
     <message>
         <location filename="../src/bin/dialog/dialog.qml" line="89"/>
@@ -25,7 +25,7 @@
     <message>
         <location filename="../src/bin/dialog/dialog.qml" line="179"/>
         <source>Successfully activated all enabled Patches.</source>
-        <translation>Se han activado todos los parches habilitados correctamente.</translation>
+        <translation>Se han activado correctamente todos los parches habilitados.</translation>
     </message>
     <message>
         <location filename="../src/bin/dialog/dialog.qml" line="180"/>
