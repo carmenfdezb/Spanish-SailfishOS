@@ -1,73 +1,69 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="es" sourcelanguage="en_US" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="es" sourcelanguage="en_US">
 <context>
     <name>AboutPage</name>
     <message>
-        <location filename="../desktop/qml/AboutPage.qml" line="18"/>
-        <source>About</source>
-        <translation>Acerca de</translation>
-    </message>
-    <message>
-        <location filename="../sailfish/qml/AboutPage.qml" line="28"/>
+        <location filename="../sfos/qml/AboutPage.qml" line="28"/>
+        <location filename="../plasma/qml/AboutPage.qml" line="18"/>
         <source>About %1</source>
         <translation>Acerca de %1</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AboutPage.qml" line="44"/>
+        <location filename="../sfos/qml/AboutPage.qml" line="46"/>
         <source>Version %1</source>
         <translation>Versión %1</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AboutPage.qml" line="48"/>
+        <location filename="../sfos/qml/AboutPage.qml" line="57"/>
         <source>Changes</source>
         <translation>Cambios</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AboutPage.qml" line="54"/>
-        <location filename="../desktop/qml/AboutPage.qml" line="87"/>
+        <location filename="../sfos/qml/AboutPage.qml" line="53"/>
+        <location filename="../plasma/qml/AboutPage.qml" line="87"/>
         <source>Project website</source>
         <translation>Fuente</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AboutPage.qml" line="60"/>
-        <location filename="../desktop/qml/AboutPage.qml" line="103"/>
+        <location filename="../sfos/qml/AboutPage.qml" line="63"/>
+        <location filename="../plasma/qml/AboutPage.qml" line="103"/>
         <source>Authors</source>
         <translation>Autores</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AboutPage.qml" line="80"/>
-        <location filename="../desktop/qml/AboutPage.qml" line="116"/>
+        <location filename="../sfos/qml/AboutPage.qml" line="83"/>
+        <location filename="../plasma/qml/AboutPage.qml" line="116"/>
         <source>Translators</source>
         <translation>Traductores</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AboutPage.qml" line="92"/>
-        <location filename="../desktop/qml/AboutPage.qml" line="132"/>
+        <location filename="../sfos/qml/AboutPage.qml" line="92"/>
+        <location filename="../plasma/qml/AboutPage.qml" line="129"/>
         <source>Libraries in use</source>
         <translation>Librerías en uso</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AboutPage.qml" line="74"/>
-        <location filename="../desktop/qml/AboutPage.qml" line="72"/>
+        <location filename="../sfos/qml/AboutPage.qml" line="77"/>
+        <location filename="../plasma/qml/AboutPage.qml" line="72"/>
         <source>%1 is developed as an open source project under %2.</source>
         <translation>%1 se ha desarrollado como un proyecto de código abierto bajo %2.</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/AboutPage.qml" line="47"/>
+        <location filename="../plasma/qml/AboutPage.qml" line="47"/>
         <source>Play audio, video and images on UPnP/DLNA devices</source>
         <translation>Reproduce audio, vídeo e imágenes en dispositivos UPnP/DLNA</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/AboutPage.qml" line="59"/>
+        <location filename="../plasma/qml/AboutPage.qml" line="59"/>
         <source>Copyright</source>
         <translation>Derechos de autor</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/AboutPage.qml" line="81"/>
+        <location filename="../plasma/qml/AboutPage.qml" line="81"/>
         <source>Support</source>
         <translation>Soporte</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/AboutPage.qml" line="95"/>
+        <location filename="../plasma/qml/AboutPage.qml" line="95"/>
         <source>Support e-mail</source>
         <translation>Correo de soporte</translation>
     </message>
@@ -75,222 +71,197 @@
 <context>
     <name>AddMediaPage</name>
     <message>
-        <location filename="../sailfish/qml/AddMediaPage.qml" line="107"/>
-        <source>Add item</source>
-        <translation>Añadir un elemento</translation>
+        <location filename="../sfos/qml/AddMediaPage.qml" line="109"/>
+        <location filename="../plasma/qml/AddMediaPage.qml" line="31"/>
+        <source>Add</source>
+        <translation>Añadir</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AddMediaPage.qml" line="111"/>
-        <location filename="../desktop/qml/AddMediaPage.qml" line="65"/>
+        <location filename="../sfos/qml/AddMediaPage.qml" line="113"/>
+        <location filename="../plasma/qml/AddMediaPage.qml" line="128"/>
         <source>Local</source>
         <translation>Local</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AddMediaPage.qml" line="115"/>
+        <location filename="../sfos/qml/AddMediaPage.qml" line="117"/>
         <source>Music</source>
         <translation>Música</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AddMediaPage.qml" line="124"/>
+        <location filename="../sfos/qml/AddMediaPage.qml" line="126"/>
         <source>Album</source>
         <translation>Álbum</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AddMediaPage.qml" line="133"/>
+        <location filename="../sfos/qml/AddMediaPage.qml" line="135"/>
         <source>Artist</source>
         <translation>Artista</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AddMediaPage.qml" line="142"/>
+        <location filename="../sfos/qml/AddMediaPage.qml" line="144"/>
         <source>Playlist</source>
         <translation>Lista de reproducción</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AddMediaPage.qml" line="151"/>
-        <source>Audio from Video</source>
-        <translation>Audio de vídeo</translation>
+        <location filename="../sfos/qml/AddMediaPage.qml" line="153"/>
+        <location filename="../plasma/qml/AddMediaPage.qml" line="144"/>
+        <source>Audio from video</source>
+        <translation>Audio del vídeo</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AddMediaPage.qml" line="160"/>
+        <location filename="../sfos/qml/AddMediaPage.qml" line="162"/>
         <source>Video</source>
         <translation>Vídeo</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AddMediaPage.qml" line="169"/>
+        <location filename="../sfos/qml/AddMediaPage.qml" line="171"/>
         <source>Image</source>
         <translation>Imagen</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AddMediaPage.qml" line="178"/>
-        <location filename="../desktop/qml/AddMediaPage.qml" line="70"/>
+        <location filename="../sfos/qml/AddMediaPage.qml" line="180"/>
+        <location filename="../plasma/qml/AddMediaPage.qml" line="133"/>
         <source>File</source>
         <translation>Archivo</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AddMediaPage.qml" line="197"/>
-        <location filename="../desktop/qml/AddMediaPage.qml" line="93"/>
+        <location filename="../sfos/qml/AddMediaPage.qml" line="189"/>
+        <location filename="../plasma/qml/AddMediaPage.qml" line="155"/>
+        <source>Recording</source>
+        <translation>Grabación</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/AddMediaPage.qml" line="198"/>
+        <location filename="../plasma/qml/AddMediaPage.qml" line="166"/>
         <source>Remote</source>
         <translation>Remoto</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AddMediaPage.qml" line="201"/>
-        <location filename="../desktop/qml/AddMediaPage.qml" line="98"/>
+        <location filename="../sfos/qml/AddMediaPage.qml" line="202"/>
+        <location filename="../plasma/qml/AddMediaPage.qml" line="171"/>
         <source>URL</source>
         <translation>URL</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AddMediaPage.qml" line="210"/>
-        <location filename="../desktop/qml/AddMediaPage.qml" line="107"/>
+        <location filename="../sfos/qml/AddMediaPage.qml" line="211"/>
+        <location filename="../plasma/qml/AddMediaPage.qml" line="178"/>
         <source>Media Server</source>
         <translation>Servidor multimedia</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AddMediaPage.qml" line="219"/>
-        <location filename="../desktop/qml/AddMediaPage.qml" line="119"/>
+        <location filename="../sfos/qml/AddMediaPage.qml" line="220"/>
+        <location filename="../plasma/qml/AddMediaPage.qml" line="189"/>
         <source>Capture</source>
         <translation>Captura</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AddMediaPage.qml" line="223"/>
-        <location filename="../desktop/qml/AddMediaPage.qml" line="124"/>
+        <location filename="../sfos/qml/AddMediaPage.qml" line="224"/>
+        <location filename="../plasma/qml/AddMediaPage.qml" line="194"/>
         <source>Audio capture</source>
         <translation>Captura de audio</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AddMediaPage.qml" line="235"/>
-        <location filename="../desktop/qml/AddMediaPage.qml" line="135"/>
+        <location filename="../sfos/qml/AddMediaPage.qml" line="235"/>
+        <location filename="../plasma/qml/AddMediaPage.qml" line="201"/>
         <source>Screen capture</source>
         <translation>Captura de pantalla</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AddMediaPage.qml" line="246"/>
-        <location filename="../desktop/qml/AddMediaPage.qml" line="145"/>
+        <location filename="../sfos/qml/AddMediaPage.qml" line="245"/>
+        <location filename="../plasma/qml/AddMediaPage.qml" line="208"/>
         <source>Microphone</source>
         <translation>Micrófono</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AddMediaPage.qml" line="188"/>
-        <location filename="../desktop/qml/AddMediaPage.qml" line="81"/>
-        <source>Recordings</source>
-        <translation>Grabaciones</translation>
+        <location filename="../sfos/qml/AddMediaPage.qml" line="256"/>
+        <location filename="../plasma/qml/AddMediaPage.qml" line="215"/>
+        <source>Camera</source>
+        <translation>Cámara</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AddMediaPage.qml" line="257"/>
-        <location filename="../desktop/qml/AddMediaPage.qml" line="156"/>
+        <location filename="../sfos/qml/AddMediaPage.qml" line="266"/>
+        <location filename="../plasma/qml/AddMediaPage.qml" line="223"/>
         <source>Apps &amp; services</source>
         <translation>Aplicaciones y servicios</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/AddMediaPage.qml" line="26"/>
-        <source>Add items</source>
-        <translation>Añadir elementos</translation>
-    </message>
-    <message>
-        <location filename="../desktop/qml/AddMediaPage.qml" line="35"/>
+        <location filename="../plasma/qml/AddMediaPage.qml" line="48"/>
         <source>Choose a file</source>
         <translation>Eligir un archivo</translation>
     </message>
 </context>
 <context>
-    <name>AddUrlDialog</name>
-    <message>
-        <location filename="../desktop/qml/AddUrlDialog.qml" line="24"/>
-        <source>Add URL</source>
-        <translation>Añadir URL</translation>
-    </message>
-    <message>
-        <location filename="../desktop/qml/AddUrlDialog.qml" line="43"/>
-        <source>Only HTTP URLs are supported. If URL points to a playlist file, first playlist item will be added. If URL doesn&apos;t point to any media content, youtube-dl will be used to find a direct media URL.</source>
-        <translation>Sólo se admiten URLs tipo HTTP. Si la URL apunta a un archivo de lista de reproducción, se añadirá el primer elemento de la lista. Si no apunta a ningún contenido multimedia, se usará youtube-dl para buscar una URL de medio directo.</translation>
-    </message>
-    <message>
-        <location filename="../desktop/qml/AddUrlDialog.qml" line="51"/>
-        <source>URL</source>
-        <translation>URL</translation>
-    </message>
-    <message>
-        <location filename="../desktop/qml/AddUrlDialog.qml" line="53"/>
-        <source>Enter URL</source>
-        <translation>Introducir URL</translation>
-    </message>
-    <message>
-        <location filename="../desktop/qml/AddUrlDialog.qml" line="65"/>
-        <source>Name</source>
-        <translation>Nombre</translation>
-    </message>
-    <message>
-        <location filename="../desktop/qml/AddUrlDialog.qml" line="66"/>
-        <source>Enter Name (optional)</source>
-        <translation>Introducir nombre (opcional)</translation>
-    </message>
-</context>
-<context>
     <name>AddUrlPage</name>
     <message>
-        <location filename="../sailfish/qml/AddUrlPage.qml" line="41"/>
+        <location filename="../sfos/qml/AddUrlPage.qml" line="50"/>
         <source>Add URL</source>
         <translation>Añadir URL</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AddUrlPage.qml" line="47"/>
+        <location filename="../sfos/qml/AddUrlPage.qml" line="56"/>
         <source>Enter URL</source>
         <translation>Introducir URL</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AddUrlPage.qml" line="48"/>
+        <location filename="../sfos/qml/AddUrlPage.qml" line="57"/>
         <source>URL</source>
         <translation>URL</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AddUrlPage.qml" line="66"/>
+        <location filename="../sfos/qml/AddUrlPage.qml" line="84"/>
         <source>Enter Name (optional)</source>
         <translation>Introducir nombre (opcional)</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AddUrlPage.qml" line="67"/>
+        <location filename="../sfos/qml/AddUrlPage.qml" line="85"/>
         <source>Name</source>
         <translation>Nombre</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AddUrlPage.qml" line="80"/>
-        <source>Only HTTP URLs are supported. If URL points to a playlist file, first playlist item will be added. If URL doesn&apos;t point to any media content, youtube-dl will be used to find a direct media URL.</source>
-        <translation>Sólo se adimten URLs tipo HTTP. Si la URL apunta a un archivo de lista de reproducción, se añadirá el primer elemento de la lista. Si no apunta a ningún contenido multimedia, se usará youtube-dl para buscar una URL de medio directo.</translation>
+        <location filename="../sfos/qml/AddUrlPage.qml" line="109"/>
+        <source>Add only audio stream</source>
+        <translation>Añadir sólo transmisión de audio</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/AddUrlPage.qml" line="113"/>
+        <source>When URL doesn&apos;t point directly to audio, video or image file, media content is discovered with youtube-dl.</source>
+        <translation>Cuando la URL no apunta directamente a un archivo de audio, video o imagen, el contenido multimedia se obtiene con youtube-dl.</translation>
     </message>
 </context>
 <context>
     <name>AlbumsPage</name>
     <message>
-        <location filename="../sailfish/qml/AlbumsPage.qml" line="69"/>
+        <location filename="../sfos/qml/AlbumsPage.qml" line="69"/>
         <source>Albums</source>
         <translation>Álbumes</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AlbumsPage.qml" line="78"/>
+        <location filename="../sfos/qml/AlbumsPage.qml" line="77"/>
         <source>Sort by: %1</source>
         <translation>Ordenar por: %1</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AlbumsPage.qml" line="79"/>
+        <location filename="../sfos/qml/AlbumsPage.qml" line="78"/>
         <source>Album</source>
         <translation>Álbum</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AlbumsPage.qml" line="79"/>
+        <location filename="../sfos/qml/AlbumsPage.qml" line="78"/>
         <source>Artist</source>
         <translation>Artista</translation>
     </message>
     <message numerus="yes">
-        <location filename="../sailfish/qml/AlbumsPage.qml" line="88"/>
+        <location filename="../sfos/qml/AlbumsPage.qml" line="87"/>
         <source>%n track(s)</source>
-        <translation><numerusform>%n pista</numerusform><numerusform>%n pistas</numerusform></translation>
+        <translation><numerusform>%n pista</numerusform><numerusform>%n pistas</numerusform><numerusform>%n pistas</numerusform></translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AlbumsPage.qml" line="96"/>
+        <location filename="../sfos/qml/AlbumsPage.qml" line="95"/>
         <source>Select tracks</source>
         <translation>Seleccionar pistas</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/AlbumsPage.qml" line="110"/>
+        <location filename="../sfos/qml/AlbumsPage.qml" line="109"/>
         <source>No albums</source>
         <translation>No hay álbumes</translation>
     </message>
@@ -298,22 +269,22 @@
 <context>
     <name>ArtistPage</name>
     <message>
-        <location filename="../sailfish/qml/ArtistPage.qml" line="69"/>
+        <location filename="../sfos/qml/ArtistPage.qml" line="69"/>
         <source>Artists</source>
         <translation>Artistas</translation>
     </message>
     <message numerus="yes">
-        <location filename="../sailfish/qml/ArtistPage.qml" line="76"/>
+        <location filename="../sfos/qml/ArtistPage.qml" line="75"/>
         <source>%n track(s)</source>
-        <translation><numerusform>%n pista</numerusform><numerusform>%n pistas</numerusform></translation>
+        <translation><numerusform>%n pista</numerusform><numerusform>%n pistas</numerusform><numerusform>%n pistas</numerusform></translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/ArtistPage.qml" line="84"/>
+        <location filename="../sfos/qml/ArtistPage.qml" line="83"/>
         <source>Select tracks</source>
         <translation>Seleccionar pistas</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/ArtistPage.qml" line="98"/>
+        <location filename="../sfos/qml/ArtistPage.qml" line="97"/>
         <source>No artists</source>
         <translation>No hay artistas</translation>
     </message>
@@ -321,85 +292,172 @@
 <context>
     <name>BcPage</name>
     <message>
-        <location filename="../sailfish/qml/BcPage.qml" line="47"/>
-        <location filename="../desktop/qml/BcPage.qml" line="89"/>
-        <source>Error in getting data from bandcamp.com</source>
-        <translation>Error al obtener datos de bandcamp.com</translation>
+        <location filename="../sfos/qml/BcPage.qml" line="113"/>
+        <source>Open website</source>
+        <translation>Abrir sitio web</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/BcPage.qml" line="82"/>
-        <location filename="../desktop/qml/BcPage.qml" line="51"/>
+        <location filename="../sfos/qml/BcPage.qml" line="121"/>
+        <location filename="../plasma/qml/BcPage.qml" line="54"/>
         <source>Unselect all</source>
         <translation>Seleccionar ninguno</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/BcPage.qml" line="82"/>
-        <location filename="../desktop/qml/BcPage.qml" line="51"/>
+        <location filename="../sfos/qml/BcPage.qml" line="121"/>
+        <location filename="../plasma/qml/BcPage.qml" line="54"/>
         <source>Select all</source>
         <translation>Seleccionar todo</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/BcPage.qml" line="108"/>
-        <location filename="../desktop/qml/BcPage.qml" line="121"/>
+        <location filename="../sfos/qml/BcPage.qml" line="152"/>
+        <location filename="../plasma/qml/BcPage.qml" line="148"/>
         <source>Album</source>
         <translation>Álbum</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/BcPage.qml" line="109"/>
-        <location filename="../desktop/qml/BcPage.qml" line="122"/>
+        <location filename="../sfos/qml/BcPage.qml" line="153"/>
+        <location filename="../plasma/qml/BcPage.qml" line="149"/>
         <source>Artist</source>
         <translation>Artista</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/BcPage.qml" line="126"/>
-        <location filename="../desktop/qml/BcPage.qml" line="166"/>
+        <location filename="../sfos/qml/BcPage.qml" line="172"/>
+        <location filename="../plasma/qml/BcPage.qml" line="207"/>
         <source>Type the words to search</source>
         <translation>Escribe palabras para buscar</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/BcPage.qml" line="126"/>
-        <location filename="../desktop/qml/BcPage.qml" line="166"/>
+        <location filename="../sfos/qml/BcPage.qml" line="172"/>
+        <location filename="../plasma/qml/BcPage.qml" line="207"/>
         <source>No items</source>
         <translation>No hay elementos</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/BcPage.qml" line="126"/>
-        <location filename="../desktop/qml/BcPage.qml" line="166"/>
+        <location filename="../sfos/qml/BcPage.qml" line="172"/>
+        <location filename="../plasma/qml/BcPage.qml" line="207"/>
         <source>No albums</source>
         <translation>No hay álbumes</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/BcPage.qml" line="40"/>
+        <location filename="../sfos/qml/BcPage.qml" line="101"/>
+        <location filename="../plasma/qml/BcPage.qml" line="33"/>
+        <source>New and Notable</source>
+        <translation>Nuevo y notable</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/BcPage.qml" line="43"/>
         <source>Add selected</source>
         <translation>Añadir seleccionados</translation>
     </message>
     <message numerus="yes">
-        <location filename="../desktop/qml/BcPage.qml" line="40"/>
+        <location filename="../plasma/qml/BcPage.qml" line="43"/>
         <source>Add %n selected</source>
-        <translation><numerusform>Añadir %n seleccionado</numerusform><numerusform>Añadir %n seleccionados</numerusform></translation>
+        <translation><numerusform>Añadir %n seleccionado</numerusform><numerusform>Añadir %n seleccionados</numerusform><numerusform>Añadir %n seleccionados</numerusform></translation>
     </message>
     <message>
-        <location filename="../desktop/qml/BcPage.qml" line="141"/>
+        <location filename="../sfos/qml/BcPage.qml" line="59"/>
+        <location filename="../plasma/qml/BcPage.qml" line="95"/>
+        <source>Error in getting data</source>
+        <translation>Error al obtener datos</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/BcPage.qml" line="169"/>
         <source>Toggle selection</source>
         <translation>Alternar selección</translation>
     </message>
 </context>
 <context>
+    <name>CamDialog</name>
+    <message>
+        <location filename="../sfos/qml/CamDialog.qml" line="41"/>
+        <location filename="../plasma/qml/CamDialog.qml" line="23"/>
+        <source>Add camera</source>
+        <translation>Añadir cámara</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/CamDialog.qml" line="47"/>
+        <location filename="../plasma/qml/CamDialog.qml" line="42"/>
+        <source>Could not find any camera connected.</source>
+        <translation>No se encontró ninguna cámara conectada.</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/CamDialog.qml" line="53"/>
+        <location filename="../plasma/qml/CamDialog.qml" line="49"/>
+        <source>Could not find any microphone connected.</source>
+        <translation>No se encontró ningún micrófono conectado.</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/CamDialog.qml" line="59"/>
+        <location filename="../plasma/qml/CamDialog.qml" line="59"/>
+        <source>Video source</source>
+        <translation>Fuente de vídeo</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/CamDialog.qml" line="78"/>
+        <location filename="../plasma/qml/CamDialog.qml" line="72"/>
+        <source>Video orientation</source>
+        <translation>Orientación de vídeo</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/CamDialog.qml" line="116"/>
+        <location filename="../plasma/qml/CamDialog.qml" line="112"/>
+        <source>Capture with audio</source>
+        <translation>Captura con audio</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/CamDialog.qml" line="128"/>
+        <location filename="../plasma/qml/CamDialog.qml" line="123"/>
+        <source>Audio source</source>
+        <translation>Fuente de audio</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/CamDialog.qml" line="149"/>
+        <location filename="../plasma/qml/CamDialog.qml" line="138"/>
+        <source>Volume boost</source>
+        <translation>Aumento de volumen</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/CamDialog.qml" line="85"/>
+        <source>Auto</source>
+        <translation>Auto</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/CamDialog.qml" line="86"/>
+        <source>Portrait</source>
+        <translation>Vertical</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/CamDialog.qml" line="87"/>
+        <source>Inverted portrait</source>
+        <translation>Vertical invertido</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/CamDialog.qml" line="88"/>
+        <source>Landscape</source>
+        <translation>Horizontal</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/CamDialog.qml" line="89"/>
+        <source>Inverted landscape</source>
+        <translation>Horizontal invertido</translation>
+    </message>
+</context>
+<context>
     <name>ChangelogPage</name>
     <message>
-        <location filename="../sailfish/qml/ChangelogPage.qml" line="28"/>
+        <location filename="../sfos/qml/ChangelogPage.qml" line="28"/>
         <source>Changes</source>
         <translation>Cambios</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/ChangelogPage.qml" line="32"/>
-        <location filename="../sailfish/qml/ChangelogPage.qml" line="54"/>
-        <location filename="../sailfish/qml/ChangelogPage.qml" line="86"/>
-        <location filename="../sailfish/qml/ChangelogPage.qml" line="122"/>
-        <location filename="../sailfish/qml/ChangelogPage.qml" line="132"/>
-        <location filename="../sailfish/qml/ChangelogPage.qml" line="192"/>
-        <location filename="../sailfish/qml/ChangelogPage.qml" line="248"/>
-        <location filename="../sailfish/qml/ChangelogPage.qml" line="335"/>
+        <location filename="../sfos/qml/ChangelogPage.qml" line="32"/>
+        <location filename="../sfos/qml/ChangelogPage.qml" line="83"/>
+        <location filename="../sfos/qml/ChangelogPage.qml" line="142"/>
+        <location filename="../sfos/qml/ChangelogPage.qml" line="156"/>
+        <location filename="../sfos/qml/ChangelogPage.qml" line="199"/>
+        <location filename="../sfos/qml/ChangelogPage.qml" line="226"/>
+        <location filename="../sfos/qml/ChangelogPage.qml" line="258"/>
+        <location filename="../sfos/qml/ChangelogPage.qml" line="294"/>
         <source>Version %1</source>
         <translation>Versión %1</translation>
     </message>
@@ -407,30 +465,35 @@
 <context>
     <name>ContentServer</name>
     <message>
-        <location filename="../core/contentserver.cpp" line="2068"/>
+        <location filename="../src/contentserver.cpp" line="709"/>
         <source>Unknown</source>
         <translation>Desconocido</translation>
     </message>
     <message>
-        <location filename="../core/contentserver.cpp" line="3072"/>
+        <location filename="../src/contentserver.cpp" line="1780"/>
         <source>Microphone</source>
         <translation>Micrófono</translation>
     </message>
     <message>
-        <location filename="../core/contentserver.cpp" line="3091"/>
+        <location filename="../src/contentserver.cpp" line="1814"/>
         <source>Audio capture</source>
         <translation>Captura de audio</translation>
     </message>
     <message>
-        <location filename="../core/contentserver.cpp" line="3110"/>
+        <location filename="../src/contentserver.cpp" line="1861"/>
         <source>Screen capture</source>
         <translation>Captura de pantalla</translation>
+    </message>
+    <message>
+        <location filename="../src/contentserver.cpp" line="1907"/>
+        <source>Camera</source>
+        <translation>Cámara</translation>
     </message>
 </context>
 <context>
     <name>CopyableLabel</name>
     <message>
-        <location filename="../sailfish/qml/CopyableLabel.qml" line="34"/>
+        <location filename="../sfos/qml/CopyableLabel.qml" line="34"/>
         <source>Copy</source>
         <translation>Copiar</translation>
     </message>
@@ -438,7 +501,7 @@
 <context>
     <name>CoverPage</name>
     <message>
-        <location filename="../sailfish/qml/CoverPage.qml" line="18"/>
+        <location filename="../sfos/qml/CoverPage.qml" line="18"/>
         <source>Unknown</source>
         <translation>Desconocido</translation>
     </message>
@@ -446,68 +509,68 @@
 <context>
     <name>DeviceInfoPage</name>
     <message>
-        <location filename="../sailfish/qml/DeviceInfoPage.qml" line="36"/>
-        <location filename="../desktop/qml/DeviceInfoPage.qml" line="22"/>
+        <location filename="../sfos/qml/DeviceInfoPage.qml" line="36"/>
+        <location filename="../plasma/qml/DeviceInfoPage.qml" line="22"/>
         <source>Device description</source>
         <translation>Descripción del dispositivo</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DeviceInfoPage.qml" line="45"/>
-        <location filename="../desktop/qml/DeviceInfoPage.qml" line="27"/>
+        <location filename="../sfos/qml/DeviceInfoPage.qml" line="45"/>
+        <location filename="../plasma/qml/DeviceInfoPage.qml" line="27"/>
         <source>Copy XML description</source>
         <translation>Copiar descripción XML</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DeviceInfoPage.qml" line="72"/>
-        <location filename="../desktop/qml/DeviceInfoPage.qml" line="59"/>
+        <location filename="../sfos/qml/DeviceInfoPage.qml" line="72"/>
+        <location filename="../plasma/qml/DeviceInfoPage.qml" line="59"/>
         <source>Name</source>
         <translation>Nombre</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DeviceInfoPage.qml" line="77"/>
-        <location filename="../desktop/qml/DeviceInfoPage.qml" line="71"/>
+        <location filename="../sfos/qml/DeviceInfoPage.qml" line="77"/>
+        <location filename="../plasma/qml/DeviceInfoPage.qml" line="71"/>
         <source>Device type</source>
         <translation>Tipo de dispositivo</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DeviceInfoPage.qml" line="82"/>
-        <location filename="../desktop/qml/DeviceInfoPage.qml" line="83"/>
+        <location filename="../sfos/qml/DeviceInfoPage.qml" line="82"/>
+        <location filename="../plasma/qml/DeviceInfoPage.qml" line="83"/>
         <source>Model name</source>
         <translation>Nombre de modelo</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DeviceInfoPage.qml" line="87"/>
-        <location filename="../desktop/qml/DeviceInfoPage.qml" line="95"/>
+        <location filename="../sfos/qml/DeviceInfoPage.qml" line="87"/>
+        <location filename="../plasma/qml/DeviceInfoPage.qml" line="95"/>
         <source>Manufacturer</source>
         <translation>Fabricante</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DeviceInfoPage.qml" line="92"/>
-        <location filename="../desktop/qml/DeviceInfoPage.qml" line="107"/>
+        <location filename="../sfos/qml/DeviceInfoPage.qml" line="92"/>
+        <location filename="../plasma/qml/DeviceInfoPage.qml" line="107"/>
         <source>UDN</source>
         <translation>UDN</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DeviceInfoPage.qml" line="97"/>
-        <location filename="../desktop/qml/DeviceInfoPage.qml" line="119"/>
+        <location filename="../sfos/qml/DeviceInfoPage.qml" line="97"/>
+        <location filename="../plasma/qml/DeviceInfoPage.qml" line="119"/>
         <source>URL</source>
         <translation>URL</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DeviceInfoPage.qml" line="109"/>
-        <location filename="../desktop/qml/DeviceInfoPage.qml" line="131"/>
+        <location filename="../sfos/qml/DeviceInfoPage.qml" line="109"/>
+        <location filename="../plasma/qml/DeviceInfoPage.qml" line="131"/>
         <source>Services</source>
         <translation>Servicios</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DeviceInfoPage.qml" line="50"/>
-        <location filename="../desktop/qml/DeviceInfoPage.qml" line="30"/>
+        <location filename="../sfos/qml/DeviceInfoPage.qml" line="50"/>
+        <location filename="../plasma/qml/DeviceInfoPage.qml" line="30"/>
         <source>Description was copied to clipboard</source>
         <translation>Descripción copiada al portapapeles</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DeviceInfoPage.qml" line="103"/>
-        <location filename="../desktop/qml/DeviceInfoPage.qml" line="144"/>
+        <location filename="../sfos/qml/DeviceInfoPage.qml" line="103"/>
+        <location filename="../plasma/qml/DeviceInfoPage.qml" line="144"/>
         <source>Extra API</source>
         <translation>API extra</translation>
     </message>
@@ -515,7 +578,7 @@
 <context>
     <name>DeviceModel</name>
     <message>
-        <location filename="../core/devicemodel.cpp" line="88"/>
+        <location filename="../src/devicemodel.cpp" line="69"/>
         <source>Invalid PIN for %1</source>
         <translation>PIN no válido para %1</translation>
     </message>
@@ -523,94 +586,94 @@
 <context>
     <name>DevicesPage</name>
     <message>
-        <location filename="../sailfish/qml/DevicesPage.qml" line="67"/>
-        <location filename="../desktop/qml/DevicesPage.qml" line="19"/>
+        <location filename="../sfos/qml/DevicesPage.qml" line="73"/>
+        <location filename="../plasma/qml/DevicesPage.qml" line="19"/>
         <source>Devices</source>
         <translation>Dispositivos</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DevicesPage.qml" line="80"/>
+        <location filename="../sfos/qml/DevicesPage.qml" line="86"/>
         <source>Settings</source>
         <translation>Ajustes</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DevicesPage.qml" line="75"/>
+        <location filename="../sfos/qml/DevicesPage.qml" line="81"/>
         <source>About %1</source>
         <translation>Acerca de %1</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DevicesPage.qml" line="85"/>
-        <location filename="../desktop/qml/DevicesPage.qml" line="35"/>
-        <location filename="../desktop/qml/DevicesPage.qml" line="140"/>
+        <location filename="../sfos/qml/DevicesPage.qml" line="91"/>
+        <location filename="../plasma/qml/DevicesPage.qml" line="32"/>
+        <location filename="../plasma/qml/DevicesPage.qml" line="138"/>
         <source>Find devices</source>
         <translation>Buscar dispositivos</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DevicesPage.qml" line="116"/>
-        <location filename="../desktop/qml/DevicesPage.qml" line="84"/>
+        <location filename="../sfos/qml/DevicesPage.qml" line="121"/>
+        <location filename="../plasma/qml/DevicesPage.qml" line="82"/>
         <source>Connect</source>
         <translation>Conectar</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DevicesPage.qml" line="116"/>
-        <location filename="../desktop/qml/DevicesPage.qml" line="84"/>
+        <location filename="../sfos/qml/DevicesPage.qml" line="121"/>
+        <location filename="../plasma/qml/DevicesPage.qml" line="82"/>
         <source>Disconnect</source>
         <translation>Desconectar</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DevicesPage.qml" line="127"/>
-        <location filename="../desktop/qml/DevicesPage.qml" line="103"/>
+        <location filename="../sfos/qml/DevicesPage.qml" line="130"/>
+        <location filename="../plasma/qml/DevicesPage.qml" line="101"/>
         <source>Show description</source>
         <translation>Mostrar descripción</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DevicesPage.qml" line="135"/>
-        <location filename="../desktop/qml/DevicesPage.qml" line="94"/>
+        <location filename="../sfos/qml/DevicesPage.qml" line="138"/>
+        <location filename="../plasma/qml/DevicesPage.qml" line="92"/>
         <source>Power Off</source>
         <translation>Apagar</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DevicesPage.qml" line="135"/>
-        <location filename="../desktop/qml/DevicesPage.qml" line="94"/>
+        <location filename="../sfos/qml/DevicesPage.qml" line="138"/>
+        <location filename="../plasma/qml/DevicesPage.qml" line="92"/>
         <source>Power On</source>
         <translation>Encender</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DevicesPage.qml" line="143"/>
-        <location filename="../desktop/qml/DevicesPage.qml" line="111"/>
+        <location filename="../sfos/qml/DevicesPage.qml" line="147"/>
+        <location filename="../plasma/qml/DevicesPage.qml" line="109"/>
         <source>Remove from favorites</source>
         <translation>Quitar de favoritos</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DevicesPage.qml" line="143"/>
-        <location filename="../desktop/qml/DevicesPage.qml" line="111"/>
+        <location filename="../sfos/qml/DevicesPage.qml" line="147"/>
+        <location filename="../plasma/qml/DevicesPage.qml" line="109"/>
         <source>Add to favorites</source>
         <translation>Añadir a favoritos</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DevicesPage.qml" line="166"/>
-        <location filename="../desktop/qml/DevicesPage.qml" line="136"/>
+        <location filename="../sfos/qml/DevicesPage.qml" line="168"/>
+        <location filename="../plasma/qml/DevicesPage.qml" line="134"/>
         <source>No devices</source>
         <translation>No hay dispositivos</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DevicesPage.qml" line="166"/>
-        <location filename="../desktop/qml/DevicesPage.qml" line="136"/>
+        <location filename="../sfos/qml/DevicesPage.qml" line="168"/>
+        <location filename="../plasma/qml/DevicesPage.qml" line="134"/>
         <source>No network connection</source>
         <translation>Sin conexión a la red</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DevicesPage.qml" line="168"/>
+        <location filename="../sfos/qml/DevicesPage.qml" line="170"/>
         <source>Pull down to find more devices in your network</source>
         <translation>Desliza hacia abajo para buscar más dispositivos en la red</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DevicesPage.qml" line="177"/>
+        <location filename="../sfos/qml/DevicesPage.qml" line="179"/>
         <source>Connect to a device or flick left to access play queue</source>
         <translation>Conéctate a un dispositivo o desliza a la izquierda para acceder a la cola de reproducción</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DevicesPage.qml" line="169"/>
+        <location filename="../sfos/qml/DevicesPage.qml" line="171"/>
         <source>Connect WLAN to find devices in your network</source>
         <translation>Conéctate a la WLAN para buscar dispositivos en la red</translation>
     </message>
@@ -618,17 +681,17 @@
 <context>
     <name>DirPage</name>
     <message>
-        <location filename="../sailfish/qml/DirPage.qml" line="61"/>
+        <location filename="../sfos/qml/DirPage.qml" line="61"/>
         <source>SD Card</source>
         <translation>Tarjeta SD</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DirPage.qml" line="66"/>
+        <location filename="../sfos/qml/DirPage.qml" line="66"/>
         <source>Home</source>
         <translation>Carpeta de usuario</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/DirPage.qml" line="82"/>
+        <location filename="../sfos/qml/DirPage.qml" line="82"/>
         <source>No directories</source>
         <translation>No hay directorios</translation>
     </message>
@@ -636,48 +699,48 @@
 <context>
     <name>FosdemPage</name>
     <message>
-        <location filename="../sailfish/qml/FosdemPage.qml" line="43"/>
-        <location filename="../desktop/qml/FosdemPage.qml" line="88"/>
-        <source>Cannot download or parse FOSDEM events</source>
-        <translation>No es posible descargar ni analizar eventos FOSDEM</translation>
+        <location filename="../sfos/qml/FosdemPage.qml" line="43"/>
+        <location filename="../plasma/qml/FosdemPage.qml" line="84"/>
+        <source>Error in getting data</source>
+        <translation>Error al obtener datos</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/FosdemPage.qml" line="72"/>
-        <location filename="../desktop/qml/FosdemPage.qml" line="46"/>
-        <location filename="../desktop/qml/FosdemPage.qml" line="138"/>
+        <location filename="../sfos/qml/FosdemPage.qml" line="72"/>
+        <location filename="../plasma/qml/FosdemPage.qml" line="45"/>
+        <location filename="../plasma/qml/FosdemPage.qml" line="134"/>
         <source>Refresh</source>
         <translation>Actualizar</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/FosdemPage.qml" line="80"/>
-        <location filename="../desktop/qml/FosdemPage.qml" line="52"/>
+        <location filename="../sfos/qml/FosdemPage.qml" line="81"/>
+        <location filename="../plasma/qml/FosdemPage.qml" line="51"/>
         <source>Unselect all</source>
         <translation>Seleccionar ninguno</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/FosdemPage.qml" line="81"/>
-        <location filename="../desktop/qml/FosdemPage.qml" line="52"/>
+        <location filename="../sfos/qml/FosdemPage.qml" line="82"/>
+        <location filename="../plasma/qml/FosdemPage.qml" line="51"/>
         <source>Select all</source>
         <translation>Seleccionar todo</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/FosdemPage.qml" line="108"/>
-        <location filename="../desktop/qml/FosdemPage.qml" line="135"/>
+        <location filename="../sfos/qml/FosdemPage.qml" line="109"/>
+        <location filename="../plasma/qml/FosdemPage.qml" line="131"/>
         <source>No items</source>
         <translation>No hay elementos</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/FosdemPage.qml" line="35"/>
+        <location filename="../plasma/qml/FosdemPage.qml" line="34"/>
         <source>Add selected</source>
         <translation>Añadir seleccionado</translation>
     </message>
     <message numerus="yes">
-        <location filename="../desktop/qml/FosdemPage.qml" line="35"/>
+        <location filename="../plasma/qml/FosdemPage.qml" line="34"/>
         <source>Add %n selected</source>
-        <translation><numerusform>Añadir %n seleccionado</numerusform><numerusform>Añadir %n seleccionados</numerusform></translation>
+        <translation><numerusform>Añadir %n seleccionado</numerusform><numerusform>Añadir %n seleccionados</numerusform><numerusform>Añadir %n seleccionados</numerusform></translation>
     </message>
     <message>
-        <location filename="../desktop/qml/FosdemPage.qml" line="112"/>
+        <location filename="../plasma/qml/FosdemPage.qml" line="108"/>
         <source>Toggle selection</source>
         <translation>Alternar selección</translation>
     </message>
@@ -685,8 +748,8 @@
 <context>
     <name>FosdemYearsPage</name>
     <message>
-        <location filename="../sailfish/qml/FosdemYearsPage.qml" line="86"/>
-        <location filename="../desktop/qml/FosdemYearsPage.qml" line="22"/>
+        <location filename="../sfos/qml/FosdemYearsPage.qml" line="94"/>
+        <location filename="../plasma/qml/FosdemYearsPage.qml" line="22"/>
         <source>FOSDEM Conferences</source>
         <translation>Conferencias FOSDEM</translation>
     </message>
@@ -694,17 +757,17 @@
 <context>
     <name>GpodderEpisodesPage</name>
     <message>
-        <location filename="../sailfish/qml/GpodderEpisodesPage.qml" line="73"/>
+        <location filename="../sfos/qml/GpodderEpisodesPage.qml" line="72"/>
         <source>Unselect all</source>
         <translation>Seleccionar ninguno</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/GpodderEpisodesPage.qml" line="74"/>
+        <location filename="../sfos/qml/GpodderEpisodesPage.qml" line="73"/>
         <source>Select all</source>
         <translation>Seleccionar todo</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/GpodderEpisodesPage.qml" line="114"/>
+        <location filename="../sfos/qml/GpodderEpisodesPage.qml" line="113"/>
         <source>No episodes</source>
         <translation>No hay episodios</translation>
     </message>
@@ -712,48 +775,53 @@
 <context>
     <name>IcecastPage</name>
     <message>
-        <location filename="../sailfish/qml/IcecastPage.qml" line="44"/>
-        <location filename="../desktop/qml/IcecastPage.qml" line="88"/>
-        <source>Cannot download or parse Icecast directory</source>
-        <translation>No es posible descargar o analizar el directorio Icecast</translation>
+        <location filename="../sfos/qml/IcecastPage.qml" line="49"/>
+        <location filename="../plasma/qml/IcecastPage.qml" line="89"/>
+        <source>Error in getting data</source>
+        <translation>Error al obtener datos</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/IcecastPage.qml" line="72"/>
-        <location filename="../desktop/qml/IcecastPage.qml" line="46"/>
-        <location filename="../desktop/qml/IcecastPage.qml" line="149"/>
+        <location filename="../sfos/qml/IcecastPage.qml" line="68"/>
+        <source>Radio stations</source>
+        <translation>Estaciones de radio</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/IcecastPage.qml" line="79"/>
+        <location filename="../plasma/qml/IcecastPage.qml" line="46"/>
+        <location filename="../plasma/qml/IcecastPage.qml" line="150"/>
         <source>Refresh</source>
         <translation>Actualizar</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/IcecastPage.qml" line="80"/>
-        <location filename="../desktop/qml/IcecastPage.qml" line="52"/>
+        <location filename="../sfos/qml/IcecastPage.qml" line="87"/>
+        <location filename="../plasma/qml/IcecastPage.qml" line="52"/>
         <source>Unselect all</source>
         <translation>Seleccionar ninguno</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/IcecastPage.qml" line="81"/>
-        <location filename="../desktop/qml/IcecastPage.qml" line="52"/>
+        <location filename="../sfos/qml/IcecastPage.qml" line="88"/>
+        <location filename="../plasma/qml/IcecastPage.qml" line="52"/>
         <source>Select all</source>
         <translation>Seleccionar todo</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/IcecastPage.qml" line="119"/>
-        <location filename="../desktop/qml/IcecastPage.qml" line="146"/>
+        <location filename="../sfos/qml/IcecastPage.qml" line="127"/>
+        <location filename="../plasma/qml/IcecastPage.qml" line="147"/>
         <source>No stations</source>
         <translation>No hay estaciones</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/IcecastPage.qml" line="35"/>
+        <location filename="../plasma/qml/IcecastPage.qml" line="35"/>
         <source>Add selected</source>
         <translation>Añadir seleccionado</translation>
     </message>
     <message numerus="yes">
-        <location filename="../desktop/qml/IcecastPage.qml" line="35"/>
+        <location filename="../plasma/qml/IcecastPage.qml" line="35"/>
         <source>Add %n selected</source>
-        <translation><numerusform>Añadir %n seleccionado</numerusform><numerusform>Añadir %n seleccionados</numerusform></translation>
+        <translation><numerusform>Añadir %n seleccionado</numerusform><numerusform>Añadir %n seleccionados</numerusform><numerusform>Añadir %n seleccionados</numerusform></translation>
     </message>
     <message>
-        <location filename="../desktop/qml/IcecastPage.qml" line="123"/>
+        <location filename="../plasma/qml/IcecastPage.qml" line="124"/>
         <source>Toggle selection</source>
         <translation>Alternar selección</translation>
     </message>
@@ -761,187 +829,280 @@
 <context>
     <name>MediaInfoPage</name>
     <message>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="93"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="52"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="82"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="47"/>
         <source>Copy path</source>
         <translation>Copiar ruta</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="94"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="53"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="83"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="48"/>
         <source>Copy URL</source>
         <translation>Copiar URL</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="156"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="100"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="145"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="85"/>
         <source>Item type</source>
         <translation>Tipo de elemento</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="160"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="111"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="149"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="96"/>
         <source>Local file</source>
         <translation>Archivo local</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="162"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="113"/>
-        <source>Icecast URL</source>
-        <translation>URL Icecast</translation>
-    </message>
-    <message>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="166"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="117"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="155"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="102"/>
         <source>Screen Capture</source>
         <translation>Captura de pantalla</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="168"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="119"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="157"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="104"/>
         <source>Audio Capture</source>
         <translation>Captura de audio</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="170"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="121"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="159"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="106"/>
         <source>Microphone</source>
         <translation>Micrófono</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="178"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="131"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="161"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="108"/>
+        <source>Camera</source>
+        <translation>Cámara</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="170"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="118"/>
+        <source>Video source</source>
+        <translation>Fuente de vídeo</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="187"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="154"/>
+        <source>Video orientation</source>
+        <translation>Orientación de vídeo</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="195"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="178"/>
         <source>Title</source>
         <translation>Título</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="178"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="131"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="195"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="178"/>
         <source>Station name</source>
         <translation>Nombre de estación</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="193"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="166"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="207"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="199"/>
+        <source>Captured application</source>
+        <translation>Aplicación capturada</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="211"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="214"/>
         <source>None</source>
         <translation>Ninguno</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="319"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="306"/>
-        <source>Sensitivity</source>
-        <translation>Sensibilidad</translation>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="271"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="326"/>
+        <source>Live</source>
+        <translation>En directo</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="343"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="399"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="282"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="345"/>
+        <source>Cached</source>
+        <translation>En caché</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="272"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="283"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="339"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="354"/>
+        <source>Yes</source>
+        <translation>Sí</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="272"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="283"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="339"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="354"/>
+        <source>No</source>
+        <translation>No</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="348"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="426"/>
         <source>Tracks history</source>
         <translation>Historial de pistas</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="101"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="42"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="90"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="37"/>
         <source>Copy current title</source>
         <translation>Copiar título actual</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="88"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="27"/>
-        <source>Open URL in browser</source>
-        <translation>Abrir URL en el navegador</translation>
-    </message>
-    <message>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="189"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="151"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="178"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="135"/>
         <source>Audio source</source>
         <translation>Fuente de audio</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="189"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="151"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="207"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="199"/>
         <source>Current title</source>
         <translation>Título actual</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="201"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="172"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="219"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="220"/>
         <source>Author</source>
         <translation>Autor</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="211"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="191"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="230"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="240"/>
         <source>Album</source>
         <translation>Álbum</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="221"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="210"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="241"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="260"/>
         <source>Duration</source>
         <translation>Duración</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="241"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="257"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="265"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="311"/>
         <source>Content type</source>
         <translation>Tipo de contenido</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="228"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="226"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="252"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="280"/>
         <source>Recording date</source>
         <translation>Fecha de grabación</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="164"/>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="234"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="115"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="241"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="77"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="29"/>
+        <source>Open URL</source>
+        <translation>Abrir URL</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="153"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="258"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="100"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="295"/>
         <source>Media Server</source>
         <translation>Servidor multimedia</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="271"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="381"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="294"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="408"/>
         <source>Description</source>
         <translation>Descripción</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="299"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="290"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="313"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="360"/>
         <source>Path</source>
         <translation>Ruta</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="162"/>
-        <location filename="../sailfish/qml/MediaInfoPage.qml" line="299"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="113"/>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="290"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="151"/>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="313"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="98"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="360"/>
         <source>URL</source>
         <translation>URL</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="23"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="25"/>
         <source>No media</source>
         <translation>No hay multimedia</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="48"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="43"/>
         <source>Current title was copied to clipboard</source>
         <translation>Título copiado al portapapeles</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="62"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="57"/>
         <source>Path was copied to clipboard</source>
         <translation>Ruta copiada al portapapeles</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="63"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="58"/>
         <source>URL was copied to clipboard</source>
         <translation>URL copiada al portapapeles</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/MediaInfoPage.qml" line="339"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="166"/>
+        <source>Auto</source>
+        <translation>Auto</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="167"/>
+        <source>Portrait</source>
+        <translation>Vertical</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="168"/>
+        <source>Inverted portrait</source>
+        <translation>Vertical invertido</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="169"/>
+        <source>Landscape</source>
+        <translation>Horizontal</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="170"/>
+        <source>Inverted landscape</source>
+        <translation>Horizontal invertido</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/MediaInfoPage.qml" line="325"/>
+        <location filename="../plasma/qml/MediaInfoPage.qml" line="376"/>
+        <source>Volume boost</source>
+        <translation>Aumento de volumen</translation>
+    </message>
+</context>
+<context>
+    <name>MicDialog</name>
+    <message>
+        <location filename="../sfos/qml/MicDialog.qml" line="41"/>
+        <location filename="../plasma/qml/MicDialog.qml" line="23"/>
+        <source>Add microphone</source>
+        <translation>Añadir micrófono</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/MicDialog.qml" line="47"/>
+        <location filename="../plasma/qml/MicDialog.qml" line="42"/>
+        <source>Could not find any microphone connected.</source>
+        <translation>No se encontró ningún micrófono conectado.</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/MicDialog.qml" line="53"/>
+        <location filename="../plasma/qml/MicDialog.qml" line="52"/>
+        <source>Audio source</source>
+        <translation>Fuente de audio</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/MicDialog.qml" line="72"/>
+        <location filename="../plasma/qml/MicDialog.qml" line="65"/>
         <source>Volume boost</source>
         <translation>Aumento de volumen</translation>
     </message>
@@ -949,12 +1110,12 @@
 <context>
     <name>PlayButton</name>
     <message>
-        <location filename="../desktop/qml/PlayButton.qml" line="23"/>
+        <location filename="../plasma/qml/PlayButton.qml" line="23"/>
         <source>Play</source>
         <translation>Reproducir</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/PlayButton.qml" line="23"/>
+        <location filename="../plasma/qml/PlayButton.qml" line="23"/>
         <source>Pause</source>
         <translation>Detener</translation>
     </message>
@@ -962,250 +1123,348 @@
 <context>
     <name>PlayQueuePage</name>
     <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="92"/>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="122"/>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="108"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="178"/>
         <source>Item cannot be added</source>
         <translation>No es posible añadir elemento</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="94"/>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="124"/>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="110"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="180"/>
         <source>Some items cannot be added</source>
         <translation>No es posible añadir algunos elementos</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="96"/>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="126"/>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="112"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="182"/>
         <source>Items cannot be added</source>
         <translation>No es posible añadir elementos</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="98"/>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="128"/>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="114"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="184"/>
+        <source>Unable to play item</source>
+        <translation>No se puede reproducir el elemento</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="116"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="186"/>
         <source>Unknown error</source>
         <translation>Error desconocido</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="143"/>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="87"/>
-        <source>Refresh items</source>
-        <translation>Actualizar elementos</translation>
-    </message>
-    <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="127"/>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="74"/>
-        <source>Save queue</source>
-        <translation>Guardar cola</translation>
-    </message>
-    <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="137"/>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="81"/>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="149"/>
-        <source>Clear queue</source>
-        <translation>Limpiar cola</translation>
-    </message>
-    <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="143"/>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="154"/>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="53"/>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="199"/>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="216"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="61"/>
         <source>Cancel</source>
         <translation>Cancelar</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="154"/>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="44"/>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="276"/>
-        <source>Add items</source>
-        <translation>Añadir elementos</translation>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="231"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="361"/>
+        <source>Preparing item %1 of %2...</source>
+        <translation>Preparando elemento %1 de %2...</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="293"/>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="232"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="362"/>
+        <source>Preparing item...</source>
+        <translation>Preparando elemento...</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="392"/>
         <source>Pull down to add new items</source>
         <translation>Desliza hacia abajo para añadir nuevos elementos</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="244"/>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="239"/>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="336"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="311"/>
         <source>Show</source>
         <translation>Mostrar</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="90"/>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="120"/>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="106"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="176"/>
         <source>Item is already in play queue</source>
         <translation>El elemento ya está en la cola</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="117"/>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="39"/>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="143"/>
+        <source>Select items</source>
+        <translation>Seleccionar elementos</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="144"/>
+        <source>%n selected</source>
+        <translation><numerusform>%n seleccionado</numerusform><numerusform>%n seleccionados</numerusform><numerusform>%n seleccionados</numerusform></translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="147"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="42"/>
         <source>Play queue</source>
         <translation>Cola de reproducción</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="139"/>
-        <source>Clearing play queue</source>
-        <translation>Limpiar cola de reproducción</translation>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="178"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="108"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="208"/>
+        <source>Remove selected items</source>
+        <translation>Eliminar elementos seleccionados</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="169"/>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="168"/>
-        <source>Refreshing item %1 of %2...</source>
-        <translation>Actualizando elemento %1 de %2...</translation>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="75"/>
+        <source>Removing items from play queue</source>
+        <translation>Quitando elementos de la cola de reproducción</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="170"/>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="169"/>
-        <source>Refreshing item...</source>
-        <translation>Actualizando elemento...</translation>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="168"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="100"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="192"/>
+        <source>Save selected items</source>
+        <translation>Guardar elementos seleccionados</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="172"/>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="171"/>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="234"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="364"/>
         <source>Adding item %1 of %2...</source>
         <translation>Añadiendo elemento %1 de %2...</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="173"/>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="172"/>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="235"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="365"/>
         <source>Adding item...</source>
         <translation>Añadiendo elemento...</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="244"/>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="239"/>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="305"/>
+        <source>Audio source muted</source>
+        <translation>Fuente de audio silenciada</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="307"/>
+        <source>Audio capture (audio source muted)</source>
+        <translation>Captura de audio (fuente de audio silenciada)</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="307"/>
+        <source>Audio capture</source>
+        <translation>Captura de audio</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="336"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="311"/>
         <source>Play</source>
         <translation>Reproducir</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="259"/>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="239"/>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="351"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="311"/>
         <source>Pause</source>
         <translation>Detener</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="269"/>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="250"/>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="361"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="322"/>
         <source>Remove</source>
-        <translation>Borrar</translation>
+        <translation>Eliminar</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="292"/>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="272"/>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="391"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="345"/>
         <source>No items</source>
         <translation>No hay elementos</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="310"/>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="290"/>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="158"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="47"/>
+        <source>Exit selection mode</source>
+        <translation>Salir de modo selección</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="460"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="376"/>
         <source>Unknown</source>
         <translation>Desconocido</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="404"/>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="532"/>
+        <source>Connect to a device to control playback.</source>
+        <translation>Conéctate a un dispositivo para controlar la reproducción.</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="554"/>
         <source>Tap to access playback &amp; volume controls</source>
         <translation>Toca para acceder a los controles de reproducción y volumen</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="422"/>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="572"/>
         <source>Flick left to see current track details</source>
         <translation>Desliza a la izquierda para ver detalles de la pista</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="381"/>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="531"/>
         <source>Not connected</source>
         <translation>No conectado</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="382"/>
-        <source>Connect to a device to control playback using %1.</source>
-        <translation>Conéctate al dispositivo para controlar la reproducción usando %1.</translation>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="188"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="88"/>
+        <source>Unselect all</source>
+        <translation>Seleccionar ninguno</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlayQueuePage.qml" line="383"/>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="188"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="88"/>
+        <source>Select all</source>
+        <translation>Seleccionar todo</translation>
+    </message>
+    <message numerus="yes">
+        <source>Remove %n item(s)</source>
+        <translation type="vanished"><numerusform>Eliminar %n elemento</numerusform><numerusform>Eliminar %n elementos</numerusform><numerusform>Eliminar %n elementos</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>Removing %n item(s) from play queue</source>
+        <translation type="vanished"><numerusform>Quitando %n elemento de la cola de reproducción</numerusform><numerusform>Quitando %n elementos de la cola de reproducción</numerusform><numerusform>Quitando %n elementos de la cola de reproducción</numerusform></translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="199"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="115"/>
+        <source>Refresh</source>
+        <translation>Actualizar</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="209"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="82"/>
+        <source>Select</source>
+        <translation>Seleccionar</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="216"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="47"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="349"/>
+        <source>Add</source>
+        <translation>Añadir</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/PlayQueuePage.qml" line="533"/>
         <source>Without connection, all items in play queue are still accessible on other devices in your local network.</source>
         <translation>Sin conexión, aún es posible acceder a todos los elementos de la cola desde otros dispositivos de la red local.</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="66"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="74"/>
         <source>Track info</source>
         <translation>Info. de pista</translation>
     </message>
+    <message numerus="yes">
+        <source>Save %n item(s) to playlist file</source>
+        <translation type="vanished"><numerusform>Guardar %n elemento en el archivo de lista de reproducción</numerusform><numerusform>Guardar %n elementos en el archivo de lista de reproducción</numerusform><numerusform>Guardar %n elementos en el archivo de lista de reproducción</numerusform></translation>
+    </message>
     <message>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="143"/>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="201"/>
         <source>Playlist has been saved</source>
         <translation>Lista de reproducción guardada</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="151"/>
-        <source>Remove all items from play queue?</source>
-        <translation>¿Quitar todos los elementos de la cola?</translation>
+        <location filename="../plasma/qml/PlayQueuePage.qml" line="210"/>
+        <source>Remove selected items from play queue?</source>
+        <translation>¿Quitar los elementos seleccionados de la cola de reproducción?</translation>
+    </message>
+    <message numerus="yes">
+        <source>Remove %n item(s) from play queue?</source>
+        <translation type="vanished"><numerusform>¿Quitar %n elemento de la cola de reproducción?</numerusform><numerusform>¿Quitar %n elementos de la cola de reproducción?</numerusform><numerusform>¿Quitar %n elementos de la cola de reproducción?</numerusform></translation>
+    </message>
+</context>
+<context>
+    <name>PlaybackDialog</name>
+    <message>
+        <location filename="../sfos/qml/PlaybackDialog.qml" line="41"/>
+        <location filename="../plasma/qml/PlaybackDialog.qml" line="23"/>
+        <source>Add audio capture</source>
+        <translation>Añadir captura de audio</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/PlayQueuePage.qml" line="134"/>
-        <source>Save items to playlist file</source>
-        <translation>Guardar elementos en lista</translation>
+        <location filename="../sfos/qml/PlaybackDialog.qml" line="47"/>
+        <location filename="../plasma/qml/PlaybackDialog.qml" line="42"/>
+        <source>Could not find any audio source to capture.</source>
+        <translation>No se encontró ninguna fuente de audio para capturar.</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/PlaybackDialog.qml" line="55"/>
+        <source>Mute audio source</source>
+        <translation>Silenciar fuente de audio</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/PlaybackDialog.qml" line="65"/>
+        <location filename="../plasma/qml/PlaybackDialog.qml" line="65"/>
+        <source>Volume boost</source>
+        <translation>Aumento de volumen</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/PlaybackDialog.qml" line="52"/>
+        <source>Audio source</source>
+        <translation>Fuente de audio</translation>
     </message>
 </context>
 <context>
     <name>PlayerPanel</name>
     <message>
-        <location filename="../desktop/qml/PlayerPanel.qml" line="117"/>
+        <location filename="../plasma/qml/PlayerPanel.qml" line="107"/>
         <source>No network connection</source>
         <translation>Sin conexión a la red</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/PlayerPanel.qml" line="118"/>
+        <location filename="../plasma/qml/PlayerPanel.qml" line="108"/>
         <source>Not connected</source>
         <translation>No conectado</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/PlayerPanel.qml" line="118"/>
-        <source>Connect to a device to control playback using %1.</source>
-        <translation>Conéctate al dispositivo para controlar la reproducción usando %1.</translation>
+        <location filename="../plasma/qml/PlayerPanel.qml" line="108"/>
+        <source>Connect to a device to control playback.</source>
+        <translation>Conéctate a un dispositivo para controlar la reproducción.</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/PlayerPanel.qml" line="119"/>
+        <location filename="../plasma/qml/PlayerPanel.qml" line="109"/>
         <source>Without connection, all items in play queue are still accessible on other devices in your local network.</source>
         <translation>Sin conexión, aún es posible acceder a todos los elementos de la cola desde otros dispositivos de la red local.</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/PlayerPanel.qml" line="125"/>
+        <location filename="../plasma/qml/PlayerPanel.qml" line="115"/>
         <source>Devices</source>
         <translation>Dispositivos</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/PlayerPanel.qml" line="314"/>
+        <location filename="../plasma/qml/PlayerPanel.qml" line="325"/>
         <source>Skip Backward</source>
         <translation>Saltar hacia atrás</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/PlayerPanel.qml" line="324"/>
+        <location filename="../plasma/qml/PlayerPanel.qml" line="335"/>
         <source>Seek Backward</source>
         <translation>Buscar hacia atrás</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/PlayerPanel.qml" line="334"/>
+        <location filename="../plasma/qml/PlayerPanel.qml" line="345"/>
         <source>Seek Forward</source>
         <translation>Buscar hacia adelante</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/PlayerPanel.qml" line="344"/>
+        <location filename="../plasma/qml/PlayerPanel.qml" line="355"/>
         <source>Skip Forward</source>
         <translation>Saltar hacia adelante</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/PlayerPanel.qml" line="356"/>
+        <location filename="../plasma/qml/PlayerPanel.qml" line="367"/>
         <source>Toggle Record</source>
         <translation>Interruptor grabar</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/PlayerPanel.qml" line="370"/>
+        <location filename="../plasma/qml/PlayerPanel.qml" line="381"/>
         <source>Toggle Repeat One</source>
         <translation>Interruptor repetir</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/PlayerPanel.qml" line="409"/>
-        <location filename="../desktop/qml/PlayerPanel.qml" line="447"/>
+        <location filename="../plasma/qml/PlayerPanel.qml" line="420"/>
+        <location filename="../plasma/qml/PlayerPanel.qml" line="458"/>
         <source>Toggle Mute</source>
         <translation>Interruptor silenciar</translation>
     </message>
@@ -1213,7 +1472,7 @@
 <context>
     <name>PlaylistModel</name>
     <message>
-        <location filename="../core/playlistmodel.cpp" line="697"/>
+        <location filename="../src/playlistmodel.cpp" line="624"/>
         <source>Playlist</source>
         <translation>Lista de reproducción</translation>
     </message>
@@ -1221,41 +1480,88 @@
 <context>
     <name>PlaylistPage</name>
     <message>
-        <location filename="../sailfish/qml/PlaylistPage.qml" line="69"/>
+        <location filename="../sfos/qml/PlaylistPage.qml" line="69"/>
         <source>Playlists</source>
         <translation>Listas de reproducción</translation>
     </message>
     <message numerus="yes">
-        <location filename="../sailfish/qml/PlaylistPage.qml" line="79"/>
+        <location filename="../sfos/qml/PlaylistPage.qml" line="78"/>
         <source>%n track(s)</source>
-        <translation><numerusform>%n pista</numerusform><numerusform>%n pistas</numerusform></translation>
+        <translation><numerusform>%n pista</numerusform><numerusform>%n pistas</numerusform><numerusform>%n pistas</numerusform></translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlaylistPage.qml" line="87"/>
+        <location filename="../sfos/qml/PlaylistPage.qml" line="86"/>
         <source>Select tracks</source>
         <translation>Seleccionar pistas</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlaylistPage.qml" line="92"/>
+        <location filename="../sfos/qml/PlaylistPage.qml" line="91"/>
         <source>Delete playlist</source>
         <translation>Borrar lista de reproducción</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlaylistPage.qml" line="112"/>
+        <location filename="../sfos/qml/PlaylistPage.qml" line="111"/>
         <source>No playlists</source>
         <translation>No hay listas de reproducción</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/PlaylistPage.qml" line="104"/>
+        <location filename="../sfos/qml/PlaylistPage.qml" line="103"/>
         <source>Deleting</source>
         <translation>Borrando</translation>
     </message>
 </context>
 <context>
+    <name>RadionetPage</name>
+    <message>
+        <location filename="../sfos/qml/RadionetPage.qml" line="78"/>
+        <source>Radio stations</source>
+        <translation>Estaciones de radio</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/RadionetPage.qml" line="91"/>
+        <location filename="../plasma/qml/RadionetPage.qml" line="45"/>
+        <source>Unselect all</source>
+        <translation>Seleccionar ninguno</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/RadionetPage.qml" line="92"/>
+        <location filename="../plasma/qml/RadionetPage.qml" line="45"/>
+        <source>Select all</source>
+        <translation>Seleccionar todo</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/RadionetPage.qml" line="133"/>
+        <location filename="../plasma/qml/RadionetPage.qml" line="153"/>
+        <source>Type the words to search</source>
+        <translation>Escribe palabras de búsqueda</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/RadionetPage.qml" line="133"/>
+        <location filename="../plasma/qml/RadionetPage.qml" line="153"/>
+        <source>No stations</source>
+        <translation>No hay estaciones</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../plasma/qml/RadionetPage.qml" line="34"/>
+        <source>Add %n selected</source>
+        <translation><numerusform>Añadir %n seleccionado</numerusform><numerusform>Añadir %n seleccionados</numerusform><numerusform>Añadir %n seleccionados</numerusform></translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/RadionetPage.qml" line="34"/>
+        <source>Add selected</source>
+        <translation>Añadir seleccionados</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/RadionetPage.qml" line="121"/>
+        <source>Toggle selection</source>
+        <translation>Alternar seleccción</translation>
+    </message>
+</context>
+<context>
     <name>RecModel</name>
     <message>
-        <location filename="../core/recmodel.cpp" line="82"/>
-        <location filename="../core/recmodel.cpp" line="84"/>
+        <location filename="../src/recmodel.cpp" line="87"/>
+        <location filename="../src/recmodel.cpp" line="88"/>
         <source>Unknown</source>
         <translation>Desconocido</translation>
     </message>
@@ -1263,85 +1569,91 @@
 <context>
     <name>RecPage</name>
     <message>
-        <location filename="../sailfish/qml/RecPage.qml" line="70"/>
-        <location filename="../desktop/qml/RecPage.qml" line="60"/>
-        <location filename="../desktop/qml/RecPage.qml" line="72"/>
+        <location filename="../sfos/qml/RecPage.qml" line="69"/>
+        <location filename="../plasma/qml/RecPage.qml" line="59"/>
+        <location filename="../plasma/qml/RecPage.qml" line="71"/>
         <source>Delete selected</source>
         <translation>Borrar seleccionado</translation>
     </message>
     <message numerus="yes">
-        <location filename="../sailfish/qml/RecPage.qml" line="73"/>
+        <location filename="../sfos/qml/RecPage.qml" line="72"/>
+        <location filename="../sfos/qml/RecPage.qml" line="132"/>
         <source>Deleting %n item(s)</source>
-        <translation><numerusform>Borrando %n elemento</numerusform><numerusform>Borrando %n elementos</numerusform></translation>
+        <translation><numerusform>Borrando %n elemento</numerusform><numerusform>Borrando %n elementos</numerusform><numerusform>Borrando %n elementos</numerusform></translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/RecPage.qml" line="81"/>
-        <location filename="../desktop/qml/RecPage.qml" line="46"/>
+        <location filename="../sfos/qml/RecPage.qml" line="80"/>
+        <location filename="../plasma/qml/RecPage.qml" line="45"/>
         <source>Unselect all</source>
         <translation>Seleccionar ninguno</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/RecPage.qml" line="82"/>
-        <location filename="../desktop/qml/RecPage.qml" line="46"/>
+        <location filename="../sfos/qml/RecPage.qml" line="81"/>
+        <location filename="../plasma/qml/RecPage.qml" line="45"/>
         <source>Select all</source>
         <translation>Seleccionar todo</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/RecPage.qml" line="92"/>
+        <location filename="../sfos/qml/RecPage.qml" line="91"/>
         <source>Sort by: %1</source>
         <translation>Ordenar por: %1</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/RecPage.qml" line="93"/>
-        <location filename="../desktop/qml/RecPage.qml" line="104"/>
+        <location filename="../sfos/qml/RecPage.qml" line="92"/>
+        <location filename="../plasma/qml/RecPage.qml" line="100"/>
         <source>Recording time</source>
         <translation>Tiempo de grabación</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/RecPage.qml" line="94"/>
-        <location filename="../desktop/qml/RecPage.qml" line="105"/>
+        <location filename="../sfos/qml/RecPage.qml" line="93"/>
+        <location filename="../plasma/qml/RecPage.qml" line="101"/>
         <source>Title</source>
         <translation>Título</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/RecPage.qml" line="94"/>
-        <location filename="../desktop/qml/RecPage.qml" line="106"/>
+        <location filename="../sfos/qml/RecPage.qml" line="93"/>
+        <location filename="../plasma/qml/RecPage.qml" line="102"/>
         <source>Author</source>
         <translation>Autor</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/RecPage.qml" line="131"/>
-        <location filename="../desktop/qml/RecPage.qml" line="171"/>
+        <location filename="../sfos/qml/RecPage.qml" line="129"/>
+        <source>Delete</source>
+        <translation>Borrar</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/RecPage.qml" line="141"/>
+        <location filename="../plasma/qml/RecPage.qml" line="167"/>
         <source>No recordings</source>
         <translation>No hay grabaciones</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/RecPage.qml" line="25"/>
+        <location filename="../plasma/qml/RecPage.qml" line="25"/>
         <source>Recordings</source>
         <translation>Grabaciones</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/RecPage.qml" line="35"/>
+        <location filename="../plasma/qml/RecPage.qml" line="34"/>
         <source>Add selected</source>
         <translation>Añadir seleccionado</translation>
     </message>
     <message numerus="yes">
-        <location filename="../desktop/qml/RecPage.qml" line="35"/>
+        <location filename="../plasma/qml/RecPage.qml" line="34"/>
         <source>Add %n selected</source>
-        <translation><numerusform>Añadir %n seleccionado</numerusform><numerusform>Añadir %n seleccionados</numerusform></translation>
+        <translation><numerusform>Añadir %n seleccionado</numerusform><numerusform>Añadir %n seleccionados</numerusform><numerusform>Añadir %n seleccionados</numerusform></translation>
     </message>
     <message numerus="yes">
-        <location filename="../desktop/qml/RecPage.qml" line="74"/>
+        <location filename="../plasma/qml/RecPage.qml" line="73"/>
         <source>Delete %n recording(s)?</source>
-        <translation><numerusform>¿Borrar %n grabación?</numerusform><numerusform>¿Borrar %n grabaciones?</numerusform></translation>
+        <translation><numerusform>¿Borrar %n grabación?</numerusform><numerusform>¿Borrar %n grabaciones?</numerusform><numerusform>¿Borrar %n grabaciones?</numerusform></translation>
     </message>
     <message>
-        <location filename="../desktop/qml/RecPage.qml" line="97"/>
+        <location filename="../plasma/qml/RecPage.qml" line="93"/>
         <source>Sort by:</source>
         <translation>Ordenar por:</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/RecPage.qml" line="148"/>
+        <location filename="../plasma/qml/RecPage.qml" line="144"/>
         <source>Toggle selection</source>
         <translation>Alternar seleccción</translation>
     </message>
@@ -1349,12 +1661,12 @@
 <context>
     <name>RenderingControl</name>
     <message>
-        <location filename="../core/renderingcontrol.cpp" line="253"/>
+        <location filename="../src/renderingcontrol.cpp" line="253"/>
         <source>Remote device</source>
         <translation>Dispositivo remoto</translation>
     </message>
     <message>
-        <location filename="../core/renderingcontrol.cpp" line="254"/>
+        <location filename="../src/renderingcontrol.cpp" line="254"/>
         <source>Volume level of %1 is %2</source>
         <translation>El nivel de volumen de %1 is %2</translation>
     </message>
@@ -1362,367 +1674,513 @@
 <context>
     <name>SavePlaylistPage</name>
     <message>
-        <location filename="../sailfish/qml/SavePlaylistPage.qml" line="22"/>
+        <location filename="../sfos/qml/SavePlaylistPage.qml" line="20"/>
         <source>Playlist has been saved</source>
         <translation>Lista de reproducción guardada</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SavePlaylistPage.qml" line="37"/>
+        <location filename="../sfos/qml/SavePlaylistPage.qml" line="35"/>
         <source>Save</source>
         <translation>Guardar</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SavePlaylistPage.qml" line="44"/>
+        <location filename="../sfos/qml/SavePlaylistPage.qml" line="41"/>
         <source>Enter playlist name</source>
         <translation>Introducir nombre de lista</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SavePlaylistPage.qml" line="45"/>
+        <location filename="../sfos/qml/SavePlaylistPage.qml" line="42"/>
         <source>Name</source>
         <translation>Nombre</translation>
     </message>
 </context>
 <context>
+    <name>ScreenDialog</name>
+    <message>
+        <location filename="../sfos/qml/ScreenDialog.qml" line="41"/>
+        <location filename="../plasma/qml/ScreenDialog.qml" line="23"/>
+        <source>Add screen capture</source>
+        <translation>Añadir captura de pantalla</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/ScreenDialog.qml" line="53"/>
+        <location filename="../plasma/qml/ScreenDialog.qml" line="49"/>
+        <source>Could not find any audio source to capture.</source>
+        <translation>No se encontró ninguna fuente de audio para capturar.</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/ScreenDialog.qml" line="78"/>
+        <location filename="../plasma/qml/ScreenDialog.qml" line="72"/>
+        <source>Video orientation</source>
+        <translation>Orientación de vídeo</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/ScreenDialog.qml" line="116"/>
+        <location filename="../plasma/qml/ScreenDialog.qml" line="110"/>
+        <source>Capture with audio</source>
+        <translation>Captura con audio</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/ScreenDialog.qml" line="130"/>
+        <source>Mute audio source</source>
+        <translation>Silenciar fuente de audio</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/ScreenDialog.qml" line="142"/>
+        <location filename="../plasma/qml/ScreenDialog.qml" line="136"/>
+        <source>Volume boost</source>
+        <translation>Aumento de volumen</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/ScreenDialog.qml" line="42"/>
+        <source>Could not find any screen to capture.</source>
+        <translation>No se encontró ninguna pantalla para capturar.</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/ScreenDialog.qml" line="59"/>
+        <source>Video source</source>
+        <translation>Fuente de vídeo</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/ScreenDialog.qml" line="85"/>
+        <source>Auto</source>
+        <translation>Auto</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/ScreenDialog.qml" line="86"/>
+        <source>Portrait</source>
+        <translation>Vertical</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/ScreenDialog.qml" line="87"/>
+        <source>Inverted portrait</source>
+        <translation>Vertical invertido</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/ScreenDialog.qml" line="88"/>
+        <source>Landscape</source>
+        <translation>Horizontal</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/ScreenDialog.qml" line="89"/>
+        <source>Inverted landscape</source>
+        <translation>Horizontal invertido</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/ScreenDialog.qml" line="121"/>
+        <source>Audio source</source>
+        <translation>Fuente de audio</translation>
+    </message>
+</context>
+<context>
     <name>SearchDialogHeader</name>
     <message numerus="yes">
-        <location filename="../sailfish/qml/SearchDialogHeader.qml" line="40"/>
+        <location filename="../sfos/qml/SearchDialogHeader.qml" line="43"/>
         <source>%n selected</source>
-        <translation><numerusform>%n seleccionado</numerusform><numerusform>%n seleccionados</numerusform></translation>
+        <translation><numerusform>%n seleccionado</numerusform><numerusform>%n seleccionados</numerusform><numerusform>%n seleccionados</numerusform></translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/SearchDialogHeader.qml" line="72"/>
+        <source>Recent searches</source>
+        <translation>Búsquedas recientes</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/SearchDialogHeader.qml" line="100"/>
+        <source>Remove</source>
+        <translation>Eliminar</translation>
+    </message>
+</context>
+<context>
+    <name>Settings</name>
+    <message>
+        <location filename="../src/settings.cpp" line="999"/>
+        <source>Built-in microphone</source>
+        <translation>Micrófono incorporado</translation>
+    </message>
+    <message>
+        <location filename="../src/settings.cpp" line="1000"/>
+        <source>Audio capture</source>
+        <translation>Captura de audio</translation>
+    </message>
+    <message>
+        <location filename="../src/settings.cpp" line="1001"/>
+        <source>Screen</source>
+        <translation>Pantalla</translation>
+    </message>
+    <message>
+        <location filename="../src/settings.cpp" line="1003"/>
+        <source>Back camera</source>
+        <translation>Cámara trasera</translation>
+    </message>
+    <message>
+        <location filename="../src/settings.cpp" line="1005"/>
+        <source>Front camera</source>
+        <translation>Cámara frontal</translation>
+    </message>
+    <message>
+        <location filename="../src/settings.cpp" line="1183"/>
+        <source>Auto</source>
+        <translation>Auto</translation>
+    </message>
+    <message>
+        <location filename="../src/settings.cpp" line="1185"/>
+        <source>Portrait</source>
+        <translation>Vertical</translation>
+    </message>
+    <message>
+        <location filename="../src/settings.cpp" line="1187"/>
+        <source>Inverted portrait</source>
+        <translation>Vertical invertido</translation>
+    </message>
+    <message>
+        <location filename="../src/settings.cpp" line="1189"/>
+        <source>Landscape</source>
+        <translation>Horizontal</translation>
+    </message>
+    <message>
+        <location filename="../src/settings.cpp" line="1191"/>
+        <source>Inverted landscape</source>
+        <translation>Horizontal invertido</translation>
     </message>
 </context>
 <context>
     <name>SettingsPage</name>
     <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="30"/>
+        <location filename="../sfos/qml/SettingsPage.qml" line="30"/>
         <source>Settings</source>
         <translation>Ajustes</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="127"/>
-        <source>Experiments</source>
-        <translation>Experimental</translation>
-    </message>
-    <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="62"/>
+        <location filename="../sfos/qml/SettingsPage.qml" line="59"/>
         <source>Volume control with hardware keys</source>
         <translation>Control de volumen con teclas</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="77"/>
+        <location filename="../sfos/qml/SettingsPage.qml" line="75"/>
         <source>Volume level step</source>
         <translation>Salto en nivel de volumen</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="131"/>
-        <source>Screen capture</source>
-        <translation>Captura de pantalla</translation>
-    </message>
-    <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="154"/>
-        <source>Enables Screen casting feature. Capturing video is still in beta stage, so the quality may be not of the best.</source>
-        <translation>Habilita la transmisión de pantalla. La captura de video está aún en beta, por lo que la calidad puede no ser la mejor.</translation>
-    </message>
-    <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="161"/>
-        <source>Force screen 16:9 aspect ratio</source>
-        <translation>Forzar relación de aspecto 16:9</translation>
-    </message>
-    <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="136"/>
-        <source>Disabled</source>
-        <translation>Desactivado</translation>
-    </message>
-    <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="36"/>
+        <location filename="../sfos/qml/SettingsPage.qml" line="42"/>
         <source>Share play queue items via UPnP Media Server</source>
         <translation>Compartir elementos de la cola</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="37"/>
+        <location filename="../sfos/qml/SettingsPage.qml" line="36"/>
+        <source>Restart is required for the changes to take effect.</source>
+        <translation>Es necesario reiniciar para que los cambios tengan efecto.</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/SettingsPage.qml" line="43"/>
         <source>When enabled, items in play queue are accessible for other UPnP devices in your local network.</source>
         <translation>Al habilitar, es posible acceder a los elementos de la cola desde otros dispositivos UPnP de la red local.</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="92"/>
-        <source>Microphone sensitivity</source>
-        <translation>Sensibilidad del micrófono</translation>
+        <location filename="../sfos/qml/SettingsPage.qml" line="85"/>
+        <source>Formats</source>
+        <translation>Formatos</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="122"/>
-        <source>Show Jupii as an option in &apos;Open link&apos; dialog.</source>
-        <translation>Mostrar Jupii como opción en el menú &apos;Abrir con&apos;.</translation>
+        <location filename="../sfos/qml/SettingsPage.qml" line="89"/>
+        <source>Live video</source>
+        <translation>Vídeo en directo</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="137"/>
-        <source>Enabled</source>
-        <translation>Activado</translation>
+        <location filename="../sfos/qml/SettingsPage.qml" line="114"/>
+        <source>Live audio</source>
+        <translation>Audio en directo</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="138"/>
-        <source>Enabled with audio</source>
-        <translation>Activado con audio</translation>
-    </message>
-    <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="164"/>
-        <source>Don&apos;t force</source>
-        <translation>No forzar</translation>
-    </message>
-    <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="165"/>
-        <source>Scale</source>
-        <translation>Escalar</translation>
-    </message>
-    <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="166"/>
-        <source>Crop</source>
-        <translation>Recortar</translation>
-    </message>
-    <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="183"/>
-        <source>Screen capture quality</source>
-        <translation>Calidad de captura de pantalla</translation>
-    </message>
-    <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="329"/>
-        <source>Screen capture encoder</source>
-        <translation>Codificador de captura de pantalla</translation>
-    </message>
-    <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="341"/>
-        <source>Auto</source>
-        <translation>Auto</translation>
-    </message>
-    <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="194"/>
-        <source>Stream recorder</source>
-        <translation>Grabar transmisión</translation>
-    </message>
-    <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="220"/>
+        <location filename="../sfos/qml/SettingsPage.qml" line="161"/>
         <source>Directory for recordings</source>
         <translation>Directorio de grabaciones</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="233"/>
+        <location filename="../sfos/qml/SettingsPage.qml" line="174"/>
         <source>Change</source>
         <translation>Cambiar</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="242"/>
+        <location filename="../sfos/qml/SettingsPage.qml" line="183"/>
         <source>Set default</source>
         <translation>Predeterminado</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="420"/>
+        <location filename="../sfos/qml/SettingsPage.qml" line="194"/>
+        <source>Caching</source>
+        <translation>Almacenamiento en caché</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/SettingsPage.qml" line="210"/>
+        <location filename="../sfos/qml/SettingsPage.qml" line="241"/>
+        <source>Auto</source>
+        <translation>Auto</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/SettingsPage.qml" line="228"/>
+        <source>Cache cleaning</source>
+        <translation>Limpieza de caché</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/SettingsPage.qml" line="272"/>
+        <source>Cache size</source>
+        <translation>Tamaño de caché</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/SettingsPage.qml" line="289"/>
+        <source>Delete cache</source>
+        <translation>Borrar caché</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/SettingsPage.qml" line="348"/>
+        <source>Start/stop local MPD and upmpdcli services</source>
+        <translation>Iniciar/detener los servicios locales MPD y upmpdcli</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/SettingsPage.qml" line="349"/>
+        <source>When MPD and upmpdcli are installed they will be started together with Jupii and stopped on exit.</source>
+        <translation>Si MPD y upmpdcli están instalados, se iniciarán al abrir Jupii y  se detendrán al salir de Jupii.</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/SettingsPage.qml" line="415"/>
         <source>Reset tips and hints</source>
-        <translation>Restablecer consejos y pistas</translation>
+        <translation>Restablecer consejos y sugerencias</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="422"/>
+        <location filename="../sfos/qml/SettingsPage.qml" line="417"/>
         <source>Resetting tips and hints</source>
-        <translation>Restableciendo consejos y pistas</translation>
+        <translation>Restableciendo consejos y sugerencias</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="260"/>
+        <location filename="../sfos/qml/SettingsPage.qml" line="303"/>
         <source>Preferred network interface</source>
         <translation>Interfaz de red preferida</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="115"/>
-        <source>Open link</source>
-        <translation>Abrir enlace</translation>
-    </message>
-    <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="118"/>
-        <source>Don&apos;t show</source>
-        <translation>No mostrar</translation>
-    </message>
-    <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="119"/>
-        <source>Show</source>
-        <translation>Mostrar</translation>
-    </message>
-    <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="275"/>
-        <source>Stream relaying</source>
-        <translation>Repetir transmisión</translation>
-    </message>
-    <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="276"/>
-        <source>Internet streams are relayed to UPnP device through %1. Recommended option is &apos;Always&apos; because it provides best compatibility. When relaying is disabled (&apos;Never&apos; option), Icecast titles and Stream recorder are not available.</source>
-        <translation>Las transmisiones de Internet se transmiten al dispositivo UPnP a través de %1. La opción recomendada es &apos;Siempre&apos; porque proporciona la mejor compatibilidad. Cuando la transmisión está desactivada (opción &apos;Nunca&apos;), los títulos de Icecast y la grabación de la transmisión no están disponibles.</translation>
-    </message>
-    <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="298"/>
+        <location filename="../sfos/qml/SettingsPage.qml" line="211"/>
+        <location filename="../sfos/qml/SettingsPage.qml" line="242"/>
         <source>Always</source>
         <translation>Siempre</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="299"/>
-        <source>Only Icecast</source>
-        <translation>Sólo Icecast</translation>
-    </message>
-    <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="300"/>
+        <location filename="../sfos/qml/SettingsPage.qml" line="212"/>
+        <location filename="../sfos/qml/SettingsPage.qml" line="243"/>
         <source>Never</source>
         <translation>Nunca</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="316"/>
+        <location filename="../sfos/qml/SettingsPage.qml" line="334"/>
         <source>All types of UPnP devices are detected and shown, including unsupported devices like home routers. For unsupported devices only basic description information is available. This option might be useful for auditing UPnP devices in your local network.</source>
         <translation>Se muestran y detectan todos los tipos de dispositivos UPnP, incluidos los dispositivos no compatibles, como los enrutadores domésticos. Para dispositivos no compatibles, sólo está disponible la información de descripción básica. Esta opción puede ser útil para auditar dispositivos UPnP en la red local.</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="398"/>
+        <location filename="../sfos/qml/SettingsPage.qml" line="393"/>
         <source>Enter Frontier Silicon PIN</source>
         <translation>Introduce PIN de Frontier Silicon</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="432"/>
+        <location filename="../sfos/qml/SettingsPage.qml" line="427"/>
         <source>Resetting settings</source>
         <translation>Restableciendo ajustes</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="315"/>
+        <location filename="../sfos/qml/SettingsPage.qml" line="333"/>
         <source>All devices visible</source>
         <translation>Mostrar todos los dispositivos</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="195"/>
-        <source>Enables audio recording from URL items. If URL item is a Icecast stream, individual tracks from a stream will be recorded. To enable recording use &apos;Record&apos; button located on the bottom bar. When the &apos;Record&apos; button is activated before the end of currently played track, the whole track is saved to a file.</source>
-        <translation>Permite la grabación de audio de una URL. Si la URL es una transmisión de Icecast, se grabarán las pistas individuales de la transmisión. Para habilitar la grabación, usa el botón &apos;Grabar&apos; ubicado en la barra inferior. Al activar el botón &apos;Grabar&apos; antes de que acabe la pista se guarda la pista completa en un archivo.</translation>
+        <location filename="../sfos/qml/SettingsPage.qml" line="52"/>
+        <source>Hardware keys</source>
+        <translation>Teclas</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="408"/>
+        <location filename="../sfos/qml/SettingsPage.qml" line="110"/>
+        <source>Change if you observe problems with video playback in Camera or Screen capture.</source>
+        <translation>Cambia de cámara o captura de pantalla si observas problemas en la reproducción de vídeo.</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/SettingsPage.qml" line="139"/>
+        <source>Change if you observe problems with audio playback in Microphone or Audio capture.</source>
+        <translation>Cambia de micrófono o captura de audio si observas problemas en la reproducción de audio.</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/SettingsPage.qml" line="144"/>
+        <source>Recorder</source>
+        <translation>Grabadora</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/SettingsPage.qml" line="198"/>
+        <source>Cache remote content</source>
+        <translation>Contenido remoto en caché</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/SettingsPage.qml" line="320"/>
+        <source>Block fragmented MP4 audio streams</source>
+        <translation>Bloquear transmisión de audio MP4 fragmentado</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/SettingsPage.qml" line="321"/>
+        <source>Some UPnP devices don&apos;t support audio stream in fragmented MP4 format. This kind of stream might even hang a device. To overcome this problem, Jupii tries to re-transcode stream to standard MP4. When re-transcoding fails and this option is enabled, item will not be played at all.</source>
+        <translation>Algunos dispositivos UPnP no admiten la transmisión de audio en formato MP4 fragmentado. Este tipo de transmisión podría incluso bloquear el dispositivo. Para resolver este problema, Jupii intenta volver a transcodificar la transmisión a MP4 estándar. Si esta opción está habilitada y la retranscodificación falla, el elemento no se reproducirá en ningún caso.</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/SettingsPage.qml" line="403"/>
         <source>Needed for troubleshooting purposes. The log data is stored in %1 file.</source>
         <translation>Necesario para solucionar problemas. Los datos de registro se almacenan en el archivo %1.</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="407"/>
+        <location filename="../sfos/qml/SettingsPage.qml" line="402"/>
         <source>Enable logging</source>
         <translation>Habilitar registro</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="430"/>
+        <location filename="../sfos/qml/SettingsPage.qml" line="425"/>
         <source>Reset settings</source>
         <translation>Restablecer ajustes</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="256"/>
+        <location filename="../sfos/qml/SettingsPage.qml" line="298"/>
         <source>Advanced</source>
         <translation>Avanzado</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SettingsPage.qml" line="395"/>
+        <location filename="../sfos/qml/SettingsPage.qml" line="390"/>
         <source>Frontier Silicon PIN</source>
         <translation>PIN de Frontier Silicon</translation>
     </message>
 </context>
 <context>
+    <name>ShowMoreItem</name>
+    <message>
+        <location filename="../sfos/qml/ShowMoreItem.qml" line="23"/>
+        <source>Show more</source>
+        <translation>Mostrar más</translation>
+    </message>
+</context>
+<context>
+    <name>ShowmoreItem</name>
+    <message>
+        <location filename="../plasma/qml/ShowmoreItem.qml" line="25"/>
+        <source>Show more</source>
+        <translation>Mostrar más</translation>
+    </message>
+</context>
+<context>
     <name>SomafmPage</name>
     <message>
-        <location filename="../sailfish/qml/SomafmPage.qml" line="43"/>
-        <location filename="../desktop/qml/SomafmPage.qml" line="87"/>
-        <source>Cannot download or parse SomaFM channels</source>
-        <translation>No es posible descargar o analizar los canales SomaFM</translation>
+        <location filename="../sfos/qml/SomafmPage.qml" line="42"/>
+        <location filename="../plasma/qml/SomafmPage.qml" line="83"/>
+        <source>Error in getting data</source>
+        <translation>Error al obtener datos</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SomafmPage.qml" line="72"/>
-        <location filename="../desktop/qml/SomafmPage.qml" line="45"/>
-        <location filename="../desktop/qml/SomafmPage.qml" line="137"/>
+        <location filename="../sfos/qml/SomafmPage.qml" line="74"/>
+        <location filename="../plasma/qml/SomafmPage.qml" line="44"/>
+        <location filename="../plasma/qml/SomafmPage.qml" line="136"/>
         <source>Refresh</source>
         <translation>Actualizar</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SomafmPage.qml" line="79"/>
-        <location filename="../desktop/qml/SomafmPage.qml" line="51"/>
+        <location filename="../sfos/qml/SomafmPage.qml" line="82"/>
+        <location filename="../plasma/qml/SomafmPage.qml" line="50"/>
         <source>Unselect all</source>
         <translation>Seleccionar ninguno</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SomafmPage.qml" line="80"/>
-        <location filename="../desktop/qml/SomafmPage.qml" line="51"/>
+        <location filename="../sfos/qml/SomafmPage.qml" line="83"/>
+        <location filename="../plasma/qml/SomafmPage.qml" line="50"/>
         <source>Select all</source>
         <translation>Seleccionar todo</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SomafmPage.qml" line="108"/>
-        <location filename="../desktop/qml/SomafmPage.qml" line="134"/>
+        <location filename="../sfos/qml/SomafmPage.qml" line="111"/>
+        <location filename="../plasma/qml/SomafmPage.qml" line="133"/>
         <source>No channels</source>
         <translation>No hay canales</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/SomafmPage.qml" line="34"/>
+        <location filename="../plasma/qml/SomafmPage.qml" line="33"/>
         <source>Add selected</source>
         <translation>Añadir seleccionado</translation>
     </message>
     <message numerus="yes">
-        <location filename="../desktop/qml/SomafmPage.qml" line="34"/>
+        <location filename="../plasma/qml/SomafmPage.qml" line="33"/>
         <source>Add %n selected</source>
-        <translation><numerusform>Añadir %n seleccionado</numerusform><numerusform>Añadir %n seleccionados</numerusform></translation>
+        <translation><numerusform>Añadir %n seleccionado</numerusform><numerusform>Añadir %n seleccionados</numerusform><numerusform>Añadir %n seleccionados</numerusform></translation>
     </message>
     <message>
-        <location filename="../desktop/qml/SomafmPage.qml" line="111"/>
+        <location filename="../plasma/qml/SomafmPage.qml" line="110"/>
         <source>Toggle selection</source>
         <translation>Alternar selección</translation>
     </message>
 </context>
 <context>
     <name>SoundcloudPage</name>
+    <message>
+        <location filename="../sfos/qml/SoundcloudPage.qml" line="98"/>
+        <location filename="../plasma/qml/SoundcloudPage.qml" line="33"/>
+        <source>Trending tracks</source>
+        <translation>Pistas de tendencia</translation>
+    </message>
     <message numerus="yes">
-        <location filename="../desktop/qml/SoundcloudPage.qml" line="40"/>
+        <location filename="../plasma/qml/SoundcloudPage.qml" line="43"/>
         <source>Add %n selected</source>
-        <translation><numerusform>Añadir %n seleccionado</numerusform><numerusform>Añadir %n seleccionados</numerusform></translation>
+        <translation><numerusform>Añadir %n seleccionado</numerusform><numerusform>Añadir %n seleccionados</numerusform><numerusform>Añadir %n seleccionados</numerusform></translation>
     </message>
     <message>
-        <location filename="../desktop/qml/SoundcloudPage.qml" line="40"/>
+        <location filename="../plasma/qml/SoundcloudPage.qml" line="43"/>
         <source>Add selected</source>
         <translation>Añadir seleccionado</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SoundcloudPage.qml" line="81"/>
-        <location filename="../desktop/qml/SoundcloudPage.qml" line="51"/>
+        <location filename="../sfos/qml/SoundcloudPage.qml" line="59"/>
+        <location filename="../plasma/qml/SoundcloudPage.qml" line="95"/>
+        <source>Error in getting data</source>
+        <translation>Error al obtener datos</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/SoundcloudPage.qml" line="110"/>
+        <source>Open website</source>
+        <translation>Abrir sitio web</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/SoundcloudPage.qml" line="117"/>
+        <location filename="../plasma/qml/SoundcloudPage.qml" line="54"/>
         <source>Unselect all</source>
         <translation>Seleccionar ninguno</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SoundcloudPage.qml" line="81"/>
-        <location filename="../desktop/qml/SoundcloudPage.qml" line="51"/>
+        <location filename="../sfos/qml/SoundcloudPage.qml" line="117"/>
+        <location filename="../plasma/qml/SoundcloudPage.qml" line="54"/>
         <source>Select all</source>
         <translation>Seleccionar todo</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SoundcloudPage.qml" line="47"/>
-        <location filename="../desktop/qml/SoundcloudPage.qml" line="89"/>
-        <source>Error in getting data from soundcloud.com</source>
-        <translation>Error al obtener datos de soundcloud.com</translation>
-    </message>
-    <message>
-        <location filename="../sailfish/qml/SoundcloudPage.qml" line="107"/>
-        <location filename="../desktop/qml/SoundcloudPage.qml" line="121"/>
+        <location filename="../sfos/qml/SoundcloudPage.qml" line="148"/>
+        <location filename="../plasma/qml/SoundcloudPage.qml" line="145"/>
         <source>Album</source>
         <translation>Álbum</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SoundcloudPage.qml" line="108"/>
-        <location filename="../desktop/qml/SoundcloudPage.qml" line="122"/>
+        <location filename="../sfos/qml/SoundcloudPage.qml" line="149"/>
+        <location filename="../plasma/qml/SoundcloudPage.qml" line="146"/>
         <source>Artist</source>
         <translation>Artista</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/SoundcloudPage.qml" line="141"/>
+        <location filename="../plasma/qml/SoundcloudPage.qml" line="166"/>
         <source>Toggle selection</source>
         <translation>Alternar selección</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SoundcloudPage.qml" line="125"/>
-        <location filename="../desktop/qml/SoundcloudPage.qml" line="166"/>
+        <location filename="../sfos/qml/SoundcloudPage.qml" line="168"/>
+        <location filename="../plasma/qml/SoundcloudPage.qml" line="204"/>
         <source>Type the words to search</source>
         <translation>Escribe palabras para buscar</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/SoundcloudPage.qml" line="125"/>
-        <location filename="../desktop/qml/SoundcloudPage.qml" line="166"/>
+        <location filename="../sfos/qml/SoundcloudPage.qml" line="168"/>
+        <location filename="../plasma/qml/SoundcloudPage.qml" line="204"/>
         <source>No items</source>
         <translation>No hay elementos</translation>
     </message>
@@ -1730,17 +2188,17 @@
 <context>
     <name>TrackModel</name>
     <message>
-        <location filename="../core/trackmodel.cpp" line="158"/>
+        <location filename="../src/trackmodel.cpp" line="145"/>
         <source>Microphone</source>
         <translation>Micrófono</translation>
     </message>
     <message>
-        <location filename="../core/trackmodel.cpp" line="160"/>
+        <location filename="../src/trackmodel.cpp" line="147"/>
         <source>Audio capture</source>
         <translation>Captura de audio</translation>
     </message>
     <message>
-        <location filename="../core/trackmodel.cpp" line="162"/>
+        <location filename="../src/trackmodel.cpp" line="149"/>
         <source>Screen capture</source>
         <translation>Captura de pantalla</translation>
     </message>
@@ -1748,17 +2206,17 @@
 <context>
     <name>TracksPage</name>
     <message>
-        <location filename="../sailfish/qml/TracksPage.qml" line="67"/>
+        <location filename="../sfos/qml/TracksPage.qml" line="66"/>
         <source>Unselect all</source>
         <translation>Seleccionar ninguno</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/TracksPage.qml" line="68"/>
+        <location filename="../sfos/qml/TracksPage.qml" line="67"/>
         <source>Select all</source>
         <translation>Seleccionar todo</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/TracksPage.qml" line="121"/>
+        <location filename="../sfos/qml/TracksPage.qml" line="126"/>
         <source>No tracks</source>
         <translation>No hay pistas</translation>
     </message>
@@ -1766,47 +2224,52 @@
 <context>
     <name>TuneinPage</name>
     <message>
-        <location filename="../sailfish/qml/TuneinPage.qml" line="43"/>
-        <location filename="../desktop/qml/TuneinPage.qml" line="81"/>
-        <source>Cannot download or parse TuneIn stations</source>
-        <translation>No es posible descargar o analizar las estaciones TuneIn</translation>
+        <location filename="../sfos/qml/TuneinPage.qml" line="48"/>
+        <location filename="../plasma/qml/TuneinPage.qml" line="82"/>
+        <source>Error in getting data</source>
+        <translation>Error al obtener datos</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/TuneinPage.qml" line="76"/>
-        <location filename="../desktop/qml/TuneinPage.qml" line="45"/>
+        <location filename="../sfos/qml/TuneinPage.qml" line="67"/>
+        <source>Radio stations</source>
+        <translation>Estaciones de radio</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/TuneinPage.qml" line="80"/>
+        <location filename="../plasma/qml/TuneinPage.qml" line="45"/>
         <source>Unselect all</source>
         <translation>Seleccionar ninguno</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/TuneinPage.qml" line="77"/>
-        <location filename="../desktop/qml/TuneinPage.qml" line="45"/>
+        <location filename="../sfos/qml/TuneinPage.qml" line="81"/>
+        <location filename="../plasma/qml/TuneinPage.qml" line="45"/>
         <source>Select all</source>
         <translation>Seleccionar todo</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/TuneinPage.qml" line="106"/>
-        <location filename="../desktop/qml/TuneinPage.qml" line="129"/>
+        <location filename="../sfos/qml/TuneinPage.qml" line="111"/>
+        <location filename="../plasma/qml/TuneinPage.qml" line="130"/>
         <source>No stations</source>
         <translation>No hay estaciones</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/TuneinPage.qml" line="106"/>
-        <location filename="../desktop/qml/TuneinPage.qml" line="129"/>
+        <location filename="../sfos/qml/TuneinPage.qml" line="111"/>
+        <location filename="../plasma/qml/TuneinPage.qml" line="130"/>
         <source>Type the words to search</source>
         <translation>Escribe palabras para buscar</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/TuneinPage.qml" line="34"/>
+        <location filename="../plasma/qml/TuneinPage.qml" line="34"/>
         <source>Add selected</source>
         <translation>Añadir seleccionado</translation>
     </message>
     <message numerus="yes">
-        <location filename="../desktop/qml/TuneinPage.qml" line="34"/>
+        <location filename="../plasma/qml/TuneinPage.qml" line="34"/>
         <source>Add %n selected</source>
-        <translation><numerusform>Añadir %n seleccionado</numerusform><numerusform>Añadir %n seleccionados</numerusform></translation>
+        <translation><numerusform>Añadir %n seleccionado</numerusform><numerusform>Añadir %n seleccionados</numerusform><numerusform>Añadir %n seleccionados</numerusform></translation>
     </message>
     <message>
-        <location filename="../desktop/qml/TuneinPage.qml" line="105"/>
+        <location filename="../plasma/qml/TuneinPage.qml" line="106"/>
         <source>Toggle selection</source>
         <translation>Alternar selección</translation>
     </message>
@@ -1814,55 +2277,55 @@
 <context>
     <name>UpnpCDirDevicesPage</name>
     <message>
-        <location filename="../sailfish/qml/UpnpCDirDevicesPage.qml" line="68"/>
-        <location filename="../desktop/qml/UpnpCDirDevicesPage.qml" line="24"/>
+        <location filename="../sfos/qml/UpnpCDirDevicesPage.qml" line="68"/>
+        <location filename="../plasma/qml/UpnpCDirDevicesPage.qml" line="24"/>
         <source>Media Servers</source>
         <translation>Servidores multimedia</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/UpnpCDirDevicesPage.qml" line="76"/>
-        <location filename="../desktop/qml/UpnpCDirDevicesPage.qml" line="47"/>
+        <location filename="../sfos/qml/UpnpCDirDevicesPage.qml" line="76"/>
+        <location filename="../plasma/qml/UpnpCDirDevicesPage.qml" line="46"/>
         <source>Find Media Servers</source>
         <translation>Buscar servidores multimedia</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/UpnpCDirDevicesPage.qml" line="120"/>
+        <location filename="../sfos/qml/UpnpCDirDevicesPage.qml" line="120"/>
         <source>No Media Servers found</source>
         <translation>No se encontraron servidores multimedia</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/UpnpCDirDevicesPage.qml" line="120"/>
-        <location filename="../desktop/qml/UpnpCDirDevicesPage.qml" line="108"/>
+        <location filename="../sfos/qml/UpnpCDirDevicesPage.qml" line="120"/>
+        <location filename="../plasma/qml/UpnpCDirDevicesPage.qml" line="107"/>
         <source>No network connection</source>
         <translation>Sin conexión a la red</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/UpnpCDirDevicesPage.qml" line="122"/>
+        <location filename="../sfos/qml/UpnpCDirDevicesPage.qml" line="122"/>
         <source>Pull down to find Media Servers in your network</source>
         <translation>Desliza hacia abajo para buscar servidores multimedia en la red</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/UpnpCDirDevicesPage.qml" line="123"/>
+        <location filename="../sfos/qml/UpnpCDirDevicesPage.qml" line="123"/>
         <source>Connect WLAN to find Media Servers in your network</source>
         <translation>Conectarse a la WLAN para buscar servidores multimedia en la red</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/UpnpCDirDevicesPage.qml" line="106"/>
+        <location filename="../sfos/qml/UpnpCDirDevicesPage.qml" line="106"/>
         <source>Remove from favorites</source>
         <translation>Quitar de favoritos</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/UpnpCDirDevicesPage.qml" line="106"/>
+        <location filename="../sfos/qml/UpnpCDirDevicesPage.qml" line="106"/>
         <source>Add to favorites</source>
         <translation>Añadir a favoritos</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/UpnpCDirDevicesPage.qml" line="108"/>
+        <location filename="../plasma/qml/UpnpCDirDevicesPage.qml" line="107"/>
         <source>No Media Servers</source>
         <translation>No hay servidores multimedia</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/UpnpCDirDevicesPage.qml" line="113"/>
+        <location filename="../plasma/qml/UpnpCDirDevicesPage.qml" line="112"/>
         <source>Find devices</source>
         <translation>Buscar dispositivos</translation>
     </message>
@@ -1870,183 +2333,283 @@
 <context>
     <name>UpnpCDirPage</name>
     <message>
-        <location filename="../sailfish/qml/UpnpCDirPage.qml" line="61"/>
-        <location filename="../desktop/qml/UpnpCDirPage.qml" line="44"/>
+        <location filename="../sfos/qml/UpnpCDirPage.qml" line="60"/>
+        <location filename="../plasma/qml/UpnpCDirPage.qml" line="43"/>
         <source>Unselect all</source>
         <translation>Seleccionar ninguno</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/UpnpCDirPage.qml" line="62"/>
-        <location filename="../desktop/qml/UpnpCDirPage.qml" line="44"/>
+        <location filename="../sfos/qml/UpnpCDirPage.qml" line="61"/>
+        <location filename="../plasma/qml/UpnpCDirPage.qml" line="43"/>
         <source>Select all</source>
         <translation>Seleccionar todo</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/UpnpCDirPage.qml" line="83"/>
-        <location filename="../desktop/qml/UpnpCDirPage.qml" line="86"/>
+        <location filename="../sfos/qml/UpnpCDirPage.qml" line="82"/>
+        <location filename="../plasma/qml/UpnpCDirPage.qml" line="82"/>
         <source>Track number</source>
         <translation>Número de pista</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/UpnpCDirPage.qml" line="85"/>
-        <location filename="../desktop/qml/UpnpCDirPage.qml" line="83"/>
+        <location filename="../sfos/qml/UpnpCDirPage.qml" line="84"/>
+        <location filename="../plasma/qml/UpnpCDirPage.qml" line="79"/>
         <source>Title</source>
         <translation>Título</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/UpnpCDirPage.qml" line="155"/>
-        <location filename="../desktop/qml/UpnpCDirPage.qml" line="184"/>
+        <location filename="../sfos/qml/UpnpCDirPage.qml" line="160"/>
+        <location filename="../plasma/qml/UpnpCDirPage.qml" line="187"/>
         <source>No items</source>
         <translation>No hay elementos</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/UpnpCDirPage.qml" line="81"/>
-        <location filename="../desktop/qml/UpnpCDirPage.qml" line="84"/>
+        <location filename="../sfos/qml/UpnpCDirPage.qml" line="80"/>
+        <location filename="../plasma/qml/UpnpCDirPage.qml" line="80"/>
         <source>Album</source>
         <translation>Álbum</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/UpnpCDirPage.qml" line="84"/>
-        <location filename="../desktop/qml/UpnpCDirPage.qml" line="87"/>
+        <location filename="../sfos/qml/UpnpCDirPage.qml" line="83"/>
+        <location filename="../plasma/qml/UpnpCDirPage.qml" line="83"/>
         <source>Date</source>
         <translation>Fecha</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/UpnpCDirPage.qml" line="82"/>
-        <location filename="../desktop/qml/UpnpCDirPage.qml" line="85"/>
+        <location filename="../sfos/qml/UpnpCDirPage.qml" line="81"/>
+        <location filename="../plasma/qml/UpnpCDirPage.qml" line="81"/>
         <source>Artist</source>
         <translation>Artista</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/UpnpCDirPage.qml" line="87"/>
+        <location filename="../sfos/qml/UpnpCDirPage.qml" line="86"/>
         <source>Sort by: %1</source>
         <translation>Ordenar por: %1</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/UpnpCDirPage.qml" line="23"/>
+        <location filename="../plasma/qml/UpnpCDirPage.qml" line="23"/>
         <source>Add item</source>
         <translation>Añadir elemento</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/UpnpCDirPage.qml" line="33"/>
+        <location filename="../plasma/qml/UpnpCDirPage.qml" line="32"/>
         <source>Add selected</source>
         <translation>Añadir seleccionado</translation>
     </message>
     <message numerus="yes">
-        <location filename="../desktop/qml/UpnpCDirPage.qml" line="33"/>
+        <location filename="../plasma/qml/UpnpCDirPage.qml" line="32"/>
         <source>Add %n selected</source>
-        <translation><numerusform>Añadir %n seleccionado</numerusform><numerusform>Añadir %n seleccionados</numerusform></translation>
+        <translation><numerusform>Añadir %n seleccionado</numerusform><numerusform>Añadir %n seleccionados</numerusform><numerusform>Añadir %n seleccionados</numerusform></translation>
     </message>
     <message>
-        <location filename="../desktop/qml/UpnpCDirPage.qml" line="76"/>
+        <location filename="../plasma/qml/UpnpCDirPage.qml" line="72"/>
         <source>Sort by:</source>
         <translation>Ordenar por:</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/UpnpCDirPage.qml" line="160"/>
+        <location filename="../plasma/qml/UpnpCDirPage.qml" line="163"/>
         <source>Toggle selection</source>
         <translation>Alternar selección</translation>
     </message>
 </context>
 <context>
+    <name>UrlDialog</name>
+    <message>
+        <location filename="../plasma/qml/UrlDialog.qml" line="25"/>
+        <source>Add URL</source>
+        <translation>Añadir URL</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/UrlDialog.qml" line="53"/>
+        <source>When URL doesn&apos;t point directly to audio, video or image file, media content is discovered with youtube-dl.</source>
+        <translation>Cuando la URL no apunta directamente a un archivo de audio, video o imagen, se usa youtube-dl para encontrar el contenido multimedia.</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/UrlDialog.qml" line="59"/>
+        <source>URL</source>
+        <translation>URL</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/UrlDialog.qml" line="61"/>
+        <source>Enter URL</source>
+        <translation>Introducir URL</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/UrlDialog.qml" line="73"/>
+        <source>Name</source>
+        <translation>Nombre</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/UrlDialog.qml" line="74"/>
+        <source>Enter Name (optional)</source>
+        <translation>Introduce nombre (opcional)</translation>
+    </message>
+    <message>
+        <location filename="../plasma/qml/UrlDialog.qml" line="86"/>
+        <source>Add only audio stream</source>
+        <translation>Añadir sólo transmisión de audio</translation>
+    </message>
+</context>
+<context>
     <name>Utils</name>
     <message>
-        <location filename="../core/utils.cpp" line="115"/>
+        <location filename="../src/utils.cpp" line="117"/>
         <source>Auto</source>
         <translation>Auto</translation>
     </message>
     <message>
-        <location filename="../core/utils.cpp" line="452"/>
+        <location filename="../src/utils.cpp" line="415"/>
         <source>Today</source>
         <translation>Hoy</translation>
     </message>
     <message>
-        <location filename="../core/utils.cpp" line="454"/>
+        <location filename="../src/utils.cpp" line="417"/>
         <source>Yesterday</source>
         <translation>Ayer</translation>
     </message>
 </context>
 <context>
+    <name>YtPage</name>
+    <message>
+        <location filename="../sfos/qml/YtPage.qml" line="67"/>
+        <source>Error in getting data</source>
+        <translation>Error al obtener datos</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/YtPage.qml" line="112"/>
+        <source>Unselect all</source>
+        <translation>Seleccionar ninguno</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/YtPage.qml" line="112"/>
+        <source>Select all</source>
+        <translation>Seleccionar todo</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/YtPage.qml" line="122"/>
+        <source>Type: %1</source>
+        <translation>Tipo: %1</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/YtPage.qml" line="124"/>
+        <source>Audio</source>
+        <translation>Audio</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/YtPage.qml" line="124"/>
+        <source>Video</source>
+        <translation>Vídeo</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/YtPage.qml" line="189"/>
+        <source>Album</source>
+        <translation>Álbum</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/YtPage.qml" line="191"/>
+        <source>Playlist</source>
+        <translation>Lista de reproducción</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/YtPage.qml" line="193"/>
+        <source>Artist</source>
+        <translation>Artista</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/YtPage.qml" line="227"/>
+        <source>Type the words to search</source>
+        <translation>Escribe palabras para buscar</translation>
+    </message>
+    <message>
+        <location filename="../sfos/qml/YtPage.qml" line="227"/>
+        <source>No items</source>
+        <translation>No hay elementos</translation>
+    </message>
+    <message numerus="yes">
+        <source>Add %n selected</source>
+        <translation type="vanished"><numerusform>Añadir %n seleccionado</numerusform><numerusform>Añadir %n seleccionados</numerusform><numerusform>Añadir %n seleccionados</numerusform></translation>
+    </message>
+</context>
+<context>
     <name>main</name>
     <message>
-        <location filename="../sailfish/qml/main.qml" line="62"/>
-        <location filename="../desktop/qml/main.qml" line="186"/>
+        <location filename="../sfos/qml/main.qml" line="83"/>
+        <location filename="../plasma/qml/main.qml" line="187"/>
         <source>Connected to %1</source>
         <translation>Conectado a %1</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/main.qml" line="70"/>
-        <location filename="../desktop/qml/main.qml" line="195"/>
+        <location filename="../sfos/qml/main.qml" line="91"/>
+        <location filename="../plasma/qml/main.qml" line="196"/>
         <source>Cannot connect to device</source>
         <translation>No es posible conectarse al dispositivo</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/main.qml" line="74"/>
-        <location filename="../desktop/qml/main.qml" line="199"/>
+        <location filename="../sfos/qml/main.qml" line="95"/>
+        <location filename="../plasma/qml/main.qml" line="200"/>
         <source>Device responded with an error</source>
         <translation>El dispositivo respondió con un error</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/main.qml" line="78"/>
-        <location filename="../desktop/qml/main.qml" line="203"/>
+        <location filename="../sfos/qml/main.qml" line="99"/>
+        <location filename="../plasma/qml/main.qml" line="204"/>
         <source>Cannot play the file</source>
         <translation>No es posible reproducir archivo</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/main.qml" line="91"/>
-        <location filename="../desktop/qml/main.qml" line="216"/>
+        <location filename="../sfos/qml/main.qml" line="112"/>
+        <location filename="../plasma/qml/main.qml" line="217"/>
         <source>Track &quot;%1&quot; saved</source>
         <translation>Pista %1 guardada</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/main.qml" line="100"/>
-        <location filename="../desktop/qml/main.qml" line="226"/>
+        <location filename="../sfos/qml/main.qml" line="121"/>
+        <location filename="../plasma/qml/main.qml" line="227"/>
         <source>Cannot connect to a local network</source>
         <translation>No es posible conectarse a una red local</translation>
     </message>
     <message>
-        <location filename="../sailfish/qml/main.qml" line="103"/>
-        <location filename="../desktop/qml/main.qml" line="229"/>
+        <location filename="../sfos/qml/main.qml" line="124"/>
+        <location filename="../plasma/qml/main.qml" line="230"/>
         <source>An internal error occurred</source>
         <translation>Ha ocurrido un error interno</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/main.qml" line="36"/>
+        <location filename="../plasma/qml/main.qml" line="36"/>
         <source>Play queue</source>
         <translation>Cola de reproducción</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/main.qml" line="44"/>
+        <location filename="../plasma/qml/main.qml" line="43"/>
         <source>Devices (connected to %1)</source>
         <translation>Dispositivos (conectados a %1)</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/main.qml" line="45"/>
+        <location filename="../plasma/qml/main.qml" line="44"/>
         <source>Devices</source>
         <translation>Dispositivos</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/main.qml" line="54"/>
-        <source>Add items</source>
-        <translation>Añadir elementos</translation>
+        <location filename="../plasma/qml/main.qml" line="53"/>
+        <source>Add</source>
+        <translation>Añadir</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/main.qml" line="64"/>
+        <location filename="../plasma/qml/main.qml" line="63"/>
         <source>Track info</source>
         <translation>Info. de pista</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/main.qml" line="73"/>
+        <location filename="../plasma/qml/main.qml" line="72"/>
         <source>Settings</source>
         <translation>Ajustes</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/main.qml" line="81"/>
+        <location filename="../plasma/qml/main.qml" line="80"/>
         <source>About %1</source>
         <translation>Acerca de %1</translation>
     </message>
     <message>
-        <location filename="../desktop/qml/main.qml" line="88"/>
+        <location filename="../plasma/qml/main.qml" line="87"/>
         <source>Quit</source>
         <translation>Salir</translation>
     </message>
