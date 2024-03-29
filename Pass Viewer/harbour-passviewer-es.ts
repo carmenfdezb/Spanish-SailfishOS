@@ -76,7 +76,7 @@
     </message>
     <message>
         <source>Highlight passes close to event time</source>
-        <translation>Resaltar pases cuya hora del evento va a finalizar</translation>
+        <translation>Resaltar pases que van a finalizar</translation>
     </message>
     <message>
         <source>Time before event</source>
@@ -92,7 +92,7 @@
     </message>
     <message>
         <source>Highlight passes close to destination</source>
-        <translation>Resaltar pases cuyo destino está próximo</translation>
+        <translation>Resaltar pases cercanos al destino</translation>
     </message>
     <message>
         <source>Distance to destination</source>
@@ -108,15 +108,15 @@
     </message>
     <message>
         <source>Show barcode fullscreen when tapped</source>
-        <translation>Mostrar al pulsar el código de barras a pantalla completa</translation>
+        <translation>Mostrar a pantalla completa al pulsar en el código de barras</translation>
     </message>
     <message>
         <source>Prefer non-satellite position fixing</source>
-        <translation>No usar preferiblemente el satélite para obtener la ubicación</translation>
+        <translation>No usar el posicionamiento por satélite</translation>
     </message>
     <message>
         <source>Saves battery. &lt;b&gt;Requires&lt;/b&gt; &amp;quot;Faster position fix&amp;quot; switched on in the system settings.</source>
-        <translation>Ahorra batería. &lt;b&gt;Es neceesario activar la opción&lt;/b&gt; &amp;quot;Posicionamiento de gran precisión&amp;quot; en la configuración del sistema.</translation>
+        <translation>Ahorra batería. &lt;b&gt;Es necesario activar la opción&lt;/b&gt; &amp;quot;Posicionamiento de gran precisión&amp;quot; en la configuración del sistema.</translation>
     </message>
 </context>
 <context>
